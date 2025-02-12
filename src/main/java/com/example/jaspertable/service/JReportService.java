@@ -34,13 +34,6 @@ public class JReportService {
 
             // Fill the report with data
             JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, data, dataSource);
-            for (JRStyle style : jasperPrint.getStylesList()) {
-                if (style != null) {
-                    style.setPdfFontName("Times New Roman");
-                    style.setPdfEncoding("Identity-H"); // UTF-8 for Russian
-                    style.setPdfEmbedded(true);
-                }
-            }
 
 
             // Set response headers
