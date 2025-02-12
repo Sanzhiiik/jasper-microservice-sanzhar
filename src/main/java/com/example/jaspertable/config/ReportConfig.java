@@ -20,7 +20,7 @@ public class ReportConfig {
     public void loadConfig() throws IOException {
         String configPath = System.getenv("CONFIG_PATH");
         if (configPath == null || configPath.isEmpty()) {
-            configPath = "D:\\IdeaProjects\\Jasper-table\\templ\\config.json"; // Default path
+            configPath = "templ/config.json"; // Default path
         }
 
         File configFile = new File(configPath);
