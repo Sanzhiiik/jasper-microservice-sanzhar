@@ -5,9 +5,8 @@ import lombok.Getter;
 import org.springframework.stereotype.Component;
 
 import jakarta.annotation.PostConstruct;
-
-import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Map;
 
 @Component
@@ -20,16 +19,16 @@ public class ReportConfig {
     public void loadConfig() throws IOException {
         String configPath = System.getenv("CONFIG_PATH");
         if (configPath == null || configPath.isEmpty()) {
-            configPath = "templ/config.json"; // Default path
+            configPath = "configs/config.json"; // Default path inside resources
         }
 
-        File configFile = new File(configPath);
-        if (!configFile.exists()) {
-            throw new IOException("❌ Configuration file not found at: " + configPath);
+        InputStream configStream = getClass().getClassLoader().getResourceAsStream(configPath);
+        if (configStream == null) {
+            throw new IOException("❌ Configuration file not found: " + configPath);
         }
 
         ObjectMapper objectMapper = new ObjectMapper();
-        config = objectMapper.readValue(configFile, Map.class);
+        config = objectMapper.readValue(configStream, Map.class);
 
         System.out.println("✅ Report configuration loaded successfully!");
     }
