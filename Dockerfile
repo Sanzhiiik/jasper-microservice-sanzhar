@@ -8,7 +8,7 @@ RUN apt-get update && \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy font from local resources to a directory accessible by fontconfig
-COPY src/main/resources/timesnewromanpsmt.ttf /usr/share/fonts/truetype/
+COPY src/main/resources/fonts/timesnewroman.ttf /usr/share/fonts/truetype/
 
 # Rebuild the font cache so the system knows about the new font
 RUN fc-cache -f -v
@@ -17,7 +17,7 @@ RUN fc-cache -f -v
 ARG JAR_FILE=target/*.jar
 
 # Copy the JAR file to the container
-COPY ./target/jasper-repo-0.0.1-SNAPSHOT.jar app.jar
+COPY ./target/Jasper-table-0.0.1-SNAPSHOT.jar app.jar
 
 # Set the entrypoint to run the application
 ENTRYPOINT ["java", "-jar", "/app.jar"]
