@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  jasper-app:
+    image: jasper:latest
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./templ:/external-reports
