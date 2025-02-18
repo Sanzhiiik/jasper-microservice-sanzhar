@@ -1,16 +1,17 @@
+# maven:3.9.3 only version which works fine for now somehow
 FROM maven:3.9.3-eclipse-temurin-17 AS build
 
-# Set the working directory inside the container
+# Set the working directory inside the container - can change it
 WORKDIR /app
 
-# Copy only the necessary files first (improves caching)
+# copy pom, about src i dont know
 COPY pom.xml ./
 COPY src ./src
 
-# Build the JAR file (you can skip tests if not needed)
+# Build the JAR file: skip tests for now
 RUN mvn clean package -DskipTests
 
-# Use Ubuntu-based JDK image to access multiverse repository
+# Use Ubuntu-based JDK image to access multiverse repository, not debian - since in debian problems with fonts somehow
 FROM eclipse-temurin:17-jre-jammy
 
 # Install Microsoft Core Fonts
