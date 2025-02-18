@@ -1,32 +1,28 @@
-# First stage: Build the JAR using Maven
-FROM maven:3.9.6-eclipse-temurin-17 AS build
+# Use Ubuntu-based JDK image to access multiverse repository
+FROM eclipse-temurin:17-jre-jammy
 
-# Set the working directory inside the container
-WORKDIR /app
+# Install Microsoft Core Fonts
+ENV DEBIAN_FRONTEND=noninteractive
 
-# Copy only the necessary files first (improves caching)
-COPY pom.xml ./
-COPY src ./src
-
-# Build the JAR file
-RUN mvn clean package -DskipTests
-
-# Second stage: Use a lightweight OpenJDK runtime
-FROM openjdk:17-slim
-
-# Install fontconfig for handling fonts inside the container
+# 1. Add required repositories and update
+# 2. Accept EULA for fonts
+# 3. Install font packages
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends fontconfig && \
+    apt-get install -y --no-install-recommends \
+    software-properties-common && \
+    apt-add-repository multiverse && \
+    apt-get update && \
+    echo "ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true" | debconf-set-selections && \
+    apt-get install -y --no-install-recommends \
+    fontconfig \
+    ttf-mscorefonts-installer && \
     rm -rf /var/lib/apt/lists/*
 
-# Copy font from local resources to a directory accessible by fontconfig
-COPY --from=build /app/src/main/resources/fonts/timesnewroman.ttf /usr/share/fonts/truetype/
+# Verify font installation and update font cache
+RUN fc-list | grep "Times New Roman" && fc-cache -fv
 
-# Rebuild the font cache
-RUN fc-cache -f -v
+# Copy the built JAR file
+COPY target/*.jar app.jar
 
-# Copy the built JAR file from the previous stage
-COPY --from=build /app/target/*.jar app.jar
-
-# Set the entrypoint to run the application
+# Set the entrypoint
 ENTRYPOINT ["java", "-jar", "/app.jar"]
