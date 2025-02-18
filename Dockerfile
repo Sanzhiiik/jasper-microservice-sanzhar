@@ -1,3 +1,15 @@
+FROM maven:3.9.3-eclipse-temurin-17 AS build
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy only the necessary files first (improves caching)
+COPY pom.xml ./
+COPY src ./src
+
+# Build the JAR file (you can skip tests if not needed)
+RUN mvn clean package -DskipTests
+
 # Use Ubuntu-based JDK image to access multiverse repository
 FROM eclipse-temurin:17-jre-jammy
 
@@ -22,7 +34,7 @@ RUN apt-get update && \
 RUN fc-list | grep "Times New Roman" && fc-cache -fv
 
 # Copy the built JAR file
-COPY target/*.jar app.jar
+COPY --from=build /app/target/*.jar app.jar
 
 # Set the entrypoint
 ENTRYPOINT ["java", "-jar", "/app.jar"]
