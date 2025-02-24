@@ -38,6 +38,11 @@ public class ReportController {
         }
     }
 
+    @PostMapping("generateSubreport")
+    public void generateSubreport(@RequestBody List<Map<String, ?>> requestBody, HttpServletResponse response) throws IOException {
+        jReportService.generateSubreport(requestBody, response);
+    }
+
     // Method to validate the structure of the request body
     private boolean validateRequestStructure(Map<String, Object> requestBody, Map<String, Object> expectedStructure) {
         // Check if all expected keys are present in the request body
