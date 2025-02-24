@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.2.final using JasperReports Library version 6.21.2-8434a0bd7c3bbc37cbf916f2968d35e4b165821a  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="anketa" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b21e7d2f-7e04-45fc-95b6-0f65fcc056c9">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="anketa.jrdax"/>
+	<queryString language="JSON">
+		<![CDATA[]]>
+	</queryString>
+	<field name="name" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="name"/>
+		<fieldDescription><![CDATA[name]]></fieldDescription>
+	</field>
+	<field name="last_name" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="last_name"/>
+		<fieldDescription><![CDATA[last_name]]></fieldDescription>
+	</field>
+	<field name="surname" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="surname"/>
+		<fieldDescription><![CDATA[surname]]></fieldDescription>
+	</field>
+	<field name="birth_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="birth_date"/>
+		<fieldDescription><![CDATA[birth_date]]></fieldDescription>
+	</field>
+	<field name="birth_place" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="birth_place"/>
+		<fieldDescription><![CDATA[birth_place]]></fieldDescription>
+	</field>
+	<field name="address" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="address"/>
+		<fieldDescription><![CDATA[address]]></fieldDescription>
+	</field>
+	<field name="place_of_work" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="place_of_work"/>
+		<fieldDescription><![CDATA[place_of_work]]></fieldDescription>
+	</field>
+	<field name="check_up_goal" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="check_up_goal"/>
+		<fieldDescription><![CDATA[check_up_goal]]></fieldDescription>
+	</field>
+	<field name="position" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="position"/>
+		<fieldDescription><![CDATA[position]]></fieldDescription>
+	</field>
+	<field name="signature" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="signature"/>
+		<fieldDescription><![CDATA[signature]]></fieldDescription>
+	</field>
+	<field name="executor_name" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="executor_name"/>
+		<fieldDescription><![CDATA[executor_name]]></fieldDescription>
+	</field>
+	<field name="executor_surname" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="executor_surname"/>
+		<fieldDescription><![CDATA[executor_surname]]></fieldDescription>
+	</field>
+	<field name="executor_subdivision" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="executor_subdivision"/>
+		<fieldDescription><![CDATA[executor_subdivision]]></fieldDescription>
+	</field>
+	<field name="name_of_organ_bkn" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="name_of_organ_bkn"/>
+		<fieldDescription><![CDATA[name_of_organ_bkn]]></fieldDescription>
+	</field>
+	<field name="name_of_organ_bkn_to_where" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="name_of_organ_bkn_to_where"/>
+		<fieldDescription><![CDATA[name_of_organ_bkn_to_where]]></fieldDescription>
+	</field>
+	<field name="telephone" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="telephone"/>
+		<fieldDescription><![CDATA[telephone]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<textField>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="190" y="250" width="365" height="30" uuid="07a8d5fa-a036-4e93-974f-f8613d1c31cc">
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="true"/>
+					<paragraph leftIndent="20"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="190" y="220" width="365" height="30" uuid="ec210044-19e7-49f5-8fb3-a3cca5e9c5dd">
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="true"/>
+					<paragraph leftIndent="20"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{last_name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="190" y="280" width="364" height="30" uuid="fa05ddd1-2edd-4cc8-95c5-f03687675176">
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="true"/>
+					<paragraph leftIndent="20"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{surname}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="190" y="310" width="364" height="30" uuid="28cc819f-b5b9-4e85-9961-485f69e75432">
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="true"/>
+					<paragraph leftIndent="20"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{birth_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="190" y="340" width="365" height="30" uuid="822d65ab-b698-4f13-9e8b-e6e9f999cb70">
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="true"/>
+					<paragraph leftIndent="20"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{birth_place}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="190" y="370" width="364" height="30" uuid="2f5e2805-a1c3-4d7a-a09d-2a7cb9e09107">
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="true"/>
+					<paragraph leftIndent="20"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{address}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="480" width="200" height="30" uuid="c070d9af-c7d0-436a-b413-1f6f9f9b76ef"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{position}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="380" y="480" width="174" height="30" uuid="90af118a-2d79-46a8-8a6c-b5a5e5fe6e81"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{signature}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="580" width="554" height="30" uuid="6c16dc4a-0da3-4f32-a028-780b5f8b4770"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name_of_organ_bkn}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="100" y="630" width="180" height="30" uuid="48ced4f2-0722-4c3e-950b-60226216ed28"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{telephone}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="280" y="0" width="275" height="140" uuid="2d7a2d87-9b22-4a19-ab64-86a9d9794323"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Static Text]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="180" width="554" height="40" uuid="facbdad9-7a2f-40da-bcd1-b6d2aab7dfed"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[(Наименование органа и подразделение БКН, куда направляется требование)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="40" y="220" width="150" height="30" uuid="072c9077-0d4b-4a1d-8dbc-a489bda27339">
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="false"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[1. Фамилия]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="40" y="250" width="150" height="30" uuid="c4527d17-2360-42bb-b9e1-0094188c67c4">
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="false"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[2. Имя]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="40" y="280" width="150" height="30" uuid="0091ec37-a32f-495a-bf0d-f710331e8483">
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="false"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Отчество]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="40" y="310" width="150" height="30" uuid="f106c1aa-753e-4f34-8824-9092adb7506f">
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="false"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[3.Дата и год рождения]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="40" y="340" width="150" height="30" uuid="5f24cbd1-c2d0-47e3-8a28-0d0b4d0e8717">
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="false"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[4.Место рождения]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="40" y="370" width="150" height="30" uuid="17f9f79a-1a6e-4989-97c7-75b4377f9230">
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="false"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[5.Адрес]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="480" width="180" height="30" uuid="b08d2ffc-7132-4f29-a8f4-945b005197f2"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{last_name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="630" width="100" height="30" uuid="5e71a4a4-7e09-43e9-9b49-af6408418da1">
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="false"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Телефон №]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="100" y="560" width="140" height="20" uuid="f4f0af7c-189b-4399-8102-1c2664d5d901"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[(Должность)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="510" width="180" height="20" uuid="c46bafe1-d275-4caf-bca8-959cbf49102f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[(Фамилия)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="380" y="510" width="174" height="20" uuid="a568eabd-26b0-47d0-9eff-ce647262027d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[(Подпись)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="240" y="560" width="140" height="20" uuid="5a0ca45f-cd7b-4876-8ec7-94d8b9b07489"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[(Фамилия)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="380" y="560" width="174" height="20" uuid="489b536b-3399-46f5-be23-6bc9b5981f98"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[(Подразделение)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="610" width="555" height="20" uuid="506f3992-5445-4663-aadb-c962b03f5a9d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[(Наименование органа БКН)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="510" width="199" height="20" uuid="420a8e54-d795-4385-838c-d1272f441a36"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[(Должность)]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="150" width="554" height="30" uuid="9fc3fc82-dbc6-4375-982d-375e5fa54e80"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name_of_organ_bkn}]]></textFieldExpression>
+			</textField>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="40" y="430" width="515" height="30" uuid="98809eb9-8837-4ead-abb7-9069e9ddc216"/>
+				<textField textAdjust="StretchHeight">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="150" y="0" width="365" height="30" uuid="e8a2415c-4b3a-4c10-a929-54c0ef426806">
+						<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="true"/>
+						<paragraph leftIndent="20"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{check_up_goal}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="150" height="30" uuid="2e787053-f649-4cde-9b8e-7482582419a6">
+						<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="false"/>
+						<paragraph leftIndent="5"/>
+					</textElement>
+					<text><![CDATA[7. Цель проверки]]></text>
+				</staticText>
+			</frame>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="40" y="400" width="515" height="30" uuid="92ddc28c-4154-4385-89dd-a3e8064a75f0"/>
+				<textField textAdjust="StretchHeight">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="150" y="0" width="365" height="30" uuid="d56d9958-03c4-4798-b0fa-4127b9279352">
+						<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="true"/>
+						<paragraph leftIndent="20"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{place_of_work}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="150" height="30" uuid="2264a2ea-e576-40d0-bc40-0839b8d40e7d">
+						<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="false"/>
+						<paragraph leftIndent="5"/>
+					</textElement>
+					<text><![CDATA[6. Место работы и должность]]></text>
+				</staticText>
+			</frame>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="530" width="554" height="30" uuid="ff2a8b78-8d65-4db3-b562-0669836a3634"/>
+				<textField textAdjust="StretchHeight">
+					<reportElement x="240" y="0" width="140" height="30" uuid="74249482-1dc1-4543-87a1-65e9acaedfbf"/>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{executor_name}]]></textFieldExpression>
+				</textField>
+				<textField textAdjust="StretchHeight">
+					<reportElement x="100" y="0" width="140" height="30" uuid="d809fe33-03b2-4883-9b16-fca233350b3c"/>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{executor_surname}]]></textFieldExpression>
+				</textField>
+				<textField textAdjust="StretchHeight">
+					<reportElement x="380" y="0" width="174" height="30" uuid="6e1740c3-daf9-46c6-b78f-37e2177cff36"/>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{executor_subdivision}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="0" width="100" height="30" uuid="f87d332c-c491-48aa-8fe9-b7fdda645b44">
+						<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Times New Roman" size="10"  pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"  isUnderline="false"/>
+						<paragraph leftIndent="5"/>
+					</textElement>
+					<text><![CDATA[Исполнитель]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</detail>
+</jasperReport>

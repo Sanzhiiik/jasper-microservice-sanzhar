@@ -13,6 +13,7 @@ import java.util.*;
 public class JReportService {
 
     private static final String REPORT_TEMPLATE = "reports/template.jrxml";
+    private static final String ANKETA_TEMPLATE = "reports/anketa/anketa.jrxml";
     private static final String SUBREPORT_TEMPLATE = "reports/subreports/relatives.jrxml";
     private static final String SUBREPORT_MASTER_TEMPLATE = "reports/subreports/main-relatives.jrxml";// Correct path inside src/main/resources/
 
@@ -122,6 +123,40 @@ public class JReportService {
         } catch (JRException e) {
             e.printStackTrace();
             throw new RuntimeException("Failed to compile JRXML file: " + jrxmlPath, e);
+        }
+    }
+
+    public void generateAnketa(Map<String, Object> data, HttpServletResponse response) {
+        try {
+            List<Map<String, ?>> dataList = Collections.singletonList(data);
+
+            JRMapCollectionDataSource dataSource = new JRMapCollectionDataSource(dataList);
+
+            // ✅ Load JRXML file correctly from resources
+            InputStream reportStream = getClass().getClassLoader().getResourceAsStream(ANKETA_TEMPLATE);
+            if (reportStream == null) {
+                throw new JRException("❌ Report template not found: " + ANKETA_TEMPLATE);
+            }
+
+            // Compile the report
+            JasperReport jasperReport = JasperCompileManager.compileReport(reportStream);
+
+
+            // Fill the report with data
+            JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, data, dataSource);
+
+
+            // Set response headers
+            response.setContentType("application/pdf");
+            response.setHeader("Content-Disposition", "attachment; filename=Anketa.pdf");
+
+            // Export PDF
+            JasperExportManager.exportReportToPdfStream(jasperPrint, response.getOutputStream());
+
+            response.getOutputStream().flush();
+        } catch (Exception e) {
+            e.printStackTrace();
+            handleError(response, "Error generating report: " + e.getMessage(), e);
         }
     }
 }

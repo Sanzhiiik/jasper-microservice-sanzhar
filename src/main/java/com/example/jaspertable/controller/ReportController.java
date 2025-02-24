@@ -38,6 +38,12 @@ public class ReportController {
         }
     }
 
+    @PostMapping("/generateAnketa")
+    public void generateAnketa(@RequestBody Map<String, Object> requestBody, HttpServletResponse response) throws IOException {
+
+            jReportService.generateAnketa(requestBody, response);
+    }
+
     @PostMapping("generateSubreport")
     public void generateSubreport(@RequestBody List<Map<String, ?>> requestBody, HttpServletResponse response) throws IOException {
         jReportService.generateSubreport(requestBody, response);
