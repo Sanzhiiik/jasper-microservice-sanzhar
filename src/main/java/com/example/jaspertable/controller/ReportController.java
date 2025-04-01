@@ -38,6 +38,11 @@ public class ReportController {
         }
     }
 
+    @PostMapping("/generate/results")
+    public void generateResultsReport(@RequestBody Map<String, Object> requestBody, HttpServletResponse response) throws IOException {
+        jReportService.generateResultsReport(requestBody, response);
+    }
+
     @PostMapping("/generateAnketa")
     public void generateAnketa(@RequestBody Map<String, Object> requestBody, HttpServletResponse response) throws IOException {
 
@@ -46,18 +51,6 @@ public class ReportController {
 
     }
 
-    @PostMapping("/generateAnketa1")
-    public void generateAnketa1(@RequestBody List<Map<String, ?>> requestBody, HttpServletResponse response) throws IOException {
-
-
-        jReportService.generateAnketa1(requestBody, response);
-
-    }
-
-    @PostMapping("generateSubreport")
-    public void generateSubreport(@RequestBody Map<String, Object> requestBody, HttpServletResponse response) throws IOException {
-        jReportService.generateSubreport(requestBody, response);
-    }
 
     // Method to validate the structure of the request body
     private boolean validateRequestStructure(Map<String, Object> requestBody, Map<String, Object> expectedStructure) {
@@ -69,4 +62,6 @@ public class ReportController {
         }
         return true;
     }
+
+
 }
