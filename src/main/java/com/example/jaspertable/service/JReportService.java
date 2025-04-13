@@ -13,9 +13,11 @@ public class JReportService {
 
     private static final String REPORT_TEMPLATE = "reports/template.jrxml";
     private static final String ANKETA_TEMPLATE = "reports/anketa/anketa.jrxml";
-    private static final String SUBREPORT_TEMPLATE = "reports/subreports/relative.jrxml";
-    private static final String SUBREPORT_MASTER_TEMPLATE = "reports/subreports/relatives.jrxml";
+    private static final String SUBREPORT_TEMPLATE = "reports/relatives/relative.jrxml";
+    private static final String SUBREPORT_MASTER_TEMPLATE = "reports/relatives/relatives.jrxml";
     private static final String RESULTS_TEMPLATE = "reports/results/results.jrxml";
+    private static final String CHECKLIST_TEMPLATE = "reports/checklist/checklist.jrxml";
+    private static final String CHECKLIST_SUBREPORT_TEMPLATE = "reports/checklist/checklist_subreport/checklist_subreport.jrxml";
 
     public void exportJasperReport(Map<String, Object> data, HttpServletResponse response) {
         try {
@@ -154,6 +156,57 @@ public class JReportService {
             ioException.printStackTrace();
         }
         e.printStackTrace();
+    }
+
+    public void generateChecklistReport(List<Map<String, ?>> data, HttpServletResponse response) {
+
+
+
+        try{
+
+            InputStream checklistHeader = getClass().getClassLoader().getResourceAsStream(CHECKLIST_TEMPLATE);
+            InputStream checklistStream = getClass().getClassLoader().getResourceAsStream(SUBREPORT_MASTER_TEMPLATE);
+            InputStream  checklistSubreportStream = getClass().getClassLoader().getResourceAsStream(CHECKLIST_SUBREPORT_TEMPLATE);
+
+            JasperReport mainReport = JasperCompileManager.compileReport(checklistHeader);
+            JasperReport checklistReport = JasperCompileManager.compileReport(checklistStream);
+            JasperReport checklistSubreport= JasperCompileManager.compileReport(checklistSubreportStream);
+
+            List<JasperReport> subreportSources = new ArrayList<>();
+            List<JRDataSource> subreportDataSources = new ArrayList<>();
+
+            subreportSources.add(mainReport);
+            JREmptyDataSource dataSource1 = new JREmptyDataSource();
+            subreportDataSources.add(dataSource1);
+
+            for (Map<String, ?> item : data) {
+                subreportSources.add(checklistSubreport);
+                JRMapCollectionDataSource dataSource = new JRMapCollectionDataSource(Collections.singletonList(item));
+                subreportDataSources.add(dataSource);
+            }
+
+            Map<String, Object> parameters = new HashMap<>();
+            parameters.put("SubreportSources", subreportSources);
+            parameters.put("SubreportDataSources", subreportDataSources);
+
+            JRDataSource mainDataSource = new JREmptyDataSource(subreportSources.size());
+
+
+            JasperPrint jasperPrint = JasperFillManager.fillReport(checklistReport, parameters, mainDataSource);
+
+            // Set response headers
+            response.setContentType("application/pdf");
+            response.setHeader("Content-Disposition", "attachment; filename=Checklist.pdf");
+            // Export PDF
+            JasperExportManager.exportReportToPdfStream(jasperPrint, response.getOutputStream());
+
+            response.getOutputStream().flush();
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            handleError(response, "Error generating report: " + e.getMessage(), e);
+        }
     }
 
 

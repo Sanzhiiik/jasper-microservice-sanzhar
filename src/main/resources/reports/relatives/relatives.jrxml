@@ -10,10 +10,10 @@
     <parameter name="SubreportDataSources" class="java.util.List"/>
 
     <detail>
-        <band height="200" splitType="Immediate">
+        <band height="15" splitType="Immediate">
             <subreport>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="-20" y="-20" width="555"
-                               height="200"/>
+                               height="35"/>
                 <parametersMapExpression>
                     <![CDATA[new java.util.HashMap()]]>
                 </parametersMapExpression>
