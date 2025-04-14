@@ -11,7 +11,7 @@ import java.util.*;
 @Service
 public class JReportService {
 
-    private static final String REPORT_TEMPLATE = "reports/template.jrxml";
+    private static final String REPORT_TEMPLATE = "reports/template/template.jrxml";
     private static final String ANKETA_TEMPLATE = "reports/anketa/anketa.jrxml";
     private static final String SUBREPORT_TEMPLATE = "reports/relatives/relative.jrxml";
     private static final String SUBREPORT_MASTER_TEMPLATE = "reports/relatives/relatives.jrxml";

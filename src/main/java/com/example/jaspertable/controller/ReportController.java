@@ -19,7 +19,7 @@ public class ReportController {
     private final JReportService jReportService;
     private final ReportConfig reportConfig;  // Inject the configuration component
 
-    @PostMapping("/generate")
+    @PostMapping("/generate/report")
     public void generateReport(@RequestBody Map<String, Object> requestBody, HttpServletResponse response) throws IOException {
         try {
             // Get the expected structure for the report from the config
