@@ -902,19 +902,19 @@
         <property name="net.sf.jasperreports.json.field.expression" value="labor_activity_date_of_admission_and_termination"/>
         <fieldDescription><![CDATA[labor_activity_date_of_admission_and_termination]]></fieldDescription>
     </field>
-    <field name="labor_activity_position" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="labor_activity_position"/>
-        <fieldDescription><![CDATA[labor_activity_position]]></fieldDescription>
-    </field>
     <field name="labor_activity_name" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="labor_activity_name"/>
         <fieldDescription><![CDATA[labor_activity_name]]></fieldDescription>
     </field>
+    <field name="labor_activity_position" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="labor_activity_position"/>
+        <fieldDescription><![CDATA[labor_activity_position]]></fieldDescription>
+    </field>
     <group name="Group1" keepTogether="true">
         <groupHeader>
-            <band height="538" splitType="Immediate">
+            <band height="552" splitType="Immediate">
                 <frame>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="18" y="315" width="558" height="153" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="56e7da5d-c5ba-4996-82bc-d677c544f1ef"/>
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="20" y="326" width="558" height="153" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="56e7da5d-c5ba-4996-82bc-d677c544f1ef"/>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -935,7 +935,7 @@
                             <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         </box>
                         <textElement textAlignment="Left" verticalAlignment="Middle">
-                            <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                            <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             <paragraph leftIndent="5"/>
                         </textElement>
                         <text><![CDATA[Білімі/Образование]]></text>
@@ -955,7 +955,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <text><![CDATA[Білім беру санаты (орта білімнен кейінгі, жоғары)/Категория образования (послесреднее, высшее)]]></text>
@@ -974,7 +974,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{education_degree}]]></textFieldExpression>
@@ -995,7 +995,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <text><![CDATA[Оқу орнының атауы/Наименование учебного заведения:]]></text>
@@ -1013,7 +1013,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{education_name_of_the_place}]]></textFieldExpression>
@@ -1034,7 +1034,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <text><![CDATA[Түскен күні/Дата поступления 	]]></text>
@@ -1051,7 +1051,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{education_date_of_enrollment}]]></textFieldExpression>
@@ -1072,7 +1072,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <text><![CDATA[Бітірген күні/Дата окончания ]]></text>
@@ -1089,7 +1089,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{education_graduation_date}]]></textFieldExpression>
@@ -1110,7 +1110,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <text><![CDATA[Мамандығы/Специальность]]></text>
@@ -1127,7 +1127,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{education_qualification_degree}]]></textFieldExpression>
@@ -1148,7 +1148,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <text><![CDATA[Біліктілігі (бакалавриат, магистратура)/Квалификация (бакалавриат, магистратура) ]]></text>
@@ -1165,7 +1165,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{education_qualification}]]></textFieldExpression>
@@ -1186,7 +1186,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <text><![CDATA[Диплом бойынша орташа балл (GPA)/Средний балл по диплому (GPA)]]></text>
@@ -1204,7 +1204,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{education_gpa}]]></textFieldExpression>
@@ -1212,7 +1212,7 @@
                     </frame>
                 </frame>
                 <frame>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="18" y="221" width="558" height="94" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="2448d340-fca6-402d-a419-e148f432ce2c"/>
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="20" y="232" width="558" height="94" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="2448d340-fca6-402d-a419-e148f432ce2c"/>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -1233,7 +1233,7 @@
                             <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         </box>
                         <textElement textAlignment="Left" verticalAlignment="Middle">
-                            <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                            <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             <paragraph leftIndent="5"/>
                         </textElement>
                         <text><![CDATA[Туу туралы куәлік/Свидетельство о рождении:]]></text>
@@ -1260,7 +1260,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <text><![CDATA[Жеке сәйкестендіру нөмірі берілді/Присвоен индивидуальный идентификационный номер]]></text>
@@ -1279,7 +1279,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{birth_certificate_id}]]></textFieldExpression>
@@ -1305,7 +1305,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <text><![CDATA[Ата-анасы/Родители
@@ -1325,7 +1325,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{birth_certificate_parents_mom}]]></textFieldExpression>
@@ -1342,7 +1342,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{birth_certificate_parents_dad}]]></textFieldExpression>
@@ -1375,7 +1375,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <text><![CDATA[Нөмірі/Номер]]></text>
@@ -1391,7 +1391,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{birth_certificate_number}]]></textFieldExpression>
@@ -1417,7 +1417,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <text><![CDATA[Берілген күні/Дата выдачи]]></text>
@@ -1433,7 +1433,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{birth_certificate_date_of_provision}]]></textFieldExpression>
@@ -1459,7 +1459,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <text><![CDATA[Берген орган/Орган выдачи]]></text>
@@ -1476,7 +1476,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{birth_certificate_issuing_authority}]]></textFieldExpression>
@@ -1484,7 +1484,7 @@
                     </frame>
                 </frame>
                 <frame>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="18" y="173" width="558" height="48" uuid="ef42eaf4-cea9-4c25-b18f-071207e3ebab"/>
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="20" y="184" width="558" height="48" uuid="ef42eaf4-cea9-4c25-b18f-071207e3ebab"/>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -1504,7 +1504,7 @@
                             <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         </box>
                         <textElement textAlignment="Left" verticalAlignment="Middle">
-                            <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                            <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             <paragraph leftIndent="5"/>
                         </textElement>
                         <text><![CDATA[Жеке куәлік/
@@ -1525,7 +1525,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <text><![CDATA[Нөмірі/Номер]]></text>
@@ -1544,7 +1544,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{national_id_number}]]></textFieldExpression>
@@ -1565,7 +1565,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <text><![CDATA[Берілген күні/Дата выдачи]]></text>
@@ -1583,7 +1583,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{national_id_date_of_provision}]]></textFieldExpression>
@@ -1604,7 +1604,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <text><![CDATA[Қолданылу мерзімі/Срок истечения]]></text>
@@ -1622,7 +1622,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{national_id_expiration_date}]]></textFieldExpression>
@@ -1643,7 +1643,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <text><![CDATA[Берген орган/Орган выдачи]]></text>
@@ -1661,7 +1661,7 @@
                                 <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Top">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{national_id_issuing_authority}]]></textFieldExpression>
@@ -1669,7 +1669,7 @@
                     </frame>
                 </frame>
                 <frame>
-                    <reportElement x="18" y="-1" width="558" height="174" uuid="4b208b9e-6a86-4ea3-9ea7-24e3e139ae86"/>
+                    <reportElement x="20" y="10" width="558" height="174" uuid="4b208b9e-6a86-4ea3-9ea7-24e3e139ae86"/>
                     <image onErrorType="Blank">
                         <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="14" width="120" height="160" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="a260a486-c131-423a-b7e5-cb50c2665525">
                             <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1682,13 +1682,11 @@
                             <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         </box>
-                        <imageExpression><![CDATA[
-        new java.io.ByteArrayInputStream(
+                        <imageExpression><![CDATA[new java.io.ByteArrayInputStream(
             java.util.Base64.getDecoder().decode(
                 $F{photo}.replaceFirst("^data:image/[^;]+;base64,", "")
             )
-        )
-    ]]></imageExpression>
+        )]]></imageExpression>
                     </image>
                     <staticText>
                         <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="120" y="14" width="438" height="20" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#E0E8F5" uuid="deacf8fd-d0a9-47b7-9e98-597c4645739a">
@@ -1703,7 +1701,7 @@
                             <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         </box>
                         <textElement textAlignment="Center" verticalAlignment="Middle">
-                            <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                            <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                         </textElement>
                         <text><![CDATA[Тегі Есімі Аты / Фамилия Имя Отчество]]></text>
                     </staticText>
@@ -1721,7 +1719,7 @@
                             <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         </box>
                         <textElement textAlignment="Center" verticalAlignment="Middle">
-                            <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                            <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             <paragraph leftIndent="5"/>
                         </textElement>
                         <text><![CDATA[Жақын туыстары туралы мәліметтер / Сведения о близких родственниках]]></text>
@@ -1735,7 +1733,7 @@
                             <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         </box>
                         <textElement>
-                            <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                            <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                         </textElement>
                         <text><![CDATA[]]></text>
                     </staticText>
@@ -1748,7 +1746,7 @@
                             <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         </box>
                         <textElement textAlignment="Center" verticalAlignment="Middle">
-                            <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                            <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                         </textElement>
                         <textFieldExpression><![CDATA[$F{fullName}]]></textFieldExpression>
                     </textField>
@@ -1766,7 +1764,7 @@
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Center" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{address}]]></textFieldExpression>
                         </textField>
@@ -1782,7 +1780,7 @@
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Center" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{phone_number}]]></textFieldExpression>
                         </textField>
@@ -1801,7 +1799,7 @@
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Center" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
                             <text><![CDATA[Телефон]]></text>
                         </staticText>
@@ -1816,7 +1814,7 @@
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Center" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
                             <text><![CDATA[Тіркелген мекенжайы / Адрес регистрации]]></text>
                         </staticText>
@@ -1835,7 +1833,7 @@
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Center" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{place_of_birth}]]></textFieldExpression>
                         </textField>
@@ -1851,7 +1849,7 @@
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Center" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{nationality}]]></textFieldExpression>
                         </textField>
@@ -1869,7 +1867,7 @@
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Center" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
                             <text><![CDATA[Ұлтты / Национальность]]></text>
                         </staticText>
@@ -1885,7 +1883,7 @@
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Center" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
                             <text><![CDATA[Туған жері / Место рождения]]></text>
                         </staticText>
@@ -1904,7 +1902,7 @@
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Center" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{citizenship}]]></textFieldExpression>
                         </textField>
@@ -1920,7 +1918,7 @@
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Center" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{IIN}]]></textFieldExpression>
                         </textField>
@@ -1939,7 +1937,7 @@
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Center" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
                             <text><![CDATA[Азаматтық / Гражданство]]></text>
                         </staticText>
@@ -1954,7 +1952,7 @@
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Center" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
                             <text><![CDATA[ЖСН / ИИН]]></text>
                         </staticText>
@@ -1973,7 +1971,7 @@
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Center" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{relationship}]]></textFieldExpression>
                         </textField>
@@ -1989,7 +1987,7 @@
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Center" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{date_of_birth}]]></textFieldExpression>
                         </textField>
@@ -2008,7 +2006,7 @@
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Center" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
                             <text><![CDATA[Степень родства]]></text>
                         </staticText>
@@ -2025,14 +2023,16 @@
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Center" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
                             <text><![CDATA[Туған күні / Дата рождения]]></text>
                         </staticText>
                     </frame>
                 </frame>
                 <frame>
-                    <reportElement x="18" y="468" width="558" height="70" uuid="bdea4f9f-d161-430c-a6e0-042ff2a13720"/>
+                    <reportElement positionType="Float" stretchType="RelativeToTallestObject" x="20" y="479" width="558" height="73" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="db382acb-927d-4c7b-ab0d-b232bda28852">
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -2040,7 +2040,7 @@
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
                     <staticText>
-                        <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="70" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#E0E8F5" uuid="51e4982e-72ee-43a9-9c09-3599c79e9d35">
+                        <reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="0" width="120" height="73" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#E0E8F5" uuid="51e4982e-72ee-43a9-9c09-3599c79e9d35">
                             <property name="com.jaspersoft.studio.unit.width" value="px"/>
                             <property name="com.jaspersoft.studio.unit.x" value="px"/>
                             <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
@@ -2053,13 +2053,13 @@
                             <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         </box>
                         <textElement textAlignment="Left" verticalAlignment="Middle">
-                            <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                            <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             <paragraph leftIndent="5"/>
                         </textElement>
                         <text><![CDATA[Еңбек қызметі/Трудовая деятельность]]></text>
                     </staticText>
                     <frame>
-                        <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="23" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="0e7e5d8a-a64d-46c9-bbc3-35ceb6987e3c"/>
+                        <reportElement positionType="Float" stretchType="RelativeToTallestObject" x="120" y="0" width="438" height="23" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="0e7e5d8a-a64d-46c9-bbc3-35ceb6987e3c"/>
                         <box>
                             <topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -2067,7 +2067,7 @@
                             <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         </box>
                         <staticText>
-                            <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="180" height="23" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="67fea22e-e651-4129-af9a-5e187a5592e1">
+                            <reportElement positionType="Float" stretchType="RelativeToTallestObject" x="0" y="0" width="180" height="23" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="67fea22e-e651-4129-af9a-5e187a5592e1">
                                 <property name="com.jaspersoft.studio.unit.width" value="px"/>
                                 <property name="com.jaspersoft.studio.unit.x" value="px"/>
                                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2080,8 +2080,8 @@
                                 <bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
-                            <textElement textAlignment="Left" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                            <textElement textAlignment="Left" verticalAlignment="Top">
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <text><![CDATA[Қабылдау және тоқтату күні/Дата приема
@@ -2089,7 +2089,7 @@
 ]]></text>
                         </staticText>
                         <textField textAdjust="StretchHeight">
-                            <reportElement positionType="Float" stretchType="ContainerBottom" x="180" y="0" width="258" height="23" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="4f98dced-2ed1-4588-940c-228ac0b5cb82">
+                            <reportElement positionType="Float" stretchType="RelativeToTallestObject" x="180" y="0" width="258" height="23" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="4f98dced-2ed1-4588-940c-228ac0b5cb82">
                                 <property name="com.jaspersoft.studio.unit.width" value="px"/>
                                 <property name="com.jaspersoft.studio.unit.x" value="px"/>
                                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2102,14 +2102,14 @@
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{labor_activity_date_of_admission_and_termination}]]></textFieldExpression>
                         </textField>
                     </frame>
                     <frame>
-                        <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="23" width="438" height="23" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="00975135-f651-4919-bcc0-1b7c162907d6"/>
+                        <reportElement positionType="Float" stretchType="RelativeToTallestObject" x="120" y="23" width="438" height="23" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="00975135-f651-4919-bcc0-1b7c162907d6"/>
                         <box>
                             <topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -2117,7 +2117,7 @@
                             <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         </box>
                         <staticText>
-                            <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="180" height="23" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="5b4ec039-1157-4108-b134-eb5889ba1753">
+                            <reportElement positionType="Float" stretchType="RelativeToTallestObject" x="0" y="0" width="180" height="23" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="5b4ec039-1157-4108-b134-eb5889ba1753">
                                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                                 <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                             </reportElement>
@@ -2128,13 +2128,13 @@
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <text><![CDATA[Ұйымның атауы/Наименование организации]]></text>
                         </staticText>
                         <textField textAdjust="StretchHeight">
-                            <reportElement positionType="Float" stretchType="ContainerBottom" x="180" y="0" width="258" height="23" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="9a868036-6eae-4770-86d8-fba44fbaf8c6">
+                            <reportElement positionType="Float" stretchType="RelativeToTallestObject" x="180" y="0" width="258" height="23" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="9a868036-6eae-4770-86d8-fba44fbaf8c6">
                                 <property name="com.jaspersoft.studio.unit.x" value="px"/>
                                 <property name="com.jaspersoft.studio.unit.height" value="px"/>
                                 <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
@@ -2146,43 +2146,24 @@
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
                             <textElement textAlignment="Left" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <textFieldExpression><![CDATA[$F{labor_activity_name}]]></textFieldExpression>
                         </textField>
                     </frame>
                     <frame>
-                        <reportElement x="120" y="46" width="438" height="23" uuid="0ce4c3eb-e066-41b1-91ee-0e5cc9bf7ea4"/>
+                        <reportElement positionType="Float" stretchType="RelativeToTallestObject" x="120" y="46" width="438" height="27" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="59ad8619-4932-48e4-8d0e-074af7a64580">
+                            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        </reportElement>
                         <box>
                             <topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             <bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                             <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         </box>
-                        <textField>
-                            <reportElement x="180" y="0" width="258" height="23" uuid="5c3364ed-9ee3-4d3d-b1bf-bce6e24d31fa">
-                                <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                                <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                                <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                                <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                                <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
-                            </reportElement>
-                            <box>
-                                <topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-                                <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                                <bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-                                <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                            </box>
-                            <textElement textAlignment="Left" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                                <paragraph leftIndent="5"/>
-                            </textElement>
-                            <textFieldExpression><![CDATA[$F{labor_activity_position}]]></textFieldExpression>
-                        </textField>
                         <staticText>
-                            <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="180" height="23" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="abf14eb5-20be-418d-a904-a1da0efea55b">
-                                <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                            <reportElement positionType="Float" stretchType="RelativeToTallestObject" x="0" y="0" width="180" height="27" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="2de8544d-be75-4e67-a6ec-43ff70cdf6e8">
                                 <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                             </reportElement>
                             <box>
@@ -2191,18 +2172,35 @@
                                 <bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
                                 <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             </box>
-                            <textElement textAlignment="Left" verticalAlignment="Middle">
-                                <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                            <textElement textAlignment="Left" verticalAlignment="Top">
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 <paragraph leftIndent="5"/>
                             </textElement>
                             <text><![CDATA[Лауазымы/Должность]]></text>
                         </staticText>
+                        <textField textAdjust="StretchHeight">
+                            <reportElement positionType="Float" stretchType="RelativeToTallestObject" x="180" y="0" width="258" height="27" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="0a6282ef-2ea8-470a-be5a-6538d310a75f">
+                                <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+                                <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                            </reportElement>
+                            <box>
+                                <topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                                <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                                <bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                                <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                            </box>
+                            <textElement textAlignment="Left" verticalAlignment="Top">
+                                <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                                <paragraph leftIndent="5"/>
+                            </textElement>
+                            <textFieldExpression><![CDATA[$F{labor_activity_position}]]></textFieldExpression>
+                        </textField>
                     </frame>
                 </frame>
             </band>
         </groupHeader>
     </group>
     <background>
-        <band splitType="Stretch"/>
+        <band splitType="Immediate"/>
     </background>
 </jasperReport>
