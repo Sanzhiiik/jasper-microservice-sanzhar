@@ -18,6 +18,8 @@ public class JReportService {
     private static final String RESULTS_TEMPLATE = "reports/results/results.jrxml";
     private static final String CHECKLIST_TEMPLATE = "reports/checklist/checklist.jrxml";
     private static final String CHECKLIST_SUBREPORT_TEMPLATE = "reports/checklist/checklist_subreport/checklist_subreport.jrxml";
+    private static final String FORMA1_TEMPLATE = "reports/forma1/forma1.jrxml";
+    private static final String FORMA1_SUBREPORT_TEMPLATE = "reports/forma1/forma1-relative/forma1-relative.jrxml";
 
     public void exportJasperReport(Map<String, Object> data, HttpServletResponse response) {
         try {
@@ -193,6 +195,60 @@ public class JReportService {
 
 
             JasperPrint jasperPrint = JasperFillManager.fillReport(checklistReport, parameters, mainDataSource);
+
+            // Set response headers
+            response.setContentType("application/pdf");
+            response.setHeader("Content-Disposition", "attachment; filename=Checklist.pdf");
+            // Export PDF
+            JasperExportManager.exportReportToPdfStream(jasperPrint, response.getOutputStream());
+
+            response.getOutputStream().flush();
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            handleError(response, "Error generating report: " + e.getMessage(), e);
+        }
+
+
+    }
+    public void generateForma1Report( Map<String, ?> data, HttpServletResponse response) {
+
+
+
+        try{
+
+            InputStream forma1Stream = getClass().getClassLoader().getResourceAsStream(FORMA1_TEMPLATE);
+            InputStream subreportStream = getClass().getClassLoader().getResourceAsStream(SUBREPORT_MASTER_TEMPLATE);
+            InputStream  forma1SubreportStream = getClass().getClassLoader().getResourceAsStream(FORMA1_SUBREPORT_TEMPLATE);
+
+            JasperReport forma1Report = JasperCompileManager.compileReport(forma1Stream);
+            JasperReport subreportReport = JasperCompileManager.compileReport(subreportStream);
+            JasperReport forma1SubreportReport= JasperCompileManager.compileReport(forma1SubreportStream);
+
+            List<JasperReport> subreportSources = new ArrayList<>();
+            List<JRDataSource> subreportDataSources = new ArrayList<>();
+
+            subreportSources.add(forma1Report);
+            JRDataSource forma1DataSource = new JRMapCollectionDataSource(Collections.singletonList(data));
+            subreportDataSources.add(forma1DataSource);
+
+            List<Map<String, ?>> relatives = (List<Map<String, ?>>) data.get("relatives");
+            for (var item : relatives) {
+                subreportSources.add(forma1SubreportReport);
+                JRMapCollectionDataSource dataSource = new JRMapCollectionDataSource(Collections.singletonList(item));
+                subreportDataSources.add(dataSource);
+            }
+
+            Map<String, Object> parameters = new HashMap<>();
+            parameters.put("SubreportSources", subreportSources);
+            parameters.put("SubreportDataSources", subreportDataSources);
+
+            JRDataSource dataSourceWithSize = new JREmptyDataSource(subreportSources.size());
+
+            JasperPrint jasperPrint = JasperFillManager.fillReport(subreportReport, parameters, dataSourceWithSize);
+
+
 
             // Set response headers
             response.setContentType("application/pdf");

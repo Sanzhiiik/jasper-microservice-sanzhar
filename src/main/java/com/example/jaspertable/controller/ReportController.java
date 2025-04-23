@@ -59,6 +59,14 @@ public class ReportController {
 
     }
 
+    @PostMapping("/generate/forma1")
+    public void generateChecklist(@RequestBody Map<String, ?> requestBody, HttpServletResponse response) throws IOException {
+
+
+        jReportService.generateForma1Report(requestBody, response);
+
+    }
+
 
     // Method to validate the structure of the request body
     private boolean validateRequestStructure(Map<String, Object> requestBody, Map<String, Object> expectedStructure) {
