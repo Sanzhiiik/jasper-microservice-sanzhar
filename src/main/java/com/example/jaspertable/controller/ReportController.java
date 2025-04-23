@@ -60,7 +60,7 @@ public class ReportController {
     }
 
     @PostMapping("/generate/forma1")
-    public void generateChecklist(@RequestBody Map<String, ?> requestBody, HttpServletResponse response) throws IOException {
+    public void generateForma1(@RequestBody Map<String, ?> requestBody, HttpServletResponse response) throws IOException {
 
 
         jReportService.generateForma1Report(requestBody, response);
