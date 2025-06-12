@@ -10,3 +10,22 @@ services:
       - "8080:8080"
     volumes:
       - ./templ:/external-reports
+    networks:
+      - app-network
+      
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/conf:/etc/nginx/conf.d
+      - ./nginx/ssl:/etc/nginx/ssl
+    depends_on:
+      - jasper-app
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
