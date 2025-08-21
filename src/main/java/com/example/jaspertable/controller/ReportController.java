@@ -1,88 +1,57 @@
 package com.example.jaspertable.controller;
 
-import com.example.jaspertable.config.ReportConfig;
+import com.example.jaspertable.exception.BadRequestException;
+import com.example.jaspertable.exception.ReportGenerationException;
+import com.example.jaspertable.exception.ResourceNotFoundException;
 import com.example.jaspertable.service.JReportService;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/report")
+@RequestMapping("/generate/report")
+@Slf4j
 public class ReportController {
 
     private final JReportService jReportService;
-    private final ReportConfig reportConfig;  // Inject the configuration component
 
-    @PostMapping("/generate/report")
-    public void generateReport(@RequestBody Map<String, Object> requestBody, HttpServletResponse response) throws IOException {
+    /**
+     * Generates a report with the given file name using the provided data.
+     *
+     * @param requestBody the data to include in the report
+     * @param fileName    the name of the report file/template to use
+     * @param response    the HTTP response to write the report to
+     */
+    @PostMapping("/{file_name}")
+    public void generateResultsReport(
+            @RequestBody LinkedHashMap<String, List<Map<String, Object>>> requestBody,
+            @PathVariable("file_name") String fileName,
+            HttpServletResponse response) {
+        
+        log.info("Generating report for file: {}", fileName);
+        
+        if (requestBody == null || requestBody.isEmpty()) {
+            throw new BadRequestException("Report data cannot be empty");
+        }
+        
         try {
-            // Get the expected structure for the report from the config
-            Map<String, Object> expectedStructure = (Map<String, Object>) reportConfig.getConfig();
-
-            // Validate the request body against the expected structure
-            if (validateRequestStructure(requestBody, expectedStructure)) {
-                // Pass the report data directly to the service
-                jReportService.exportJasperReport(requestBody, response);
-            } else {
-                response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Invalid request structure for report: ");
-            }
-
+            jReportService.automated(fileName, requestBody, response);
+            log.info("Report generated successfully for file: {}", fileName);
+        } catch (IOException e) {
+            log.error("IO error while generating report: {}", e.getMessage(), e);
+            throw new ReportGenerationException("Error writing report to response", e);
         } catch (Exception e) {
-            response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Error generating report: " + e.getMessage());
+            log.error("Error generating report: {}", e.getMessage(), e);
+            throw ReportGenerationException.forFile(fileName, e);
         }
     }
-
-    @PostMapping("/generate/results")
-    public void generateResultsReport(@RequestBody Map<String, Object> requestBody, HttpServletResponse response) throws IOException {
-        jReportService.generateResultsReport(requestBody, response);
-    }
-
-    @PostMapping("/generate/results/v2")
-    public void generateResultsReport2(@RequestBody Map<String, Object> requestBody, HttpServletResponse response) throws IOException {
-        jReportService.generateResultsReport2(requestBody, response);
-    }
-
-    @PostMapping("/generate/anketa")
-    public void generateAnketa(@RequestBody Map<String, Object> requestBody, HttpServletResponse response) throws IOException {
-
-
-        jReportService.generateAnketa(requestBody, response);
-
-    }
-
-    @PostMapping("/generate/checklist")
-    public void generateChecklist(@RequestBody List<Map<String, ?>> requestBody, HttpServletResponse response) throws IOException {
-
-
-        jReportService.generateChecklistReport(requestBody, response);
-
-    }
-
-    @PostMapping("/generate/forma1")
-    public void generateForma1(@RequestBody Map<String, ?> requestBody, HttpServletResponse response) throws IOException {
-
-
-        jReportService.generateForma1Report(requestBody, response);
-
-    }
-
-
-    // Method to validate the structure of the request body
-    private boolean validateRequestStructure(Map<String, Object> requestBody, Map<String, Object> expectedStructure) {
-        // Check if all expected keys are present in the request body
-        for (String key : expectedStructure.keySet()) {
-            if (!requestBody.containsKey(key)) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-
 }
