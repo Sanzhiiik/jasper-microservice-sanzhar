@@ -1040,6 +1040,126 @@
 	<field name="operational_reference_next_user_login" class="java.lang.String"/>
 	<field name="operational_reference_comment" class="java.lang.String"/>
 	<field name="operational_reference_executor_fio" class="java.lang.String"/>
+	<field name="criminal_record_detentionMeasure" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="criminal_record_detentionMeasure"/>
+		<fieldDescription><![CDATA[criminal_record_detentionMeasure]]></fieldDescription>
+	</field>
+	<field name="criminal_record_arrestDate" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="criminal_record_arrestDate"/>
+		<fieldDescription><![CDATA[criminal_record_arrestDate]]></fieldDescription>
+	</field>
+	<field name="criminal_record_initiatingAuthority" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="criminal_record_initiatingAuthority"/>
+		<fieldDescription><![CDATA[criminal_record_initiatingAuthority]]></fieldDescription>
+	</field>
+	<field name="criminal_record_criminalCaseNumber" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="criminal_record_criminalCaseNumber"/>
+		<fieldDescription><![CDATA[criminal_record_criminalCaseNumber]]></fieldDescription>
+	</field>
+	<field name="criminal_record_criminalCaseInitiationDate" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="criminal_record_criminalCaseInitiationDate"/>
+		<fieldDescription><![CDATA[criminal_record_criminalCaseInitiationDate]]></fieldDescription>
+	</field>
+	<field name="criminal_record_chargeArticle" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="criminal_record_chargeArticle"/>
+		<fieldDescription><![CDATA[criminal_record_chargeArticle]]></fieldDescription>
+	</field>
+	<field name="criminal_record_crimeNature" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="criminal_record_crimeNature"/>
+		<fieldDescription><![CDATA[criminal_record_crimeNature]]></fieldDescription>
+	</field>
+	<field name="criminal_record_convictionAuthority" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="criminal_record_convictionAuthority"/>
+		<fieldDescription><![CDATA[criminal_record_convictionAuthority]]></fieldDescription>
+	</field>
+	<field name="criminal_record_convictionDate" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="criminal_record_convictionDate"/>
+		<fieldDescription><![CDATA[criminal_record_convictionDate]]></fieldDescription>
+	</field>
+	<field name="criminal_record_sentenceDuration" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="criminal_record_sentenceDuration"/>
+		<fieldDescription><![CDATA[criminal_record_sentenceDuration]]></fieldDescription>
+	</field>
+	<field name="administration_offences_materialNumber" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_materialNumber"/>
+		<fieldDescription><![CDATA[administration_offences_materialNumber]]></fieldDescription>
+	</field>
+	<field name="administration_offences_violatingAuthority" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_violatingAuthority"/>
+		<fieldDescription><![CDATA[administration_offences_violatingAuthority]]></fieldDescription>
+	</field>
+	<field name="administration_offences_caseInitiationDate" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_caseInitiationDate"/>
+		<fieldDescription><![CDATA[administration_offences_caseInitiationDate]]></fieldDescription>
+	</field>
+	<field name="administration_offences_qualification" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_qualification"/>
+		<fieldDescription><![CDATA[administration_offences_qualification]]></fieldDescription>
+	</field>
+	<field name="administration_offences_decisionDate" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_decisionDate"/>
+		<fieldDescription><![CDATA[administration_offences_decisionDate]]></fieldDescription>
+	</field>
+	<field name="administration_offences_decision" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_decision"/>
+		<fieldDescription><![CDATA[administration_offences_decision]]></fieldDescription>
+	</field>
+	<field name="administration_offences_penaltyAmount" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_penaltyAmount"/>
+		<fieldDescription><![CDATA[administration_offences_penaltyAmount]]></fieldDescription>
+	</field>
+	<field name="dismissal_from_public_service_for_negative_reasons_workplace" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_from_public_service_for_negative_reasons_workplace"/>
+		<fieldDescription><![CDATA[dismissal_from_public_service_for_negative_reasons_workplace]]></fieldDescription>
+	</field>
+	<field name="dismissal_from_public_service_for_negative_reasons_position" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_from_public_service_for_negative_reasons_position"/>
+		<fieldDescription><![CDATA[dismissal_from_public_service_for_negative_reasons_position]]></fieldDescription>
+	</field>
+	<field name="dismissal_from_public_service_for_negative_reasons_registrationDate" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_from_public_service_for_negative_reasons_registrationDate"/>
+		<fieldDescription><![CDATA[dismissal_from_public_service_for_negative_reasons_registrationDate]]></fieldDescription>
+	</field>
+	<field name="on_the_limitation_of_legal_capacity_status" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="on_the_limitation_of_legal_capacity_status"/>
+		<fieldDescription><![CDATA[on_the_limitation_of_legal_capacity_status]]></fieldDescription>
+	</field>
+	<field name="on_the_limitation_of_legal_capacity_decisionNumber" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="on_the_limitation_of_legal_capacity_decisionNumber"/>
+		<fieldDescription><![CDATA[on_the_limitation_of_legal_capacity_decisionNumber]]></fieldDescription>
+	</field>
+	<field name="on_the_limitation_of_legal_capacity_decisionDate" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="on_the_limitation_of_legal_capacity_decisionDate"/>
+		<fieldDescription><![CDATA[on_the_limitation_of_legal_capacity_decisionDate]]></fieldDescription>
+	</field>
+	<field name="on_the_limitation_of_legal_capacity_decisionMakingAuthority" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="on_the_limitation_of_legal_capacity_decisionMakingAuthority"/>
+		<fieldDescription><![CDATA[on_the_limitation_of_legal_capacity_decisionMakingAuthority]]></fieldDescription>
+	</field>
+	<field name="dispensary_accounting_narcology_cardNumber" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_accounting_narcology_cardNumber"/>
+		<fieldDescription><![CDATA[dispensary_accounting_narcology_cardNumber]]></fieldDescription>
+	</field>
+	<field name="dispensary_accounting_narcology_registrationDate" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_accounting_narcology_registrationDate"/>
+		<fieldDescription><![CDATA[dispensary_accounting_narcology_registrationDate]]></fieldDescription>
+	</field>
+	<field name="dispensary_accounting_narcology_diagnosis" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_accounting_narcology_diagnosis"/>
+		<fieldDescription><![CDATA[dispensary_accounting_narcology_diagnosis]]></fieldDescription>
+	</field>
+	<field name="dispensary_accounting_narcology_medicalOrganization" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_accounting_narcology_medicalOrganization"/>
+		<fieldDescription><![CDATA[dispensary_accounting_narcology_medicalOrganization]]></fieldDescription>
+	</field>
+	<field name="dispensary_accounting_narcology_doctorFullName" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_accounting_narcology_doctorFullName"/>
+		<fieldDescription><![CDATA[dispensary_accounting_narcology_doctorFullName]]></fieldDescription>
+	</field>
+	<field name="dispensary_accounting_narcology_doctorSpecialization" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_accounting_narcology_doctorSpecialization"/>
+		<fieldDescription><![CDATA[dispensary_accounting_narcology_doctorSpecialization]]></fieldDescription>
+	</field>
 	<group name="Group1" keepTogether="true">
 		<groupHeader>
 			<band height="184" splitType="Immediate">
@@ -1405,10 +1525,958 @@
 					</frame>
 				</frame>
 			</band>
-			<band height="240" splitType="Immediate">
+			<band height="802" splitType="Immediate">
 				<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				<staticText>
-					<reportElement mode="Opaque" x="20" y="20" width="558" height="30" backcolor="#E7E6E6" uuid="1768811b-a820-4ec1-bb39-a2bba2c0cf1f">
+					<reportElement mode="Opaque" x="20" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789001">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Мемлекеттік органдардың базалары бойынша тексеру нәтижелері / Результаты проверки по базам государственных органов]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="20" y="30" width="558" height="25" backcolor="#D3D3D3" uuid="12345678-1234-1234-1234-123456789002">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="11" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Қылмыстық құқықбұзушылықтар / Уголовные правонарушения]]></text>
+				</staticText>
+				<frame>
+					<reportElement x="20" y="55" width="558" height="200" uuid="12345678-1234-1234-1234-123456789003">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="0" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789004"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Бұлтартпау шарасы/Мера пресечения]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="0" width="408" height="20" uuid="12345678-1234-1234-1234-123456789005"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{criminal_record_detentionMeasure}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="20" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789006"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Қамауға алған күні/Дата ареста]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="20" width="408" height="20" uuid="12345678-1234-1234-1234-123456789007"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{criminal_record_arrestDate}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="40" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789008"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Қылмыстық іс қозғаған орган/Орган,
+возбудивший уголовное дело]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="40" width="408" height="20" uuid="12345678-1234-1234-1234-123456789009"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{criminal_record_initiatingAuthority}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="60" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789010"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Қылмыстық іс нөмірі/Номер уголовного
+дела]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="60" width="408" height="20" uuid="12345678-1234-1234-1234-123456789011"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{criminal_record_criminalCaseNumber}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="80" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789012"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Қылмыстық істі қозғау күні/Дата
+возбуждения уголовного дела]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="80" width="408" height="20" uuid="12345678-1234-1234-1234-123456789013"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{criminal_record_criminalCaseInitiationDate}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="100" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789014"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Жауаптылыққа тарту бабы/Статья
+привлечения]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="100" width="408" height="20" uuid="12345678-1234-1234-1234-123456789015"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{criminal_record_chargeArticle}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="120" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789016"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Қылмыстың сипаты/Характер
+преступления]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="120" width="408" height="20" uuid="12345678-1234-1234-1234-123456789017"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{criminal_record_crimeNature}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="140" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789018"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Соттау туралы шешім қабылдаған
+орган/ Орган, принявший решение об
+осуждении]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="140" width="408" height="20" uuid="12345678-1234-1234-1234-123456789019"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{criminal_record_convictionAuthority}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="160" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789020"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Сотталған күні/Дата осуждения]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="160" width="408" height="20" uuid="12345678-1234-1234-1234-123456789021"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{criminal_record_convictionDate}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="180" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789022"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Сотталған мерзім/Срок осуждения]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="180" width="408" height="20" uuid="12345678-1234-1234-1234-123456789023"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{criminal_record_sentenceDuration}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<staticText>
+					<reportElement mode="Opaque" x="20" y="255" width="558" height="25" backcolor="#D3D3D3" uuid="12345678-1234-1234-1234-123456789024">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="11" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Әкімшілік құқықбұзушылықтар / Административные правонарушения]]></text>
+				</staticText>
+				<frame>
+					<reportElement x="20" y="280" width="558" height="140" uuid="12345678-1234-1234-1234-123456789025">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="0" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789026"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Материалдың нөмірі / Номер материала]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="0" width="408" height="20" uuid="12345678-1234-1234-1234-123456789027"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{administration_offences_materialNumber}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="20" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789028"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Құқық бұзушылықты анықтаған
+орган/Орган выявивший]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="20" width="408" height="20" uuid="12345678-1234-1234-1234-123456789029"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{administration_offences_violatingAuthority}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="40" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789030"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Басталған күні/Дата заведения]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="40" width="408" height="20" uuid="12345678-1234-1234-1234-123456789031"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{administration_offences_caseInitiationDate}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="60" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789032"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Біліктілік/Квалификация]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="60" width="408" height="20" uuid="12345678-1234-1234-1234-123456789033"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{administration_offences_qualification}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="80" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789034"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Шешім күні/Дата решения]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="80" width="408" height="20" uuid="12345678-1234-1234-1234-123456789035"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{administration_offences_decisionDate}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="100" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789036"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Шешім/Решение]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="100" width="408" height="20" uuid="12345678-1234-1234-1234-123456789037"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{administration_offences_decision}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="120" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789038"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Салынған айыппұл мөлшері/Размер
+наложенного штрафа]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="120" width="408" height="20" uuid="12345678-1234-1234-1234-123456789039"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{administration_offences_penaltyAmount}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<staticText>
+					<reportElement mode="Opaque" x="20" y="420" width="558" height="25" backcolor="#D3D3D3" uuid="12345678-1234-1234-1234-123456789040">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="11" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Мемлекеттік қызметтен теріс себептер бойынша босату / Увольнение с государственной службы по отрицательным мотивам]]></text>
+				</staticText>
+				<frame>
+					<reportElement x="20" y="445" width="558" height="60" uuid="12345678-1234-1234-1234-123456789041">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="0" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789042"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Жұмыс орны/Место работы]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="0" width="408" height="20" uuid="12345678-1234-1234-1234-123456789043"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dismissal_from_public_service_for_negative_reasons_workplace}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="20" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789044"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Лауазымы/Должность]]></text>
+					</staticText>
+					<textField textAdjust="StretchHeight">
+						<reportElement x="150" y="20" width="408" height="20" uuid="12345678-1234-1234-1234-123456789045"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dismissal_from_public_service_for_negative_reasons_position}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="40" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789046"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Тіркелген күні/Дата регистрации]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="40" width="408" height="20" uuid="12345678-1234-1234-1234-123456789047"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dismissal_from_public_service_for_negative_reasons_registrationDate}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<staticText>
+					<reportElement mode="Opaque" x="20" y="505" width="558" height="25" backcolor="#D3D3D3" uuid="12345678-1234-1234-1234-123456789048">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="11" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Әрекетке қабілеттілігі / Дееспособность]]></text>
+				</staticText>
+				<frame>
+					<reportElement x="20" y="530" width="558" height="80" uuid="12345678-1234-1234-1234-123456789049">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="0" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789050"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Мәртебесі/Статус]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="0" width="408" height="20" uuid="12345678-1234-1234-1234-123456789051"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{on_the_limitation_of_legal_capacity_status}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="20" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789052"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Шешім нөмірі/Номер решения]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="20" width="408" height="20" uuid="12345678-1234-1234-1234-123456789053"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{on_the_limitation_of_legal_capacity_decisionNumber}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="40" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789054"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Шешім күні/Дата решения]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="40" width="408" height="20" uuid="12345678-1234-1234-1234-123456789055"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{on_the_limitation_of_legal_capacity_decisionDate}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="60" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789056"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Шешім қабылдаған орган/Орган
+принявший решение]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="60" width="408" height="20" uuid="12345678-1234-1234-1234-123456789057"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{on_the_limitation_of_legal_capacity_decisionMakingAuthority}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<staticText>
+					<reportElement mode="Opaque" x="20" y="610" width="558" height="25" backcolor="#D3D3D3" uuid="12345678-1234-1234-1234-123456789058">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="11" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Психоневрологиялық
+диспансерлік есеп /
+Психоневрологически
+й диспансерный учет
+Детализация]]></text>
+				</staticText>
+				<frame>
+					<reportElement x="20" y="635" width="558" height="120" uuid="12345678-1234-1234-1234-123456789059">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="0" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789060"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Карта нөмірі/Номер карты]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="0" width="408" height="20" uuid="12345678-1234-1234-1234-123456789061"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dispensary_accounting_narcology_cardNumber}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="20" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789062"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Есепке алу күні/Дата постановки на учет]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="20" width="408" height="20" uuid="12345678-1234-1234-1234-123456789063"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dispensary_accounting_narcology_registrationDate}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="40" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789064"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Диагнозы/Диагноз]]></text>
+					</staticText>
+					<textField textAdjust="StretchHeight">
+						<reportElement x="150" y="40" width="408" height="20" uuid="12345678-1234-1234-1234-123456789065"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dispensary_accounting_narcology_diagnosis}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="60" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789066"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Медициналық ұйым/Медицинская]]></text>
+					</staticText>
+					<textField textAdjust="StretchHeight">
+						<reportElement x="150" y="60" width="408" height="20" uuid="12345678-1234-1234-1234-123456789067"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dispensary_accounting_narcology_medicalOrganization}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="80" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789068"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Дәрігердің тегі, аты, әкесінің
+аты/Фамилия, имя, отчество врача]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="80" width="408" height="20" uuid="12345678-1234-1234-1234-123456789069"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dispensary_accounting_narcology_doctorFullName}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="100" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789070"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Дәрігердің мамандығы/Специализация
+врача]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="100" width="408" height="20" uuid="12345678-1234-1234-1234-123456789071"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dispensary_accounting_narcology_doctorSpecialization}]]></textFieldExpression>
+					</textField>
+				</frame>
+			</band>
+			<band height="385" splitType="Immediate">
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<staticText>
+					<reportElement mode="Opaque" x="20" y="165" width="558" height="30" backcolor="#E7E6E6" uuid="1768811b-a820-4ec1-bb39-a2bba2c0cf1f">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -1425,7 +2493,7 @@
 					<text><![CDATA[ҰҚО жедел есепке алу бойынша тексеру / Проверка по оперативным учетам ОНБ]]></text>
 				</staticText>
 				<staticText>
-					<reportElement mode="Opaque" x="20" y="50" width="558" height="30" backcolor="#E7E6E6" uuid="57294af3-d1ca-4792-b9e4-2ffddec8c1d9">
+					<reportElement mode="Opaque" x="20" y="195" width="558" height="30" backcolor="#E7E6E6" uuid="57294af3-d1ca-4792-b9e4-2ffddec8c1d9">
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
@@ -1441,7 +2509,7 @@
 					<text><![CDATA[Подтверждение мест работы/учебы кандидата и сбор характеризующих данных]]></text>
 				</staticText>
 				<frame>
-					<reportElement x="20" y="80" width="558" height="160" uuid="6aa98dfb-0e63-4617-8fad-7667f7f7e808">
+					<reportElement x="20" y="225" width="558" height="160" uuid="6aa98dfb-0e63-4617-8fad-7667f7f7e808">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -1633,8 +2701,168 @@
 						<textFieldExpression><![CDATA[$F{work_study_verification_executor_fio}]]></textFieldExpression>
 					</textField>
 				</frame>
+				<staticText>
+					<reportElement mode="Opaque" x="20" y="0" width="558" height="25" backcolor="#D3D3D3" uuid="12345678-1234-1234-1234-123456789072">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="11" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Декларацияны тапсыру туралы мәліметтер / Сведения о сдаче декларации]]></text>
+				</staticText>
+				<frame>
+					<reportElement x="20" y="25" width="558" height="100" uuid="12345678-1234-1234-1234-123456789073">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="0" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789074"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Декларация түрі / Тип декларации]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="0" width="408" height="20" uuid="12345678-1234-1234-1234-123456789075"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA["Первоначальная"]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="20" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789076"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Декларацияның қабылданған күні / Дата
+принятия декларации]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="20" width="408" height="20" uuid="12345678-1234-1234-1234-123456789077"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA["13.09.2023"]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="40" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789078"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Декларацияның қабылданған күні /
+Регистрационный номер декларации]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="40" width="408" height="20" uuid="12345678-1234-1234-1234-123456789079"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA["б20312092023N01598"]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="60" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789080"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Декларация қай кезеңге берілді / За
+какой период подана декларация]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="60" width="408" height="20" uuid="12345678-1234-1234-1234-123456789081"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA["2023"]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement mode="Opaque" x="0" y="80" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789082"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Салық органының коды / Код
+налогового органа]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="150" y="80" width="408" height="20" uuid="12345678-1234-1234-1234-123456789083"/>
+						<box leftPadding="3">
+							<topPen lineWidth="0.5"/>
+							<leftPen lineWidth="0.5"/>
+							<bottomPen lineWidth="0.5"/>
+							<rightPen lineWidth="0.5"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA["б203"]]></textFieldExpression>
+					</textField>
+				</frame>
 			</band>
-			<band height="140" splitType="Immediate">
+			<band height="200" splitType="Immediate">
 				<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				<staticText>
 					<reportElement mode="Opaque" x="20" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="29ccb3b8-480d-42b0-a560-364fd2670f21">
@@ -1784,7 +3012,7 @@
 					</textField>
 				</frame>
 			</band>
-			<band height="230" splitType="Immediate">
+			<band height="180" splitType="Immediate">
 				<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				<staticText>
 					<reportElement mode="Opaque" x="20" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="6a653944-747d-4172-900e-1fe30fb83f8a">
@@ -1805,6 +3033,7 @@
 					<reportElement x="20" y="30" width="558" height="150" uuid="b79c4c93-961c-473e-8be0-b1d02270ceea">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
 					</reportElement>
 					<box>
 						<topPen lineWidth="1.0"/>
