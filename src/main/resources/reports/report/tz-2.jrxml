@@ -707,7 +707,7 @@
 	<field name="operational_reference_executor_fio" class="java.lang.String"/>
 	<group name="Group1" keepTogether="true"/>
 	<detail>
-		<band height="802" splitType="Immediate">
+		<band height="728" splitType="Immediate">
 			<staticText>
 				<reportElement positionType="Float" stretchType="ContainerBottom" x="-1" y="30" width="560" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="1e4e55aa-a4c8-4778-b06b-8aaf923cf928">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -716,9 +716,9 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Кандидат пен оның жақын туыстарын толық емес тексеру бойынша
+				<text><![CDATA[Кандидат пен оның жақын туыстарын толық емес арнайы тексеру бойынша
 ҚОРЫТЫНДЫ / ЗАКЛЮЧЕНИЕ
-по результатам не полной проверки кандидата и его близких родственников]]></text>
+по результатам не полной специальной проверки кандидата и его близких родственников]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" stretchType="ContainerBottom" x="405" y="0" width="153" height="30" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="e2e26898-7ab5-40db-b0b4-60fdced9bade"/>
@@ -5572,7 +5572,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="12" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[ҰҚО жедел есепке алу бойынша тексеру / Проверка по оперативным учетам ОНБ]]></text>
+				<text><![CDATA[Проверка по учетам оперативно - справочной картотеки ОНБ - ҰҚО жедел анықтамалық картотека есептері бойынша тексеру]]></text>
 			</staticText>
 		</band>
 		<band height="190" splitType="Immediate">
@@ -5588,7 +5588,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="12" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Проверка по РБД "Ақпарат"]]></text>
+				<text><![CDATA[Проверка по РБД "Ақпарат" -  "Ақпарат" РБД бойынша тексеру]]></text>
 			</staticText>
 			<frame>
 				<reportElement x="0" y="30" width="558" height="160" uuid="1415e419-1de1-4145-8207-584492120631">
@@ -5766,7 +5766,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="12" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Детализация выявленных КМ сведений]]></text>
+				<text><![CDATA[Детализация выявленных КМ сведений - беделіне нұқсан келтіретін мәліметтерге нақтылық енгізу]]></text>
 			</staticText>
 			<frame>
 				<reportElement x="0" y="30" width="558" height="150" uuid="b79c4c93-961c-473e-8be0-b1d02270ceea">
