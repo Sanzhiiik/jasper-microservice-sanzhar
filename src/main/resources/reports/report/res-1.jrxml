@@ -1162,9 +1162,12 @@
 	</field>
 	<group name="Group1" keepTogether="true">
 		<groupHeader>
-			<band height="184" splitType="Immediate">
+			<band height="250" splitType="Immediate">
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				<frame>
-					<reportElement x="20" y="10" width="558" height="174" uuid="4b208b9e-6a86-4ea3-9ea7-24e3e139ae86"/>
+					<reportElement x="20" y="76" width="558" height="174" uuid="4b208b9e-6a86-4ea3-9ea7-24e3e139ae86">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
 					<image onErrorType="Blank">
 						<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="14" width="120" height="160" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="a260a486-c131-423a-b7e5-cb50c2665525">
 							<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -3228,7 +3231,7 @@
 					<text><![CDATA[Запрос на проверку на противоправные действия в сети Интернет]]></text>
 				</staticText>
 			</band>
-			<band height="170" splitType="Immediate">
+			<band height="220" splitType="Immediate">
 				<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				<staticText>
 					<reportElement mode="Opaque" x="20" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="5c5da19f-8df3-4d00-831e-0f8f4bd8b76a">

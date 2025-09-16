@@ -1162,9 +1162,13 @@
 	</field>
 	<group name="Group1" keepTogether="true">
 		<groupHeader>
-			<band height="184" splitType="Immediate">
+			<band height="250" splitType="Immediate">
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				<frame>
-					<reportElement x="20" y="10" width="558" height="174" uuid="4b208b9e-6a86-4ea3-9ea7-24e3e139ae86"/>
+					<reportElement x="20" y="76" width="558" height="174" uuid="4b208b9e-6a86-4ea3-9ea7-24e3e139ae86">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
 					<image onErrorType="Blank">
 						<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="14" width="120" height="160" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="a260a486-c131-423a-b7e5-cb50c2665525">
 							<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2803,7 +2807,7 @@
 					</textField>
 				</frame>
 			</band>
-			<band height="220" splitType="Immediate">
+			<band height="250" splitType="Immediate">
 				<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				<staticText>
 					<reportElement mode="Opaque" x="20" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="6a653944-747d-4172-900e-1fe30fb83f8a">
