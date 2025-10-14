@@ -13,6 +13,14 @@
         <property name="net.sf.jasperreports.json.field.expression" value="summery"/>
         <fieldDescription><![CDATA[summery]]></fieldDescription>
     </field>
+    <field name="name_of_candidat" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="name_of_candidat"/>
+        <fieldDescription><![CDATA[name_of_candidat]]></fieldDescription>
+    </field>
+    <field name="name_of_user" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="name_of_user"/>
+        <fieldDescription><![CDATA[name_of_user]]></fieldDescription>
+    </field>
     <detail>
         <band height="762" splitType="Stretch">
             <staticText>
@@ -28,7 +36,7 @@
 бастапқы сұхбат бойынша анықтама]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" x="28" y="100" width="504" height="30" uuid="897f73a3-a303-4195-b217-87b778c53f04">
+                <reportElement positionType="Float" x="28" y="140" width="504" height="30" uuid="897f73a3-a303-4195-b217-87b778c53f04">
                     <property name="com.jaspersoft.studio.unit.x" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="pixel"/>
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -46,7 +54,7 @@
                 <text><![CDATA[Результаты собеседования]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" x="28" y="210" width="504" height="30" uuid="12b893fd-9375-4eb0-a982-0a6ae254db49">
+                <reportElement positionType="Float" x="28" y="250" width="504" height="30" uuid="12b893fd-9375-4eb0-a982-0a6ae254db49">
                     <property name="com.jaspersoft.studio.unit.x" value="px"/>
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -63,7 +71,7 @@
                 <text><![CDATA[Вывод]]></text>
             </staticText>
             <textField textAdjust="StretchHeight">
-                <reportElement positionType="Float" x="28" y="130" width="504" height="60" uuid="c104edf6-b506-4b46-a399-2c8dbb4b4623">
+                <reportElement positionType="Float" x="28" y="170" width="504" height="60" uuid="c104edf6-b506-4b46-a399-2c8dbb4b4623">
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                     <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -82,7 +90,7 @@
                 <textFieldExpression><![CDATA[$F{results_sob}]]></textFieldExpression>
             </textField>
             <textField textAdjust="StretchHeight">
-                <reportElement positionType="Float" x="28" y="240" width="504" height="60" uuid="8af9643f-2307-4ea2-8e24-83aa3a625a1e">
+                <reportElement positionType="Float" x="28" y="280" width="504" height="60" uuid="8af9643f-2307-4ea2-8e24-83aa3a625a1e">
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                     <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -99,6 +107,50 @@
                     <paragraph leftIndent="5"/>
                 </textElement>
                 <textFieldExpression><![CDATA[$F{summery}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="28" y="90" width="100" height="30" uuid="bba36158-ddd4-46d6-842e-627a7e43e828">
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                </reportElement>
+                <box leftPadding="5"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Times New Roman" size="12" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                </textElement>
+                <text><![CDATA[Имя кандидата:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="128" y="90" width="404" height="30" uuid="d0f65091-c14a-4a12-9bd4-3820e72aac80">
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <box leftPadding="5"/>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font fontName="Times New Roman" size="12" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{name_of_candidat}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement positionType="Float" x="28" y="370" width="100" height="30" uuid="479db582-47d7-4cd1-b950-59104a733804">
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                </reportElement>
+                <box leftPadding="5"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Times New Roman" size="12" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                </textElement>
+                <text><![CDATA[Проверено:]]></text>
+            </staticText>
+            <textField>
+                <reportElement positionType="Float" x="128" y="370" width="404" height="30" uuid="64c03a58-4f3b-4c57-bfa6-c5f0e1caea81">
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font fontName="Times New Roman" size="12" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{name_of_user}]]></textFieldExpression>
             </textField>
         </band>
     </detail>
