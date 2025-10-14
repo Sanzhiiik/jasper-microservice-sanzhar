@@ -51,7 +51,7 @@
                 <textElement textAlignment="Center" verticalAlignment="Middle">
                     <font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                 </textElement>
-                <text><![CDATA[Результаты собеседования]]></text>
+                <text><![CDATA[Результаты собеседования - Сұхбат нәтижелері]]></text>
             </staticText>
             <staticText>
                 <reportElement positionType="Float" x="28" y="250" width="504" height="30" uuid="12b893fd-9375-4eb0-a982-0a6ae254db49">
@@ -68,7 +68,7 @@
                 <textElement textAlignment="Center" verticalAlignment="Middle">
                     <font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                 </textElement>
-                <text><![CDATA[Вывод]]></text>
+                <text><![CDATA[Вывод - Қорытынды]]></text>
             </staticText>
             <textField textAdjust="StretchHeight">
                 <reportElement positionType="Float" x="28" y="170" width="504" height="60" uuid="c104edf6-b506-4b46-a399-2c8dbb4b4623">
@@ -109,18 +109,19 @@
                 <textFieldExpression><![CDATA[$F{summery}]]></textFieldExpression>
             </textField>
             <staticText>
-                <reportElement x="28" y="90" width="100" height="30" uuid="bba36158-ddd4-46d6-842e-627a7e43e828">
+                <reportElement x="28" y="90" width="70" height="30" uuid="bba36158-ddd4-46d6-842e-627a7e43e828">
                     <property name="com.jaspersoft.studio.unit.x" value="px"/>
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
                 </reportElement>
                 <box leftPadding="5"/>
-                <textElement textAlignment="Center" verticalAlignment="Middle">
+                <textElement textAlignment="Left" verticalAlignment="Middle">
                     <font fontName="Times New Roman" size="12" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                 </textElement>
-                <text><![CDATA[Имя кандидата:]]></text>
+                <text><![CDATA[ФИО-ТАЖ:]]></text>
             </staticText>
             <textField>
-                <reportElement x="128" y="90" width="404" height="30" uuid="d0f65091-c14a-4a12-9bd4-3820e72aac80">
+                <reportElement x="98" y="90" width="434" height="30" uuid="d0f65091-c14a-4a12-9bd4-3820e72aac80">
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
                     <property name="com.jaspersoft.studio.unit.x" value="px"/>
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -132,18 +133,19 @@
                 <textFieldExpression><![CDATA[$F{name_of_candidat}]]></textFieldExpression>
             </textField>
             <staticText>
-                <reportElement positionType="Float" x="28" y="370" width="100" height="30" uuid="479db582-47d7-4cd1-b950-59104a733804">
+                <reportElement positionType="Float" x="28" y="370" width="250" height="30" uuid="479db582-47d7-4cd1-b950-59104a733804">
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
                     <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
                 </reportElement>
                 <box leftPadding="5"/>
-                <textElement textAlignment="Center" verticalAlignment="Middle">
+                <textElement textAlignment="Left" verticalAlignment="Middle">
                     <font fontName="Times New Roman" size="12" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                 </textElement>
-                <text><![CDATA[Проверено:]]></text>
+                <text><![CDATA[Собеседование провел - Сұхбатты жүргізген:]]></text>
             </staticText>
             <textField>
-                <reportElement positionType="Float" x="128" y="370" width="404" height="30" uuid="64c03a58-4f3b-4c57-bfa6-c5f0e1caea81">
+                <reportElement positionType="Float" x="278" y="370" width="254" height="30" uuid="64c03a58-4f3b-4c57-bfa6-c5f0e1caea81">
                     <property name="com.jaspersoft.studio.unit.x" value="px"/>
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                 </reportElement>
