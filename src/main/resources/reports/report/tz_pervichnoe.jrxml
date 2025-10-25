@@ -113,9 +113,9 @@
         <property name="net.sf.jasperreports.json.field.expression" value="education_qualification"/>
         <fieldDescription><![CDATA[education_qualification]]></fieldDescription>
     </field>
-    <field name="education_gpa" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="education_gpa"/>
-        <fieldDescription><![CDATA[education_gpa]]></fieldDescription>
+    <field name="actual_place_of_residence" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="actual_place_of_residence"/>
+        <fieldDescription><![CDATA[actual_place_of_residence]]></fieldDescription>
     </field>
     <field name="labor_activity_date_of_admission_and_termination" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="labor_activity_date_of_admission_and_termination"/>
@@ -663,7 +663,9 @@
                 <text><![CDATA[Форма заключения]]></text>
             </staticText>
             <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="240" width="558" height="48" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="cc93951b-394a-42d3-b0eb-5ada695f0f11"/>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="270" width="558" height="48" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="cc93951b-394a-42d3-b0eb-5ada695f0f11">
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -1195,9 +1197,10 @@
                 </staticText>
             </frame>
             <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="288" width="558" height="240" uuid="040f7c73-1e50-418d-ba08-934a5a997d01">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="318" width="558" height="240" uuid="040f7c73-1e50-418d-ba08-934a5a997d01">
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -1245,7 +1248,7 @@
                 </frame>
             </frame>
             <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="428" width="558" height="100" uuid="7cce64bf-fbef-4955-975f-e60b7ea53010">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="458" width="558" height="100" uuid="7cce64bf-fbef-4955-975f-e60b7ea53010">
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -1390,10 +1393,11 @@
                 </frame>
             </frame>
             <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="528" width="558" height="90" uuid="a63bd820-db3d-4137-8394-f20dc215bd49">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="558" width="558" height="90" uuid="a63bd820-db3d-4137-8394-f20dc215bd49">
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                     <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -1434,7 +1438,7 @@
                 </textField>
             </frame>
             <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="618" width="558" height="80" uuid="a91e4d88-e531-4be0-8c97-4499eacfce93">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="648" width="558" height="80" uuid="a91e4d88-e531-4be0-8c97-4499eacfce93">
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                     <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1479,7 +1483,7 @@
                 </textField>
             </frame>
             <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="698" width="558" height="30" uuid="5b5c66d5-1435-43b9-acfa-39802f01dc30">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="728" width="558" height="30" uuid="5b5c66d5-1435-43b9-acfa-39802f01dc30">
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                     <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1521,6 +1525,40 @@
                     <textFieldExpression><![CDATA[$F{additional-skills}]]></textFieldExpression>
                 </textField>
             </frame>
+            <staticText>
+                <reportElement mode="Opaque" x="0" y="240" width="120" height="30" backcolor="#E7E6E6" uuid="c92ebf20-45d8-4aa4-9498-97d352572e1c">
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <box leftPadding="5">
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement verticalAlignment="Middle">
+                    <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                </textElement>
+                <text><![CDATA[фактическое место жительство/нақты тұрғылықты жері]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="120" y="240" width="438" height="30" uuid="d9c48a7d-7ab3-4116-8e70-1234c47fe92b">
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <box leftPadding="5">
+                    <topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement>
+                    <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{actual_place_of_residence}]]></textFieldExpression>
+            </textField>
         </band>
         <band height="802" splitType="Immediate">
             <frame>
