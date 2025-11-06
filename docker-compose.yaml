@@ -1,31 +1,56 @@
-version: "3.9"
-
 services:
-  jasper-app:
-#    image: jasper:latest
-    build:
-      context: .
-      dockerfile: Dockerfile
-    ports:
-      - "8080:8080"
+  minio-sync:
+    image: minio/mc:latest
+    restart: unless-stopped
+    environment:
+      MC_INSECURE: "${MC_INSECURE:-1}"
+      MINIO_ENDPOINT: "${MINIO_ENDPOINT:-minio.sts.kz:9501}"
+      MINIO_ACCESS: "${MINIO_ACCESS}"
+      MINIO_SECRET: "${MINIO_SECRET}"
+      MINIO_BUCKET: "${MINIO_BUCKET:-jasper-templates}"
+      MC_HOST_minio: "https://${MINIO_ACCESS}:${MINIO_SECRET}@${MINIO_ENDPOINT}"
+    command:
+      - mirror
+      - --overwrite
+      - --remove
+      - --watch
+      - minio/${MINIO_BUCKET}/reports
+      - /data/reports
     volumes:
-      - ./templ:/external-reports
+      - report-templates:/data
     networks:
       - app-network
-      
+
+  jasper-app:
+    image: jasper:base
+    depends_on:
+      - minio-sync
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    entrypoint: ["java","-Dloader.path=/reports","-cp","/app.jar","org.springframework.boot.loader.launch.PropertiesLauncher"]
+    volumes:
+      - report-templates:/reports:ro
+    networks:
+      - app-network
+
   nginx:
     image: nginx:latest
+    depends_on:
+      - jasper-app
+    restart: unless-stopped
     ports:
       - "80:80"
       - "443:443"
     volumes:
       - ./nginx/conf:/etc/nginx/conf.d
       - ./nginx/ssl:/etc/nginx/ssl
-    depends_on:
-      - jasper-app
     networks:
       - app-network
 
 networks:
   app-network:
     driver: bridge
+
+volumes:
+  report-templates:
