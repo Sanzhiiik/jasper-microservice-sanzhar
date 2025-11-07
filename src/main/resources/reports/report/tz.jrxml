@@ -652,9 +652,9 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Кандидат пен оның жақын Бастапқы туыстарын тексеру бойынша
+				<text><![CDATA[Кандидат пен оның жақын туыстарын толық арнайы тексеру бойынша
 ҚОРЫТЫНДЫ / ЗАКЛЮЧЕНИЕ
-по результатам первичной проверки кандидата и его близких родственников]]></text>
+по результатам полной специальной проверки кандидата и его близких родственников]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" stretchType="ContainerBottom" x="405" y="0" width="153" height="30" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="e2e26898-7ab5-40db-b0b4-60fdced9bade"/>
@@ -1506,7 +1506,7 @@
 				</textField>
 			</frame>
 			<staticText>
-				<reportElement mode="Opaque" x="0" y="240" width="120" height="30" backcolor="#E7E6E6" uuid="ad98860c-ccb4-4e31-9fa3-092ba0d52722">
+				<reportElement positionType="Float" mode="Opaque" x="0" y="240" width="120" height="30" backcolor="#E7E6E6" uuid="ad98860c-ccb4-4e31-9fa3-092ba0d52722">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -1523,7 +1523,7 @@
 				<text><![CDATA[фактическое место жительство/нақты тұрғылықты жері]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="120" y="240" width="438" height="30" uuid="0b2ef3c0-ea5a-4e60-9b0f-75002659327f">
+				<reportElement positionType="Float" x="120" y="240" width="438" height="30" uuid="0b2ef3c0-ea5a-4e60-9b0f-75002659327f">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<box leftPadding="5">
@@ -1532,7 +1532,7 @@
 					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<textElement> 
+				<textElement>
 					<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{actual_place_of_residence}]]></textFieldExpression>
