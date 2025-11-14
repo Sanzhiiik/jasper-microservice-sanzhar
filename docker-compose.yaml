@@ -20,9 +20,10 @@ services:
       - report-templates:/data
     networks:
       - app-network
+    container_name: minio-sync
 
   jasper-app:
-    image: jasper:base
+    image: jasper:base-2
     depends_on:
       - minio-sync
     restart: unless-stopped
@@ -33,6 +34,7 @@ services:
       - report-templates:/reports:ro
     networks:
       - app-network
+    container_name: jasper
 
   nginx:
     image: nginx:latest
