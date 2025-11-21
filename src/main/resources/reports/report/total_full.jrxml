@@ -3975,7 +3975,7 @@
 						<textElement>
 							<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<text><![CDATA[Дата начало обучение/Оқудың басталу күні]]></text>
+						<text><![CDATA[Дата начала обучение/Оқудың басталу күні]]></text>
 					</staticText>
 					<textField>
 						<reportElement positionType="Float" x="120" y="0" width="438" height="30" uuid="e326a5eb-9ccd-4a76-a665-61a8c41b2e45">
@@ -4271,7 +4271,7 @@
 						<textElement>
 							<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<textFieldExpression><![CDATA[$F{GPA}]]></textFieldExpression>
+						<textFieldExpression><![CDATA[$F{GPA_manual}]]></textFieldExpression>
 					</textField>
 				</frame>
 				<frame>
@@ -4464,7 +4464,7 @@
 						<textElement>
 							<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<text><![CDATA[Дата начало обучение/Оқудың басталу күні]]></text>
+						<text><![CDATA[Дата начала обучение/Оқудың басталу күні]]></text>
 					</staticText>
 					<textField>
 						<reportElement positionType="Float" x="120" y="0" width="438" height="30" uuid="870ae384-4c77-4c9d-92d2-d4af2a1cbfa8">
