@@ -23,7 +23,7 @@ services:
     container_name: minio-sync
 
   jasper-app:
-    image: jasper:base
+    image: jasper:base-2
     depends_on:
       - minio-sync
     restart: unless-stopped
