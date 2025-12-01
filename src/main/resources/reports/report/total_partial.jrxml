@@ -38,9 +38,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="citizenship"/>
 		<fieldDescription><![CDATA[citizenship]]></fieldDescription>
 	</field>
-	<field name="IIN" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="IIN"/>
-		<fieldDescription><![CDATA[IIN]]></fieldDescription>
+	<field name="iin" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="iin"/>
+		<fieldDescription><![CDATA[iin]]></fieldDescription>
 	</field>
 	<field name="phone_number" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="phone_number"/>
@@ -130,9 +130,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="region_of_birth"/>
 		<fieldDescription><![CDATA[region_of_birth]]></fieldDescription>
 	</field>
-	<field name="Area_of_birth" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="Area_of_birth"/>
-		<fieldDescription><![CDATA[Area_of_birth]]></fieldDescription>
+	<field name="area_of_birth" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="area_of_birth"/>
+		<fieldDescription><![CDATA[area_of_birth]]></fieldDescription>
 	</field>
 	<field name="city_location" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="city_location"/>
@@ -206,9 +206,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="speciality_manual"/>
 		<fieldDescription><![CDATA[speciality_manual]]></fieldDescription>
 	</field>
-	<field name="GPA_manual" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="GPA_manual"/>
-		<fieldDescription><![CDATA[GPA_manual]]></fieldDescription>
+	<field name="gpa_manual" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="gpa_manual"/>
+		<fieldDescription><![CDATA[gpa_manual]]></fieldDescription>
 	</field>
 	<field name="date_modified_manual" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="date_modified_manual"/>
@@ -250,9 +250,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="actual_place_of_residence"/>
 		<fieldDescription><![CDATA[actual_place_of_residence]]></fieldDescription>
 	</field>
-	<field name="Area_of_birth_manual" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="Area_of_birth_manual"/>
-		<fieldDescription><![CDATA[Area_of_birth_manual]]></fieldDescription>
+	<field name="area_of_birth_manual" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="area_of_birth_manual"/>
+		<fieldDescription><![CDATA[area_of_birth_manual]]></fieldDescription>
 	</field>
 	<field name="city_location_manual" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="city_location_manual"/>
@@ -718,9 +718,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="speciality"/>
 		<fieldDescription><![CDATA[speciality]]></fieldDescription>
 	</field>
-	<field name="GPA" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="GPA"/>
-		<fieldDescription><![CDATA[GPA]]></fieldDescription>
+	<field name="gpa" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="gpa"/>
+		<fieldDescription><![CDATA[gpa]]></fieldDescription>
 	</field>
 	<field name="after-uni-study" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="after-uni-study"/>
@@ -766,9 +766,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="Official-face"/>
 		<fieldDescription><![CDATA[Official-face]]></fieldDescription>
 	</field>
-	<field name="Agreed" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="Agreed"/>
-		<fieldDescription><![CDATA[Agreed]]></fieldDescription>
+	<field name="agreed_by" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="agreed_by"/>
+		<fieldDescription><![CDATA[agreed_by]]></fieldDescription>
 	</field>
 	<field name="confidential_assistants_iin" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="confidential_assistants_iin"/>
@@ -1177,7 +1177,7 @@
 						<textElement textAlignment="Center" verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<textFieldExpression><![CDATA[$F{IIN}]]></textFieldExpression>
+						<textFieldExpression><![CDATA[$F{iin}]]></textFieldExpression>
 					</textField>
 					<staticText>
 						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="20" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#E7E6E6" uuid="a995ae7c-6074-441f-93d7-d9bb698aa614">
@@ -1897,7 +1897,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{GPA}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{gpa}]]></textFieldExpression>
 						</textField>
 					</frame>
 				</frame>
@@ -2662,7 +2662,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{Agreed}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{agreed_by}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -3762,7 +3762,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{Area_of_birth_manual}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{area_of_birth_manual}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -3948,7 +3948,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{Area_of_birth}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{area_of_birth}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -4533,7 +4533,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[GPA]]></text>
+							<text><![CDATA[gpa]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="6be0aa3a-d1d3-458e-acde-d3a797ebfb5a">
@@ -4550,7 +4550,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{GPA}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{gpa}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<staticText>
@@ -5009,7 +5009,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[GPA]]></text>
+							<text><![CDATA[gpa]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="4ab2d130-e6f1-4c60-9d23-778784bc9801">
@@ -5026,7 +5026,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{GPA_manual}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{gpa_manual}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
