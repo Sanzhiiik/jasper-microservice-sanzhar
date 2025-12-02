@@ -742,9 +742,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="status"/>
 		<fieldDescription><![CDATA[status]]></fieldDescription>
 	</field>
-	<field name="Rank" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="Rank"/>
-		<fieldDescription><![CDATA[Rank]]></fieldDescription>
+	<field name="military_rank" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="military_rank"/>
+		<fieldDescription><![CDATA[military_rank]]></fieldDescription>
 	</field>
 	<field name="job-title" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="job-title"/>
@@ -762,9 +762,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="final-check"/>
 		<fieldDescription><![CDATA[final-check]]></fieldDescription>
 	</field>
-	<field name="Official-face" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="Official-face"/>
-		<fieldDescription><![CDATA[Official-face]]></fieldDescription>
+	<field name="added_by" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="added_by"/>
+		<fieldDescription><![CDATA[added_by]]></fieldDescription>
 	</field>
 	<field name="agreed_by" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="agreed_by"/>
@@ -2336,7 +2336,7 @@
 								<textElement>
 									<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 								</textElement>
-								<text><![CDATA[Атағы/Звание   ]]></text>
+								<text><![CDATA[Атағы/Звание]]></text>
 							</staticText>
 							<textField textAdjust="ScaleFont">
 								<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="318" height="15" uuid="56371cb4-7bd1-4aca-a9c1-7f8a6c017b42">
@@ -2349,7 +2349,7 @@
 								<textElement>
 									<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 								</textElement>
-								<textFieldExpression><![CDATA[$F{Rank}]]></textFieldExpression>
+								<textFieldExpression><![CDATA[$F{military_rank}]]></textFieldExpression>
 							</textField>
 						</frame>
 					</frame>
@@ -2561,7 +2561,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Лауазымды тұлға/ Должностное лицо]]></text>
+							<text><![CDATA[Лауазымды тұлға/Должностное лицо]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="2be07a1d-f07b-40ba-93d8-6064f2a8dde2">
@@ -2573,7 +2573,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{Official-face}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{added_by}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -3745,7 +3745,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Область рождения/Туған аймағы]]></text>
+							<text><![CDATA[Туған аймағы/Область рождения]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="6382dc89-3d48-4426-b231-b55d903af8ad">
@@ -3931,7 +3931,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Область рождения/Туған аймағы]]></text>
+							<text><![CDATA[Туған аймағы/Область рождения]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="13ea4b16-29fb-48b3-bb53-57fa0a40342a">

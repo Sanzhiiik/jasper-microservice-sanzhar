@@ -742,9 +742,9 @@
         <property name="net.sf.jasperreports.json.field.expression" value="status"/>
         <fieldDescription><![CDATA[status]]></fieldDescription>
     </field>
-    <field name="Rank" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="Rank"/>
-        <fieldDescription><![CDATA[Rank]]></fieldDescription>
+    <field name="military_rank" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="military_rank"/>
+        <fieldDescription><![CDATA[military_rank]]></fieldDescription>
     </field>
     <field name="job-title" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="job-title"/>
@@ -762,9 +762,9 @@
         <property name="net.sf.jasperreports.json.field.expression" value="final-check"/>
         <fieldDescription><![CDATA[final-check]]></fieldDescription>
     </field>
-    <field name="Official-face" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="Official-face"/>
-        <fieldDescription><![CDATA[Official-face]]></fieldDescription>
+    <field name="added_by" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="added_by"/>
+        <fieldDescription><![CDATA[added_by]]></fieldDescription>
     </field>
     <field name="agreed_by" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="agreed_by"/>
@@ -2336,7 +2336,7 @@
                                 <textElement>
                                     <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 </textElement>
-                                <text><![CDATA[Атағы/Звание   ]]></text>
+                                <text><![CDATA[Атағы/Звание]]></text>
                             </staticText>
                             <textField textAdjust="ScaleFont">
                                 <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="318" height="15" uuid="5004de32-33f9-4f54-a20a-0807ef16b4ca">
@@ -2349,7 +2349,7 @@
                                 <textElement>
                                     <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                                 </textElement>
-                                <textFieldExpression><![CDATA[$F{Rank}]]></textFieldExpression>
+                                <textFieldExpression><![CDATA[$F{military_rank}]]></textFieldExpression>
                             </textField>
                         </frame>
                     </frame>
@@ -2561,7 +2561,7 @@
                             <textElement>
                                 <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
-                            <text><![CDATA[Лауазымды тұлға/ Должностное лицо]]></text>
+                            <text><![CDATA[Лауазымды тұлға/Должностное лицо]]></text>
                         </staticText>
                         <textField textAdjust="ScaleFont">
                             <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="5a1a0f05-260d-4cec-9c43-97fd3fb991a5">
@@ -2573,7 +2573,7 @@
                             <textElement>
                                 <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
-                            <textFieldExpression><![CDATA[$F{Official-face}]]></textFieldExpression>
+                            <textFieldExpression><![CDATA[$F{added_by}]]></textFieldExpression>
                         </textField>
                     </frame>
                     <frame>
@@ -3745,7 +3745,7 @@
                             <textElement>
                                 <font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
-                            <text><![CDATA[Область рождения/Туған аймағы]]></text>
+                            <text><![CDATA[Туған аймағы/Область рождения]]></text>
                         </staticText>
                         <textField textAdjust="ScaleFont">
                             <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="1f2fbeda-0b32-446e-807b-aff6decf97d9">
@@ -3931,7 +3931,7 @@
                             <textElement>
                                 <font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                             </textElement>
-                            <text><![CDATA[Область рождения/Туған аймағы]]></text>
+                            <text><![CDATA[Туған аймағы/Область рождения]]></text>
                         </staticText>
                         <textField textAdjust="ScaleFont">
                             <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="90c28311-6e8e-49eb-b0df-0f3a3720dfcc">
