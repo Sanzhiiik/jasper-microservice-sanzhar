@@ -102,9 +102,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="reason_for_change"/>
 		<fieldDescription><![CDATA[reason_for_change]]></fieldDescription>
 	</field>
-	<field name="act_record_number" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="act_record_number"/>
-		<fieldDescription><![CDATA[act_record_number]]></fieldDescription>
+	<field name="reg_act_number" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="reg_act_number"/>
+		<fieldDescription><![CDATA[reg_act_number]]></fieldDescription>
 	</field>
 	<field name="date_recording_act" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="date_recording_act"/>
@@ -218,9 +218,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="reason_for_change_manual"/>
 		<fieldDescription><![CDATA[reason_for_change_manual]]></fieldDescription>
 	</field>
-	<field name="act_record_number_manual" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="act_record_number_manual"/>
-		<fieldDescription><![CDATA[act_record_number_manual]]></fieldDescription>
+	<field name="reg_act_number_manual" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="reg_act_number_manual"/>
+		<fieldDescription><![CDATA[reg_act_number_manual]]></fieldDescription>
 	</field>
 	<field name="date_recording_act_manual" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="date_recording_act_manual"/>
@@ -734,9 +734,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="additional-skills"/>
 		<fieldDescription><![CDATA[additional-skills]]></fieldDescription>
 	</field>
-	<field name="Suitability category" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="Suitability category"/>
-		<fieldDescription><![CDATA[Suitability category]]></fieldDescription>
+	<field name="suitability_level" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="suitability_level"/>
+		<fieldDescription><![CDATA[suitability_level]]></fieldDescription>
 	</field>
 	<field name="status" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="status"/>
@@ -746,9 +746,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="military_rank"/>
 		<fieldDescription><![CDATA[military_rank]]></fieldDescription>
 	</field>
-	<field name="Suitability category_manual" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="Suitability category_manual"/>
-		<fieldDescription><![CDATA[Suitability category_manual]]></fieldDescription>
+	<field name="suitability_level_manual" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="suitability_level_manual"/>
+		<fieldDescription><![CDATA[suitability_level_manual]]></fieldDescription>
 	</field>
 	<field name="status_manual" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="status_manual"/>
@@ -2259,7 +2259,7 @@
 								<textElement>
 									<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 								</textElement>
-								<text><![CDATA[Жарамдылық санаты/ Категория годности ]]></text>
+								<text><![CDATA[Жарамдылық санаты/Категория годности]]></text>
 							</staticText>
 							<textField textAdjust="ScaleFont">
 								<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="318" height="30" uuid="4991c61f-dd2f-4c93-af9b-a73dbea753ec">
@@ -2271,7 +2271,7 @@
 								<textElement>
 									<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 								</textElement>
-								<textFieldExpression><![CDATA[$F{Suitability category}]]></textFieldExpression>
+								<textFieldExpression><![CDATA[$F{suitability_level}]]></textFieldExpression>
 							</textField>
 						</frame>
 						<frame>
@@ -2773,7 +2773,7 @@
 								<textElement>
 									<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 								</textElement>
-								<text><![CDATA[Жарамдылық санаты/ Категория годности ]]></text>
+								<text><![CDATA[Жарамдылық санаты/Категория годности]]></text>
 							</staticText>
 							<textField textAdjust="ScaleFont">
 								<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="318" height="30" uuid="242b0110-94c2-4d40-96fc-da5f41db6ab6">
@@ -2785,7 +2785,7 @@
 								<textElement>
 									<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 								</textElement>
-								<textFieldExpression><![CDATA[$F{Suitability category_manual}]]></textFieldExpression>
+								<textFieldExpression><![CDATA[$F{suitability_level_manual}]]></textFieldExpression>
 							</textField>
 						</frame>
 						<frame>
@@ -2862,7 +2862,7 @@
 								<textElement>
 									<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 								</textElement>
-								<text><![CDATA[Атағы/Звание   ]]></text>
+								<text><![CDATA[Атағы/Звание]]></text>
 							</staticText>
 							<textField textAdjust="ScaleFont">
 								<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="318" height="15" uuid="c8d96a7d-dd52-43e1-b666-8c3beaa58429">
@@ -3404,7 +3404,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Номер записи акта/Акт жазбасының нөмірі]]></text>
+							<text><![CDATA[Акт жазбасының нөмірі/Номер записи акта]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="9357d62e-350c-40ad-9595-6a00d55031c2">
@@ -3421,7 +3421,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{act_record_number_manual}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{reg_act_number_manual}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -3632,7 +3632,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Номер записи акта/Акт жазбасының нөмірі]]></text>
+							<text><![CDATA[Акт жазбасының нөмірі/Номер записи акта]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="6ca49eec-4482-48a3-a0ee-b38a2ffeb91e">
@@ -3649,7 +3649,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{act_record_number}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{reg_act_number}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
