@@ -18,9 +18,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="previous_fullName"/>
 		<fieldDescription><![CDATA[previous_fullName]]></fieldDescription>
 	</field>
-	<field name="date_of_birth" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="date_of_birth"/>
-		<fieldDescription><![CDATA[date_of_birth]]></fieldDescription>
+	<field name="birth_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="birth_date"/>
+		<fieldDescription><![CDATA[birth_date]]></fieldDescription>
 	</field>
 	<field name="place_of_birth" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="place_of_birth"/>
@@ -94,9 +94,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="middle_name_before_shift"/>
 		<fieldDescription><![CDATA[middle_name_before_shift]]></fieldDescription>
 	</field>
-	<field name="date_modified" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="date_modified"/>
-		<fieldDescription><![CDATA[date_modified]]></fieldDescription>
+	<field name="fio_change_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="fio_change_date"/>
+		<fieldDescription><![CDATA[fio_change_date]]></fieldDescription>
 	</field>
 	<field name="reason_for_change" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="reason_for_change"/>
@@ -106,9 +106,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="reg_act_number"/>
 		<fieldDescription><![CDATA[reg_act_number]]></fieldDescription>
 	</field>
-	<field name="date_recording_act" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="date_recording_act"/>
-		<fieldDescription><![CDATA[date_recording_act]]></fieldDescription>
+	<field name="reg_act_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="reg_act_date"/>
+		<fieldDescription><![CDATA[reg_act_date]]></fieldDescription>
 	</field>
 	<field name="region_registration_act" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="region_registration_act"/>
@@ -210,9 +210,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="gpa_manual"/>
 		<fieldDescription><![CDATA[gpa_manual]]></fieldDescription>
 	</field>
-	<field name="date_modified_manual" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="date_modified_manual"/>
-		<fieldDescription><![CDATA[date_modified_manual]]></fieldDescription>
+	<field name="fio_change_date_manual" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="fio_change_date_manual"/>
+		<fieldDescription><![CDATA[fio_change_date_manual]]></fieldDescription>
 	</field>
 	<field name="reason_for_change_manual" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="reason_for_change_manual"/>
@@ -222,9 +222,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="reg_act_number_manual"/>
 		<fieldDescription><![CDATA[reg_act_number_manual]]></fieldDescription>
 	</field>
-	<field name="date_recording_act_manual" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="date_recording_act_manual"/>
-		<fieldDescription><![CDATA[date_recording_act_manual]]></fieldDescription>
+	<field name="reg_act_date_manual" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="reg_act_date_manual"/>
+		<fieldDescription><![CDATA[reg_act_date_manual]]></fieldDescription>
 	</field>
 	<field name="region_registration_act_manual" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="region_registration_act_manual"/>
@@ -654,9 +654,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="declaration_type"/>
 		<fieldDescription><![CDATA[declaration_type]]></fieldDescription>
 	</field>
-	<field name="declaration_acceptance_date" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="declaration_acceptance_date"/>
-		<fieldDescription><![CDATA[declaration_acceptance_date]]></fieldDescription>
+	<field name="declaration_accept_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="declaration_accept_date"/>
+		<fieldDescription><![CDATA[declaration_accept_date]]></fieldDescription>
 	</field>
 	<field name="declaration_registration_number" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="declaration_registration_number"/>
@@ -1113,7 +1113,7 @@
 						<textElement textAlignment="Center" verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<text><![CDATA[Туған күні/Дата рождения	]]></text>
+						<text><![CDATA[Туған күні/Дата рождения]]></text>
 					</staticText>
 					<textField textAdjust="ScaleFont">
 						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="318" height="20" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="971bea5f-8201-49fa-90c1-2450b7c03dcd">
@@ -1130,7 +1130,7 @@
 						<textElement textAlignment="Center" verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<textFieldExpression><![CDATA[$F{date_of_birth}]]></textFieldExpression>
+						<textFieldExpression><![CDATA[$F{birth_date}]]></textFieldExpression>
 					</textField>
 				</frame>
 				<frame>
@@ -3016,7 +3016,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Дата изменения/Өзгертілген күні]]></text>
+							<text><![CDATA[Өзгертілген күні/Дата изменения]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="cc7aa7c9-9642-430a-8db0-c68e03b53cf6">
@@ -3033,7 +3033,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{date_modified_manual}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{fio_change_date_manual}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -3246,7 +3246,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Дата изменения/Өзгертілген күні]]></text>
+							<text><![CDATA[Өзгертілген күні/Дата изменения]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="45daa5a9-7f4b-461a-ae38-1f366258e282">
@@ -3263,7 +3263,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{date_modified}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{fio_change_date}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -3410,7 +3410,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Дата записи акта/Актіні тіркеу күні]]></text>
+							<text><![CDATA[Актінің жазылған күні/Дата записи акта]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="74ea2ba8-58fc-431a-b033-fe5fdd949f0f">
@@ -3427,7 +3427,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{date_recording_act_manual}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{reg_act_date_manual}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -3638,7 +3638,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Дата записи акта/Актіні тіркеу күні]]></text>
+							<text><![CDATA[Актінің жазылған күні/Дата записи акта]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="2e8dadad-8d2d-4959-b5b2-208d3bcd4b10">
@@ -3655,7 +3655,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{date_recording_act}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{reg_act_date}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -8615,7 +8615,7 @@
 						<textElement verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<text><![CDATA[Декларацияның қабылданған күні / Дата принятия декларации]]></text>
+						<text><![CDATA[Декларацияның қабылданған күні/Дата принятия декларации]]></text>
 					</staticText>
 					<textField textAdjust="StretchHeight">
 						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="0e85ad39-7546-44cf-b990-c27cc42e2360">
@@ -8632,7 +8632,7 @@
 						<textElement>
 							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<textFieldExpression><![CDATA[$F{declaration_acceptance_date}]]></textFieldExpression>
+						<textFieldExpression><![CDATA[$F{declaration_accept_date}]]></textFieldExpression>
 					</textField>
 				</frame>
 				<frame>
@@ -8699,7 +8699,7 @@
 						<textElement verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<text><![CDATA[Декларация қай кезеңге берілді / За какой период подана декларация]]></text>
+						<text><![CDATA[Декларация кезеңі/Период декларации]]></text>
 					</staticText>
 					<textField textAdjust="StretchHeight">
 						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="bb5558b3-dda6-47be-9006-222500d99b92">
