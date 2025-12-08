@@ -658,9 +658,9 @@
         <property name="net.sf.jasperreports.json.field.expression" value="declaration_accept_date"/>
         <fieldDescription><![CDATA[declaration_accept_date]]></fieldDescription>
     </field>
-    <field name="declaration_registration_number" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="declaration_registration_number"/>
-        <fieldDescription><![CDATA[declaration_registration_number]]></fieldDescription>
+    <field name="declaration_number" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="declaration_number"/>
+        <fieldDescription><![CDATA[declaration_number]]></fieldDescription>
     </field>
     <field name="declaration_period" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="declaration_period"/>
@@ -8573,7 +8573,7 @@
                         <textElement verticalAlignment="Middle">
                             <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                         </textElement>
-                        <text><![CDATA[Декларация түрі / Тип декларации]]></text>
+                        <text><![CDATA[Декларация түрі/Тип декларации]]></text>
                     </staticText>
                     <textField textAdjust="StretchHeight">
                         <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="7f16543e-0771-41ec-bc8b-91f4f07372e1">
@@ -8657,7 +8657,7 @@
                         <textElement verticalAlignment="Middle">
                             <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                         </textElement>
-                        <text><![CDATA[Декларацияның қабылданған күні / Регистрационный номер декларации]]></text>
+                        <text><![CDATA[Декларацияның тіркеу нөмірі/Регистрационный номер декларации]]></text>
                     </staticText>
                     <textField textAdjust="StretchHeight">
                         <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="9796a8ec-7aec-4c6d-987d-8a97f74fdd14">
@@ -8674,7 +8674,7 @@
                         <textElement>
                             <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                         </textElement>
-                        <textFieldExpression><![CDATA[$F{declaration_registration_number}]]></textFieldExpression>
+                        <textFieldExpression><![CDATA[$F{declaration_number}]]></textFieldExpression>
                     </textField>
                 </frame>
                 <frame>
