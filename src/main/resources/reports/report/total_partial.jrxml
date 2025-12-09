@@ -82,17 +82,17 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="national_id_issuing_authority_p"/>
 		<fieldDescription><![CDATA[national_id_issuing_authority_p]]></fieldDescription>
 	</field>
-	<field name="last_name_before_shift" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="last_name_before_shift"/>
-		<fieldDescription><![CDATA[last_name_before_shift]]></fieldDescription>
+	<field name="last_name_before" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="last_name_before"/>
+		<fieldDescription><![CDATA[last_name_before]]></fieldDescription>
 	</field>
-	<field name="name_before_shift" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="name_before_shift"/>
-		<fieldDescription><![CDATA[name_before_shift]]></fieldDescription>
+	<field name="first_name_before" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="first_name_before"/>
+		<fieldDescription><![CDATA[first_name_before]]></fieldDescription>
 	</field>
-	<field name="middle_name_before_shift" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="middle_name_before_shift"/>
-		<fieldDescription><![CDATA[middle_name_before_shift]]></fieldDescription>
+	<field name="patronymic_before" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="patronymic_before"/>
+		<fieldDescription><![CDATA[patronymic_before]]></fieldDescription>
 	</field>
 	<field name="fio_change_date" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="fio_change_date"/>
@@ -162,9 +162,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="study_form"/>
 		<fieldDescription><![CDATA[study_form]]></fieldDescription>
 	</field>
-	<field name="language_of_instruction" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="language_of_instruction"/>
-		<fieldDescription><![CDATA[language_of_instruction]]></fieldDescription>
+	<field name="study_language" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="study_language"/>
+		<fieldDescription><![CDATA[study_language]]></fieldDescription>
 	</field>
 	<field name="ent_ball" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="ent_ball"/>
@@ -186,17 +186,17 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="organization_name_work"/>
 		<fieldDescription><![CDATA[organization_name_work]]></fieldDescription>
 	</field>
-	<field name="last_name_before_shift_manual" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="last_name_before_shift_manual"/>
-		<fieldDescription><![CDATA[last_name_before_shift_manual]]></fieldDescription>
+	<field name="last_name_before_manual" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="last_name_before_manual"/>
+		<fieldDescription><![CDATA[last_name_before_manual]]></fieldDescription>
 	</field>
-	<field name="name_before_shift_manual" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="name_before_shift_manual"/>
-		<fieldDescription><![CDATA[name_before_shift_manual]]></fieldDescription>
+	<field name="first_name_before_manual" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="first_name_before_manual"/>
+		<fieldDescription><![CDATA[first_name_before_manual]]></fieldDescription>
 	</field>
-	<field name="middle_name_before_shift_manual" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="middle_name_before_shift_manual"/>
-		<fieldDescription><![CDATA[middle_name_before_shift_manual]]></fieldDescription>
+	<field name="patronymic_before_manual" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="patronymic_before_manual"/>
+		<fieldDescription><![CDATA[patronymic_before_manual]]></fieldDescription>
 	</field>
 	<field name="study-name_manual" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="study-name_manual"/>
@@ -282,9 +282,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="study_form_manual"/>
 		<fieldDescription><![CDATA[study_form_manual]]></fieldDescription>
 	</field>
-	<field name="language_of_instruction_manual" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="language_of_instruction_manual"/>
-		<fieldDescription><![CDATA[language_of_instruction_manual]]></fieldDescription>
+	<field name="study_language_manual" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="study_language_manual"/>
+		<fieldDescription><![CDATA[study_language_manual]]></fieldDescription>
 	</field>
 	<field name="ent_ball_manual" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="ent_ball_manual"/>
@@ -309,22 +309,6 @@
 	<field name="organization_name_work_manual" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="organization_name_work_manual"/>
 		<fieldDescription><![CDATA[organization_name_work_manual]]></fieldDescription>
-	</field>
-	<field name="information_about_close_relatives_nationality" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="information_about_close_relatives_nationality"/>
-		<fieldDescription><![CDATA[information_about_close_relatives_nationality]]></fieldDescription>
-	</field>
-	<field name="information_about_close_relatives_individualIdentificationNumber" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="information_about_close_relatives_individualIdentificationNumber"/>
-		<fieldDescription><![CDATA[information_about_close_relatives_individualIdentificationNumber]]></fieldDescription>
-	</field>
-	<field name="information_about_close_relatives_phone_number" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="information_about_close_relatives_phone_number"/>
-		<fieldDescription><![CDATA[information_about_close_relatives_phone_number]]></fieldDescription>
-	</field>
-	<field name="information_about_close_relatives_address" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="information_about_close_relatives_address"/>
-		<fieldDescription><![CDATA[information_about_close_relatives_address]]></fieldDescription>
 	</field>
 	<field name="results_of_the_initial_interview_registrationNumberAndDate" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="results_of_the_initial_interview_registrationNumberAndDate"/>
@@ -593,34 +577,6 @@
 	<field name="dispensary_registration_phthisiopulmonology_doctorSpecialization" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_registration_phthisiopulmonology_doctorSpecialization"/>
 		<fieldDescription><![CDATA[dispensary_registration_phthisiopulmonology_doctorSpecialization]]></fieldDescription>
-	</field>
-	<field name="organization_status" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="organization_status"/>
-		<fieldDescription><![CDATA[organization_status]]></fieldDescription>
-	</field>
-	<field name="organization_name" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="organization_name"/>
-		<fieldDescription><![CDATA[organization_name]]></fieldDescription>
-	</field>
-	<field name="organization_ownership_form" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="organization_ownership_form"/>
-		<fieldDescription><![CDATA[organization_ownership_form]]></fieldDescription>
-	</field>
-	<field name="organization_activity_type" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="organization_activity_type"/>
-		<fieldDescription><![CDATA[organization_activity_type]]></fieldDescription>
-	</field>
-	<field name="organization_certificate_id" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="organization_certificate_id"/>
-		<fieldDescription><![CDATA[organization_certificate_id]]></fieldDescription>
-	</field>
-	<field name="organization_registration_date" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="organization_registration_date"/>
-		<fieldDescription><![CDATA[organization_registration_date]]></fieldDescription>
-	</field>
-	<field name="organization_address" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="organization_address"/>
-		<fieldDescription><![CDATA[organization_address]]></fieldDescription>
 	</field>
 	<field name="declaration_type" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="declaration_type"/>
@@ -2862,7 +2818,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Фамилия (до смены)/Тегі (өзгертуден бұрын)]]></text>
+							<text><![CDATA[Тегі (өзгертуден бұрын)/Фамилия (до смены)]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="62da776d-5259-4c17-acc1-43d7e14b5ecb">
@@ -2879,7 +2835,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{last_name_before_shift_manual}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{last_name_before_manual}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -2904,7 +2860,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Имя (до смены)/Аты (өзгертуден бұрын)]]></text>
+							<text><![CDATA[Аты (өзгертуден бұрын)/Имя (до смены)]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="a399a686-3332-48cf-8797-1503e267d503">
@@ -2921,7 +2877,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{name_before_shift_manual}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{first_name_before_manual}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -2946,7 +2902,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Отчество (до смены)/Әкесінің аты (өзгертуден бұрын)]]></text>
+							<text><![CDATA[Әкесінің аты (өзгертуден бұрын)/Отчество (до смены)]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="df13684d-7f9c-478c-829a-aff5549ef4dc">
@@ -2963,7 +2919,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{middle_name_before_shift_manual}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{patronymic_before_manual}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -3092,7 +3048,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Фамилия (до смены)/Тегі (өзгертуден бұрын)]]></text>
+							<text><![CDATA[Тегі (өзгертуден бұрын)/Фамилия (до смены)]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="48acd1be-5bce-4026-b5b1-5245e026c5c0">
@@ -3109,7 +3065,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{last_name_before_shift}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{last_name_before}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -3134,7 +3090,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Имя (до смены)/Аты (өзгертуден бұрын)]]></text>
+							<text><![CDATA[Аты (өзгертуден бұрын)/Имя (до смены)]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="c826693b-a663-4ae8-bd11-032ad4a00f36">
@@ -3151,7 +3107,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{name_before_shift}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{first_name_before}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -3176,7 +3132,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Отчество (до смены)/Әкесінің аты (өзгертуден бұрын)]]></text>
+							<text><![CDATA[Әкесінің аты (өзгертуден бұрын)/Отчество (до смены)]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="4a514260-d6ff-48ff-8ac8-0ac98012e97e">
@@ -3193,7 +3149,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{middle_name_before_shift}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{patronymic_before}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -4556,7 +4512,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Язык обучения/Оқыту тілі]]></text>
+							<text><![CDATA[Оқыту тілі/Язык обучения]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="60914e3f-0c0c-45bc-95bd-89c197f49575">
@@ -4573,7 +4529,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{language_of_instruction}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{study_language}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -5200,7 +5156,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Язык обучения/Оқыту тілі]]></text>
+							<text><![CDATA[Оқыту тілі/Язык обучения]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="91dc6e98-fb9c-4321-a454-d0cc4d4c7d62">
@@ -5217,7 +5173,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{language_of_instruction_manual}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{study_language_manual}]]></textFieldExpression>
 						</textField>
 					</frame>
 				</frame>
