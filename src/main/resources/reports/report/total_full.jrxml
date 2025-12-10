@@ -82,6 +82,46 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="national_id_issuing_authority_p"/>
 		<fieldDescription><![CDATA[national_id_issuing_authority_p]]></fieldDescription>
 	</field>
+	<field name="divorce_act" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="divorce_act"/>
+		<fieldDescription><![CDATA[divorce_act]]></fieldDescription>
+	</field>
+	<field name="divorce_certificate" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="divorce_certificate"/>
+		<fieldDescription><![CDATA[divorce_certificate]]></fieldDescription>
+	</field>
+	<field name="date_divorce" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="date_divorce"/>
+		<fieldDescription><![CDATA[date_divorce]]></fieldDescription>
+	</field>
+	<field name="spouse_iin" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="spouse_iin"/>
+		<fieldDescription><![CDATA[spouse_iin]]></fieldDescription>
+	</field>
+	<field name="fullname_spouse" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="fullname_spouse"/>
+		<fieldDescription><![CDATA[fullname_spouse]]></fieldDescription>
+	</field>
+	<field name="divorce_act_manual" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="divorce_act_manual"/>
+		<fieldDescription><![CDATA[divorce_act_manual]]></fieldDescription>
+	</field>
+	<field name="divorce_certificate_manual" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="divorce_certificate_manual"/>
+		<fieldDescription><![CDATA[divorce_certificate_manual]]></fieldDescription>
+	</field>
+	<field name="date_divorce_manual" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="date_divorce_manual"/>
+		<fieldDescription><![CDATA[date_divorce_manual]]></fieldDescription>
+	</field>
+	<field name="spouse_iin_manual" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="spouse_iin_manual"/>
+		<fieldDescription><![CDATA[spouse_iin_manual]]></fieldDescription>
+	</field>
+	<field name="fullname_spouse_manual" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="fullname_spouse_manual"/>
+		<fieldDescription><![CDATA[fullname_spouse_manual]]></fieldDescription>
+	</field>
 	<field name="last_name_before" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="last_name_before"/>
 		<fieldDescription><![CDATA[last_name_before]]></fieldDescription>
@@ -310,6 +350,26 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="organization_name_work_manual"/>
 		<fieldDescription><![CDATA[organization_name_work_manual]]></fieldDescription>
 	</field>
+	<field name="information_about_close_relatives_nationality" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="information_about_close_relatives_nationality"/>
+		<fieldDescription><![CDATA[information_about_close_relatives_nationality]]></fieldDescription>
+	</field>
+	<field name="information_about_close_relatives_individualIdentificationNumber" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="information_about_close_relatives_individualIdentificationNumber"/>
+		<fieldDescription><![CDATA[information_about_close_relatives_individualIdentificationNumber]]></fieldDescription>
+	</field>
+	<field name="information_about_close_relatives_phone_number" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="information_about_close_relatives_phone_number"/>
+		<fieldDescription><![CDATA[information_about_close_relatives_phone_number]]></fieldDescription>
+	</field>
+	<field name="information_about_close_relatives_citizenship" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="information_about_close_relatives_citizenship"/>
+		<fieldDescription><![CDATA[information_about_close_relatives_citizenship]]></fieldDescription>
+	</field>
+	<field name="information_about_close_relatives_address" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="information_about_close_relatives_address"/>
+		<fieldDescription><![CDATA[information_about_close_relatives_address]]></fieldDescription>
+	</field>
 	<field name="results_of_the_initial_interview_registrationNumberAndDate" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="results_of_the_initial_interview_registrationNumberAndDate"/>
 		<fieldDescription><![CDATA[results_of_the_initial_interview_registrationNumberAndDate]]></fieldDescription>
@@ -442,6 +502,38 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="corruption_offences_penaltyAmount"/>
 		<fieldDescription><![CDATA[corruption_offences_penaltyAmount]]></fieldDescription>
 	</field>
+	<field name="administration_offences_materialNumber" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_materialNumber"/>
+		<fieldDescription><![CDATA[administration_offences_materialNumber]]></fieldDescription>
+	</field>
+	<field name="administration_offences_violatingAuthority" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_violatingAuthority"/>
+		<fieldDescription><![CDATA[administration_offences_violatingAuthority]]></fieldDescription>
+	</field>
+	<field name="administration_offences_caseInitiationDate" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_caseInitiationDate"/>
+		<fieldDescription><![CDATA[administration_offences_caseInitiationDate]]></fieldDescription>
+	</field>
+	<field name="administration_offences_decisionMakingAuthority" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_decisionMakingAuthority"/>
+		<fieldDescription><![CDATA[administration_offences_decisionMakingAuthority]]></fieldDescription>
+	</field>
+	<field name="administration_offences_qualification" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_qualification"/>
+		<fieldDescription><![CDATA[administration_offences_qualification]]></fieldDescription>
+	</field>
+	<field name="administration_offences_decisionDate" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_decisionDate"/>
+		<fieldDescription><![CDATA[administration_offences_decisionDate]]></fieldDescription>
+	</field>
+	<field name="administration_offences_decision" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_decision"/>
+		<fieldDescription><![CDATA[administration_offences_decision]]></fieldDescription>
+	</field>
+	<field name="administration_offences_penaltyAmount" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_penaltyAmount"/>
+		<fieldDescription><![CDATA[administration_offences_penaltyAmount]]></fieldDescription>
+	</field>
 	<field name="dismissal_from_public_service_for_negative_reasons_workplace" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_from_public_service_for_negative_reasons_workplace"/>
 		<fieldDescription><![CDATA[dismissal_from_public_service_for_negative_reasons_workplace]]></fieldDescription>
@@ -465,6 +557,34 @@
 	<field name="dismissal_from_public_service_for_negative_reasons_orderNumberAndDate" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_from_public_service_for_negative_reasons_orderNumberAndDate"/>
 		<fieldDescription><![CDATA[dismissal_from_public_service_for_negative_reasons_orderNumberAndDate]]></fieldDescription>
+	</field>
+	<field name="disciplinary_offenses_that_discredit_public_service_offendingAuthorityName" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="disciplinary_offenses_that_discredit_public_service_offendingAuthorityName"/>
+		<fieldDescription><![CDATA[disciplinary_offenses_that_discredit_public_service_offendingAuthorityName]]></fieldDescription>
+	</field>
+	<field name="disciplinary_offenses_that_discredit_public_service_factFindingAuthority" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="disciplinary_offenses_that_discredit_public_service_factFindingAuthority"/>
+		<fieldDescription><![CDATA[disciplinary_offenses_that_discredit_public_service_factFindingAuthority]]></fieldDescription>
+	</field>
+	<field name="disciplinary_offenses_that_discredit_public_service_caseSummary" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="disciplinary_offenses_that_discredit_public_service_caseSummary"/>
+		<fieldDescription><![CDATA[disciplinary_offenses_that_discredit_public_service_caseSummary]]></fieldDescription>
+	</field>
+	<field name="disciplinary_offenses_that_discredit_public_service_disciplinaryOffenseQualification" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="disciplinary_offenses_that_discredit_public_service_disciplinaryOffenseQualification"/>
+		<fieldDescription><![CDATA[disciplinary_offenses_that_discredit_public_service_disciplinaryOffenseQualification]]></fieldDescription>
+	</field>
+	<field name="disciplinary_offenses_that_discredit_public_service_disciplinaryActionDecisionNumberAndDate" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="disciplinary_offenses_that_discredit_public_service_disciplinaryActionDecisionNumberAndDate"/>
+		<fieldDescription><![CDATA[disciplinary_offenses_that_discredit_public_service_disciplinaryActionDecisionNumberAndDate]]></fieldDescription>
+	</field>
+	<field name="disciplinary_offenses_that_discredit_public_service_issuingOfficerPositionAndName" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="disciplinary_offenses_that_discredit_public_service_issuingOfficerPositionAndName"/>
+		<fieldDescription><![CDATA[disciplinary_offenses_that_discredit_public_service_issuingOfficerPositionAndName]]></fieldDescription>
+	</field>
+	<field name="disciplinary_offenses_that_discredit_public_service_disciplinaryAction" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="disciplinary_offenses_that_discredit_public_service_disciplinaryAction"/>
+		<fieldDescription><![CDATA[disciplinary_offenses_that_discredit_public_service_disciplinaryAction]]></fieldDescription>
 	</field>
 	<field name="on_the_limitation_of_legal_capacity_status" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="on_the_limitation_of_legal_capacity_status"/>
@@ -577,6 +697,34 @@
 	<field name="dispensary_registration_phthisiopulmonology_doctorSpecialization" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_registration_phthisiopulmonology_doctorSpecialization"/>
 		<fieldDescription><![CDATA[dispensary_registration_phthisiopulmonology_doctorSpecialization]]></fieldDescription>
+	</field>
+	<field name="organization_status" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="organization_status"/>
+		<fieldDescription><![CDATA[organization_status]]></fieldDescription>
+	</field>
+	<field name="organization_name" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="organization_name"/>
+		<fieldDescription><![CDATA[organization_name]]></fieldDescription>
+	</field>
+	<field name="organization_ownership_form" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="organization_ownership_form"/>
+		<fieldDescription><![CDATA[organization_ownership_form]]></fieldDescription>
+	</field>
+	<field name="organization_activity_type" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="organization_activity_type"/>
+		<fieldDescription><![CDATA[organization_activity_type]]></fieldDescription>
+	</field>
+	<field name="organization_certificate_id" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="organization_certificate_id"/>
+		<fieldDescription><![CDATA[organization_certificate_id]]></fieldDescription>
+	</field>
+	<field name="organization_registration_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="organization_registration_date"/>
+		<fieldDescription><![CDATA[organization_registration_date]]></fieldDescription>
+	</field>
+	<field name="organization_address" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="organization_address"/>
+		<fieldDescription><![CDATA[organization_address]]></fieldDescription>
 	</field>
 	<field name="declaration_type" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="declaration_type"/>
@@ -3238,6 +3386,478 @@
 							<textFieldExpression><![CDATA[$F{reason_for_change}]]></textFieldExpression>
 						</textField>
 					</frame>
+				</frame>
+			</frame>
+		</band>
+		<band height="400">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="10" width="558" height="380" uuid="b88d2972-6e60-48c7-91fb-7ea73cb3c542">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="558" height="20" backcolor="#E7E6E6" uuid="477d45c4-f65d-42ee-abcf-1fbacb2604d1">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Сведения о расторжении брака/Ажырасу туралы мәліметтер]]></text>
+				</staticText>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="210" width="558" height="30" uuid="e2fbfe0f-206e-41e9-baed-f267babd8362">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="30" backcolor="#E7E6E6" uuid="f8627569-62cf-4bd0-b50c-99e1651d09f4">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Акт о расторжении брака /Ажырасу актісі]]></text>
+					</staticText>
+					<textField textAdjust="ScaleFont">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="348890c8-d305-45a9-a5e7-6e4563fc2ca3">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{divorce_act_manual}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="240" width="558" height="30" uuid="20198c8f-48c2-4b58-bdb3-197ee0ccca5a">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="30" backcolor="#E7E6E6" uuid="0ba3fb18-53b7-4fef-8b75-3c2008c02ecd">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Свидетельство о расторжении брака / Ажырасу туралы куәлік]]></text>
+					</staticText>
+					<textField textAdjust="ScaleFont">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="67929dd1-73c3-4465-b550-02ee5ff7673e">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{divorce_certificate_manual}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="270" width="558" height="30" uuid="e5992640-f717-4af8-a45b-22774de49a3a">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="30" backcolor="#E7E6E6" uuid="a44dc69e-2dda-40b0-ac83-98f0580c8b50">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Дата расторжения брака / Ажырасу күні]]></text>
+					</staticText>
+					<textField textAdjust="ScaleFont">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="9b1c13b5-739e-4f35-b00d-6815241ebd72">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{date_divorce_manual}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="300" width="558" height="30" uuid="b0a798a7-1cbd-4ba2-938b-7cf80b3cdebd">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="30" backcolor="#E7E6E6" uuid="ca4a220a-4bdb-4416-b1ee-ced65f15c4e5">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[ИИН супруга/супруги / Жұбайының ЖСН]]></text>
+					</staticText>
+					<textField textAdjust="ScaleFont">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="062692f2-fd8c-4a2c-9ee5-a71b03e02cbf">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{spouse_iin_manual}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="330" width="558" height="50" uuid="8ce7907c-286e-47b6-bd8b-dc24fdf70892">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="50" backcolor="#E7E6E6" uuid="f737190c-6da9-4666-bbbb-ad892b997caf">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[ФИО супруга/супруги /
+Жұбайының толық аты-жөні]]></text>
+					</staticText>
+					<textField textAdjust="ScaleFont">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="50" uuid="84d8d7de-e840-4f23-8f32-1546049ba7fd">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{fullname_spouse_manual}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="190" width="558" height="20" backcolor="#E7E6E6" uuid="e6b274c8-05a3-446f-b46c-78b3d0502287">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Сведения о расторжении брака(вручную)/Ажырасу туралы мәліметтер(қолмен)]]></text>
+				</staticText>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="20" width="558" height="30" uuid="de439525-fb50-4b1d-9c67-dc345b16adf4">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="30" backcolor="#E7E6E6" uuid="92f797b7-c4cc-4246-9747-70d565dc17a5">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Акт о расторжении брака/Ажырасу актісі]]></text>
+					</staticText>
+					<textField textAdjust="ScaleFont">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="f910f8a0-9704-4a37-b67a-277c9591b448">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{divorce_act}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="50" width="558" height="30" uuid="183483ab-1914-4794-8c6b-bafb754231f1">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="30" backcolor="#E7E6E6" uuid="a363809b-58bb-4165-bbbc-bc324b070f3b">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Свидетельство о расторжении брака / Ажырасу туралы куәлік]]></text>
+					</staticText>
+					<textField textAdjust="ScaleFont">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="fb4b3e54-cd81-44f7-8d59-56bae21a7335">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{divorce_certificate}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="80" width="558" height="30" uuid="0ee201e0-6495-4eb0-9250-b753c03c8f71">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="30" backcolor="#E7E6E6" uuid="5b93efff-2488-42f5-897f-90bb7ecfeb90">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Дата расторжения брака / Ажырасу күні]]></text>
+					</staticText>
+					<textField textAdjust="ScaleFont">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="8d34ba1a-4d15-4e99-963d-ea89eb21890d">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{date_divorce}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="110" width="558" height="30" uuid="c430b824-0f0d-4359-bf17-25beacc585d1">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="30" backcolor="#E7E6E6" uuid="6b4436bb-8a69-49b6-a0ec-5f41ada6ccbb">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[ИИН супруга/супруги / Жұбайының ЖСН]]></text>
+					</staticText>
+					<textField textAdjust="ScaleFont">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="c80abf6e-15f2-4dd2-b6a6-315b7cc7c5c7">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{spouse_iin}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="140" width="558" height="50" uuid="b009c7a4-eba6-4341-8825-818e94ae963d">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="50" backcolor="#E7E6E6" uuid="f0d4367f-5a28-48b2-b854-8aa55558c624">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[ФИО супруга/супруги /
+Жұбайының толық аты-жөні]]></text>
+					</staticText>
+					<textField textAdjust="ScaleFont">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="50" uuid="65283da0-9b40-4d75-8179-fc794945f656">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{fullname_spouse}]]></textFieldExpression>
+					</textField>
 				</frame>
 			</frame>
 		</band>
