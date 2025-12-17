@@ -222,9 +222,9 @@
         <property name="net.sf.jasperreports.json.field.expression" value="work_end_date"/>
         <fieldDescription><![CDATA[work_end_date]]></fieldDescription>
     </field>
-    <field name="work_org_name" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="work_org_name"/>
-        <fieldDescription><![CDATA[work_org_name]]></fieldDescription>
+    <field name="work_name" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="work_name"/>
+        <fieldDescription><![CDATA[work_name]]></fieldDescription>
     </field>
     <field name="last_name_before_manual" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="last_name_before_manual"/>
@@ -346,9 +346,9 @@
         <property name="net.sf.jasperreports.json.field.expression" value="work_end_date_manual"/>
         <fieldDescription><![CDATA[work_end_date_manual]]></fieldDescription>
     </field>
-    <field name="work_org_name_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="work_org_name_manual"/>
-        <fieldDescription><![CDATA[work_org_name_manual]]></fieldDescription>
+    <field name="work_name_manual" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="work_name_manual"/>
+        <fieldDescription><![CDATA[work_name_manual]]></fieldDescription>
     </field>
     <field name="information_about_close_relatives_nationality" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="information_about_close_relatives_nationality"/>
@@ -5838,7 +5838,7 @@
                     <textElement>
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{work_org_name_manual}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{work_name_manual}]]></textFieldExpression>
                 </textField>
             </frame>
             <frame>
@@ -6032,7 +6032,7 @@
                     <textElement>
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{work_org_name}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{work_name}]]></textFieldExpression>
                 </textField>
             </frame>
             <frame>
