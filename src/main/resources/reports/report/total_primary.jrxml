@@ -22,9 +22,9 @@
         <property name="net.sf.jasperreports.json.field.expression" value="birth_date"/>
         <fieldDescription><![CDATA[birth_date]]></fieldDescription>
     </field>
-    <field name="place_of_birth" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="place_of_birth"/>
-        <fieldDescription><![CDATA[place_of_birth]]></fieldDescription>
+    <field name="birth_place" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="birth_place"/>
+        <fieldDescription><![CDATA[birth_place]]></fieldDescription>
     </field>
     <field name="nationality" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="nationality"/>
@@ -46,9 +46,9 @@
         <property name="net.sf.jasperreports.json.field.expression" value="phone_number"/>
         <fieldDescription><![CDATA[phone_number]]></fieldDescription>
     </field>
-    <field name="marital_status" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="marital_status"/>
-        <fieldDescription><![CDATA[marital_status]]></fieldDescription>
+    <field name="marriage_status" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="marriage_status"/>
+        <fieldDescription><![CDATA[marriage_status]]></fieldDescription>
     </field>
     <field name="national_id_number" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="national_id_number"/>
@@ -329,10 +329,6 @@
     <field name="ent_ball_manual" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="ent_ball_manual"/>
         <fieldDescription><![CDATA[ent_ball_manual]]></fieldDescription>
-    </field>
-    <field name="photo_relative" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="photo_relative"/>
-        <fieldDescription><![CDATA[photo_relative]]></fieldDescription>
     </field>
     <field name="work_bin_manual" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="work_bin_manual"/>
@@ -1347,7 +1343,7 @@
                         <textElement textAlignment="Center" verticalAlignment="Middle">
                             <font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                         </textElement>
-                        <text><![CDATA[Туған жері/Место рождения ]]></text>
+                        <text><![CDATA[Туған жері/Место рождения]]></text>
                     </staticText>
                     <textField textAdjust="ScaleFont">
                         <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="318" height="20" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="112bfa80-5bf0-4919-9954-08bfb3ed5b10">
@@ -1364,7 +1360,7 @@
                         <textElement textAlignment="Center" verticalAlignment="Middle">
                             <font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                         </textElement>
-                        <textFieldExpression><![CDATA[$F{place_of_birth}]]></textFieldExpression>
+                        <textFieldExpression><![CDATA[$F{birth_place}]]></textFieldExpression>
                     </textField>
                 </frame>
                 <frame>
@@ -1387,7 +1383,7 @@
                         <textElement textAlignment="Center" verticalAlignment="Middle">
                             <font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                         </textElement>
-                        <textFieldExpression><![CDATA[$F{marital_status}]]></textFieldExpression>
+                        <textFieldExpression><![CDATA[$F{marriage_status}]]></textFieldExpression>
                     </textField>
                     <staticText>
                         <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="20" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#E7E6E6" uuid="a0bb0d70-6b44-473e-9844-75e8be639427">
@@ -1404,7 +1400,7 @@
                         <textElement textAlignment="Center" verticalAlignment="Middle">
                             <font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                         </textElement>
-                        <text><![CDATA[Отбасылық жағдай/Семейное положение ]]></text>
+                        <text><![CDATA[Отбасылық жағдай/Семейное положение]]></text>
                     </staticText>
                 </frame>
                 <frame>
@@ -1487,7 +1483,7 @@
                         <textElement textAlignment="Center" verticalAlignment="Middle">
                             <font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                         </textElement>
-                        <text><![CDATA[Телефон]]></text>
+                        <text><![CDATA[Телефон нөмірі/Номер телефона]]></text>
                     </staticText>
                 </frame>
                 <frame>
