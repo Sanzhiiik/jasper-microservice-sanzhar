@@ -22,9 +22,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="birth_date"/>
 		<fieldDescription><![CDATA[birth_date]]></fieldDescription>
 	</field>
-	<field name="birth_place" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="birth_place"/>
-		<fieldDescription><![CDATA[birth_place]]></fieldDescription>
+	<field name="birth_address" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="birth_address"/>
+		<fieldDescription><![CDATA[birth_address]]></fieldDescription>
 	</field>
 	<field name="nationality" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="nationality"/>
@@ -50,37 +50,37 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="marriage_status"/>
 		<fieldDescription><![CDATA[marriage_status]]></fieldDescription>
 	</field>
-	<field name="national_id_number" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="national_id_number"/>
-		<fieldDescription><![CDATA[national_id_number]]></fieldDescription>
+	<field name="identification_card_number" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="identification_card_number"/>
+		<fieldDescription><![CDATA[identification_card_number]]></fieldDescription>
 	</field>
-	<field name="national_id_date_of_provision" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="national_id_date_of_provision"/>
-		<fieldDescription><![CDATA[national_id_date_of_provision]]></fieldDescription>
+	<field name="identification_card_date_start" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="identification_card_date_start"/>
+		<fieldDescription><![CDATA[identification_card_date_start]]></fieldDescription>
 	</field>
-	<field name="national_id_expiration_date" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="national_id_expiration_date"/>
-		<fieldDescription><![CDATA[national_id_expiration_date]]></fieldDescription>
+	<field name="identification_card_date_end" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="identification_card_date_end"/>
+		<fieldDescription><![CDATA[identification_card_date_end]]></fieldDescription>
 	</field>
-	<field name="national_id_issuing_authority" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="national_id_issuing_authority"/>
-		<fieldDescription><![CDATA[national_id_issuing_authority]]></fieldDescription>
+	<field name="identification_card_issuer" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="identification_card_issuer"/>
+		<fieldDescription><![CDATA[identification_card_issuer]]></fieldDescription>
 	</field>
-	<field name="national_id_number_p" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="national_id_number_p"/>
-		<fieldDescription><![CDATA[national_id_number_p]]></fieldDescription>
+	<field name="passport_number" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="passport_number"/>
+		<fieldDescription><![CDATA[passport_number]]></fieldDescription>
 	</field>
-	<field name="national_id_date_of_provision_p" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="national_id_date_of_provision_p"/>
-		<fieldDescription><![CDATA[national_id_date_of_provision_p]]></fieldDescription>
+	<field name="passport_date_start" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="passport_date_start"/>
+		<fieldDescription><![CDATA[passport_date_start]]></fieldDescription>
 	</field>
-	<field name="national_id_expiration_date_p" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="national_id_expiration_date_p"/>
-		<fieldDescription><![CDATA[national_id_expiration_date_p]]></fieldDescription>
+	<field name="passport_date_end" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="passport_date_end"/>
+		<fieldDescription><![CDATA[passport_date_end]]></fieldDescription>
 	</field>
-	<field name="national_id_issuing_authority_p" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="national_id_issuing_authority_p"/>
-		<fieldDescription><![CDATA[national_id_issuing_authority_p]]></fieldDescription>
+	<field name="passport_issuer" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="passport_issuer"/>
+		<fieldDescription><![CDATA[passport_issuer]]></fieldDescription>
 	</field>
 	<field name="divorce_number_akt" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="divorce_number_akt"/>
@@ -1360,7 +1360,7 @@
 						<textElement textAlignment="Center" verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<textFieldExpression><![CDATA[$F{birth_place}]]></textFieldExpression>
+						<textFieldExpression><![CDATA[$F{birth_address}]]></textFieldExpression>
 					</textField>
 				</frame>
 				<frame>
@@ -1605,7 +1605,7 @@
 								<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 								<paragraph leftIndent="5"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{national_id_number}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{identification_card_number}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -1653,7 +1653,7 @@
 								<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 								<paragraph leftIndent="5"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{national_id_date_of_provision}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{identification_card_date_start}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -1701,7 +1701,7 @@
 								<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 								<paragraph leftIndent="5"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{national_id_expiration_date}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{identification_card_date_end}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -1749,7 +1749,7 @@
 								<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 								<paragraph leftIndent="5"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{national_id_issuing_authority}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{identification_card_issuer}]]></textFieldExpression>
 						</textField>
 					</frame>
 				</frame>
@@ -2071,7 +2071,7 @@
 								<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 								<paragraph leftIndent="5"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{national_id_number_p}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{passport_number}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -2119,7 +2119,7 @@
 								<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 								<paragraph leftIndent="5"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{national_id_date_of_provision_p}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{passport_date_start}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -2167,7 +2167,7 @@
 								<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 								<paragraph leftIndent="5"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{national_id_expiration_date_p}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{passport_date_end}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -2215,7 +2215,7 @@
 								<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 								<paragraph leftIndent="5"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{national_id_issuing_authority_p}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{passport_issuer}]]></textFieldExpression>
 						</textField>
 					</frame>
 				</frame>
