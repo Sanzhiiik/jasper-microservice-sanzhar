@@ -366,18 +366,6 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="information_about_close_relatives_address"/>
 		<fieldDescription><![CDATA[information_about_close_relatives_address]]></fieldDescription>
 	</field>
-	<field name="results_of_the_initial_interview_registrationNumberAndDate" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="results_of_the_initial_interview_registrationNumberAndDate"/>
-		<fieldDescription><![CDATA[results_of_the_initial_interview_registrationNumberAndDate]]></fieldDescription>
-	</field>
-	<field name="results_of_the_initial_interview_conclusion" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="results_of_the_initial_interview_conclusion"/>
-		<fieldDescription><![CDATA[results_of_the_initial_interview_conclusion]]></fieldDescription>
-	</field>
-	<field name="results_of_the_initial_interview_officialPosition" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="results_of_the_initial_interview_officialPosition"/>
-		<fieldDescription><![CDATA[results_of_the_initial_interview_officialPosition]]></fieldDescription>
-	</field>
 	<field name="criminal_record_detentionMeasure" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="criminal_record_detentionMeasure"/>
 		<fieldDescription><![CDATA[criminal_record_detentionMeasure]]></fieldDescription>
@@ -758,13 +746,25 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="gpa"/>
 		<fieldDescription><![CDATA[gpa]]></fieldDescription>
 	</field>
+    <field name="education_info" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="education_info"/>
+        <fieldDescription><![CDATA[education_info]]></fieldDescription>
+    </field>
+    <field name="last_profession" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="last_profession"/>
+        <fieldDescription><![CDATA[last_profession]]></fieldDescription>
+    </field>
+    <field name="last_gpa" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="last_gpa"/>
+		<fieldDescription><![CDATA[last_gpa]]></fieldDescription>
+	</field>
 	<field name="education_postgraduate" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="education_postgraduate"/>
 		<fieldDescription><![CDATA[education_postgraduate]]></fieldDescription>
 	</field>
-	<field name="foreign-language" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="foreign-language"/>
-		<fieldDescription><![CDATA[foreign-language]]></fieldDescription>
+	<field name="foreign_languages" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="foreign_languages"/>
+		<fieldDescription><![CDATA[foreign_languages]]></fieldDescription>
 	</field>
 	<field name="skills" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="skills"/>
@@ -774,9 +774,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="suitability_level"/>
 		<fieldDescription><![CDATA[suitability_level]]></fieldDescription>
 	</field>
-	<field name="status" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="status"/>
-		<fieldDescription><![CDATA[status]]></fieldDescription>
+	<field name="military_status" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="military_status"/>
+		<fieldDescription><![CDATA[military_status]]></fieldDescription>
 	</field>
 	<field name="military_rank" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="military_rank"/>
@@ -786,29 +786,29 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="suitability_level_manual"/>
 		<fieldDescription><![CDATA[suitability_level_manual]]></fieldDescription>
 	</field>
-	<field name="status_manual" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="status_manual"/>
-		<fieldDescription><![CDATA[status_manual]]></fieldDescription>
+	<field name="military_status_manual" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="military_status_manual"/>
+		<fieldDescription><![CDATA[military_status_manual]]></fieldDescription>
 	</field>
 	<field name="military_rank_manual" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="military_rank_manual"/>
 		<fieldDescription><![CDATA[military_rank_manual]]></fieldDescription>
 	</field>
-	<field name="job-title" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="job-title"/>
-		<fieldDescription><![CDATA[job-title]]></fieldDescription>
+	<field name="work_info" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="work_info"/>
+		<fieldDescription><![CDATA[work_info]]></fieldDescription>
 	</field>
-	<field name="legal entity" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="legal entity"/>
-		<fieldDescription><![CDATA[legal entity]]></fieldDescription>
+	<field name="business_info" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="business_info"/>
+		<fieldDescription><![CDATA[business_info]]></fieldDescription>
 	</field>
-	<field name="first-check" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="first-check"/>
-		<fieldDescription><![CDATA[first-check]]></fieldDescription>
+	<field name="interview_info" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="interview_info"/>
+		<fieldDescription><![CDATA[interview_info]]></fieldDescription>
 	</field>
-	<field name="final-check" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="final-check"/>
-		<fieldDescription><![CDATA[final-check]]></fieldDescription>
+	<field name="total_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="total_date"/>
+		<fieldDescription><![CDATA[total_date]]></fieldDescription>
 	</field>
 	<field name="adder_fullname" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="adder_fullname"/>
@@ -1840,7 +1840,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Оқу орнының атауы, оқуға түсу және аяқтау күні/ Наименование учебного заведения, дата поступления и дата окончания  ]]></text>
+							<text><![CDATA[Оқу орнының атауы, оқуға түсу және аяқтау күні/ Наименование учебного заведения, дата поступления и дата окончания]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="198" height="70" uuid="512780d2-7e77-4bfc-b498-ff75214b3cf3">
@@ -1853,7 +1853,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{study-name}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{education_info}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -1885,9 +1885,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Білімі бойынша мамандығы/ Специальность
-по образованию
-]]></text>
+							<text><![CDATA[Білімі бойынша мамандығы/ Специальность по образованию]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="40" width="120" height="30" uuid="9e03c630-ed87-4e21-b003-ce637edfc34d">
@@ -1900,7 +1898,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{speciality}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{last_profession}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -1932,7 +1930,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Орташа балл/ Средний балл]]></text>
+							<text><![CDATA[GPA]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="40" width="120" height="30" uuid="9e55af1c-9d36-4389-9b5a-c81173992a8c">
@@ -1945,7 +1943,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{gpa}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{last_gpa}]]></textFieldExpression>
 						</textField>
 					</frame>
 				</frame>
@@ -2352,7 +2350,7 @@
 								<textElement>
 									<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 								</textElement>
-								<textFieldExpression><![CDATA[$F{status}]]></textFieldExpression>
+								<textFieldExpression><![CDATA[$F{military_status}]]></textFieldExpression>
 							</textField>
 						</frame>
 						<frame>
@@ -2384,7 +2382,7 @@
 								<textElement>
 									<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 								</textElement>
-								<text><![CDATA[Атағы/Звание   ]]></text>
+								<text><![CDATA[Атағы/Звание]]></text>
 							</staticText>
 							<textField textAdjust="ScaleFont">
 								<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="318" height="15" uuid="e8a7caa2-b3ee-4ef8-ade8-50676fa9198c">
@@ -2430,7 +2428,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Жұмыс орны, лауазымы/ Место работы, должность]]></text>
+							<text><![CDATA[Жұмыс орны, басталу күні, аяқталу күні/Место работы, дата начала, дата окончания]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="fe09c986-c533-4318-8233-08d92aead32e">
@@ -2443,7 +2441,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{job-title}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{work_info}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -2488,7 +2486,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{legal entity}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{business_info}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -2533,7 +2531,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{first-check}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{interview_info}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -2565,7 +2563,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Қорытындының тіркеу нөмірі мен дайындалған күні/  Регистрационный номер и дата заключения]]></text>
+							<text><![CDATA[Қорытындының күні/Дата заключения]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="489a918e-4580-431f-9007-56a1267a0093">
@@ -2578,7 +2576,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{final-check}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{total_date}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -2753,7 +2751,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{foreign-language}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{foreign_languages}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -2866,7 +2864,7 @@
 								<textElement>
 									<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 								</textElement>
-								<textFieldExpression><![CDATA[$F{status_manual}]]></textFieldExpression>
+								<textFieldExpression><![CDATA[$F{military_status_manual}]]></textFieldExpression>
 							</textField>
 						</frame>
 						<frame>
