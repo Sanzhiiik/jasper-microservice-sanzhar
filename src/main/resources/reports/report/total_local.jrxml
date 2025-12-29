@@ -14,10 +14,6 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="fullname"/>
 		<fieldDescription><![CDATA[fullname]]></fieldDescription>
 	</field>
-	<field name="previous_fullName" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="previous_fullName"/>
-		<fieldDescription><![CDATA[previous_fullName]]></fieldDescription>
-	</field>
 	<field name="birth_date" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="birth_date"/>
 		<fieldDescription><![CDATA[birth_date]]></fieldDescription>
@@ -138,9 +134,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="fio_change_date"/>
 		<fieldDescription><![CDATA[fio_change_date]]></fieldDescription>
 	</field>
-	<field name="reason_for_change" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="reason_for_change"/>
-		<fieldDescription><![CDATA[reason_for_change]]></fieldDescription>
+	<field name="change_reason" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="change_reason"/>
+		<fieldDescription><![CDATA[change_reason]]></fieldDescription>
 	</field>
 	<field name="reg_act_number" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="reg_act_number"/>
@@ -150,9 +146,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="reg_act_date"/>
 		<fieldDescription><![CDATA[reg_act_date]]></fieldDescription>
 	</field>
-	<field name="region_registration_act" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="region_registration_act"/>
-		<fieldDescription><![CDATA[region_registration_act]]></fieldDescription>
+	<field name="reg_act_region" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="reg_act_region"/>
+		<fieldDescription><![CDATA[reg_act_region]]></fieldDescription>
 	</field>
 	<field name="birth_certificate_number" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="birth_certificate_number"/>
@@ -254,9 +250,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="fio_change_date_manual"/>
 		<fieldDescription><![CDATA[fio_change_date_manual]]></fieldDescription>
 	</field>
-	<field name="reason_for_change_manual" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="reason_for_change_manual"/>
-		<fieldDescription><![CDATA[reason_for_change_manual]]></fieldDescription>
+	<field name="change_reason_manual" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="change_reason_manual"/>
+		<fieldDescription><![CDATA[change_reason_manual]]></fieldDescription>
 	</field>
 	<field name="reg_act_number_manual" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="reg_act_number_manual"/>
@@ -266,9 +262,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="reg_act_date_manual"/>
 		<fieldDescription><![CDATA[reg_act_date_manual]]></fieldDescription>
 	</field>
-	<field name="region_registration_act_manual" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="region_registration_act_manual"/>
-		<fieldDescription><![CDATA[region_registration_act_manual]]></fieldDescription>
+	<field name="reg_act_region_manual" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="reg_act_region_manual"/>
+		<fieldDescription><![CDATA[reg_act_region_manual]]></fieldDescription>
 	</field>
 	<field name="birth_certificate_number_manual" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="birth_certificate_number_manual"/>
@@ -2936,7 +2932,7 @@
 						<textElement textAlignment="Center" verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<text><![CDATA[Добавление данных о смене ФИО/Атын өзгерту туралы мәліметтерді қосу]]></text>
+						<text><![CDATA[Атын өзгерту туралы мәліметтер/Сведения о смене ФИО]]></text>
 					</staticText>
 					<frame>
 						<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="210" width="558" height="30" uuid="a92558fe-c893-42d7-b6d4-810fe7326bcd">
@@ -3129,7 +3125,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Причина изменения/Өзгеріс себебі]]></text>
+							<text><![CDATA[Өзгерістің себебі/Причина изменения]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="50" uuid="382c8379-94f8-45ff-a044-0be992c9893f">
@@ -3147,7 +3143,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{reason_for_change_manual}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{change_reason_manual}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<staticText>
@@ -3166,7 +3162,7 @@
 						<textElement textAlignment="Center" verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<text><![CDATA[Добавление данных о смене(вручную)ФИО/ТӘЖ(қолмен)өзгерту туралы мәліметтерді қосу]]></text>
+						<text><![CDATA[Атын өзгерту туралы мәліметтер(қолмен)/Сведения о смене ФИО(вручную)]]></text>
 					</staticText>
 					<frame>
 						<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="20" width="558" height="30" uuid="504e77da-0d0b-4c57-b32a-72bfff4a54f4">
@@ -3359,7 +3355,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Причина изменения/Өзгеріс себебі]]></text>
+							<text><![CDATA[Өзгерістің себебі/Причина изменения]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="50" uuid="fba0e99c-f529-4599-b647-1d4b65ee0c4b">
@@ -3377,7 +3373,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{reason_for_change}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{change_reason}]]></textFieldExpression>
 						</textField>
 					</frame>
 				</frame>
@@ -3883,7 +3879,7 @@
 						<textElement textAlignment="Center" verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<text><![CDATA[Сведения о рождении/Туу туралы ақпарат]]></text>
+						<text><![CDATA[Туу туралы ақпарат/Сведения о рождении]]></text>
 					</staticText>
 					<frame>
 						<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="190" width="558" height="30" uuid="689b5305-2bc0-4b1c-9311-beb621df1bdd">
@@ -3991,7 +3987,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Регион записи акта/Заңды тіркеу аймағы]]></text>
+							<text><![CDATA[Заңды тіркеу аймағы/Регион записи акта]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="1b1ddee4-9f7d-4408-99e0-9e992decd0e7">
@@ -4008,7 +4004,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{region_registration_act_manual}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{reg_act_region_manual}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
@@ -4111,7 +4107,7 @@
 						<textElement textAlignment="Center" verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<text><![CDATA[Сведения о рождении(вручную)/Туу туралы ақпарат(қолмен)]]></text>
+						<text><![CDATA[Туу туралы ақпарат(қолмен)/Сведения о рождении(вручную)]]></text>
 					</staticText>
 					<frame>
 						<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="20" width="558" height="30" uuid="d7d77307-7d88-4de8-bf0a-90ed92017d15">
@@ -4219,7 +4215,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<text><![CDATA[Регион записи акта/Заңды тіркеу аймағы]]></text>
+							<text><![CDATA[Заңды тіркеу аймағы/Регион записи акта]]></text>
 						</staticText>
 						<textField textAdjust="ScaleFont">
 							<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="9d8039be-e949-4306-b986-f368a684adbf">
@@ -4236,7 +4232,7 @@
 							<textElement>
 								<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{region_registration_act}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{reg_act_region}]]></textFieldExpression>
 						</textField>
 					</frame>
 					<frame>
