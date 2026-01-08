@@ -470,10 +470,6 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="admin_crime_qualification"/>
 		<fieldDescription><![CDATA[admin_crime_qualification]]></fieldDescription>
 	</field>
-	<field name="admin_crime_measures" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="admin_crime_measures"/>
-		<fieldDescription><![CDATA[admin_crime_measures]]></fieldDescription>
-	</field>
 	<field name="admin_crime_case_result" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="admin_crime_case_result"/>
 		<fieldDescription><![CDATA[admin_crime_case_result]]></fieldDescription>
@@ -482,41 +478,13 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="admin_crime_main_penalty"/>
 		<fieldDescription><![CDATA[admin_crime_main_penalty]]></fieldDescription>
 	</field>
-	<field name="administration_offences_materialNumber" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_materialNumber"/>
-		<fieldDescription><![CDATA[administration_offences_materialNumber]]></fieldDescription>
+	<field name="admin_crime_measures" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="admin_crime_measures"/>
+		<fieldDescription><![CDATA[admin_crime_measures]]></fieldDescription>
 	</field>
-	<field name="administration_offences_violatingAuthority" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_violatingAuthority"/>
-		<fieldDescription><![CDATA[administration_offences_violatingAuthority]]></fieldDescription>
-	</field>
-	<field name="administration_offences_caseInitiationDate" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_caseInitiationDate"/>
-		<fieldDescription><![CDATA[administration_offences_caseInitiationDate]]></fieldDescription>
-	</field>
-	<field name="administration_offences_decisionMakingAuthority" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_decisionMakingAuthority"/>
-		<fieldDescription><![CDATA[administration_offences_decisionMakingAuthority]]></fieldDescription>
-	</field>
-	<field name="administration_offences_qualification" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_qualification"/>
-		<fieldDescription><![CDATA[administration_offences_qualification]]></fieldDescription>
-	</field>
-	<field name="administration_offences_decisionDate" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_decisionDate"/>
-		<fieldDescription><![CDATA[administration_offences_decisionDate]]></fieldDescription>
-	</field>
-	<field name="administration_offences_decision" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_decision"/>
-		<fieldDescription><![CDATA[administration_offences_decision]]></fieldDescription>
-	</field>
-	<field name="administration_offences_penaltyAmount" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_penaltyAmount"/>
-		<fieldDescription><![CDATA[administration_offences_penaltyAmount]]></fieldDescription>
-	</field>
-	<field name="dismissal_from_public_service_for_negative_reasons_workplace" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_from_public_service_for_negative_reasons_workplace"/>
-		<fieldDescription><![CDATA[dismissal_from_public_service_for_negative_reasons_workplace]]></fieldDescription>
+	<field name="dismissal_work_place" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_work_place"/>
+		<fieldDescription><![CDATA[dismissal_work_place]]></fieldDescription>
 	</field>
 	<field name="dismissal_from_public_service_for_negative_reasons_position" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_from_public_service_for_negative_reasons_position"/>
@@ -7364,7 +7332,7 @@
 				</textField>
 			</frame>
 			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="310" width="558" height="30" uuid="cb08445c-7386-4688-9366-8b4460998cbe">
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="280" width="558" height="30" uuid="cb08445c-7386-4688-9366-8b4460998cbe">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -7406,7 +7374,7 @@
 				</textField>
 			</frame>
 			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="340" width="558" height="30" uuid="8c9bb172-90d9-4228-8d07-da460d6df971">
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="310" width="558" height="30" uuid="8c9bb172-90d9-4228-8d07-da460d6df971">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -7447,9 +7415,8 @@
 					<textFieldExpression><![CDATA[$F{admin_crime_main_penalty}]]></textFieldExpression>
 				</textField>
 			</frame>
-			            </frame>
-                       <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="280" width="558" height="30" uuid="5c136a4f-52d8-47df-89bd-9e768552c55e">
+            <frame>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="340" width="558" height="30" uuid="5c136a4f-52d8-47df-89bd-9e768552c55e">
                     <property name="com.jaspersoft.studio.unit.x" value="px"/>
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -7547,7 +7514,7 @@
 					<textElement>
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{dismissal_from_public_service_for_negative_reasons_workplace}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{dismissal_work_place}]]></textFieldExpression>
 				</textField>
 			</frame>
 			<frame>
