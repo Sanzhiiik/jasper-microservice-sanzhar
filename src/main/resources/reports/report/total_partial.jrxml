@@ -450,37 +450,37 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="criminal_record_additionalNotes"/>
 		<fieldDescription><![CDATA[criminal_record_additionalNotes]]></fieldDescription>
 	</field>
-	<field name="corruption_offences_materialNumber" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="corruption_offences_materialNumber"/>
-		<fieldDescription><![CDATA[corruption_offences_materialNumber]]></fieldDescription>
+	<field name="admin_crime_case_number" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="admin_crime_case_number"/>
+		<fieldDescription><![CDATA[admin_crime_case_number]]></fieldDescription>
 	</field>
-	<field name="corruption_offences_violatingAuthority" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="corruption_offences_violatingAuthority"/>
-		<fieldDescription><![CDATA[corruption_offences_violatingAuthority]]></fieldDescription>
+	<field name="admin_crime_agency" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="admin_crime_agency"/>
+		<fieldDescription><![CDATA[admin_crime_agency]]></fieldDescription>
 	</field>
-	<field name="corruption_offences_caseInitiationDate" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="corruption_offences_caseInitiationDate"/>
-		<fieldDescription><![CDATA[corruption_offences_caseInitiationDate]]></fieldDescription>
+	<field name="admin_crime_start_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="admin_crime_start_date"/>
+		<fieldDescription><![CDATA[admin_crime_start_date]]></fieldDescription>
 	</field>
-	<field name="corruption_offences_decisionMakingAuthority" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="corruption_offences_decisionMakingAuthority"/>
-		<fieldDescription><![CDATA[corruption_offences_decisionMakingAuthority]]></fieldDescription>
+	<field name="admin_crime_avs_name" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="admin_crime_avs_name"/>
+		<fieldDescription><![CDATA[admin_crime_avs_name]]></fieldDescription>
 	</field>
-	<field name="corruption_offences_qualification" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="corruption_offences_qualification"/>
-		<fieldDescription><![CDATA[corruption_offences_qualification]]></fieldDescription>
+	<field name="admin_crime_qualification" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="admin_crime_qualification"/>
+		<fieldDescription><![CDATA[admin_crime_qualification]]></fieldDescription>
 	</field>
-	<field name="corruption_offences_decisionDate" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="corruption_offences_decisionDate"/>
-		<fieldDescription><![CDATA[corruption_offences_decisionDate]]></fieldDescription>
+	<field name="admin_crime_measures" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="admin_crime_measures"/>
+		<fieldDescription><![CDATA[admin_crime_measures]]></fieldDescription>
 	</field>
-	<field name="corruption_offences_decision" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="corruption_offences_decision"/>
-		<fieldDescription><![CDATA[corruption_offences_decision]]></fieldDescription>
+	<field name="admin_crime_case_result" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="admin_crime_case_result"/>
+		<fieldDescription><![CDATA[admin_crime_case_result]]></fieldDescription>
 	</field>
-	<field name="corruption_offences_penaltyAmount" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="corruption_offences_penaltyAmount"/>
-		<fieldDescription><![CDATA[corruption_offences_penaltyAmount]]></fieldDescription>
+	<field name="admin_crime_main_penalty" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="admin_crime_main_penalty"/>
+		<fieldDescription><![CDATA[admin_crime_main_penalty]]></fieldDescription>
 	</field>
 	<field name="administration_offences_materialNumber" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="administration_offences_materialNumber"/>
@@ -3573,7 +3573,7 @@
 					</textField>
 				</frame>
 				<frame>
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="330" width="558" height="50" uuid="a8477800-dca0-47e5-9c76-22208f27bf24">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="330" width="558" height="30" uuid="a8477800-dca0-47e5-9c76-22208f27bf24">
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -7142,9 +7142,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Әкімшілік құқық бұзушылықтар /
-Административные правонарушения
-]]></text>
+				<text><![CDATA[Әкімшілік құқық бұзушылықтар/Административные правонарушения]]></text>
 			</staticText>
 			<frame>
 				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="130" width="558" height="30" uuid="fc88a138-a697-4ba8-b489-b9c419997926">
@@ -7168,7 +7166,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Материалдың нөмірі / Номер материала  ]]></text>
+					<text><![CDATA[Әкімшілік істің нөмірі/Номер административного дела]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="05529035-26dc-40c7-8325-2d49960891d9">
@@ -7185,9 +7183,51 @@
 					<textElement>
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{corruption_offences_materialNumber}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{admin_crime_case_number}]]></textFieldExpression>
 				</textField>
 			</frame>
+			            <frame>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="190" width="558" height="30" uuid="0ac350a4-4670-4ce8-bb12-be9002be294d">
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                </reportElement>
+                <staticText>
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="30" backcolor="#E7E6E6" uuid="a7f5bede-6a43-432c-b600-cf7f2b8565bb">
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    </reportElement>
+                    <box leftPadding="5">
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <text><![CDATA[Істің құрылған күні/Дата заведения дела]]></text>
+                </staticText>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="44c1e374-4333-4eea-9648-89223ac2505e">
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    </reportElement>
+                    <box leftPadding="5">
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement>
+                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{admin_crime_start_date}]]></textFieldExpression>
+                </textField>
+            </frame>
 			<frame>
 				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="160" width="558" height="30" uuid="d7a500f7-78ee-4eab-98c3-675d46d16eb8">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -7210,7 +7250,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Құқық бұзушылықты анықтаған орган/Орган, выявивший правонарушение ]]></text>
+					<text><![CDATA[Құқық бұзушылықты анықтаған Орган/Орган, выявивший правонарушение]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="26821a9f-712c-4a09-9218-8f2b61462ad9">
@@ -7227,49 +7267,7 @@
 					<textElement>
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{corruption_offences_violatingAuthority}]]></textFieldExpression>
-				</textField>
-			</frame>
-			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="190" width="558" height="30" uuid="0ac350a4-4670-4ce8-bb12-be9002be294d">
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="30" backcolor="#E7E6E6" uuid="a7f5bede-6a43-432c-b600-cf7f2b8565bb">
-						<property name="com.jaspersoft.studio.unit.x" value="px"/>
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<text><![CDATA[Басталған күні/Дата заведения ]]></text>
-				</staticText>
-				<textField textAdjust="StretchHeight">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="44c1e374-4333-4eea-9648-89223ac2505e">
-						<property name="com.jaspersoft.studio.unit.x" value="px"/>
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					</box>
-					<textElement>
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<textFieldExpression><![CDATA[$F{corruption_offences_caseInitiationDate}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{admin_crime_agency}]]></textFieldExpression>
 				</textField>
 			</frame>
 			<frame>
@@ -7294,7 +7292,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Шешім қабылдаған орган/Орган, принявший решение ]]></text>
+					<text><![CDATA[ААЖ атауы/Название АИС]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="355ae394-7326-4d9f-b9f9-80fee3ad182a">
@@ -7311,7 +7309,7 @@
 					<textElement>
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{corruption_offences_decisionMakingAuthority}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{admin_crime_avs_name}]]></textFieldExpression>
 				</textField>
 			</frame>
 			<frame>
@@ -7336,7 +7334,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Біліктілік/Квалификация ]]></text>
+					<text><![CDATA[Біліктілік (ӘҚБтК)/Квалификация (КРКоАП)]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="321d9cfa-dbb9-492b-851d-a40fa03a8660">
@@ -7353,49 +7351,7 @@
 					<textElement>
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{corruption_offences_qualification}]]></textFieldExpression>
-				</textField>
-			</frame>
-			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="280" width="558" height="30" uuid="5c136a4f-52d8-47df-89bd-9e768552c55e">
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="30" backcolor="#E7E6E6" uuid="cea43d1a-d755-4c41-a3d9-79277e125d1b">
-						<property name="com.jaspersoft.studio.unit.x" value="px"/>
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<text><![CDATA[Шешім күні/Дата решения 	]]></text>
-				</staticText>
-				<textField textAdjust="StretchHeight">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="0d49b795-2605-4711-b3b2-0ba4c15807fa">
-						<property name="com.jaspersoft.studio.unit.x" value="px"/>
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					</box>
-					<textElement>
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<textFieldExpression><![CDATA[$F{corruption_offences_decisionDate}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{admin_crime_qualification}]]></textFieldExpression>
 				</textField>
 			</frame>
 			<frame>
@@ -7420,7 +7376,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Шешім/Решение ]]></text>
+					<text><![CDATA[Материал бойынша шешім/Решение по материалу]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="c940a1cd-7419-41c0-a3cf-83be8adc6bc9">
@@ -7437,7 +7393,7 @@
 					<textElement>
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{corruption_offences_decision}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{admin_crime_case_result}]]></textFieldExpression>
 				</textField>
 			</frame>
 			<frame>
@@ -7462,7 +7418,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Салынған айыппұл мөлшері/Размер наложенного штрафа]]></text>
+					<text><![CDATA[Өндіріп алудың негізгі шарасы/Основная мера взыскания]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="edfdefb4-cfc0-4481-9a5d-06fcdb1ec921">
@@ -7479,9 +7435,52 @@
 					<textElement>
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{corruption_offences_penaltyAmount}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{admin_crime_main_penalty}]]></textFieldExpression>
 				</textField>
 			</frame>
+			            </frame>
+                       <frame>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="280" width="558" height="30" uuid="5c136a4f-52d8-47df-89bd-9e768552c55e">
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                </reportElement>
+                <staticText>
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="30" backcolor="#E7E6E6" uuid="cea43d1a-d755-4c41-a3d9-79277e125d1b">
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    </reportElement>
+                    <box leftPadding="5">
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <text><![CDATA[Әкімшілік-құқықтық шаралар/Административно-правовые меры]]></text>
+                </staticText>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="0d49b795-2605-4711-b3b2-0ba4c15807fa">
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    </reportElement>
+                    <box leftPadding="5">
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement>
+                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{admin_crime_measures}]]></textFieldExpression>
+                </textField>
+            </frame>
 			<staticText>
 				<reportElement positionType="Float" mode="Opaque" x="0" y="380" width="558" height="30" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#E7E6E6" uuid="eef6fd1f-3670-4207-99f2-9897f389bebd">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -7498,7 +7497,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Мемлекеттік қызметтен теріс себептер бойынша босату / Увольнение с государственной службы по отрицательным мотивам]]></text>
+				<text><![CDATA[Теріс себептермен мемлекеттік қызметтен шығару/Увольнение с государственной службы по отрицательным мотивам]]></text>
 			</staticText>
 			<frame>
 				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="410" width="558" height="30" uuid="70cbaac6-b30a-40cb-84b4-3722e3d9b971">
