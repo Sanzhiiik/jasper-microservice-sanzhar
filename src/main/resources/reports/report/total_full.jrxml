@@ -486,25 +486,25 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_work_place"/>
 		<fieldDescription><![CDATA[dismissal_work_place]]></fieldDescription>
 	</field>
-	<field name="dismissal_from_public_service_for_negative_reasons_position" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_from_public_service_for_negative_reasons_position"/>
-		<fieldDescription><![CDATA[dismissal_from_public_service_for_negative_reasons_position]]></fieldDescription>
+	<field name="dismissal_post" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_post"/>
+		<fieldDescription><![CDATA[dismissal_post]]></fieldDescription>
 	</field>
-	<field name="dismissal_from_public_service_for_negative_reasons_registrationDate" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_from_public_service_for_negative_reasons_registrationDate"/>
-		<fieldDescription><![CDATA[dismissal_from_public_service_for_negative_reasons_registrationDate]]></fieldDescription>
+	<field name="dismissal_indication" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_indication"/>
+		<fieldDescription><![CDATA[dismissal_indication]]></fieldDescription>
 	</field>
-	<field name="dismissal_from_public_service_for_negative_reasons_materialNumber" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_from_public_service_for_negative_reasons_materialNumber"/>
-		<fieldDescription><![CDATA[dismissal_from_public_service_for_negative_reasons_materialNumber]]></fieldDescription>
+	<field name="dismissal_order_number" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_order_number"/>
+		<fieldDescription><![CDATA[dismissal_order_number]]></fieldDescription>
 	</field>
-	<field name="dismissal_from_public_service_for_negative_reasons_decisionMakingAuthority" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_from_public_service_for_negative_reasons_decisionMakingAuthority"/>
-		<fieldDescription><![CDATA[dismissal_from_public_service_for_negative_reasons_decisionMakingAuthority]]></fieldDescription>
+	<field name="dismissal_order_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_order_date"/>
+		<fieldDescription><![CDATA[dismissal_order_date]]></fieldDescription>
 	</field>
-	<field name="dismissal_from_public_service_for_negative_reasons_orderNumberAndDate" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_from_public_service_for_negative_reasons_orderNumberAndDate"/>
-		<fieldDescription><![CDATA[dismissal_from_public_service_for_negative_reasons_orderNumberAndDate]]></fieldDescription>
+	<field name="---" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="---"/>
+		<fieldDescription><![CDATA[---]]></fieldDescription>
 	</field>
 	<field name="disciplinary_offenses_that_discredit_public_service_offendingAuthorityName" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="disciplinary_offenses_that_discredit_public_service_offendingAuthorityName"/>
@@ -5628,7 +5628,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Место работы/Жұмыс орны]]></text>
+				<text><![CDATA[Жұмыс орны/Место работы]]></text>
 			</staticText>
 			<frame>
 				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="430" width="558" height="70" uuid="eb4b67c1-c886-4065-9948-d210ed4ec1d4">
@@ -7497,7 +7497,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Жұмыс орны/Место работы ]]></text>
+					<text><![CDATA[Жұмыс орны/Место работы]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="caaef36e-25ff-43ed-881e-02388d9ec951">
@@ -7556,7 +7556,7 @@
 					<textElement>
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{dismissal_from_public_service_for_negative_reasons_position}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{dismissal_post}]]></textFieldExpression>
 				</textField>
 			</frame>
 			<frame>
@@ -7581,7 +7581,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Тіркелген күні/Дата регистрации]]></text>
+					<text><![CDATA[Қызметтен босатуды көрсету/Указание на увольнение с должности]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="0a01fe7e-0fbf-4535-9f67-ea66d9769ff7">
@@ -7598,7 +7598,7 @@
 					<textElement>
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{dismissal_from_public_service_for_negative_reasons_registrationDate}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{dismissal_indication}]]></textFieldExpression>
 				</textField>
 			</frame>
 			<frame>
@@ -7623,7 +7623,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Материалдың нөмірі/Номер материала ]]></text>
+					<text><![CDATA[Тапсырыс нөмірі/Номер приказа]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="a92718c2-cad8-435d-943e-1e6450c299cb">
@@ -7640,7 +7640,7 @@
 					<textElement>
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{dismissal_from_public_service_for_negative_reasons_materialNumber}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{dismissal_order_number}]]></textFieldExpression>
 				</textField>
 			</frame>
 			<frame>
@@ -7665,7 +7665,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Құқық бұзушылықты анықтаған орган/Орган, принявший решение  ]]></text>
+					<text><![CDATA[Тапсырыс күні/Дата приказа]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="d45f056c-d4fd-4b00-9593-b6aa3d94e371">
@@ -7682,7 +7682,7 @@
 					<textElement>
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{dismissal_from_public_service_for_negative_reasons_decisionMakingAuthority}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{dismissal_order_date}]]></textFieldExpression>
 				</textField>
 			</frame>
 			<frame>
@@ -7724,7 +7724,7 @@
 					<textElement>
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{dismissal_from_public_service_for_negative_reasons_orderNumberAndDate}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{---}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -7932,10 +7932,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Психоневрологиялық диспансерлік есеп /
-Психоневрологический диспансерный учет
-Детализация
-]]></text>
+				<text><![CDATA[Психоневрологиялық диспансерлік есеп/Психоневрологический диспансерный учет]]></text>
 			</staticText>
 			<frame>
 				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="190" width="558" height="30" uuid="993c20e3-0109-445c-bdef-5ec2fcf71f2b">
