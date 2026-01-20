@@ -887,7 +887,7 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="citizenship"/>
 		<fieldDescription><![CDATA[citizenship]]></fieldDescription>
 	</field>
-	<field name="IIN" class="java.lang.String">
+	<field name="IIN" class="java.lang.Long">
 		<property name="net.sf.jasperreports.json.field.expression" value="IIN"/>
 		<fieldDescription><![CDATA[IIN]]></fieldDescription>
 	</field>
@@ -963,7 +963,7 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="education_qualification"/>
 		<fieldDescription><![CDATA[education_qualification]]></fieldDescription>
 	</field>
-	<field name="education_gpa" class="java.lang.String">
+	<field name="education_gpa" class="java.math.BigDecimal">
 		<property name="net.sf.jasperreports.json.field.expression" value="education_gpa"/>
 		<fieldDescription><![CDATA[education_gpa]]></fieldDescription>
 	</field>
@@ -1099,7 +1099,75 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_accounting_narcology_doctorSpecialization"/>
 		<fieldDescription><![CDATA[dispensary_accounting_narcology_doctorSpecialization]]></fieldDescription>
 	</field>
-	<field name="confidential_assistants_iin" class="java.lang.String">
+	<field name="dispensary_registration_psycho_cardNumber" class="java.lang.Integer">
+		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_registration_psycho_cardNumber"/>
+		<fieldDescription><![CDATA[dispensary_registration_psycho_cardNumber]]></fieldDescription>
+	</field>
+	<field name="dispensary_registration_psycho_registrationDate" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_registration_psycho_registrationDate"/>
+		<fieldDescription><![CDATA[dispensary_registration_psycho_registrationDate]]></fieldDescription>
+	</field>
+	<field name="dispensary_registration_psycho_diagnosis" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_registration_psycho_diagnosis"/>
+		<fieldDescription><![CDATA[dispensary_registration_psycho_diagnosis]]></fieldDescription>
+	</field>
+	<field name="dispensary_registration_psycho_medicalOrganization" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_registration_psycho_medicalOrganization"/>
+		<fieldDescription><![CDATA[dispensary_registration_psycho_medicalOrganization]]></fieldDescription>
+	</field>
+	<field name="dispensary_registration_psycho_doctorFullName" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_registration_psycho_doctorFullName"/>
+		<fieldDescription><![CDATA[dispensary_registration_psycho_doctorFullName]]></fieldDescription>
+	</field>
+	<field name="dispensary_registration_psycho_doctorSpecialization" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_registration_psycho_doctorSpecialization"/>
+		<fieldDescription><![CDATA[dispensary_registration_psycho_doctorSpecialization]]></fieldDescription>
+	</field>
+	<field name="dispensary_registration_phthisiopulmonology_cardNumber" class="java.lang.Integer">
+		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_registration_phthisiopulmonology_cardNumber"/>
+		<fieldDescription><![CDATA[dispensary_registration_phthisiopulmonology_cardNumber]]></fieldDescription>
+	</field>
+	<field name="dispensary_registration_phthisiopulmonology_registrationDate" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_registration_phthisiopulmonology_registrationDate"/>
+		<fieldDescription><![CDATA[dispensary_registration_phthisiopulmonology_registrationDate]]></fieldDescription>
+	</field>
+	<field name="dispensary_registration_phthisiopulmonology_diagnosis" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_registration_phthisiopulmonology_diagnosis"/>
+		<fieldDescription><![CDATA[dispensary_registration_phthisiopulmonology_diagnosis]]></fieldDescription>
+	</field>
+	<field name="dispensary_registration_phthisiopulmonology_medicalOrganization" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_registration_phthisiopulmonology_medicalOrganization"/>
+		<fieldDescription><![CDATA[dispensary_registration_phthisiopulmonology_medicalOrganization]]></fieldDescription>
+	</field>
+	<field name="dispensary_registration_phthisiopulmonology_doctorFullName" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_registration_phthisiopulmonology_doctorFullName"/>
+		<fieldDescription><![CDATA[dispensary_registration_phthisiopulmonology_doctorFullName]]></fieldDescription>
+	</field>
+	<field name="dispensary_registration_phthisiopulmonology_doctorSpecialization" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dispensary_registration_phthisiopulmonology_doctorSpecialization"/>
+		<fieldDescription><![CDATA[dispensary_registration_phthisiopulmonology_doctorSpecialization]]></fieldDescription>
+	</field>
+	<field name="declaration_type" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="declaration_type"/>
+		<fieldDescription><![CDATA[declaration_type]]></fieldDescription>
+	</field>
+	<field name="declaration_accept_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="declaration_accept_date"/>
+		<fieldDescription><![CDATA[declaration_accept_date]]></fieldDescription>
+	</field>
+	<field name="declaration_number" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="declaration_number"/>
+		<fieldDescription><![CDATA[declaration_number]]></fieldDescription>
+	</field>
+	<field name="declaration_period" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="declaration_period"/>
+		<fieldDescription><![CDATA[declaration_period]]></fieldDescription>
+	</field>
+	<field name="declaration_tax_division" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="declaration_tax_division"/>
+		<fieldDescription><![CDATA[declaration_tax_division]]></fieldDescription>
+	</field>
+	<field name="confidential_assistants_iin" class="java.lang.Long">
 		<property name="net.sf.jasperreports.json.field.expression" value="confidential_assistants_iin"/>
 		<fieldDescription><![CDATA[confidential_assistants_iin]]></fieldDescription>
 	</field>
@@ -1179,11 +1247,11 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="operational_verification_person_korpus_a"/>
 		<fieldDescription><![CDATA[operational_verification_person_korpus_a]]></fieldDescription>
 	</field>
-	<field name="operational_verification_person_iin" class="java.lang.String">
+	<field name="operational_verification_person_iin" class="java.lang.Long">
 		<property name="net.sf.jasperreports.json.field.expression" value="operational_verification_person_iin"/>
 		<fieldDescription><![CDATA[operational_verification_person_iin]]></fieldDescription>
 	</field>
-	<field name="work_study_verification_iin" class="java.lang.String">
+	<field name="work_study_verification_iin" class="java.lang.Long">
 		<property name="net.sf.jasperreports.json.field.expression" value="work_study_verification_iin"/>
 		<fieldDescription><![CDATA[work_study_verification_iin]]></fieldDescription>
 	</field>
@@ -1219,7 +1287,7 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="work_study_verification_executor_fio"/>
 		<fieldDescription><![CDATA[work_study_verification_executor_fio]]></fieldDescription>
 	</field>
-	<field name="database_check_iin" class="java.lang.String">
+	<field name="database_check_iin" class="java.lang.Long">
 		<property name="net.sf.jasperreports.json.field.expression" value="database_check_iin"/>
 		<fieldDescription><![CDATA[database_check_iin]]></fieldDescription>
 	</field>
@@ -1255,7 +1323,7 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="database_check_executor_fio"/>
 		<fieldDescription><![CDATA[database_check_executor_fio]]></fieldDescription>
 	</field>
-	<field name="detailing_revealed_iin" class="java.lang.String">
+	<field name="detailing_revealed_iin" class="java.lang.Long">
 		<property name="net.sf.jasperreports.json.field.expression" value="detailing_revealed_iin"/>
 		<fieldDescription><![CDATA[detailing_revealed_iin]]></fieldDescription>
 	</field>
@@ -1283,7 +1351,7 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="detailing_revealed_executor_fio"/>
 		<fieldDescription><![CDATA[detailing_revealed_executor_fio]]></fieldDescription>
 	</field>
-	<field name="internet_check_iin" class="java.lang.String">
+	<field name="internet_check_iin" class="java.lang.Long">
 		<property name="net.sf.jasperreports.json.field.expression" value="internet_check_iin"/>
 		<fieldDescription><![CDATA[internet_check_iin]]></fieldDescription>
 	</field>
@@ -2370,8 +2438,9 @@
 					<text><![CDATA[Әрекетке қабілеттілігі / Дееспособность]]></text>
 				</staticText>
 				<frame>
-					<reportElement x="20" y="530" width="558" height="80" uuid="12345678-1234-1234-1234-123456789049">
+					<reportElement x="20" y="530" width="558" height="60" uuid="12345678-1234-1234-1234-123456789049">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box>
 						<topPen lineWidth="1.0"/>
@@ -2457,36 +2526,9 @@
 						</textElement>
 						<textFieldExpression><![CDATA[$F{on_the_limitation_of_legal_capacity_decisionDate}]]></textFieldExpression>
 					</textField>
-					<staticText>
-						<reportElement mode="Opaque" x="0" y="60" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789056"/>
-						<box leftPadding="3">
-							<topPen lineWidth="0.5"/>
-							<leftPen lineWidth="0.5"/>
-							<bottomPen lineWidth="0.5"/>
-							<rightPen lineWidth="0.5"/>
-						</box>
-						<textElement verticalAlignment="Middle">
-							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-						</textElement>
-						<text><![CDATA[Шешім қабылдаған орган/Орган
-принявший решение]]></text>
-					</staticText>
-					<textField>
-						<reportElement x="150" y="60" width="408" height="20" uuid="12345678-1234-1234-1234-123456789057"/>
-						<box leftPadding="3">
-							<topPen lineWidth="0.5"/>
-							<leftPen lineWidth="0.5"/>
-							<bottomPen lineWidth="0.5"/>
-							<rightPen lineWidth="0.5"/>
-						</box>
-						<textElement verticalAlignment="Middle">
-							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-						</textElement>
-						<textFieldExpression><![CDATA[$F{on_the_limitation_of_legal_capacity_decisionMakingAuthority}]]></textFieldExpression>
-					</textField>
 				</frame>
 				<staticText>
-					<reportElement mode="Opaque" x="20" y="610" width="558" height="25" backcolor="#D3D3D3" uuid="12345678-1234-1234-1234-123456789058">
+					<reportElement mode="Opaque" x="20" y="590" width="558" height="25" backcolor="#D3D3D3" uuid="12345678-1234-1234-1234-123456789058">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
 					<box>
@@ -2498,14 +2540,10 @@
 					<textElement textAlignment="Center" verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="11" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Психоневрологиялық
-диспансерлік есеп /
-Психоневрологически
-й диспансерный учет
-Детализация]]></text>
+					<text><![CDATA[Психоневрологиялық диспансерлік есеп/Психоневрологический диспансерный учет]]></text>
 				</staticText>
 				<frame>
-					<reportElement x="20" y="635" width="558" height="120" uuid="12345678-1234-1234-1234-123456789059">
+					<reportElement x="20" y="615" width="558" height="160" uuid="12345678-1234-1234-1234-123456789059">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
@@ -2539,7 +2577,7 @@
 						<textElement verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<textFieldExpression><![CDATA[$F{dispensary_accounting_narcology_cardNumber}]]></textFieldExpression>
+						<textFieldExpression><![CDATA[$F{dispensary_registration_psycho_cardNumber}]]></textFieldExpression>
 					</textField>
 					<staticText>
 						<reportElement mode="Opaque" x="0" y="20" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789062"/>
@@ -2565,7 +2603,7 @@
 						<textElement verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<textFieldExpression><![CDATA[$F{dispensary_accounting_narcology_registrationDate}]]></textFieldExpression>
+						<textFieldExpression><![CDATA[$F{dispensary_registration_psycho_registrationDate}]]></textFieldExpression>
 					</textField>
 					<staticText>
 						<reportElement mode="Opaque" x="0" y="40" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789064"/>
@@ -2591,10 +2629,12 @@
 						<textElement verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<textFieldExpression><![CDATA[$F{dispensary_accounting_narcology_diagnosis}]]></textFieldExpression>
+						<textFieldExpression><![CDATA[$F{dispensary_registration_psycho_diagnosis}]]></textFieldExpression>
 					</textField>
 					<staticText>
-						<reportElement mode="Opaque" x="0" y="60" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789066"/>
+						<reportElement mode="Opaque" x="0" y="60" width="150" height="30" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789066">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
 						<box leftPadding="3">
 							<topPen lineWidth="0.5"/>
 							<leftPen lineWidth="0.5"/>
@@ -2607,7 +2647,9 @@
 						<text><![CDATA[Медициналық ұйым/Медицинская]]></text>
 					</staticText>
 					<textField textAdjust="StretchHeight">
-						<reportElement x="150" y="60" width="408" height="20" uuid="12345678-1234-1234-1234-123456789067"/>
+						<reportElement x="150" y="60" width="408" height="30" uuid="12345678-1234-1234-1234-123456789067">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
 						<box leftPadding="3">
 							<topPen lineWidth="0.5"/>
 							<leftPen lineWidth="0.5"/>
@@ -2617,10 +2659,13 @@
 						<textElement verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<textFieldExpression><![CDATA[$F{dispensary_accounting_narcology_medicalOrganization}]]></textFieldExpression>
+						<textFieldExpression><![CDATA[$F{dispensary_registration_psycho_medicalOrganization}]]></textFieldExpression>
 					</textField>
 					<staticText>
-						<reportElement mode="Opaque" x="0" y="80" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789068"/>
+						<reportElement mode="Opaque" x="0" y="90" width="150" height="30" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789068">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						</reportElement>
 						<box leftPadding="3">
 							<topPen lineWidth="0.5"/>
 							<leftPen lineWidth="0.5"/>
@@ -2630,11 +2675,13 @@
 						<textElement verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<text><![CDATA[Дәрігердің тегі, аты, әкесінің
-аты/Фамилия, имя, отчество врача]]></text>
+						<text><![CDATA[Дәрігердің ТӘЖ/ФИО врача]]></text>
 					</staticText>
 					<textField>
-						<reportElement x="150" y="80" width="408" height="20" uuid="12345678-1234-1234-1234-123456789069"/>
+						<reportElement x="150" y="90" width="408" height="30" uuid="12345678-1234-1234-1234-123456789069">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						</reportElement>
 						<box leftPadding="3">
 							<topPen lineWidth="0.5"/>
 							<leftPen lineWidth="0.5"/>
@@ -2644,10 +2691,13 @@
 						<textElement verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<textFieldExpression><![CDATA[$F{dispensary_accounting_narcology_doctorFullName}]]></textFieldExpression>
+						<textFieldExpression><![CDATA[$F{dispensary_registration_psycho_doctorFullName}]]></textFieldExpression>
 					</textField>
 					<staticText>
-						<reportElement mode="Opaque" x="0" y="100" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789070"/>
+						<reportElement mode="Opaque" x="0" y="120" width="150" height="40" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789070">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						</reportElement>
 						<box leftPadding="3">
 							<topPen lineWidth="0.5"/>
 							<leftPen lineWidth="0.5"/>
@@ -2661,7 +2711,10 @@
 врача]]></text>
 					</staticText>
 					<textField>
-						<reportElement x="150" y="100" width="408" height="20" uuid="12345678-1234-1234-1234-123456789071"/>
+						<reportElement x="150" y="120" width="408" height="40" uuid="12345678-1234-1234-1234-123456789071">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						</reportElement>
 						<box leftPadding="3">
 							<topPen lineWidth="0.5"/>
 							<leftPen lineWidth="0.5"/>
@@ -2671,14 +2724,14 @@
 						<textElement verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<textFieldExpression><![CDATA[$F{dispensary_accounting_narcology_doctorSpecialization}]]></textFieldExpression>
+						<textFieldExpression><![CDATA[$F{dispensary_registration_psycho_doctorSpecialization}]]></textFieldExpression>
 					</textField>
 				</frame>
 			</band>
-			<band height="385" splitType="Immediate">
+			<band height="770" splitType="Immediate">
 				<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				<staticText>
-					<reportElement mode="Opaque" x="20" y="165" width="558" height="30" backcolor="#E7E6E6" uuid="1768811b-a820-4ec1-bb39-a2bba2c0cf1f">
+					<reportElement mode="Opaque" x="20" y="540" width="558" height="30" backcolor="#E7E6E6" uuid="1768811b-a820-4ec1-bb39-a2bba2c0cf1f">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -2695,7 +2748,7 @@
 					<text><![CDATA[ҰҚО жедел есепке алу бойынша тексеру / Проверка по оперативным учетам ОНБ]]></text>
 				</staticText>
 				<staticText>
-					<reportElement mode="Opaque" x="20" y="195" width="558" height="30" backcolor="#E7E6E6" uuid="57294af3-d1ca-4792-b9e4-2ffddec8c1d9">
+					<reportElement mode="Opaque" x="20" y="570" width="558" height="30" backcolor="#E7E6E6" uuid="57294af3-d1ca-4792-b9e4-2ffddec8c1d9">
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
@@ -2711,7 +2764,7 @@
 					<text><![CDATA[Подтверждение мест работы/учебы кандидата и сбор характеризующих данных]]></text>
 				</staticText>
 				<frame>
-					<reportElement x="20" y="225" width="558" height="160" uuid="6aa98dfb-0e63-4617-8fad-7667f7f7e808">
+					<reportElement x="20" y="600" width="558" height="160" uuid="6aa98dfb-0e63-4617-8fad-7667f7f7e808">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -2904,7 +2957,7 @@
 					</textField>
 				</frame>
 				<staticText>
-					<reportElement mode="Opaque" x="20" y="0" width="558" height="25" backcolor="#D3D3D3" uuid="12345678-1234-1234-1234-123456789072">
+					<reportElement mode="Opaque" x="20" y="400" width="558" height="25" backcolor="#D3D3D3" uuid="12345678-1234-1234-1234-123456789072">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
 					<box>
@@ -2919,7 +2972,7 @@
 					<text><![CDATA[Декларацияны тапсыру туралы мәліметтер / Сведения о сдаче декларации]]></text>
 				</staticText>
 				<frame>
-					<reportElement x="20" y="25" width="558" height="100" uuid="12345678-1234-1234-1234-123456789073">
+					<reportElement x="20" y="425" width="558" height="100" uuid="12345678-1234-1234-1234-123456789073">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
 					<box>
@@ -2952,7 +3005,7 @@
 						<textElement verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<textFieldExpression><![CDATA["Первоначальная"]]></textFieldExpression>
+						<textFieldExpression><![CDATA[$F{declaration_type}]]></textFieldExpression>
 					</textField>
 					<staticText>
 						<reportElement mode="Opaque" x="0" y="20" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789076"/>
@@ -2979,7 +3032,7 @@
 						<textElement verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<textFieldExpression><![CDATA["13.09.2023"]]></textFieldExpression>
+						<textFieldExpression><![CDATA[$F{declaration_accept_date}]]></textFieldExpression>
 					</textField>
 					<staticText>
 						<reportElement mode="Opaque" x="0" y="40" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789078"/>
@@ -2992,8 +3045,7 @@
 						<textElement verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<text><![CDATA[Декларацияның қабылданған күні /
-Регистрационный номер декларации]]></text>
+						<text><![CDATA[Декларацияның тіркеу нөмірі/Регистрационный номер декларации]]></text>
 					</staticText>
 					<textField>
 						<reportElement x="150" y="40" width="408" height="20" uuid="12345678-1234-1234-1234-123456789079"/>
@@ -3006,7 +3058,7 @@
 						<textElement verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<textFieldExpression><![CDATA["б20312092023N01598"]]></textFieldExpression>
+						<textFieldExpression><![CDATA[$F{declaration_number}]]></textFieldExpression>
 					</textField>
 					<staticText>
 						<reportElement mode="Opaque" x="0" y="60" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789080"/>
@@ -3019,8 +3071,7 @@
 						<textElement verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<text><![CDATA[Декларация қай кезеңге берілді / За
-какой период подана декларация]]></text>
+						<text><![CDATA[Декларация кезеңі/Период декларации]]></text>
 					</staticText>
 					<textField>
 						<reportElement x="150" y="60" width="408" height="20" uuid="12345678-1234-1234-1234-123456789081"/>
@@ -3033,7 +3084,7 @@
 						<textElement verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<textFieldExpression><![CDATA["2023"]]></textFieldExpression>
+						<textFieldExpression><![CDATA[$F{declaration_period}]]></textFieldExpression>
 					</textField>
 					<staticText>
 						<reportElement mode="Opaque" x="0" y="80" width="150" height="20" backcolor="#E7E6E6" uuid="12345678-1234-1234-1234-123456789082"/>
@@ -3060,11 +3111,578 @@
 						<textElement verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<textFieldExpression><![CDATA["б203"]]></textFieldExpression>
+						<textFieldExpression><![CDATA[$F{declaration_tax_division}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<staticText>
+					<reportElement positionType="Float" mode="Opaque" x="20" y="0" width="558" height="30" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#E7E6E6" uuid="76c90699-f69f-474b-8567-754161b4344b">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacingSize="1.0"/>
+					</textElement>
+					<text><![CDATA[Наркологиялық диспансерлік есеп/Наркологический диспансерный учет
+Детализация
+]]></text>
+				</staticText>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="20" y="30" width="558" height="20" uuid="7475a30a-ae35-4bbc-add4-d7a53ea1232b">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="20" backcolor="#E7E6E6" uuid="e47309b5-82d2-4d1c-9d1b-2e10ee34b246">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Карта нөмірі/Номер карты ]]></text>
+					</staticText>
+					<textField textAdjust="StretchHeight">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="20" uuid="ddd64bd8-f935-4e04-a72d-3469acc5eff3">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dispensary_accounting_narcology_cardNumber}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="20" y="50" width="558" height="30" uuid="bd4c54fe-dcbc-41f7-8989-3131a8600bef">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="30" backcolor="#E7E6E6" uuid="87229268-dee0-4185-91b6-1242ae54b48b">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Есепке алу күні/Дата постановки на учет]]></text>
+					</staticText>
+					<textField textAdjust="StretchHeight">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="e6595aef-ff9e-4871-bbd5-969729dcc0af">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dispensary_accounting_narcology_registrationDate}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="20" y="80" width="558" height="20" uuid="3c8f6776-de28-4ffb-abad-7690a65ce8d8">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="20" backcolor="#E7E6E6" uuid="6776cfe0-a968-4023-b681-6aa2edd0784f">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Диагнозы/Диагноз ]]></text>
+					</staticText>
+					<textField textAdjust="StretchHeight">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="20" uuid="30eab892-c57a-4a2a-997e-cc66cea25cf9">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dispensary_accounting_narcology_diagnosis}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="20" y="100" width="558" height="30" uuid="d00e901d-afe9-4f85-82b8-ef3c3441fc19">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="30" backcolor="#E7E6E6" uuid="37e1ec4a-f996-4db5-b429-0b6712ff827b">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Медициналық ұйым/Медицинская]]></text>
+					</staticText>
+					<textField textAdjust="StretchHeight">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="9ac2c35e-ae1d-4eb4-adad-fdf481f08748">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dispensary_accounting_narcology_medicalOrganization}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="20" y="130" width="558" height="20" uuid="09b87ff2-b70c-4da8-8bb0-5a69f9e540dd">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="20" backcolor="#E7E6E6" uuid="86132ef6-b066-437c-9f9d-50d80faefac6">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Дәрігердің ТӘЖ/ФИО врача]]></text>
+					</staticText>
+					<textField textAdjust="StretchHeight">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="20" uuid="3e185859-0fc7-4d85-8a11-2fe6e698519f">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dispensary_accounting_narcology_doctorFullName}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="20" y="150" width="558" height="40" uuid="5ec62dc0-ca00-4ae8-8c2d-30b708be91ae">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" backcolor="#E7E6E6" uuid="e560f077-28f2-422f-a4cd-beb34aaec2d6">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Дәрігердің мамандығы/Специализация
+врача]]></text>
+					</staticText>
+					<textField textAdjust="StretchHeight">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" uuid="79ef2b9f-ad62-4a0a-b57d-c40a53df8dc0">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dispensary_accounting_narcology_doctorSpecialization}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<staticText>
+					<reportElement positionType="Float" mode="Opaque" x="20" y="190" width="558" height="30" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#E7E6E6" uuid="221e4bab-ba1d-4f5e-9471-d4b141928df5">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Фтизиопульмонологиялық диспансерлік есеп /Фтизиопульмонологический диспансерный учет
+Детализация
+]]></text>
+				</staticText>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="20" y="220" width="558" height="20" uuid="6710fcab-17cf-4412-a110-138386bc5005">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="20" backcolor="#E7E6E6" uuid="0be86539-d615-4b76-868d-59b7c48024ba">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Карта нөмірі/Номер карты ]]></text>
+					</staticText>
+					<textField textAdjust="StretchHeight">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="20" uuid="64946cb4-09fe-4a99-ba70-e8de48862843">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dispensary_registration_phthisiopulmonology_cardNumber}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="20" y="240" width="558" height="30" uuid="9be683dc-1e4c-4b51-a63b-8425c5a90924">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="30" backcolor="#E7E6E6" uuid="3511c0aa-37ea-4481-add2-6f1f3899f78f">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Есепке алу күні/Дата постановки на учет]]></text>
+					</staticText>
+					<textField textAdjust="StretchHeight">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="577a0f4f-b923-4a67-8ed5-9972adec9b72">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dispensary_registration_phthisiopulmonology_registrationDate}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="20" y="270" width="558" height="20" uuid="cba7d040-9d50-4564-9991-9657db21fe62">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="20" backcolor="#E7E6E6" uuid="7772d70f-4e23-4ccc-b4b0-342baf619512">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Диагнозы/Диагноз ]]></text>
+					</staticText>
+					<textField textAdjust="StretchHeight">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="20" uuid="8af0befe-ca92-4698-81ee-c97f16f979b6">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dispensary_registration_phthisiopulmonology_diagnosis}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="20" y="290" width="558" height="30" uuid="632d0a72-940c-4bfe-948e-051660fd37f9">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="30" backcolor="#E7E6E6" uuid="e7035978-7fb0-4e4e-9943-44c1145a8ac8">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Медициналық ұйым/Медицинская]]></text>
+					</staticText>
+					<textField textAdjust="StretchHeight">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" uuid="5c149119-a43f-4eeb-8eff-aa17a22d160b">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dispensary_registration_phthisiopulmonology_medicalOrganization}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="20" y="320" width="558" height="20" uuid="eee1bdf2-4f66-4f4d-a71b-5d35111a1a23">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="20" backcolor="#E7E6E6" uuid="c42834df-3c60-4858-a8c4-646e3b2fd7d6">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Дәрігердің ТӘЖ/ФИО врача]]></text>
+					</staticText>
+					<textField textAdjust="StretchHeight">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="20" uuid="cd2eec80-b49e-406b-b17e-420b835f3d01">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dispensary_registration_phthisiopulmonology_doctorFullName}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="20" y="340" width="558" height="40" uuid="5dbdfd4e-1165-4308-b52d-9b003505ed58">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" backcolor="#E7E6E6" uuid="8322e491-5932-4746-baab-e660e69d9890">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Дәрігердің мамандығы/Специализация
+врача]]></text>
+					</staticText>
+					<textField textAdjust="StretchHeight">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" uuid="6c0bda99-b66e-4ab4-b3e7-e43cb775939c">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box leftPadding="5">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement>
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{dispensary_registration_phthisiopulmonology_doctorSpecialization}]]></textFieldExpression>
 					</textField>
 				</frame>
 			</band>
-			<band height="200" splitType="Immediate">
+			<band height="160" splitType="Immediate">
 				<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				<staticText>
 					<reportElement mode="Opaque" x="20" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="29ccb3b8-480d-42b0-a560-364fd2670f21">
@@ -3430,7 +4048,7 @@
 					<text><![CDATA[Запрос на проверку на противоправные действия в сети Интернет]]></text>
 				</staticText>
 			</band>
-			<band height="220" splitType="Immediate">
+			<band height="150" splitType="Immediate">
 				<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				<staticText>
 					<reportElement mode="Opaque" x="20" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="5c5da19f-8df3-4d00-831e-0f8f4bd8b76a">
