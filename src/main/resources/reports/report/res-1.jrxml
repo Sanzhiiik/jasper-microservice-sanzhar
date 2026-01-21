@@ -887,7 +887,7 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="citizenship"/>
 		<fieldDescription><![CDATA[citizenship]]></fieldDescription>
 	</field>
-	<field name="IIN" class="java.lang.Long">
+	<field name="IIN" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="IIN"/>
 		<fieldDescription><![CDATA[IIN]]></fieldDescription>
 	</field>
@@ -963,7 +963,7 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="education_qualification"/>
 		<fieldDescription><![CDATA[education_qualification]]></fieldDescription>
 	</field>
-	<field name="education_gpa" class="java.math.BigDecimal">
+	<field name="education_gpa" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="education_gpa"/>
 		<fieldDescription><![CDATA[education_gpa]]></fieldDescription>
 	</field>
@@ -1091,7 +1091,7 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="narcology_end_reason"/>
 		<fieldDescription><![CDATA[narcology_end_reason]]></fieldDescription>
 	</field>
-	<field name="psycho_diagnosis" class="java.lang.Integer">
+	<field name="psycho_diagnosis" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="psycho_diagnosis"/>
 		<fieldDescription><![CDATA[psycho_diagnosis]]></fieldDescription>
 	</field>
@@ -1107,7 +1107,7 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="psycho_end_reason"/>
 		<fieldDescription><![CDATA[psycho_end_reason]]></fieldDescription>
 	</field>
-	<field name="phthisiopulmonology_diagnosis" class="java.lang.Integer">
+	<field name="phthisiopulmonology_diagnosis" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="phthisiopulmonology_diagnosis"/>
 		<fieldDescription><![CDATA[phthisiopulmonology_diagnosis]]></fieldDescription>
 	</field>
@@ -1143,7 +1143,7 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="declaration_tax_division"/>
 		<fieldDescription><![CDATA[declaration_tax_division]]></fieldDescription>
 	</field>
-	<field name="confidential_assistants_iin" class="java.lang.Long">
+	<field name="confidential_assistants_iin" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="confidential_assistants_iin"/>
 		<fieldDescription><![CDATA[confidential_assistants_iin]]></fieldDescription>
 	</field>
@@ -1223,11 +1223,11 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="operational_verification_person_korpus_a"/>
 		<fieldDescription><![CDATA[operational_verification_person_korpus_a]]></fieldDescription>
 	</field>
-	<field name="operational_verification_person_iin" class="java.lang.Long">
+	<field name="operational_verification_person_iin" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="operational_verification_person_iin"/>
 		<fieldDescription><![CDATA[operational_verification_person_iin]]></fieldDescription>
 	</field>
-	<field name="work_study_verification_iin" class="java.lang.Long">
+	<field name="work_study_verification_iin" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="work_study_verification_iin"/>
 		<fieldDescription><![CDATA[work_study_verification_iin]]></fieldDescription>
 	</field>
@@ -1263,7 +1263,7 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="work_study_verification_executor_fio"/>
 		<fieldDescription><![CDATA[work_study_verification_executor_fio]]></fieldDescription>
 	</field>
-	<field name="database_check_iin" class="java.lang.Long">
+	<field name="database_check_iin" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="database_check_iin"/>
 		<fieldDescription><![CDATA[database_check_iin]]></fieldDescription>
 	</field>
@@ -1299,7 +1299,7 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="database_check_executor_fio"/>
 		<fieldDescription><![CDATA[database_check_executor_fio]]></fieldDescription>
 	</field>
-	<field name="detailing_revealed_iin" class="java.lang.Long">
+	<field name="detailing_revealed_iin" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="detailing_revealed_iin"/>
 		<fieldDescription><![CDATA[detailing_revealed_iin]]></fieldDescription>
 	</field>
@@ -1327,7 +1327,7 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="detailing_revealed_executor_fio"/>
 		<fieldDescription><![CDATA[detailing_revealed_executor_fio]]></fieldDescription>
 	</field>
-	<field name="internet_check_iin" class="java.lang.Long">
+	<field name="internet_check_iin" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="internet_check_iin"/>
 		<fieldDescription><![CDATA[internet_check_iin]]></fieldDescription>
 	</field>
