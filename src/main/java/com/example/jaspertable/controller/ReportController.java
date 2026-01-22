@@ -2,9 +2,7 @@ package com.example.jaspertable.controller;
 
 import com.example.jaspertable.exception.BadRequestException;
 import com.example.jaspertable.exception.ReportGenerationException;
-import com.example.jaspertable.exception.ResourceNotFoundException;
 import com.example.jaspertable.service.JReportService;
-import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 import jakarta.servlet.http.HttpServletResponse;
