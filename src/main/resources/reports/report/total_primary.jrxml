@@ -177,26 +177,6 @@
         <property name="net.sf.jasperreports.json.field.expression" value="change_reason"/>
         <fieldDescription><![CDATA[change_reason]]></fieldDescription>
     </field>
-    <field name="last_name_before_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="last_name_before_manual"/>
-        <fieldDescription><![CDATA[last_name_before_manual]]></fieldDescription>
-    </field>
-    <field name="first_name_before_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="first_name_before_manual"/>
-        <fieldDescription><![CDATA[first_name_before_manual]]></fieldDescription>
-    </field>
-    <field name="patronymic_before_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="patronymic_before_manual"/>
-        <fieldDescription><![CDATA[patronymic_before_manual]]></fieldDescription>
-    </field>
-    <field name="fio_change_date_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="fio_change_date_manual"/>
-        <fieldDescription><![CDATA[fio_change_date_manual]]></fieldDescription>
-    </field>
-    <field name="change_reason_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="change_reason_manual"/>
-        <fieldDescription><![CDATA[change_reason_manual]]></fieldDescription>
-    </field>
     <field name="divorce_number_akt" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="divorce_number_akt"/>
         <fieldDescription><![CDATA[divorce_number_akt]]></fieldDescription>
@@ -216,26 +196,6 @@
     <field name="divorce_spouse_name" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="divorce_spouse_name"/>
         <fieldDescription><![CDATA[divorce_spouse_name]]></fieldDescription>
-    </field>
-    <field name="divorce_number_akt_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="divorce_number_akt_manual"/>
-        <fieldDescription><![CDATA[divorce_number_akt_manual]]></fieldDescription>
-    </field>
-    <field name="divorce_svid_number_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="divorce_svid_number_manual"/>
-        <fieldDescription><![CDATA[divorce_svid_number_manual]]></fieldDescription>
-    </field>
-    <field name="divorce_reg_date_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="divorce_reg_date_manual"/>
-        <fieldDescription><![CDATA[divorce_reg_date_manual]]></fieldDescription>
-    </field>
-    <field name="divorce_spouse_iin_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="divorce_spouse_iin_manual"/>
-        <fieldDescription><![CDATA[divorce_spouse_iin_manual]]></fieldDescription>
-    </field>
-    <field name="divorce_spouse_name_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="divorce_spouse_name_manual"/>
-        <fieldDescription><![CDATA[divorce_spouse_name_manual]]></fieldDescription>
     </field>
     <field name="reg_act_number" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="reg_act_number"/>
@@ -257,26 +217,6 @@
         <property name="net.sf.jasperreports.json.field.expression" value="birth_certificate_date"/>
         <fieldDescription><![CDATA[birth_certificate_date]]></fieldDescription>
     </field>
-    <field name="reg_act_number_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="reg_act_number_manual"/>
-        <fieldDescription><![CDATA[reg_act_number_manual]]></fieldDescription>
-    </field>
-    <field name="reg_act_date_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="reg_act_date_manual"/>
-        <fieldDescription><![CDATA[reg_act_date_manual]]></fieldDescription>
-    </field>
-    <field name="reg_act_region_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="reg_act_region_manual"/>
-        <fieldDescription><![CDATA[reg_act_region_manual]]></fieldDescription>
-    </field>
-    <field name="birth_certificate_number_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="birth_certificate_number_manual"/>
-        <fieldDescription><![CDATA[birth_certificate_number_manual]]></fieldDescription>
-    </field>
-    <field name="birth_certificate_date_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="birth_certificate_date_manual"/>
-        <fieldDescription><![CDATA[birth_certificate_date_manual]]></fieldDescription>
-    </field>
     <field name="birth_country" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="birth_country"/>
         <fieldDescription><![CDATA[birth_country]]></fieldDescription>
@@ -288,22 +228,6 @@
     <field name="birth_region" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="birth_region"/>
         <fieldDescription><![CDATA[birth_region]]></fieldDescription>
-    </field>
-    <field name="birth_district_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="birth_district_manual"/>
-        <fieldDescription><![CDATA[birth_district_manual]]></fieldDescription>
-    </field>
-    <field name="birth_country_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="birth_country_manual"/>
-        <fieldDescription><![CDATA[birth_country_manual]]></fieldDescription>
-    </field>
-    <field name="birth_city_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="birth_city_manual"/>
-        <fieldDescription><![CDATA[birth_city_manual]]></fieldDescription>
-    </field>
-    <field name="birth_region_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="birth_region_manual"/>
-        <fieldDescription><![CDATA[birth_region_manual]]></fieldDescription>
     </field>
     <field name="birth_district" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="birth_district"/>
@@ -353,50 +277,6 @@
         <property name="net.sf.jasperreports.json.field.expression" value="gpa"/>
         <fieldDescription><![CDATA[gpa]]></fieldDescription>
     </field>
-    <field name="university_name_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="university_name_manual"/>
-        <fieldDescription><![CDATA[university_name_manual]]></fieldDescription>
-    </field>
-    <field name="university_fullname_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="university_fullname_manual"/>
-        <fieldDescription><![CDATA[university_fullname_manual]]></fieldDescription>
-    </field>
-    <field name="university_address_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="university_address_manual"/>
-        <fieldDescription><![CDATA[university_address_manual]]></fieldDescription>
-    </field>
-    <field name="profession_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="profession_manual"/>
-        <fieldDescription><![CDATA[profession_manual]]></fieldDescription>
-    </field>
-    <field name="degree_id_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="degree_id_manual"/>
-        <fieldDescription><![CDATA[degree_id_manual]]></fieldDescription>
-    </field>
-    <field name="education_date_start_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="education_date_start_manual"/>
-        <fieldDescription><![CDATA[education_date_start_manual]]></fieldDescription>
-    </field>
-    <field name="education_date_end_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="education_date_end_manual"/>
-        <fieldDescription><![CDATA[education_date_end_manual]]></fieldDescription>
-    </field>
-    <field name="study_form_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="study_form_manual"/>
-        <fieldDescription><![CDATA[study_form_manual]]></fieldDescription>
-    </field>
-    <field name="study_language_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="study_language_manual"/>
-        <fieldDescription><![CDATA[study_language_manual]]></fieldDescription>
-    </field>
-    <field name="ent_ball_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="ent_ball_manual"/>
-        <fieldDescription><![CDATA[ent_ball_manual]]></fieldDescription>
-    </field>
-    <field name="gpa_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="gpa_manual"/>
-        <fieldDescription><![CDATA[gpa_manual]]></fieldDescription>
-    </field>
     <field name="work_bin" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="work_bin"/>
         <fieldDescription><![CDATA[work_bin]]></fieldDescription>
@@ -412,94 +292,6 @@
     <field name="work_end_date" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="work_end_date"/>
         <fieldDescription><![CDATA[work_end_date]]></fieldDescription>
-    </field>
-    <field name="work_bin_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="work_bin_manual"/>
-        <fieldDescription><![CDATA[work_bin_manual]]></fieldDescription>
-    </field>
-    <field name="work_name_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="work_name_manual"/>
-        <fieldDescription><![CDATA[work_name_manual]]></fieldDescription>
-    </field>
-    <field name="work_start_date_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="work_start_date_manual"/>
-        <fieldDescription><![CDATA[work_start_date_manual]]></fieldDescription>
-    </field>
-    <field name="work_end_date_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="work_end_date_manual"/>
-        <fieldDescription><![CDATA[work_end_date_manual]]></fieldDescription>
-    </field>
-    <field name="admin_crime_case_number" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_case_number"/>
-        <fieldDescription><![CDATA[admin_crime_case_number]]></fieldDescription>
-    </field>
-    <field name="admin_crime_agency" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_agency"/>
-        <fieldDescription><![CDATA[admin_crime_agency]]></fieldDescription>
-    </field>
-    <field name="admin_crime_start_date" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_start_date"/>
-        <fieldDescription><![CDATA[admin_crime_start_date]]></fieldDescription>
-    </field>
-    <field name="admin_crime_avs_name" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_avs_name"/>
-        <fieldDescription><![CDATA[admin_crime_avs_name]]></fieldDescription>
-    </field>
-    <field name="admin_crime_qualification" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_qualification"/>
-        <fieldDescription><![CDATA[admin_crime_qualification]]></fieldDescription>
-    </field>
-    <field name="admin_crime_case_result" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_case_result"/>
-        <fieldDescription><![CDATA[admin_crime_case_result]]></fieldDescription>
-    </field>
-    <field name="admin_crime_main_penalty" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_main_penalty"/>
-        <fieldDescription><![CDATA[admin_crime_main_penalty]]></fieldDescription>
-    </field>
-    <field name="admin_crime_measures" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_measures"/>
-        <fieldDescription><![CDATA[admin_crime_measures]]></fieldDescription>
-    </field>
-    <field name="dismissal_work_place" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="dismissal_work_place"/>
-        <fieldDescription><![CDATA[dismissal_work_place]]></fieldDescription>
-    </field>
-    <field name="dismissal_post" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="dismissal_post"/>
-        <fieldDescription><![CDATA[dismissal_post]]></fieldDescription>
-    </field>
-    <field name="dismissal_indication" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="dismissal_indication"/>
-        <fieldDescription><![CDATA[dismissal_indication]]></fieldDescription>
-    </field>
-    <field name="dismissal_order_number" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="dismissal_order_number"/>
-        <fieldDescription><![CDATA[dismissal_order_number]]></fieldDescription>
-    </field>
-    <field name="dismissal_order_date" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="dismissal_order_date"/>
-        <fieldDescription><![CDATA[dismissal_order_date]]></fieldDescription>
-    </field>
-    <field name="declaration_type" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="declaration_type"/>
-        <fieldDescription><![CDATA[declaration_type]]></fieldDescription>
-    </field>
-    <field name="declaration_accept_date" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="declaration_accept_date"/>
-        <fieldDescription><![CDATA[declaration_accept_date]]></fieldDescription>
-    </field>
-    <field name="declaration_number" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="declaration_number"/>
-        <fieldDescription><![CDATA[declaration_number]]></fieldDescription>
-    </field>
-    <field name="declaration_period" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="declaration_period"/>
-        <fieldDescription><![CDATA[declaration_period]]></fieldDescription>
-    </field>
-    <field name="declaration_tax_division" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="declaration_tax_division"/>
-        <fieldDescription><![CDATA[declaration_tax_division]]></fieldDescription>
     </field>
     <field name="criminal_record_case_number" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_case_number"/>
@@ -573,21 +365,57 @@
         <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_instance"/>
         <fieldDescription><![CDATA[criminal_record_instance]]></fieldDescription>
     </field>
-    <field name="criminal_record_criminalCaseTerminationDate" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_criminalCaseTerminationDate"/>
-        <fieldDescription><![CDATA[criminal_record_criminalCaseTerminationDate]]></fieldDescription>
+    <field name="admin_crime_case_number" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_case_number"/>
+        <fieldDescription><![CDATA[admin_crime_case_number]]></fieldDescription>
     </field>
-    <field name="criminal_record_convictMovementData" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_convictMovementData"/>
-        <fieldDescription><![CDATA[criminal_record_convictMovementData]]></fieldDescription>
+    <field name="admin_crime_agency" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_agency"/>
+        <fieldDescription><![CDATA[admin_crime_agency]]></fieldDescription>
     </field>
-    <field name="criminal_record_releaseDate" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_releaseDate"/>
-        <fieldDescription><![CDATA[criminal_record_releaseDate]]></fieldDescription>
+    <field name="admin_crime_start_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_start_date"/>
+        <fieldDescription><![CDATA[admin_crime_start_date]]></fieldDescription>
     </field>
-    <field name="criminal_record_additionalNotes" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_additionalNotes"/>
-        <fieldDescription><![CDATA[criminal_record_additionalNotes]]></fieldDescription>
+    <field name="admin_crime_avs_name" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_avs_name"/>
+        <fieldDescription><![CDATA[admin_crime_avs_name]]></fieldDescription>
+    </field>
+    <field name="admin_crime_qualification" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_qualification"/>
+        <fieldDescription><![CDATA[admin_crime_qualification]]></fieldDescription>
+    </field>
+    <field name="admin_crime_case_result" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_case_result"/>
+        <fieldDescription><![CDATA[admin_crime_case_result]]></fieldDescription>
+    </field>
+    <field name="admin_crime_main_penalty" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_main_penalty"/>
+        <fieldDescription><![CDATA[admin_crime_main_penalty]]></fieldDescription>
+    </field>
+    <field name="admin_crime_measures" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_measures"/>
+        <fieldDescription><![CDATA[admin_crime_measures]]></fieldDescription>
+    </field>
+    <field name="dismissal_work_place" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="dismissal_work_place"/>
+        <fieldDescription><![CDATA[dismissal_work_place]]></fieldDescription>
+    </field>
+    <field name="dismissal_post" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="dismissal_post"/>
+        <fieldDescription><![CDATA[dismissal_post]]></fieldDescription>
+    </field>
+    <field name="dismissal_indication" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="dismissal_indication"/>
+        <fieldDescription><![CDATA[dismissal_indication]]></fieldDescription>
+    </field>
+    <field name="dismissal_order_number" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="dismissal_order_number"/>
+        <fieldDescription><![CDATA[dismissal_order_number]]></fieldDescription>
+    </field>
+    <field name="dismissal_order_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="dismissal_order_date"/>
+        <fieldDescription><![CDATA[dismissal_order_date]]></fieldDescription>
     </field>
     <field name="capacity_status" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="capacity_status"/>
@@ -600,26 +428,6 @@
     <field name="capacity_date" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="capacity_date"/>
         <fieldDescription><![CDATA[capacity_date]]></fieldDescription>
-    </field>
-    <field name="on_the_limitation_of_legal_capacity_decisionMakingAuthority" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="on_the_limitation_of_legal_capacity_decisionMakingAuthority"/>
-        <fieldDescription><![CDATA[on_the_limitation_of_legal_capacity_decisionMakingAuthority]]></fieldDescription>
-    </field>
-    <field name="narcology_diagnosis" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="narcology_diagnosis"/>
-        <fieldDescription><![CDATA[narcology_diagnosis]]></fieldDescription>
-    </field>
-    <field name="narcology_begin_date" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="narcology_begin_date"/>
-        <fieldDescription><![CDATA[narcology_begin_date]]></fieldDescription>
-    </field>
-    <field name="narcology_end_date" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="narcology_end_date"/>
-        <fieldDescription><![CDATA[narcology_end_date]]></fieldDescription>
-    </field>
-    <field name="narcology_end_reason" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="narcology_end_reason"/>
-        <fieldDescription><![CDATA[narcology_end_reason]]></fieldDescription>
     </field>
     <field name="psycho_diagnosis" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="psycho_diagnosis"/>
@@ -637,6 +445,22 @@
         <property name="net.sf.jasperreports.json.field.expression" value="psycho_end_reason"/>
         <fieldDescription><![CDATA[psycho_end_reason]]></fieldDescription>
     </field>
+    <field name="narcology_diagnosis" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="narcology_diagnosis"/>
+        <fieldDescription><![CDATA[narcology_diagnosis]]></fieldDescription>
+    </field>
+    <field name="narcology_begin_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="narcology_begin_date"/>
+        <fieldDescription><![CDATA[narcology_begin_date]]></fieldDescription>
+    </field>
+    <field name="narcology_end_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="narcology_end_date"/>
+        <fieldDescription><![CDATA[narcology_end_date]]></fieldDescription>
+    </field>
+    <field name="narcology_end_reason" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="narcology_end_reason"/>
+        <fieldDescription><![CDATA[narcology_end_reason]]></fieldDescription>
+    </field>
     <field name="phthisiopulmonology_diagnosis" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="phthisiopulmonology_diagnosis"/>
         <fieldDescription><![CDATA[phthisiopulmonology_diagnosis]]></fieldDescription>
@@ -653,125 +477,25 @@
         <property name="net.sf.jasperreports.json.field.expression" value="phthisiopulmonology_end_reason"/>
         <fieldDescription><![CDATA[phthisiopulmonology_end_reason]]></fieldDescription>
     </field>
-    <field name="confidential_assistants_source_div" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="confidential_assistants_source_div"/>
-        <fieldDescription><![CDATA[confidential_assistants_source_div]]></fieldDescription>
+    <field name="declaration_type" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="declaration_type"/>
+        <fieldDescription><![CDATA[declaration_type]]></fieldDescription>
     </field>
-    <field name="confidential_assistants_ozgs_div" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="confidential_assistants_ozgs_div"/>
-        <fieldDescription><![CDATA[confidential_assistants_ozgs_div]]></fieldDescription>
+    <field name="declaration_accept_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="declaration_accept_date"/>
+        <fieldDescription><![CDATA[declaration_accept_date]]></fieldDescription>
     </field>
-    <field name="confidential_assistants_next_user_login" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="confidential_assistants_next_user_login"/>
-        <fieldDescription><![CDATA[confidential_assistants_next_user_login]]></fieldDescription>
+    <field name="declaration_number" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="declaration_number"/>
+        <fieldDescription><![CDATA[declaration_number]]></fieldDescription>
     </field>
-    <field name="confidential_assistants_comment" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="confidential_assistants_comment"/>
-        <fieldDescription><![CDATA[confidential_assistants_comment]]></fieldDescription>
+    <field name="declaration_period" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="declaration_period"/>
+        <fieldDescription><![CDATA[declaration_period]]></fieldDescription>
     </field>
-    <field name="work_study_verification_source_div" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="work_study_verification_source_div"/>
-        <fieldDescription><![CDATA[work_study_verification_source_div]]></fieldDescription>
-    </field>
-    <field name="work_study_verification_executor_div" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="work_study_verification_executor_div"/>
-        <fieldDescription><![CDATA[work_study_verification_executor_div]]></fieldDescription>
-    </field>
-    <field name="work_study_verification_place" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="work_study_verification_place"/>
-        <fieldDescription><![CDATA[work_study_verification_place]]></fieldDescription>
-    </field>
-    <field name="work_study_verification_info_status" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="work_study_verification_info_status"/>
-        <fieldDescription><![CDATA[work_study_verification_info_status]]></fieldDescription>
-    </field>
-    <field name="work_study_verification_comment" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="work_study_verification_comment"/>
-        <fieldDescription><![CDATA[work_study_verification_comment]]></fieldDescription>
-    </field>
-    <field name="work_study_verification_executor_fio" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="work_study_verification_executor_fio"/>
-        <fieldDescription><![CDATA[work_study_verification_executor_fio]]></fieldDescription>
-    </field>
-    <field name="database_check_source_div" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="database_check_source_div"/>
-        <fieldDescription><![CDATA[database_check_source_div]]></fieldDescription>
-    </field>
-    <field name="database_check_executor_div" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="database_check_executor_div"/>
-        <fieldDescription><![CDATA[database_check_executor_div]]></fieldDescription>
-    </field>
-    <field name="database_check_info_status" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="database_check_info_status"/>
-        <fieldDescription><![CDATA[database_check_info_status]]></fieldDescription>
-    </field>
-    <field name="database_check_executor_fio" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="database_check_executor_fio"/>
-        <fieldDescription><![CDATA[database_check_executor_fio]]></fieldDescription>
-    </field>
-    <field name="detailing_revealed_source_div" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="detailing_revealed_source_div"/>
-        <fieldDescription><![CDATA[detailing_revealed_source_div]]></fieldDescription>
-    </field>
-    <field name="detailing_revealed_executor_div" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="detailing_revealed_executor_div"/>
-        <fieldDescription><![CDATA[detailing_revealed_executor_div]]></fieldDescription>
-    </field>
-    <field name="detailing_revealed_additional_note" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="detailing_revealed_additional_note"/>
-        <fieldDescription><![CDATA[detailing_revealed_additional_note]]></fieldDescription>
-    </field>
-    <field name="detailing_revealed_comment" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="detailing_revealed_comment"/>
-        <fieldDescription><![CDATA[detailing_revealed_comment]]></fieldDescription>
-    </field>
-    <field name="detailing_revealed_executor_fio" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="detailing_revealed_executor_fio"/>
-        <fieldDescription><![CDATA[detailing_revealed_executor_fio]]></fieldDescription>
-    </field>
-    <field name="foreign_nationals_request_reg_number" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="foreign_nationals_request_reg_number"/>
-        <fieldDescription><![CDATA[foreign_nationals_request_reg_number]]></fieldDescription>
-    </field>
-    <field name="foreign_nationals_request_date" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="foreign_nationals_request_date"/>
-        <fieldDescription><![CDATA[foreign_nationals_request_date]]></fieldDescription>
-    </field>
-    <field name="foreign_nationals_response_reg_number" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="foreign_nationals_response_reg_number"/>
-        <fieldDescription><![CDATA[foreign_nationals_response_reg_number]]></fieldDescription>
-    </field>
-    <field name="foreign_nationals_response_date" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="foreign_nationals_response_date"/>
-        <fieldDescription><![CDATA[foreign_nationals_response_date]]></fieldDescription>
-    </field>
-    <field name="foreign_nationals_response_result" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="foreign_nationals_response_result"/>
-        <fieldDescription><![CDATA[foreign_nationals_response_result]]></fieldDescription>
-    </field>
-    <field name="foreign_nationals_response_text" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="foreign_nationals_response_text"/>
-        <fieldDescription><![CDATA[foreign_nationals_response_text]]></fieldDescription>
-    </field>
-    <field name="operational_reference_source_div" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="operational_reference_source_div"/>
-        <fieldDescription><![CDATA[operational_reference_source_div]]></fieldDescription>
-    </field>
-    <field name="operational_reference_executor_div" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="operational_reference_executor_div"/>
-        <fieldDescription><![CDATA[operational_reference_executor_div]]></fieldDescription>
-    </field>
-    <field name="operational_reference_additional_note" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="operational_reference_additional_note"/>
-        <fieldDescription><![CDATA[operational_reference_additional_note]]></fieldDescription>
-    </field>
-    <field name="operational_reference_next_user_login" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="operational_reference_next_user_login"/>
-        <fieldDescription><![CDATA[operational_reference_next_user_login]]></fieldDescription>
-    </field>
-    <field name="operational_reference_comment" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="operational_reference_comment"/>
-        <fieldDescription><![CDATA[operational_reference_comment]]></fieldDescription>
+    <field name="declaration_tax_division" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="declaration_tax_division"/>
+        <fieldDescription><![CDATA[declaration_tax_division]]></fieldDescription>
     </field>
     <field name="aqparat_department" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="aqparat_department"/>
@@ -4109,7 +3833,7 @@
                 </textField>
             </frame>
         </band>
-        <band height="190" splitType="Stretch">
+        <band height="200" splitType="Stretch">
             <property name="com.jaspersoft.studio.unit.height" value="px"/>
             <staticText>
                 <reportElement positionType="Float" mode="Opaque" x="0" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="1c1a5a3b-8a34-4ee1-a18f-64e6191ba063">
