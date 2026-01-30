@@ -46,10 +46,6 @@
         <property name="net.sf.jasperreports.json.field.expression" value="phone_number"/>
         <fieldDescription><![CDATA[phone_number]]></fieldDescription>
     </field>
-    <field name="actual_residence" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="actual_residence"/>
-        <fieldDescription><![CDATA[actual_residence]]></fieldDescription>
-    </field>
     <field name="identification_card_number" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="identification_card_number"/>
         <fieldDescription><![CDATA[identification_card_number]]></fieldDescription>
@@ -86,30 +82,6 @@
         <property name="net.sf.jasperreports.json.field.expression" value="family_details"/>
         <fieldDescription><![CDATA[family_details]]></fieldDescription>
     </field>
-    <field name="education_info" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="education_info"/>
-        <fieldDescription><![CDATA[education_info]]></fieldDescription>
-    </field>
-    <field name="last_profession" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="last_profession"/>
-        <fieldDescription><![CDATA[last_profession]]></fieldDescription>
-    </field>
-    <field name="last_gpa" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="last_gpa"/>
-        <fieldDescription><![CDATA[last_gpa]]></fieldDescription>
-    </field>
-    <field name="education_postgraduate" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="education_postgraduate"/>
-        <fieldDescription><![CDATA[education_postgraduate]]></fieldDescription>
-    </field>
-    <field name="foreign_languages" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="foreign_languages"/>
-        <fieldDescription><![CDATA[foreign_languages]]></fieldDescription>
-    </field>
-    <field name="skills" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="skills"/>
-        <fieldDescription><![CDATA[skills]]></fieldDescription>
-    </field>
     <field name="suitability_level" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="suitability_level"/>
         <fieldDescription><![CDATA[suitability_level]]></fieldDescription>
@@ -121,42 +93,6 @@
     <field name="military_rank" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="military_rank"/>
         <fieldDescription><![CDATA[military_rank]]></fieldDescription>
-    </field>
-    <field name="suitability_level_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="suitability_level_manual"/>
-        <fieldDescription><![CDATA[suitability_level_manual]]></fieldDescription>
-    </field>
-    <field name="military_status_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="military_status_manual"/>
-        <fieldDescription><![CDATA[military_status_manual]]></fieldDescription>
-    </field>
-    <field name="military_rank_manual" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="military_rank_manual"/>
-        <fieldDescription><![CDATA[military_rank_manual]]></fieldDescription>
-    </field>
-    <field name="work_info" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="work_info"/>
-        <fieldDescription><![CDATA[work_info]]></fieldDescription>
-    </field>
-    <field name="business_info" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="business_info"/>
-        <fieldDescription><![CDATA[business_info]]></fieldDescription>
-    </field>
-    <field name="interview_info" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="interview_info"/>
-        <fieldDescription><![CDATA[interview_info]]></fieldDescription>
-    </field>
-    <field name="total_date" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="total_date"/>
-        <fieldDescription><![CDATA[total_date]]></fieldDescription>
-    </field>
-    <field name="adder_fullname" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="adder_fullname"/>
-        <fieldDescription><![CDATA[adder_fullname]]></fieldDescription>
-    </field>
-    <field name="reviewer_fullname" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="reviewer_fullname"/>
-        <fieldDescription><![CDATA[reviewer_fullname]]></fieldDescription>
     </field>
     <field name="last_name_before" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="last_name_before"/>
@@ -497,114 +433,6 @@
     <field name="declaration_tax_division" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="declaration_tax_division"/>
         <fieldDescription><![CDATA[declaration_tax_division]]></fieldDescription>
-    </field>
-    <field name="aqparat_department" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="aqparat_department"/>
-        <fieldDescription><![CDATA[aqparat_department]]></fieldDescription>
-    </field>
-    <field name="aqparat_iin" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="aqparat_iin"/>
-        <fieldDescription><![CDATA[aqparat_iin]]></fieldDescription>
-    </field>
-    <field name="aqparat_number" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="aqparat_number"/>
-        <fieldDescription><![CDATA[aqparat_number]]></fieldDescription>
-    </field>
-    <field name="aqparat_unit_name" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="aqparat_unit_name"/>
-        <fieldDescription><![CDATA[aqparat_unit_name]]></fieldDescription>
-    </field>
-    <field name="assistent_department" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="assistent_department"/>
-        <fieldDescription><![CDATA[assistent_department]]></fieldDescription>
-    </field>
-    <field name="km_identified information" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="km_identified information"/>
-        <fieldDescription><![CDATA[km_identified information]]></fieldDescription>
-    </field>
-    <field name="km_department" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="km_department"/>
-        <fieldDescription><![CDATA[km_department]]></fieldDescription>
-    </field>
-    <field name="operational_reference_department" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="operational_reference_department"/>
-        <fieldDescription><![CDATA[operational_reference_department]]></fieldDescription>
-    </field>
-    <field name="confirmation_study_work" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="confirmation_study_work"/>
-        <fieldDescription><![CDATA[confirmation_study_work]]></fieldDescription>
-    </field>
-    <field name="confirmation_executing_unit" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="confirmation_executing_unit"/>
-        <fieldDescription><![CDATA[confirmation_executing_unit]]></fieldDescription>
-    </field>
-    <field name="internet_department" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="internet_department"/>
-        <fieldDescription><![CDATA[internet_department]]></fieldDescription>
-    </field>
-    <field name="svr_request_number" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="svr_request_number"/>
-        <fieldDescription><![CDATA[svr_request_number]]></fieldDescription>
-    </field>
-    <field name="svr_request_data" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="svr_request_data"/>
-        <fieldDescription><![CDATA[svr_request_data]]></fieldDescription>
-    </field>
-    <field name="svr_answer_number" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="svr_answer_number"/>
-        <fieldDescription><![CDATA[svr_answer_number]]></fieldDescription>
-    </field>
-    <field name="svr_answer_data" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="svr_answer_data"/>
-        <fieldDescription><![CDATA[svr_answer_data]]></fieldDescription>
-    </field>
-    <field name="svr_result" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="svr_result"/>
-        <fieldDescription><![CDATA[svr_result]]></fieldDescription>
-    </field>
-    <field name="svr_answer_text" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="svr_answer_text"/>
-        <fieldDescription><![CDATA[svr_answer_text]]></fieldDescription>
-    </field>
-    <field name="special_operational_сlass_secrecy" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="special_operational_сlass_secrecy"/>
-        <fieldDescription><![CDATA[special_operational_сlass_secrecy]]></fieldDescription>
-    </field>
-    <field name="special_operational_order number" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="special_operational_order number"/>
-        <fieldDescription><![CDATA[special_operational_order number]]></fieldDescription>
-    </field>
-    <field name="special_operational_department_code" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="special_operational_department_code"/>
-        <fieldDescription><![CDATA[special_operational_department_code]]></fieldDescription>
-    </field>
-    <field name="special_operational_reason_check" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="special_operational_reason_check"/>
-        <fieldDescription><![CDATA[special_operational_reason_check]]></fieldDescription>
-    </field>
-    <field name="health_diagnosis" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="health_diagnosis"/>
-        <fieldDescription><![CDATA[health_diagnosis]]></fieldDescription>
-    </field>
-    <field name="health_start_date" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="health_start_date"/>
-        <fieldDescription><![CDATA[health_start_date]]></fieldDescription>
-    </field>
-    <field name="health_end_date" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="health_end_date"/>
-        <fieldDescription><![CDATA[health_end_date]]></fieldDescription>
-    </field>
-    <field name="health_reason" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="health_reason"/>
-        <fieldDescription><![CDATA[health_reason]]></fieldDescription>
-    </field>
-    <field name="getcontact_nickname" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="getcontact_nickname"/>
-        <fieldDescription><![CDATA[getcontact_nickname]]></fieldDescription>
-    </field>
-    <field name="getcontact_date_source" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="getcontact_date_source"/>
-        <fieldDescription><![CDATA[getcontact_date_source]]></fieldDescription>
     </field>
     <background>
         <band splitType="Stretch"/>
@@ -1980,7 +1808,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Top">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Акт нөмірі/Номер акта]]></text>
+                    <text><![CDATA[Некені бұзу туралы акт/Акт о расторжении брака]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" isPrintWhenDetailOverflows="true" uuid="8455ce73-11cc-478e-954a-948c6b03539a">
@@ -2026,8 +1854,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Top">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Свидетельство о расторжении брака/
-Ажырасу туралы куәлік]]></text>
+                    <text><![CDATA[Некені бұзу туралы куәлік/Свидетельство о расторжении брака]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="77f944be-31b3-4f10-abb4-ef6682983115">
@@ -2073,7 +1900,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Top">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Ажырасу күні/Дата расторжения брака]]></text>
+                    <text><![CDATA[Некені бұзу күні/Дата расторжения брака]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" isPrintWhenDetailOverflows="true" uuid="af0b8828-072b-4e4d-a04e-315f274b3393">
@@ -2118,7 +1945,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Top">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Жұбайының ЖСН/ИИН супруга/супруги]]></text>
+                    <text><![CDATA[Жұбайының/зайыбының ЖСН/ИИН супруга/супруги]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" isPrintWhenDetailOverflows="true" uuid="6944978e-eda0-4756-8a5c-2b875baea2ac">
@@ -2164,7 +1991,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Top">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Жұбайының аты-жөні/ФИО супруга/супруги]]></text>
+                    <text><![CDATA[Жұбайының/зайыбының ТАӘ/ФИО супруга/супруги]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="50" isPrintWhenDetailOverflows="true" uuid="b3face73-5ff6-4a47-8dc0-e4ade597f8b8">
@@ -5018,7 +4845,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Диагноз]]></text>
+                    <text><![CDATA[Диагноз/Диагноз]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" isPrintWhenDetailOverflows="true" uuid="f17980e9-49ee-41b0-a4c5-7fa77a4c1a69">
@@ -5064,7 +4891,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Дата начала учета/Бухгалтерлік есептің басталу күні]]></text>
+                    <text><![CDATA[Есепке алу күні/Дата постановки на учет]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="e6b605b5-8dfc-46ff-8d2a-2cbf2c200bb2">
@@ -5111,7 +4938,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Дата окончания учета/Бухгалтерлік есептің аяқталу күні]]></text>
+                    <text><![CDATA[Есептен шығару күні/Дата снятия с учета]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="50" isPrintWhenDetailOverflows="true" uuid="fb4e2eea-e059-42ce-a488-b8d1a9e1717b">
@@ -5158,7 +4985,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Причина снятия с учета/Тіркеуден шығару себебі]]></text>
+                    <text><![CDATA[Есептен шығару себебі/Причина снятия с учета]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="799a9974-28d1-45af-b8f3-a2b3579cc130">
@@ -5222,7 +5049,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Диагноз]]></text>
+                    <text><![CDATA[Диагноз/Диагноз]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" isPrintWhenDetailOverflows="true" uuid="8c9d0340-8a41-443a-8751-031f99ec0c5b">
@@ -5268,7 +5095,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Дата начала учета/Бухгалтерлік есептің басталу күні]]></text>
+                    <text><![CDATA[Есепке алу күні/Дата постановки на учет]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="6bb0b877-7862-4ba2-9c2c-d672d08eafff">
@@ -5315,7 +5142,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Дата окончания учета/Бухгалтерлік есептің аяқталу күні]]></text>
+                    <text><![CDATA[Есептен шығару күні/Дата снятия с учета]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="50" isPrintWhenDetailOverflows="true" uuid="f4ce75bb-dcb4-4b8f-aa50-2c296e0fecdf">
@@ -5362,7 +5189,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Причина снятия с учета/Тіркеуден шығару себебі]]></text>
+                    <text><![CDATA[Есептен шығару себебі/Причина снятия с учета]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="50" isPrintWhenDetailOverflows="true" uuid="e193e22b-a87c-4ee8-83c2-82c072fdb5ee">
@@ -5426,7 +5253,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Диагноз]]></text>
+                    <text><![CDATA[Диагноз/Диагноз]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="30" isPrintWhenDetailOverflows="true" uuid="2db05a22-1f05-47f2-a028-579560d83fbf">
@@ -5472,7 +5299,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Дата начала учета/Бухгалтерлік есептің басталу күні]]></text>
+                    <text><![CDATA[Есепке алу күні/Дата постановки на учет]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="cd0ad956-5e1d-4ce1-b02a-d6fe46ca20e3">
@@ -5519,7 +5346,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Дата окончания учета/Бухгалтерлік есептің аяқталу күні]]></text>
+                    <text><![CDATA[Есептен шығару күні/Дата снятия с учета]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="e3b330de-1913-499d-8559-56569d0d4c06">
@@ -5566,7 +5393,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Причина снятия с учета/Тіркеуден шығару себебі]]></text>
+                    <text><![CDATA[Есептен шығару себебі/Причина снятия с учета]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="0baac3e8-1ba1-4578-ab1d-a288bf994044">
