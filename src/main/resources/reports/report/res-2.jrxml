@@ -362,7 +362,7 @@
 		<band splitType="Stretch"/>
 	</background>
 	<detail>
-		<band height="225" splitType="Stretch">
+		<band height="225">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<frame>
 				<reportElement x="0" y="50" width="558" height="174" uuid="2329d40b-16e6-477d-976c-48fd4f395df3">
@@ -566,7 +566,7 @@
 					</textField>
 				</frame>
 				<frame>
-					<reportElement x="120" y="114" width="438" height="15" uuid="3e0780c0-e91a-405e-a57a-571e794af2c4"/>
+					<reportElement positionType="Float" x="120" y="114" width="438" height="15" uuid="3e0780c0-e91a-405e-a57a-571e794af2c4"/>
 					<staticText>
 						<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="180" height="15" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#E7E6E6" uuid="f2876b79-1b06-4148-afa9-9249ebf357c6">
 							<property name="com.jaspersoft.studio.unit.height" value="px"/>
