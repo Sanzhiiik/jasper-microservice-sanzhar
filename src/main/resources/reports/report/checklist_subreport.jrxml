@@ -562,10 +562,29 @@
                     <textFieldExpression><![CDATA[$F{kmDataDetails}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="220" y="0" width="25" height="100" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="9a374934-c590-4c03-812b-57be4fd774d7">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA["-".equals($F{internetOffenseCheck})]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Right">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{internetOffenseCheck}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="220" y="0" width="25" height="100" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="9a374934-c590-4c03-812b-57be4fd774d7">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[!"-".equals($F{internetOffenseCheck})]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
