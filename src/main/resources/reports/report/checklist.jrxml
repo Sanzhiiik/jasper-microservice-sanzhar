@@ -11,10 +11,11 @@
         <band height="425" splitType="Immediate">
             <property name="com.jaspersoft.studio.unit.height" value="px"/>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="495378df-faca-4b75-aa4a-0561afdea4a9">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="25" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="495378df-faca-4b75-aa4a-0561afdea4a9">
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -26,13 +27,14 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Беседа с сотрудником СБ/Қауіпсіздік қызметкерімен әңгіме]]></text>
+                <text><![CDATA[Қауіпсіздік қызметкерімен әңгіме/Беседа с сотрудником СБ]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="13" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="19de56b5-53f9-4131-ac45-50f7e9bc2b31">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="40" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="19de56b5-53f9-4131-ac45-50f7e9bc2b31">
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.x" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -44,13 +46,14 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Беседа с родителями/супругой(ом) кандидата/Кандидаттың ата-анасымен/жұбайымен сұхбат]]></text>
+                <text><![CDATA[Кандидаттың ата-анасымен/жұбайымен сұхбат/Беседа с родителями/супругой(ом) кандидата]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="26" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="eb09873c-e3a6-4c74-bdbf-2ae4db5a9958">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="55" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="eb09873c-e3a6-4c74-bdbf-2ae4db5a9958">
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.x" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -62,12 +65,14 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Проверка физ.подготовки/Дене шынықтыруды тексеру]]></text>
+                <text><![CDATA[Дене шынықтыруды тексеру/Проверка физ.подготовки]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="39" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="4ec2cd39-c685-4f84-a895-773e97f86784">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="70" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="4ec2cd39-c685-4f84-a895-773e97f86784">
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -79,12 +84,14 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Проверка на поручениях (реферат, опер.поручения)/Тапсырыстар бойынша тексеру (конспект, операциялық тапсырыстар)]]></text>
+                <text><![CDATA[Тапсырыстар бойынша тексеру (конспект, операциялық тапсырыстар)/Проверка на поручениях (реферат, опер.поручения)]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="52" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="bc0d8f1f-1773-4179-bcb5-4b2d293ba130">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="85" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="bc0d8f1f-1773-4179-bcb5-4b2d293ba130">
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -96,12 +103,14 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Тестирование кандидата на знание НПА и гос.языка/Үміткердің нормативтік құқықтық актілерді және мемлекеттік тілді білуіне тестілеу]]></text>
+                <text><![CDATA[Үміткердің нормативтік құқықтық актілерді және мемлекеттік тілді білуіне тестілеу/Тестирование кандидата на знание НПА и гос.языка]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="65" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="35a55aae-dded-4f40-8b94-ff0227226716">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="100" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="35a55aae-dded-4f40-8b94-ff0227226716">
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -113,12 +122,14 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Полиграфологическое исследование/Полиграфиялық зерттеу]]></text>
+                <text><![CDATA[Полиграфиялық зерттеу/Полиграфологическое исследование]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="78" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="b9a00430-f886-4040-868d-a7dea70389dc">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="115" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="b9a00430-f886-4040-868d-a7dea70389dc">
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -130,12 +141,14 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Психолого-социологическое исследование/Психологиялық және социологиялық зерттеулер]]></text>
+                <text><![CDATA[Психологиялық және социологиялық зерттеулер/Психолого-социологическое исследование]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="91" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="858e77e0-5c61-42d7-9a53-eeaea9e4d76f">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="130" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="858e77e0-5c61-42d7-9a53-eeaea9e4d76f">
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -147,12 +160,14 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Психофизиологического обследование/Психофизиологиялық тексеру]]></text>
+                <text><![CDATA[Психофизиологиялық тексеру/Психофизиологического обследование]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="104" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="fd8c95f3-17de-4a05-b892-76cf704fbafc">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="145" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="fd8c95f3-17de-4a05-b892-76cf704fbafc">
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -164,13 +179,14 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Военно-врачебная комиссия/Әскери-дәрігерлік комиссия]]></text>
+                <text><![CDATA[Әскери-дәрігерлік комиссия/Военно-врачебная комиссия]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="117" y="0" width="12" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="ec54f562-8e58-4c8f-a571-1dadf0ecd6ba">
+                <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="160" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="ec54f562-8e58-4c8f-a571-1dadf0ecd6ba">
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -182,13 +198,14 @@
                     <font fontName="Times New Roman" size="10" isBold="true" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[ЭТАП ИЗУЧЕНИЯ КАНДИДАТА/КАНДИДАТТЫ ОҚУ КЕЗЕҢІ]]></text>
+                <text><![CDATA[КАНДИДАТТЫ ОҚУ КЕЗЕҢІ/ЭТАП ИЗУЧЕНИЯ КАНДИДАТА]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="129" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="2e2afdf4-ff8f-4503-b110-653e12476e37">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="175" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="2e2afdf4-ff8f-4503-b110-653e12476e37">
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -200,12 +217,14 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Характеризующие данные по местам учебы/работы/Оқу/жұмыс орындары бойынша сипаттамалық деректер]]></text>
+                <text><![CDATA[Оқу/жұмыс орындары бойынша сипаттамалық деректер/Характеризующие данные по местам учебы/работы]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="142" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="5e18885b-b61e-44b4-a077-970be0411bef">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="190" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="5e18885b-b61e-44b4-a077-970be0411bef">
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -217,12 +236,14 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Оперативная установка (при наличии КМ)/Операциялық орнату (КМ бар болса)]]></text>
+                <text><![CDATA[Операциялық орнату (КМ бар болса)/Оперативная установка (при наличии КМ)]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="155" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="152d71c0-cf31-4760-9b42-4a9bb22bb232">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="205" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="152d71c0-cf31-4760-9b42-4a9bb22bb232">
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -234,13 +255,14 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Детализация выявленных КМ сведений/КМ анықтаған ақпаратты егжей-тегжейлі көрсету]]></text>
+                <text><![CDATA[КМ анықтаған ақпаратты егжей-тегжейлі көрсету/Детализация выявленных КМ сведений]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="168" y="0" width="23" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="ea4a43f7-c0c7-43c7-ab26-6e10911f3f13">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="220" y="0" width="25" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="ea4a43f7-c0c7-43c7-ab26-6e10911f3f13">
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -252,13 +274,14 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Проверка на наличие противоправных действий в сети интернет/Интернеттегі заңсыз әрекеттерді тексеру]]></text>
+                <text><![CDATA[Интернеттегі заңсыз әрекеттерді тексеру/Проверка на наличие противоправных действий в сети интернет]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="191" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="99c97e80-a2ab-4cd0-bd31-5c4575a1b5c0">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="245" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="99c97e80-a2ab-4cd0-bd31-5c4575a1b5c0">
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -270,12 +293,14 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Проверка по базам СОРМ/СОРМ дерекқорларымен салыстыру]]></text>
+                <text><![CDATA[СОРМ дерекқорларымен салыстыру/Проверка по базам СОРМ]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="204" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="0e300cdd-baef-4007-bfad-ea6eb2535840">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="260" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="0e300cdd-baef-4007-bfad-ea6eb2535840">
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -287,12 +312,14 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Проверка по учетам ОСК/ОСК тіркелгілерін тексеру]]></text>
+                <text><![CDATA[ОСК тіркелгілерін тексеру/Проверка по учетам ОСК]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="217" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="63d8c9bf-8ce3-4438-8041-d10780207fb4">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="275" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="63d8c9bf-8ce3-4438-8041-d10780207fb4">
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -304,12 +331,14 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Проверка по учетам ДВКР/ОВКР (в отн.военнослужащих)/ДВКР/ОВКР жазбаларын тексеру (әскери қызметкерлерге қатысты)]]></text>
+                <text><![CDATA[ДВКР/ОВКР жазбаларын тексеру (әскери қызметкерлерге қатысты)/Проверка по учетам ДВКР/ОВКР (в отн.военнослужащих)]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="230" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="1b554efd-5462-4d52-abb5-f446dce5e524">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="290" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="1b554efd-5462-4d52-abb5-f446dce5e524">
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -321,12 +350,14 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Проверка по учетам КП/KP тіркелгілерін тексеру]]></text>
+                <text><![CDATA[KP тіркелгілерін тексеру/Проверка по учетам КП]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="243" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="f99179ab-5287-4a66-b468-97f7f19c6296">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="305" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="f99179ab-5287-4a66-b468-97f7f19c6296">
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -338,13 +369,14 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Проверка по учетам РБД «Акпарат»/«Ақпарат» РБД есебін тексеру]]></text>
+                <text><![CDATA[«Ақпарат» РБД есебін тексеру/Проверка по учетам РБД «Акпарат»]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="256" y="0" width="23" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="728f1900-c648-49de-8d46-6085693bcb80">
+                <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="320" y="0" width="25" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="728f1900-c648-49de-8d46-6085693bcb80">
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -356,13 +388,14 @@
                     <font fontName="Times New Roman" size="10" isBold="true" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[ВТОРОЙ ЭТАП ПОЛНОЙ СПЕЦИАЛЬНОЙ ПРОВЕРКИ КАНДИДАТА И ЕГО БЛИЗКИХ РОДСТВЕННИКОВ/ҮМІТКЕР ЖӘНЕ ОНЫҢ ЖАҚЫН ТУҒАНДАРЫН ТОЛЫҚ АРНАЙЫ ТЕКСЕРУДІҢ ЕКІНШІ КЕЗЕҢІ]]></text>
+                <text><![CDATA[ҮМІТКЕР ЖӘНЕ ОНЫҢ ЖАҚЫН ТУҒАНДАРЫН ТОЛЫҚ АРНАЙЫ ТЕКСЕРУДІҢ ЕКІНШІ КЕЗЕҢІ/ВТОРОЙ ЭТАП ПОЛНОЙ СПЕЦИАЛЬНОЙ ПРОВЕРКИ КАНДИДАТА И ЕГО БЛИЗКИХ РОДСТВЕННИКОВ]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="279" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="7c33ebc5-0a7d-4f5a-ab79-ecf158e2570c">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="345" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="7c33ebc5-0a7d-4f5a-ab79-ecf158e2570c">
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -374,13 +407,14 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Справка по результатам первичного изучения/Алғашқы зерттеу нәтижелері бойынша көмек]]></text>
+                <text><![CDATA[Алғашқы зерттеу нәтижелері бойынша көмек/Справка по результатам первичного изучения]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="292" y="0" width="35" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="e7e051e7-9229-441d-9fcf-7a96076a92b3">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="360" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="e5358e5a-5a12-4e31-96ec-16adc38120dd">
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -392,150 +426,147 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Справка по результатам бесед (лицо, проводившее ознакомительный контакт/руководитель, санкционировавший дальнейшее изучение/Әңгімелесу нәтижелері бойынша сертификат (кіріспе контактіні жүргізген тұлға/ әрі қарай зерттеуге рұқсат берген басшы]]></text>
+                <text><![CDATA[Алдыңғы параметрлермен салыстыру/Проверка по прежним установочным данным]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="327" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="e5358e5a-5a12-4e31-96ec-16adc38120dd">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="375" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="ba54a7a3-4053-4afb-9bfb-9df47dcdf1b0">
+                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                </reportElement>
+                <box>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
+                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    <paragraph leftIndent="5"/>
+                </textElement>
+                <text><![CDATA[Тіркелген заңды ұйымдардың болуы/Наличие зарегистрированных юридических организации]]></text>
+            </staticText>
+            <staticText>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="390" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="4a6c7fe3-4799-407e-9d20-548142dafbd6">
+                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                </reportElement>
+                <box>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
+                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    <paragraph leftIndent="5"/>
+                </textElement>
+                <text><![CDATA[Туб.диспансердің диспансерлік есептегі жағдайы/Состояние на диспансерном учете туб.диспансера]]></text>
+            </staticText>
+            <staticText>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="405" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="0b16fcc9-0f93-4b32-9906-882b07a471b0">
+                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                </reportElement>
+                <box>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
+                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    <paragraph leftIndent="5"/>
+                </textElement>
+                <text><![CDATA[Диспансерлік наркологиялық есепке алудың жағдайы/Состояние на диспансерном наркологическом учете]]></text>
+            </staticText>
+            <staticText>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="421" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="4d5efc62-df72-49e4-871f-eebed95f6b23">
+                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                </reportElement>
+                <box>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
+                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    <paragraph leftIndent="5"/>
+                </textElement>
+                <text><![CDATA[Психиатриялық диспансерлік есепке алудың жағдайы/Состояние на диспансерном психиатрическом учете]]></text>
+            </staticText>
+            <staticText>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="436" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="de019889-fdd9-438d-a3f9-71ee0072902d">
+                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                </reportElement>
+                <box>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
+                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    <paragraph leftIndent="5"/>
+                </textElement>
+                <text><![CDATA[Әскери қызметке деген көзқарас/Отношение к воинской службе]]></text>
+            </staticText>
+            <staticText>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="451" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="ab667dc8-b25f-4749-98ec-5075b103c54b">
+                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <box>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
+                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    <paragraph leftIndent="5"/>
+                </textElement>
+                <text><![CDATA[Мемлекеттік шекараны кесіп өту (шығу/кіруге тыйым салу)/Пересечение гос.границы (запрет на выезд/въезд)]]></text>
+            </staticText>
+            <staticText>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="466" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="f5ba866d-f9f3-41fd-80d2-cfa3a8c9da9d">
+                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <box>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
+                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    <paragraph leftIndent="5"/>
+                </textElement>
+                <text><![CDATA[Құқық бұзушылық/Правонарушения]]></text>
+            </staticText>
+            <staticText>
+                <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="481" y="0" width="23" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="d3b33f17-909a-4201-b31f-455066710404">
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                </reportElement>
-                <box>
-                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                </box>
-                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
-                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    <paragraph leftIndent="5"/>
-                </textElement>
-                <text><![CDATA[Проверка по прежним установочным данным/Алдыңғы параметрлермен салыстыру]]></text>
-            </staticText>
-            <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="340" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="ba54a7a3-4053-4afb-9bfb-9df47dcdf1b0">
-                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                </reportElement>
-                <box>
-                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                </box>
-                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
-                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    <paragraph leftIndent="5"/>
-                </textElement>
-                <text><![CDATA[Наличие зарегистрированных юридических организации/Тіркелген заңды ұйымдардың болуы]]></text>
-            </staticText>
-            <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="353" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="4a6c7fe3-4799-407e-9d20-548142dafbd6">
-                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                </reportElement>
-                <box>
-                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                </box>
-                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
-                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    <paragraph leftIndent="5"/>
-                </textElement>
-                <text><![CDATA[Состояние на диспансерном учете туб.диспансера/Туб.диспансердің диспансерлік есептегі жағдайы]]></text>
-            </staticText>
-            <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="366" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="0b16fcc9-0f93-4b32-9906-882b07a471b0">
-                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                </reportElement>
-                <box>
-                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                </box>
-                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
-                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    <paragraph leftIndent="5"/>
-                </textElement>
-                <text><![CDATA[Состояние на диспансерном наркологическом учете/Диспансерлік наркологиялық есепке алудың жағдайы]]></text>
-            </staticText>
-            <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="379" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="4d5efc62-df72-49e4-871f-eebed95f6b23">
-                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                </reportElement>
-                <box>
-                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                </box>
-                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
-                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    <paragraph leftIndent="5"/>
-                </textElement>
-                <text><![CDATA[Состояние на диспансерном психиатрическом учете/Психиатриялық диспансерлік есепке алудың жағдайы]]></text>
-            </staticText>
-            <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="392" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="de019889-fdd9-438d-a3f9-71ee0072902d">
-                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                </reportElement>
-                <box>
-                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                </box>
-                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
-                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    <paragraph leftIndent="5"/>
-                </textElement>
-                <text><![CDATA[Отношение к воинской службе/Әскери қызметке деген көзқарас]]></text>
-            </staticText>
-            <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="405" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="ab667dc8-b25f-4749-98ec-5075b103c54b">
-                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                </reportElement>
-                <box>
-                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                </box>
-                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
-                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    <paragraph leftIndent="5"/>
-                </textElement>
-                <text><![CDATA[Пересечение гос.границы (запрет на выезд/въезд)/Мемлекеттік шекараны кесіп өту (шығу/кіруге тыйым салу)]]></text>
-            </staticText>
-            <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="418" y="0" width="13" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="f5ba866d-f9f3-41fd-80d2-cfa3a8c9da9d">
-                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                </reportElement>
-                <box>
-                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                </box>
-                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
-                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    <paragraph leftIndent="5"/>
-                </textElement>
-                <text><![CDATA[Правонарушения/Құқық бұзушылық]]></text>
-            </staticText>
-            <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="431" y="0" width="23" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="d3b33f17-909a-4201-b31f-455066710404">
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -547,13 +578,14 @@
                     <font fontName="Times New Roman" size="10" isBold="true" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[ПЕРВЫЙ ЭТАП СПЕЦИАЛЬНОЙ ПРОВЕРКИ КАНДИДАТА И ЕГО БЛИЗКИХ РОДСТВЕННИКОВ/ҮМІТКЕР ЖӘНЕ ОНЫҢ ЖАҚЫН ТУҒАНДАРЫН АРНАЙЫ ТЕКСЕРУДІҢ БІРІНШІ КЕЗЕҢІ]]></text>
+                <text><![CDATA[ҮМІТКЕР ЖӘНЕ ОНЫҢ ЖАҚЫН ТУҒАНДАРЫН АРНАЙЫ ТЕКСЕРУДІҢ БІРІНШІ КЕЗЕҢІ/ПЕРВЫЙ ЭТАП СПЕЦИАЛЬНОЙ ПРОВЕРКИ КАНДИДАТА И ЕГО БЛИЗКИХ РОДСТВЕННИКОВ]]></text>
             </staticText>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="454" y="0" width="106" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="40071c12-f186-4523-b368-68bd1d6ef997">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="504" y="0" width="50" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="40071c12-f186-4523-b368-68bd1d6ef997">
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
                 </reportElement>
                 <box>
                     <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
