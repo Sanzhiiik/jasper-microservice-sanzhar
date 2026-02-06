@@ -502,10 +502,6 @@
         <property name="net.sf.jasperreports.json.field.expression" value="aqparat_department"/>
         <fieldDescription><![CDATA[aqparat_department]]></fieldDescription>
     </field>
-    <field name="aqparat_iin" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="aqparat_iin"/>
-        <fieldDescription><![CDATA[aqparat_iin]]></fieldDescription>
-    </field>
     <field name="aqparat_number" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="aqparat_number"/>
         <fieldDescription><![CDATA[aqparat_number]]></fieldDescription>
@@ -514,29 +510,89 @@
         <property name="net.sf.jasperreports.json.field.expression" value="aqparat_unit_name"/>
         <fieldDescription><![CDATA[aqparat_unit_name]]></fieldDescription>
     </field>
+    <field name="aqparat_status" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="aqparat_status"/>
+        <fieldDescription><![CDATA[aqparat_status]]></fieldDescription>
+    </field>
+    <field name="aqparat_comments" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="aqparat_comments"/>
+        <fieldDescription><![CDATA[aqparat_comments]]></fieldDescription>
+    </field>
+    <field name="aqparat_create_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="aqparat_create_date"/>
+        <fieldDescription><![CDATA[aqparat_create_date]]></fieldDescription>
+    </field>
     <field name="assistent_department" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="assistent_department"/>
         <fieldDescription><![CDATA[assistent_department]]></fieldDescription>
     </field>
-    <field name="km_identified information" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="km_identified information"/>
-        <fieldDescription><![CDATA[km_identified information]]></fieldDescription>
+    <field name="assistent_status" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="assistent_status"/>
+        <fieldDescription><![CDATA[assistent_status]]></fieldDescription>
+    </field>
+    <field name="assistent_comments" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="assistent_comments"/>
+        <fieldDescription><![CDATA[assistent_comments]]></fieldDescription>
+    </field>
+    <field name="assistent_create_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="assistent_create_date"/>
+        <fieldDescription><![CDATA[assistent_create_date]]></fieldDescription>
     </field>
     <field name="km_department" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="km_department"/>
         <fieldDescription><![CDATA[km_department]]></fieldDescription>
     </field>
+    <field name="km_status" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="km_status"/>
+        <fieldDescription><![CDATA[km_status]]></fieldDescription>
+    </field>
+    <field name="km_comments" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="km_comments"/>
+        <fieldDescription><![CDATA[km_comments]]></fieldDescription>
+    </field>
+    <field name="km_create_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="km_create_date"/>
+        <fieldDescription><![CDATA[km_create_date]]></fieldDescription>
+    </field>
     <field name="operational_reference_department" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="operational_reference_department"/>
         <fieldDescription><![CDATA[operational_reference_department]]></fieldDescription>
     </field>
-    <field name="confirmation_study_work" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="confirmation_study_work"/>
-        <fieldDescription><![CDATA[confirmation_study_work]]></fieldDescription>
+    <field name="operational_status" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_status"/>
+        <fieldDescription><![CDATA[operational_status]]></fieldDescription>
     </field>
-    <field name="confirmation_executing_unit" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="confirmation_executing_unit"/>
-        <fieldDescription><![CDATA[confirmation_executing_unit]]></fieldDescription>
+    <field name="operational_comments" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_comments"/>
+        <fieldDescription><![CDATA[operational_comments]]></fieldDescription>
+    </field>
+    <field name="operational_create_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_create_date"/>
+        <fieldDescription><![CDATA[operational_create_date]]></fieldDescription>
+    </field>
+    <field name="confirmation_type" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="confirmation_type"/>
+        <fieldDescription><![CDATA[confirmation_type]]></fieldDescription>
+    </field>
+    <field name="confirmation_department" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="confirmation_department"/>
+        <fieldDescription><![CDATA[confirmation_department]]></fieldDescription>
+    </field>
+    <field name="confirmation_name_org" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="confirmation_name_org"/>
+        <fieldDescription><![CDATA[confirmation_name_org]]></fieldDescription>
+    </field>
+    <field name="confirmation_status" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="confirmation_status"/>
+        <fieldDescription><![CDATA[confirmation_status]]></fieldDescription>
+    </field>
+    <field name="confirmation_comments" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="confirmation_comments"/>
+        <fieldDescription><![CDATA[confirmation_comments]]></fieldDescription>
+    </field>
+    <field name="confirmation_create_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="confirmation_create_date"/>
+        <fieldDescription><![CDATA[confirmation_create_date]]></fieldDescription>
     </field>
     <field name="internet_department" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="internet_department"/>
@@ -562,17 +618,17 @@
         <property name="net.sf.jasperreports.json.field.expression" value="svr_result"/>
         <fieldDescription><![CDATA[svr_result]]></fieldDescription>
     </field>
-    <field name="svr_answer_text" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="svr_answer_text"/>
-        <fieldDescription><![CDATA[svr_answer_text]]></fieldDescription>
+    <field name="svr_comments" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="svr_comments"/>
+        <fieldDescription><![CDATA[svr_comments]]></fieldDescription>
     </field>
     <field name="special_operational_сlass_secrecy" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="special_operational_сlass_secrecy"/>
         <fieldDescription><![CDATA[special_operational_сlass_secrecy]]></fieldDescription>
     </field>
-    <field name="special_operational_order number" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="special_operational_order number"/>
-        <fieldDescription><![CDATA[special_operational_order number]]></fieldDescription>
+    <field name="special_operational_order_number" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="special_operational_order_number"/>
+        <fieldDescription><![CDATA[special_operational_order_number]]></fieldDescription>
     </field>
     <field name="special_operational_department_code" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="special_operational_department_code"/>
@@ -581,6 +637,38 @@
     <field name="special_operational_reason_check" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="special_operational_reason_check"/>
         <fieldDescription><![CDATA[special_operational_reason_check]]></fieldDescription>
+    </field>
+    <field name="operational_place_сlass_secrecy" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_place_сlass_secrecy"/>
+        <fieldDescription><![CDATA[operational_place_сlass_secrecy]]></fieldDescription>
+    </field>
+    <field name="operational_place_department" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_place_department"/>
+        <fieldDescription><![CDATA[operational_place_department]]></fieldDescription>
+    </field>
+    <field name="operational_place_type_event" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_place_type_event"/>
+        <fieldDescription><![CDATA[operational_place_type_event]]></fieldDescription>
+    </field>
+    <field name="operational_place_reason_check" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_place_reason_check"/>
+        <fieldDescription><![CDATA[operational_place_reason_check]]></fieldDescription>
+    </field>
+    <field name="operational_place_corpus" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_place_corpus"/>
+        <fieldDescription><![CDATA[operational_place_corpus]]></fieldDescription>
+    </field>
+    <field name="operational_place_goal" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_place_goal"/>
+        <fieldDescription><![CDATA[operational_place_goal]]></fieldDescription>
+    </field>
+    <field name="operational_place_orientation" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_place_orientation"/>
+        <fieldDescription><![CDATA[operational_place_orientation]]></fieldDescription>
+    </field>
+    <field name="operational_place_more_information" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_place_more_information"/>
+        <fieldDescription><![CDATA[operational_place_more_information]]></fieldDescription>
     </field>
     <field name="health_diagnosis" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="health_diagnosis"/>

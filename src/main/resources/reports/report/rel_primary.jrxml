@@ -623,6 +623,19 @@
                     <textFieldExpression><![CDATA[$F{nationality}]]></textFieldExpression>
                 </textField>
             </frame>
+            <staticText>
+                <reportElement x="0" y="0" width="560" height="50" uuid="5c5365e7-21f1-46d2-bde3-74aa8c4d338e">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                </reportElement>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Times New Roman" size="14" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                </textElement>
+                <text><![CDATA[Жақын туыстарын бастапқы арнайы тексеру бойынша
+ҚОРЫТЫНДЫ / ЗАКЛЮЧЕНИЕ
+по результатам первичной проверки близких родственников]]></text>
+            </staticText>
         </band>
         <band height="40" splitType="Stretch">
             <property name="com.jaspersoft.studio.unit.height" value="px"/>
