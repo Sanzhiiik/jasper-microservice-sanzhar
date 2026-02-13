@@ -670,6 +670,14 @@
         <property name="net.sf.jasperreports.json.field.expression" value="operational_place_more_information"/>
         <fieldDescription><![CDATA[operational_place_more_information]]></fieldDescription>
     </field>
+    <field name="getcontact_nickname" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="getcontact_nickname"/>
+        <fieldDescription><![CDATA[getcontact_nickname]]></fieldDescription>
+    </field>
+    <field name="getcontact_date_source" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="getcontact_date_source"/>
+        <fieldDescription><![CDATA[getcontact_date_source]]></fieldDescription>
+    </field>
     <field name="health_diagnosis" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="health_diagnosis"/>
         <fieldDescription><![CDATA[health_diagnosis]]></fieldDescription>
@@ -686,13 +694,77 @@
         <property name="net.sf.jasperreports.json.field.expression" value="health_reason"/>
         <fieldDescription><![CDATA[health_reason]]></fieldDescription>
     </field>
-    <field name="getcontact_nickname" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="getcontact_nickname"/>
-        <fieldDescription><![CDATA[getcontact_nickname]]></fieldDescription>
+    <field name="med_request_number" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="med_request_number"/>
+        <fieldDescription><![CDATA[med_request_number]]></fieldDescription>
     </field>
-    <field name="getcontact_date_source" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="getcontact_date_source"/>
-        <fieldDescription><![CDATA[getcontact_date_source]]></fieldDescription>
+    <field name="med_request_data" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="med_request_data"/>
+        <fieldDescription><![CDATA[med_request_data]]></fieldDescription>
+    </field>
+    <field name="med_answer_number" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="med_answer_number"/>
+        <fieldDescription><![CDATA[med_answer_number]]></fieldDescription>
+    </field>
+    <field name="med_answer_data" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="med_answer_data"/>
+        <fieldDescription><![CDATA[med_answer_data]]></fieldDescription>
+    </field>
+    <field name="med_result" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="med_result"/>
+        <fieldDescription><![CDATA[med_result]]></fieldDescription>
+    </field>
+    <field name="med_comments" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="med_comments"/>
+        <fieldDescription><![CDATA[med_comments]]></fieldDescription>
+    </field>
+    <field name="polygraph_request_number" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="polygraph_request_number"/>
+        <fieldDescription><![CDATA[polygraph_request_number]]></fieldDescription>
+    </field>
+    <field name="polygraph_request_data" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="polygraph_request_data"/>
+        <fieldDescription><![CDATA[polygraph_request_data]]></fieldDescription>
+    </field>
+    <field name="polygraph_answer_number" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="polygraph_answer_number"/>
+        <fieldDescription><![CDATA[polygraph_answer_number]]></fieldDescription>
+    </field>
+    <field name="polygraph_answer_data" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="polygraph_answer_data"/>
+        <fieldDescription><![CDATA[polygraph_answer_data]]></fieldDescription>
+    </field>
+    <field name="polygraph_result" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="polygraph_result"/>
+        <fieldDescription><![CDATA[polygraph_result]]></fieldDescription>
+    </field>
+    <field name="polygraph_comments" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="polygraph_comments"/>
+        <fieldDescription><![CDATA[polygraph_comments]]></fieldDescription>
+    </field>
+    <field name="psycho_request_number" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psycho_request_number"/>
+        <fieldDescription><![CDATA[psycho_request_number]]></fieldDescription>
+    </field>
+    <field name="psycho_request_data" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psycho_request_data"/>
+        <fieldDescription><![CDATA[psycho_request_data]]></fieldDescription>
+    </field>
+    <field name="psycho_answer_number" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psycho_answer_number"/>
+        <fieldDescription><![CDATA[psycho_answer_number]]></fieldDescription>
+    </field>
+    <field name="psycho_answer_data" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psycho_answer_data"/>
+        <fieldDescription><![CDATA[psycho_answer_data]]></fieldDescription>
+    </field>
+    <field name="psycho_result" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psycho_result"/>
+        <fieldDescription><![CDATA[psycho_result]]></fieldDescription>
+    </field>
+    <field name="psycho_comments" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psycho_comments"/>
+        <fieldDescription><![CDATA[psycho_comments]]></fieldDescription>
     </field>
     <background>
         <band splitType="Stretch"/>
@@ -779,9 +851,7 @@
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
-                    <textElement textAlignment="Left" verticalAlignment="Middle">
-                        <font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
+                    <textElement textAlignment="Left" verticalAlignment="Middle"/>
                     <text><![CDATA[ФИО/ТӘЖ]]></text>
                 </staticText>
             </frame>
