@@ -50,6 +50,10 @@
         <property name="net.sf.jasperreports.json.field.expression" value="actual_residence"/>
         <fieldDescription><![CDATA[actual_residence]]></fieldDescription>
     </field>
+    <field name="data_created" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="data_created"/>
+        <fieldDescription><![CDATA[data_created]]></fieldDescription>
+    </field>
     <field name="identification_card_number" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="identification_card_number"/>
         <fieldDescription><![CDATA[identification_card_number]]></fieldDescription>
@@ -594,9 +598,13 @@
         <property name="net.sf.jasperreports.json.field.expression" value="confirmation_create_date"/>
         <fieldDescription><![CDATA[confirmation_create_date]]></fieldDescription>
     </field>
-    <field name="internet_department" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="internet_department"/>
-        <fieldDescription><![CDATA[internet_department]]></fieldDescription>
+    <field name="internet_status" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="internet_status"/>
+        <fieldDescription><![CDATA[internet_status]]></fieldDescription>
+    </field>
+    <field name="internet_create_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="internet_create_date"/>
+        <fieldDescription><![CDATA[internet_create_date]]></fieldDescription>
     </field>
     <field name="svr_request_number" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="svr_request_number"/>
@@ -621,6 +629,50 @@
     <field name="svr_comments" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="svr_comments"/>
         <fieldDescription><![CDATA[svr_comments]]></fieldDescription>
+    </field>
+    <field name="investigate_grih_secret" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="investigate_grih_secret"/>
+        <fieldDescription><![CDATA[investigate_grih_secret]]></fieldDescription>
+    </field>
+    <field name="investigate_number" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="investigate_number"/>
+        <fieldDescription><![CDATA[investigate_number]]></fieldDescription>
+    </field>
+    <field name="investigate_department_code" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="investigate_department_code"/>
+        <fieldDescription><![CDATA[investigate_department_code]]></fieldDescription>
+    </field>
+    <field name="investigate_reason_check" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="investigate_reason_check"/>
+        <fieldDescription><![CDATA[investigate_reason_check]]></fieldDescription>
+    </field>
+    <field name="oper_install_grih_secret" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="oper_install_grih_secret"/>
+        <fieldDescription><![CDATA[oper_install_grih_secret]]></fieldDescription>
+    </field>
+    <field name="oper_install_type_event" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="oper_install_type_event"/>
+        <fieldDescription><![CDATA[oper_install_type_event]]></fieldDescription>
+    </field>
+    <field name="oper_install_reason_check" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="oper_install_reason_check"/>
+        <fieldDescription><![CDATA[oper_install_reason_check]]></fieldDescription>
+    </field>
+    <field name="oper_install_corpus" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="oper_install_corpus"/>
+        <fieldDescription><![CDATA[oper_install_corpus]]></fieldDescription>
+    </field>
+    <field name="oper_install_goal" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="oper_install_goal"/>
+        <fieldDescription><![CDATA[oper_install_goal]]></fieldDescription>
+    </field>
+    <field name="oper_install_orientation" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="oper_install_orientation"/>
+        <fieldDescription><![CDATA[oper_install_orientation]]></fieldDescription>
+    </field>
+    <field name="oper_install_add_info" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="oper_install_add_info"/>
+        <fieldDescription><![CDATA[oper_install_add_info]]></fieldDescription>
     </field>
     <field name="special_operational_сlass_secrecy" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="special_operational_сlass_secrecy"/>
@@ -792,6 +844,68 @@
                 </textElement>
                 <text><![CDATA[Форма заключения]]></text>
             </staticText>
+            <frame>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="150" height="25" isPrintWhenDetailOverflows="true" uuid="add5a29d-b09b-4eaa-9e66-c06a4176bf7d">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                </reportElement>
+                <box>
+                    <topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <frame>
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="0" y="0" width="150" height="25" isPrintWhenDetailOverflows="true" uuid="d9495ca7-6413-4526-beb4-d768b85799c7">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <staticText>
+                        <reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="0" y="0" width="75" height="25" isPrintWhenDetailOverflows="true" backcolor="#FCFCFC" uuid="9af07ff1-2d51-4cab-b25f-6acaa42866a3">
+                            <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                            <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        </reportElement>
+                        <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
+                            <topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                            <leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                            <bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                            <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                        </box>
+                        <textElement textAlignment="Left" verticalAlignment="Middle">
+                            <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                        </textElement>
+                        <text><![CDATA[Дата создание:]]></text>
+                    </staticText>
+                    <textField textAdjust="StretchHeight" isBlankWhenNull="true">
+                        <reportElement positionType="Float" stretchType="ContainerBottom" x="75" y="0" width="75" height="25" isPrintWhenDetailOverflows="true" uuid="776725a8-7149-4af7-bf3f-21baf6528d68">
+                            <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                            <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                            <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                        </reportElement>
+                        <box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+                            <topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                            <leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                            <bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                            <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                        </box>
+                        <textElement textAlignment="Left" verticalAlignment="Middle">
+                            <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                        </textElement>
+                        <textFieldExpression><![CDATA[$F{data_created}]]></textFieldExpression>
+                    </textField>
+                </frame>
+            </frame>
         </band>
         <band height="140" splitType="Stretch">
             <property name="com.jaspersoft.studio.unit.height" value="px"/>
