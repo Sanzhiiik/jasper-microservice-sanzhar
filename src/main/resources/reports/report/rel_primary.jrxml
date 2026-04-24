@@ -46,6 +46,10 @@
         <property name="net.sf.jasperreports.json.field.expression" value="phone_number"/>
         <fieldDescription><![CDATA[phone_number]]></fieldDescription>
     </field>
+    <field name="date_of_death" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="date_of_death"/>
+        <fieldDescription><![CDATA[date_of_death]]></fieldDescription>
+    </field>
     <field name="criminal_record_case_number" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_case_number"/>
         <fieldDescription><![CDATA[criminal_record_case_number]]></fieldDescription>
@@ -254,10 +258,6 @@
         <property name="net.sf.jasperreports.json.field.expression" value="aqparat_department"/>
         <fieldDescription><![CDATA[aqparat_department]]></fieldDescription>
     </field>
-    <field name="aqparat_iin" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="aqparat_iin"/>
-        <fieldDescription><![CDATA[aqparat_iin]]></fieldDescription>
-    </field>
     <field name="aqparat_number" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="aqparat_number"/>
         <fieldDescription><![CDATA[aqparat_number]]></fieldDescription>
@@ -266,29 +266,89 @@
         <property name="net.sf.jasperreports.json.field.expression" value="aqparat_unit_name"/>
         <fieldDescription><![CDATA[aqparat_unit_name]]></fieldDescription>
     </field>
+    <field name="aqparat_status" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="aqparat_status"/>
+        <fieldDescription><![CDATA[aqparat_status]]></fieldDescription>
+    </field>
+    <field name="aqparat_comments" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="aqparat_comments"/>
+        <fieldDescription><![CDATA[aqparat_comments]]></fieldDescription>
+    </field>
+    <field name="aqparat_create_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="aqparat_create_date"/>
+        <fieldDescription><![CDATA[aqparat_create_date]]></fieldDescription>
+    </field>
     <field name="assistent_department" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="assistent_department"/>
         <fieldDescription><![CDATA[assistent_department]]></fieldDescription>
     </field>
-    <field name="km_identified information" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="km_identified information"/>
-        <fieldDescription><![CDATA[km_identified information]]></fieldDescription>
+    <field name="assistent_status" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="assistent_status"/>
+        <fieldDescription><![CDATA[assistent_status]]></fieldDescription>
+    </field>
+    <field name="assistent_comments" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="assistent_comments"/>
+        <fieldDescription><![CDATA[assistent_comments]]></fieldDescription>
+    </field>
+    <field name="assistent_create_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="assistent_create_date"/>
+        <fieldDescription><![CDATA[assistent_create_date]]></fieldDescription>
     </field>
     <field name="km_department" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="km_department"/>
         <fieldDescription><![CDATA[km_department]]></fieldDescription>
     </field>
+    <field name="km_status" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="km_status"/>
+        <fieldDescription><![CDATA[km_status]]></fieldDescription>
+    </field>
+    <field name="km_comments" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="km_comments"/>
+        <fieldDescription><![CDATA[km_comments]]></fieldDescription>
+    </field>
+    <field name="km_create_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="km_create_date"/>
+        <fieldDescription><![CDATA[km_create_date]]></fieldDescription>
+    </field>
     <field name="operational_reference_department" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="operational_reference_department"/>
         <fieldDescription><![CDATA[operational_reference_department]]></fieldDescription>
     </field>
-    <field name="confirmation_study_work" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="confirmation_study_work"/>
-        <fieldDescription><![CDATA[confirmation_study_work]]></fieldDescription>
+    <field name="operational_status" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_status"/>
+        <fieldDescription><![CDATA[operational_status]]></fieldDescription>
     </field>
-    <field name="confirmation_executing_unit" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="confirmation_executing_unit"/>
-        <fieldDescription><![CDATA[confirmation_executing_unit]]></fieldDescription>
+    <field name="operational_comments" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_comments"/>
+        <fieldDescription><![CDATA[operational_comments]]></fieldDescription>
+    </field>
+    <field name="operational_create_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_create_date"/>
+        <fieldDescription><![CDATA[operational_create_date]]></fieldDescription>
+    </field>
+    <field name="confirmation_type" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="confirmation_type"/>
+        <fieldDescription><![CDATA[confirmation_type]]></fieldDescription>
+    </field>
+    <field name="confirmation_department" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="confirmation_department"/>
+        <fieldDescription><![CDATA[confirmation_department]]></fieldDescription>
+    </field>
+    <field name="confirmation_name_org" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="confirmation_name_org"/>
+        <fieldDescription><![CDATA[confirmation_name_org]]></fieldDescription>
+    </field>
+    <field name="confirmation_status" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="confirmation_status"/>
+        <fieldDescription><![CDATA[confirmation_status]]></fieldDescription>
+    </field>
+    <field name="confirmation_comments" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="confirmation_comments"/>
+        <fieldDescription><![CDATA[confirmation_comments]]></fieldDescription>
+    </field>
+    <field name="confirmation_create_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="confirmation_create_date"/>
+        <fieldDescription><![CDATA[confirmation_create_date]]></fieldDescription>
     </field>
     <field name="internet_department" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="internet_department"/>
@@ -314,17 +374,17 @@
         <property name="net.sf.jasperreports.json.field.expression" value="svr_result"/>
         <fieldDescription><![CDATA[svr_result]]></fieldDescription>
     </field>
-    <field name="svr_answer_text" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="svr_answer_text"/>
-        <fieldDescription><![CDATA[svr_answer_text]]></fieldDescription>
+    <field name="svr_comments" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="svr_comments"/>
+        <fieldDescription><![CDATA[svr_comments]]></fieldDescription>
     </field>
     <field name="special_operational_сlass_secrecy" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="special_operational_сlass_secrecy"/>
         <fieldDescription><![CDATA[special_operational_сlass_secrecy]]></fieldDescription>
     </field>
-    <field name="special_operational_order number" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="special_operational_order number"/>
-        <fieldDescription><![CDATA[special_operational_order number]]></fieldDescription>
+    <field name="special_operational_order_number" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="special_operational_order_number"/>
+        <fieldDescription><![CDATA[special_operational_order_number]]></fieldDescription>
     </field>
     <field name="special_operational_department_code" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="special_operational_department_code"/>
@@ -333,6 +393,38 @@
     <field name="special_operational_reason_check" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="special_operational_reason_check"/>
         <fieldDescription><![CDATA[special_operational_reason_check]]></fieldDescription>
+    </field>
+    <field name="operational_place_сlass_secrecy" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_place_сlass_secrecy"/>
+        <fieldDescription><![CDATA[operational_place_сlass_secrecy]]></fieldDescription>
+    </field>
+    <field name="operational_place_department" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_place_department"/>
+        <fieldDescription><![CDATA[operational_place_department]]></fieldDescription>
+    </field>
+    <field name="operational_place_type_event" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_place_type_event"/>
+        <fieldDescription><![CDATA[operational_place_type_event]]></fieldDescription>
+    </field>
+    <field name="operational_place_reason_check" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_place_reason_check"/>
+        <fieldDescription><![CDATA[operational_place_reason_check]]></fieldDescription>
+    </field>
+    <field name="operational_place_corpus" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_place_corpus"/>
+        <fieldDescription><![CDATA[operational_place_corpus]]></fieldDescription>
+    </field>
+    <field name="operational_place_goal" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_place_goal"/>
+        <fieldDescription><![CDATA[operational_place_goal]]></fieldDescription>
+    </field>
+    <field name="operational_place_orientation" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_place_orientation"/>
+        <fieldDescription><![CDATA[operational_place_orientation]]></fieldDescription>
+    </field>
+    <field name="operational_place_more_information" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="operational_place_more_information"/>
+        <fieldDescription><![CDATA[operational_place_more_information]]></fieldDescription>
     </field>
     <field name="health_diagnosis" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="health_diagnosis"/>
@@ -681,6 +773,56 @@
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
                     <textFieldExpression><![CDATA[$F{place_of_birth}]]></textFieldExpression>
+                </textField>
+            </frame>
+        </band>
+        <band height="40" splitType="Stretch">
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <frame>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="65311b9e-5031-40ad-b4ec-5f866b89b99d">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                </reportElement>
+                <box>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <staticText>
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="fd8b44e2-5325-4045-be1d-2a75e9a8cbfa">
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    </reportElement>
+                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Left" verticalAlignment="Top">
+                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <text><![CDATA[Қайтыс болған күні/Дата смерти]]></text>
+                </staticText>
+                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="e2784a89-bee5-4392-ad0d-57493131facc">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    </reportElement>
+                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
+                        <rightPen lineWidth="1.0"/>
+                    </box>
+                    <textElement textAlignment="Left" verticalAlignment="Top">
+                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{date_of_death}]]></textFieldExpression>
                 </textField>
             </frame>
         </band>
