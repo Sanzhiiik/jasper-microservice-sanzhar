@@ -130,6 +130,10 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="military_rank"/>
 		<fieldDescription><![CDATA[military_rank]]></fieldDescription>
 	</field>
+	<field name="specialmarks" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="specialmarks"/>
+		<fieldDescription><![CDATA[specialmarks]]></fieldDescription>
+	</field>
 	<field name="suitability_level_manual" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="suitability_level_manual"/>
 		<fieldDescription><![CDATA[suitability_level_manual]]></fieldDescription>
@@ -2762,17 +2766,17 @@
 				</textField>
 			</frame>
 		</band>
-		<band height="90" splitType="Stretch">
+		<band height="130" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="90" isPrintWhenDetailOverflows="true" uuid="5cf26d92-5845-4124-83a9-79ce9e099022">
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="130" isPrintWhenDetailOverflows="true" uuid="5cf26d92-5845-4124-83a9-79ce9e099022">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="90" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="73c72d38-54d6-42b6-be75-035d193d5d1f">
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="130" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="73c72d38-54d6-42b6-be75-035d193d5d1f">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -2925,7 +2929,7 @@
 					</textField>
 				</frame>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="483" y="0" width="75" height="90" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="c9726c54-8182-47e7-939d-9c087be0d530">
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="483" y="0" width="75" height="130" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="c9726c54-8182-47e7-939d-9c087be0d530">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -2942,6 +2946,51 @@
 					</textElement>
 					<textFieldExpression><![CDATA[$F{military_data}]]></textFieldExpression>
 				</textField>
+				<frame>
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="90" width="363" height="40" isPrintWhenDetailOverflows="true" uuid="3cedb913-b77f-439c-a463-686ad3e9dce6">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<staticText>
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="d14b7eba-7a60-4663-adbe-a6a3997f2c6d">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
+							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement textAlignment="Left" verticalAlignment="Top">
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<text><![CDATA[Арнайы белгілер/Специальные отметки]]></text>
+					</staticText>
+					<textField textAdjust="ScaleFont" isBlankWhenNull="true">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="243" height="40" isPrintWhenDetailOverflows="true" uuid="8f172d4c-21ca-485f-8b29-d028ca8a071f">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5"/>
+						<textElement textAlignment="Left" verticalAlignment="Top">
+							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{specialmarks}]]></textFieldExpression>
+					</textField>
+				</frame>
 			</frame>
 		</band>
 		<band height="50" splitType="Stretch">
