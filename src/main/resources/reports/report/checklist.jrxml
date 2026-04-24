@@ -11,63 +11,6 @@
         <band height="425" splitType="Immediate">
             <property name="com.jaspersoft.studio.unit.height" value="px"/>
             <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="495378df-faca-4b75-aa4a-0561afdea4a9">
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                </reportElement>
-                <box>
-                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                </box>
-                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
-                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    <paragraph leftIndent="5"/>
-                </textElement>
-                <text><![CDATA[Қауіпсіздік қызметкерімен әңгіме/Беседа с сотрудником СБ]]></text>
-            </staticText>
-            <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="15" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="19de56b5-53f9-4131-ac45-50f7e9bc2b31">
-                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                </reportElement>
-                <box>
-                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                </box>
-                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
-                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    <paragraph leftIndent="5"/>
-                </textElement>
-                <text><![CDATA[Кандидаттың ата-анасымен/жұбайымен сұхбат/Беседа с родителями/супругой(ом) кандидата]]></text>
-            </staticText>
-            <staticText>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="30" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="eb09873c-e3a6-4c74-bdbf-2ae4db5a9958">
-                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                </reportElement>
-                <box>
-                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                </box>
-                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
-                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    <paragraph leftIndent="5"/>
-                </textElement>
-                <text><![CDATA[Дене шынықтыруды тексеру/Проверка физ.подготовки]]></text>
-            </staticText>
-            <staticText>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="45" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="4ec2cd39-c685-4f84-a895-773e97f86784">
                     <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -84,7 +27,7 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Тапсырыстар бойынша тексеру (конспект, операциялық тапсырыстар)/Проверка на поручениях (реферат, опер.поручения)]]></text>
+                <text><![CDATA[Кандидатпен және оның жақын туыстарымен кездесулер өткізу/Проведение встреч с кандидатом и его близкими родственниками]]></text>
             </staticText>
             <staticText>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="60" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="bc0d8f1f-1773-4179-bcb5-4b2d293ba130">
@@ -103,7 +46,7 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Үміткердің нормативтік құқықтық актілерді және мемлекеттік тілді білуіне тестілеу/Тестирование кандидата на знание НПА и гос.языка]]></text>
+                <text><![CDATA[Мемлекеттік тілді меңгеру және ҚР заңнамасын білу/Владения государственным языком и знание законодательства РК]]></text>
             </staticText>
             <staticText>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="75" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="35a55aae-dded-4f40-8b94-ff0227226716">
@@ -122,7 +65,7 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Полиграфиялық зерттеу/Полиграфологическое исследование]]></text>
+                <text><![CDATA[Дене шынықтыру деңгейін тексеру/Проверка уровня физической подготовленности]]></text>
             </staticText>
             <staticText>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="90" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="b9a00430-f886-4040-868d-a7dea70389dc">
@@ -141,7 +84,7 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Психологиялық және социологиялық зерттеулер/Психолого-социологическое исследование]]></text>
+                <text><![CDATA[Тапсырмаларға үміткерлерді тексеру/Проверка кандидатов на поручениях]]></text>
             </staticText>
             <staticText>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="105" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="858e77e0-5c61-42d7-9a53-eeaea9e4d76f">
@@ -160,7 +103,7 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Психофизиологиялық тексеру/Психофизиологического обследование]]></text>
+                <text><![CDATA[Психологиялық зерттеу және құзыреттіліктер бағасы/Психологические исследования и оценка компетенций]]></text>
             </staticText>
             <staticText>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="fd8c95f3-17de-4a05-b892-76cf704fbafc">
@@ -179,7 +122,7 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Әскери-дәрігерлік комиссия/Военно-врачебная комиссия]]></text>
+                <text><![CDATA[Полиграфиялық зерттеу жүргізу/Проведение полиграфологических исследований]]></text>
             </staticText>
             <staticText>
                 <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="135" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="ec54f562-8e58-4c8f-a571-1dadf0ecd6ba">
