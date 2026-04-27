@@ -18,7 +18,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="birth_date"/>
         <fieldDescription><![CDATA[birth_date]]></fieldDescription>
     </field>
-    <field name="iin" class="java.lang.Long">
+    <field name="iin" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="iin"/>
         <fieldDescription><![CDATA[iin]]></fieldDescription>
     </field>
@@ -58,7 +58,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="date_of_death"/>
         <fieldDescription><![CDATA[date_of_death]]></fieldDescription>
     </field>
-    <field name="identification_card_number" class="java.lang.Integer">
+    <field name="identification_card_number" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="identification_card_number"/>
         <fieldDescription><![CDATA[identification_card_number]]></fieldDescription>
     </field>
@@ -74,7 +74,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="identification_card_issuer"/>
         <fieldDescription><![CDATA[identification_card_issuer]]></fieldDescription>
     </field>
-    <field name="passport_number" class="java.lang.Integer">
+    <field name="passport_number" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="passport_number"/>
         <fieldDescription><![CDATA[passport_number]]></fieldDescription>
     </field>
@@ -102,7 +102,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="last_profession"/>
         <fieldDescription><![CDATA[last_profession]]></fieldDescription>
     </field>
-    <field name="last_gpa" class="java.math.BigDecimal">
+    <field name="last_gpa" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="last_gpa"/>
         <fieldDescription><![CDATA[last_gpa]]></fieldDescription>
     </field>
@@ -194,7 +194,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="divorce_number_akt"/>
         <fieldDescription><![CDATA[divorce_number_akt]]></fieldDescription>
     </field>
-    <field name="divorce_certificate" class="java.lang.Integer">
+    <field name="divorce_certificate" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="divorce_certificate"/>
         <fieldDescription><![CDATA[divorce_certificate]]></fieldDescription>
     </field>
@@ -202,7 +202,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="divorce_reg_date"/>
         <fieldDescription><![CDATA[divorce_reg_date]]></fieldDescription>
     </field>
-    <field name="divorce_spouse_iin" class="java.lang.Long">
+    <field name="divorce_spouse_iin" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="divorce_spouse_iin"/>
         <fieldDescription><![CDATA[divorce_spouse_iin]]></fieldDescription>
     </field>
@@ -210,7 +210,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="divorce_spouse_name"/>
         <fieldDescription><![CDATA[divorce_spouse_name]]></fieldDescription>
     </field>
-    <field name="reg_act_number" class="java.lang.Integer">
+    <field name="reg_act_number" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="reg_act_number"/>
         <fieldDescription><![CDATA[reg_act_number]]></fieldDescription>
     </field>
@@ -222,7 +222,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="reg_act_region"/>
         <fieldDescription><![CDATA[reg_act_region]]></fieldDescription>
     </field>
-    <field name="birth_certificate_number" class="java.lang.Integer">
+    <field name="birth_certificate_number" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="birth_certificate_number"/>
         <fieldDescription><![CDATA[birth_certificate_number]]></fieldDescription>
     </field>
@@ -282,15 +282,15 @@
         <property name="net.sf.jasperreports.json.field.expression" value="study_language"/>
         <fieldDescription><![CDATA[study_language]]></fieldDescription>
     </field>
-    <field name="ent_ball" class="java.lang.Integer">
+    <field name="ent_ball" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="ent_ball"/>
         <fieldDescription><![CDATA[ent_ball]]></fieldDescription>
     </field>
-    <field name="gpa" class="java.math.BigDecimal">
+    <field name="gpa" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="gpa"/>
         <fieldDescription><![CDATA[gpa]]></fieldDescription>
     </field>
-    <field name="work_bin" class="java.lang.Long">
+    <field name="work_bin" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="work_bin"/>
         <fieldDescription><![CDATA[work_bin]]></fieldDescription>
     </field>
@@ -318,7 +318,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_court"/>
         <fieldDescription><![CDATA[criminal_record_court]]></fieldDescription>
     </field>
-    <field name="criminal_record_ascourt_date" class="java.lang.Long">
+    <field name="criminal_record_ascourt_date" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_ascourt_date"/>
         <fieldDescription><![CDATA[criminal_record_ascourt_date]]></fieldDescription>
     </field>
@@ -326,7 +326,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_indictment_organ"/>
         <fieldDescription><![CDATA[criminal_record_indictment_organ]]></fieldDescription>
     </field>
-    <field name="criminal_record_indictment_date" class="java.lang.Integer">
+    <field name="criminal_record_indictment_date" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_indictment_date"/>
         <fieldDescription><![CDATA[criminal_record_indictment_date]]></fieldDescription>
     </field>
@@ -378,7 +378,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_instance"/>
         <fieldDescription><![CDATA[criminal_record_instance]]></fieldDescription>
     </field>
-    <field name="admin_crime_case_number" class="java.lang.Integer">
+    <field name="admin_crime_case_number" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_case_number"/>
         <fieldDescription><![CDATA[admin_crime_case_number]]></fieldDescription>
     </field>
@@ -442,7 +442,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="capacity_date"/>
         <fieldDescription><![CDATA[capacity_date]]></fieldDescription>
     </field>
-    <field name="psycho_diagnosis" class="java.lang.Integer">
+    <field name="psycho_diagnosis" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="psycho_diagnosis"/>
         <fieldDescription><![CDATA[psycho_diagnosis]]></fieldDescription>
     </field>
@@ -474,7 +474,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="narcology_end_reason"/>
         <fieldDescription><![CDATA[narcology_end_reason]]></fieldDescription>
     </field>
-    <field name="phthisiopulmonology_diagnosis" class="java.lang.Integer">
+    <field name="phthisiopulmonology_diagnosis" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="phthisiopulmonology_diagnosis"/>
         <fieldDescription><![CDATA[phthisiopulmonology_diagnosis]]></fieldDescription>
     </field>
@@ -786,7 +786,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_instance_data"/>
         <fieldDescription><![CDATA[criminal_record_instance_data]]></fieldDescription>
     </field>
-    <field name="admin_crime_case_number_data" class="java.lang.Integer">
+    <field name="admin_crime_case_number_data" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_case_number_data"/>
         <fieldDescription><![CDATA[admin_crime_case_number_data]]></fieldDescription>
     </field>
@@ -850,7 +850,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="capacity_date_data"/>
         <fieldDescription><![CDATA[capacity_date_data]]></fieldDescription>
     </field>
-    <field name="psycho_diagnosis_data" class="java.lang.Integer">
+    <field name="psycho_diagnosis_data" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="psycho_diagnosis_data"/>
         <fieldDescription><![CDATA[psycho_diagnosis_data]]></fieldDescription>
     </field>
@@ -882,7 +882,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="narcology_end_reason_data"/>
         <fieldDescription><![CDATA[narcology_end_reason_data]]></fieldDescription>
     </field>
-    <field name="phthisiopulmonology_diagnosis_data" class="java.lang.Integer">
+    <field name="phthisiopulmonology_diagnosis_data" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="phthisiopulmonology_diagnosis_data"/>
         <fieldDescription><![CDATA[phthisiopulmonology_diagnosis_data]]></fieldDescription>
     </field>
@@ -1422,8 +1422,8 @@
                     </textElement>
                     <text><![CDATA[ТӘЖ/ФИО]]></text>
                 </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="363" y="0" width="75" height="20" isPrintWhenDetailOverflows="true" backcolor="#FFFFFF" uuid="71252aa0-f2f6-49f1-98e9-80fe8b28834b">
+                <textField textAdjust="ScaleFont" isBlankWhenNull="true">
+                    <reportElement positionType="Float" mode="Transparent" x="363" y="0" width="75" height="20" isPrintWhenDetailOverflows="true" backcolor="#FFFFFF" uuid="71252aa0-f2f6-49f1-98e9-80fe8b28834b">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -1480,8 +1480,8 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{birth_date}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="363" y="0" width="75" height="20" isPrintWhenDetailOverflows="true" backcolor="#FFFFFF" uuid="3a2e4b57-6577-48aa-954e-c047364cc95a">
+                <textField textAdjust="ScaleFont" isBlankWhenNull="true">
+                    <reportElement positionType="Float" mode="Transparent" x="363" y="0" width="75" height="20" isPrintWhenDetailOverflows="true" backcolor="#FFFFFF" uuid="3a2e4b57-6577-48aa-954e-c047364cc95a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1539,8 +1539,8 @@
                     </textElement>
                     <text><![CDATA[ЖСН/ИИН]]></text>
                 </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="363" y="0" width="75" height="20" isPrintWhenDetailOverflows="true" backcolor="#FFFFFF" uuid="7159325d-55ed-4a5a-a11c-cde66e3b7f80">
+                <textField textAdjust="ScaleFont" isBlankWhenNull="true">
+                    <reportElement positionType="Float" mode="Transparent" x="363" y="0" width="75" height="20" isPrintWhenDetailOverflows="true" backcolor="#FFFFFF" uuid="7159325d-55ed-4a5a-a11c-cde66e3b7f80">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1597,8 +1597,8 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{citizenship}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="363" y="0" width="75" height="20" isPrintWhenDetailOverflows="true" backcolor="#FFFFFF" uuid="5b10d2d5-d3fd-4124-a4ec-8cf0b4654efa">
+                <textField textAdjust="ScaleFont" isBlankWhenNull="true">
+                    <reportElement positionType="Float" mode="Transparent" x="363" y="0" width="75" height="20" isPrintWhenDetailOverflows="true" backcolor="#FFFFFF" uuid="5b10d2d5-d3fd-4124-a4ec-8cf0b4654efa">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1656,8 +1656,8 @@
                     </textElement>
                     <text><![CDATA[Ұлты/Национальность]]></text>
                 </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="363" y="0" width="75" height="20" isPrintWhenDetailOverflows="true" backcolor="#FFFFFF" uuid="91e4ce3f-e896-41c4-a4c6-c7254932e287">
+                <textField textAdjust="ScaleFont" isBlankWhenNull="true">
+                    <reportElement positionType="Float" mode="Transparent" x="363" y="0" width="75" height="20" isPrintWhenDetailOverflows="true" backcolor="#FFFFFF" uuid="91e4ce3f-e896-41c4-a4c6-c7254932e287">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1714,8 +1714,8 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{birth_address}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="363" y="0" width="75" height="40" isPrintWhenDetailOverflows="true" backcolor="#FFFFFF" uuid="704cfd04-0870-424d-8f7f-213b2c2d431b">
+                <textField textAdjust="ScaleFont" isBlankWhenNull="true">
+                    <reportElement positionType="Float" mode="Transparent" x="363" y="0" width="75" height="40" isPrintWhenDetailOverflows="true" backcolor="#FFFFFF" uuid="704cfd04-0870-424d-8f7f-213b2c2d431b">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
