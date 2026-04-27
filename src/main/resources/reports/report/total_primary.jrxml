@@ -18,7 +18,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="birth_date"/>
         <fieldDescription><![CDATA[birth_date]]></fieldDescription>
     </field>
-    <field name="iin" class="java.lang.String">
+    <field name="iin" class="java.lang.Long">
         <property name="net.sf.jasperreports.json.field.expression" value="iin"/>
         <fieldDescription><![CDATA[iin]]></fieldDescription>
     </field>
@@ -58,7 +58,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="date_of_death"/>
         <fieldDescription><![CDATA[date_of_death]]></fieldDescription>
     </field>
-    <field name="identification_card_number" class="java.lang.String">
+    <field name="identification_card_number" class="java.lang.Integer">
         <property name="net.sf.jasperreports.json.field.expression" value="identification_card_number"/>
         <fieldDescription><![CDATA[identification_card_number]]></fieldDescription>
     </field>
@@ -74,7 +74,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="identification_card_issuer"/>
         <fieldDescription><![CDATA[identification_card_issuer]]></fieldDescription>
     </field>
-    <field name="passport_number" class="java.lang.String">
+    <field name="passport_number" class="java.lang.Integer">
         <property name="net.sf.jasperreports.json.field.expression" value="passport_number"/>
         <fieldDescription><![CDATA[passport_number]]></fieldDescription>
     </field>
@@ -102,7 +102,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="last_profession"/>
         <fieldDescription><![CDATA[last_profession]]></fieldDescription>
     </field>
-    <field name="last_gpa" class="java.lang.String">
+    <field name="last_gpa" class="java.math.BigDecimal">
         <property name="net.sf.jasperreports.json.field.expression" value="last_gpa"/>
         <fieldDescription><![CDATA[last_gpa]]></fieldDescription>
     </field>
@@ -194,7 +194,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="divorce_number_akt"/>
         <fieldDescription><![CDATA[divorce_number_akt]]></fieldDescription>
     </field>
-    <field name="divorce_certificate" class="java.lang.String">
+    <field name="divorce_certificate" class="java.lang.Integer">
         <property name="net.sf.jasperreports.json.field.expression" value="divorce_certificate"/>
         <fieldDescription><![CDATA[divorce_certificate]]></fieldDescription>
     </field>
@@ -202,7 +202,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="divorce_reg_date"/>
         <fieldDescription><![CDATA[divorce_reg_date]]></fieldDescription>
     </field>
-    <field name="divorce_spouse_iin" class="java.lang.String">
+    <field name="divorce_spouse_iin" class="java.lang.Long">
         <property name="net.sf.jasperreports.json.field.expression" value="divorce_spouse_iin"/>
         <fieldDescription><![CDATA[divorce_spouse_iin]]></fieldDescription>
     </field>
@@ -210,7 +210,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="divorce_spouse_name"/>
         <fieldDescription><![CDATA[divorce_spouse_name]]></fieldDescription>
     </field>
-    <field name="reg_act_number" class="java.lang.String">
+    <field name="reg_act_number" class="java.lang.Integer">
         <property name="net.sf.jasperreports.json.field.expression" value="reg_act_number"/>
         <fieldDescription><![CDATA[reg_act_number]]></fieldDescription>
     </field>
@@ -222,7 +222,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="reg_act_region"/>
         <fieldDescription><![CDATA[reg_act_region]]></fieldDescription>
     </field>
-    <field name="birth_certificate_number" class="java.lang.String">
+    <field name="birth_certificate_number" class="java.lang.Integer">
         <property name="net.sf.jasperreports.json.field.expression" value="birth_certificate_number"/>
         <fieldDescription><![CDATA[birth_certificate_number]]></fieldDescription>
     </field>
@@ -282,15 +282,15 @@
         <property name="net.sf.jasperreports.json.field.expression" value="study_language"/>
         <fieldDescription><![CDATA[study_language]]></fieldDescription>
     </field>
-    <field name="ent_ball" class="java.lang.String">
+    <field name="ent_ball" class="java.lang.Integer">
         <property name="net.sf.jasperreports.json.field.expression" value="ent_ball"/>
         <fieldDescription><![CDATA[ent_ball]]></fieldDescription>
     </field>
-    <field name="gpa" class="java.lang.String">
+    <field name="gpa" class="java.math.BigDecimal">
         <property name="net.sf.jasperreports.json.field.expression" value="gpa"/>
         <fieldDescription><![CDATA[gpa]]></fieldDescription>
     </field>
-    <field name="work_bin" class="java.lang.String">
+    <field name="work_bin" class="java.lang.Long">
         <property name="net.sf.jasperreports.json.field.expression" value="work_bin"/>
         <fieldDescription><![CDATA[work_bin]]></fieldDescription>
     </field>
@@ -318,7 +318,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_court"/>
         <fieldDescription><![CDATA[criminal_record_court]]></fieldDescription>
     </field>
-    <field name="criminal_record_ascourt_date" class="java.lang.String">
+    <field name="criminal_record_ascourt_date" class="java.lang.Long">
         <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_ascourt_date"/>
         <fieldDescription><![CDATA[criminal_record_ascourt_date]]></fieldDescription>
     </field>
@@ -326,7 +326,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_indictment_organ"/>
         <fieldDescription><![CDATA[criminal_record_indictment_organ]]></fieldDescription>
     </field>
-    <field name="criminal_record_indictment_date" class="java.lang.String">
+    <field name="criminal_record_indictment_date" class="java.lang.Integer">
         <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_indictment_date"/>
         <fieldDescription><![CDATA[criminal_record_indictment_date]]></fieldDescription>
     </field>
@@ -378,7 +378,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_instance"/>
         <fieldDescription><![CDATA[criminal_record_instance]]></fieldDescription>
     </field>
-    <field name="admin_crime_case_number" class="java.lang.String">
+    <field name="admin_crime_case_number" class="java.lang.Integer">
         <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_case_number"/>
         <fieldDescription><![CDATA[admin_crime_case_number]]></fieldDescription>
     </field>
@@ -442,7 +442,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="capacity_date"/>
         <fieldDescription><![CDATA[capacity_date]]></fieldDescription>
     </field>
-    <field name="psycho_diagnosis" class="java.lang.String">
+    <field name="psycho_diagnosis" class="java.lang.Integer">
         <property name="net.sf.jasperreports.json.field.expression" value="psycho_diagnosis"/>
         <fieldDescription><![CDATA[psycho_diagnosis]]></fieldDescription>
     </field>
@@ -474,7 +474,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="narcology_end_reason"/>
         <fieldDescription><![CDATA[narcology_end_reason]]></fieldDescription>
     </field>
-    <field name="phthisiopulmonology_diagnosis" class="java.lang.String">
+    <field name="phthisiopulmonology_diagnosis" class="java.lang.Integer">
         <property name="net.sf.jasperreports.json.field.expression" value="phthisiopulmonology_diagnosis"/>
         <fieldDescription><![CDATA[phthisiopulmonology_diagnosis]]></fieldDescription>
     </field>
@@ -786,7 +786,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_instance_data"/>
         <fieldDescription><![CDATA[criminal_record_instance_data]]></fieldDescription>
     </field>
-    <field name="admin_crime_case_number_data" class="java.lang.String">
+    <field name="admin_crime_case_number_data" class="java.lang.Integer">
         <property name="net.sf.jasperreports.json.field.expression" value="admin_crime_case_number_data"/>
         <fieldDescription><![CDATA[admin_crime_case_number_data]]></fieldDescription>
     </field>
@@ -850,7 +850,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="capacity_date_data"/>
         <fieldDescription><![CDATA[capacity_date_data]]></fieldDescription>
     </field>
-    <field name="psycho_diagnosis_data" class="java.lang.String">
+    <field name="psycho_diagnosis_data" class="java.lang.Integer">
         <property name="net.sf.jasperreports.json.field.expression" value="psycho_diagnosis_data"/>
         <fieldDescription><![CDATA[psycho_diagnosis_data]]></fieldDescription>
     </field>
@@ -882,7 +882,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="narcology_end_reason_data"/>
         <fieldDescription><![CDATA[narcology_end_reason_data]]></fieldDescription>
     </field>
-    <field name="phthisiopulmonology_diagnosis_data" class="java.lang.String">
+    <field name="phthisiopulmonology_diagnosis_data" class="java.lang.Integer">
         <property name="net.sf.jasperreports.json.field.expression" value="phthisiopulmonology_diagnosis_data"/>
         <fieldDescription><![CDATA[phthisiopulmonology_diagnosis_data]]></fieldDescription>
     </field>
@@ -1381,14 +1381,14 @@
         )]]></imageExpression>
             </image>
             <frame>
-                <reportElement positionType="Float" x="120" y="0" width="438" height="20" isPrintWhenDetailOverflows="true" uuid="1857d6fc-96c8-4ed7-af45-6f8ba453768e">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="20" isPrintWhenDetailOverflows="true" uuid="1857d6fc-96c8-4ed7-af45-6f8ba453768e">
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.x" value="px"/>
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 </reportElement>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" x="120" y="0" width="243" height="20" isPrintWhenDetailOverflows="true" backcolor="#FFFFFF" uuid="0bedfe74-d0d1-4457-bc83-1a8917e302f5">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="243" height="20" isPrintWhenDetailOverflows="true" backcolor="#FFFFFF" uuid="0bedfe74-d0d1-4457-bc83-1a8917e302f5">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -1405,7 +1405,7 @@
                     <textFieldExpression><![CDATA[$F{fullname}]]></textFieldExpression>
                 </textField>
                 <staticText>
-                    <reportElement positionType="Float" mode="Opaque" x="0" y="0" width="120" height="20" backcolor="#E7E6E6" uuid="3d62d394-25da-40e7-8406-229ce4a3e813">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="20" backcolor="#E7E6E6" uuid="3d62d394-25da-40e7-8406-229ce4a3e813">
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.y" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -1443,12 +1443,12 @@
                 </textField>
             </frame>
             <frame>
-                <reportElement positionType="Float" x="120" y="20" width="438" height="20" isPrintWhenDetailOverflows="true" uuid="84158466-7864-4dc6-976e-916fb9417cf1">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="20" width="438" height="20" isPrintWhenDetailOverflows="true" uuid="84158466-7864-4dc6-976e-916fb9417cf1">
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 </reportElement>
                 <staticText>
-                    <reportElement positionType="Float" mode="Opaque" x="0" y="0" width="120" height="20" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="2a61d467-f589-4749-9a85-f876e42c8c66">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="20" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="2a61d467-f589-4749-9a85-f876e42c8c66">
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     </reportElement>
@@ -1464,7 +1464,7 @@
                     <text><![CDATA[Туған күні/Дата рождения]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" x="120" y="0" width="243" height="20" isPrintWhenDetailOverflows="true" uuid="dc4244e3-00f8-4a7d-aba5-f7bbb6493dab">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="243" height="20" isPrintWhenDetailOverflows="true" uuid="dc4244e3-00f8-4a7d-aba5-f7bbb6493dab">
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -1501,12 +1501,12 @@
                 </textField>
             </frame>
             <frame>
-                <reportElement positionType="Float" x="120" y="40" width="438" height="20" isPrintWhenDetailOverflows="true" uuid="95157195-064e-44e7-bc3a-1c4207388835">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="40" width="438" height="20" isPrintWhenDetailOverflows="true" uuid="95157195-064e-44e7-bc3a-1c4207388835">
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 </reportElement>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" x="120" y="0" width="243" height="20" isPrintWhenDetailOverflows="true" uuid="ac779fc7-ea55-48c6-b2e3-8f28eb157ddd">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="243" height="20" isPrintWhenDetailOverflows="true" uuid="ac779fc7-ea55-48c6-b2e3-8f28eb157ddd">
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -1523,7 +1523,7 @@
                     <textFieldExpression><![CDATA[$F{iin}]]></textFieldExpression>
                 </textField>
                 <staticText>
-                    <reportElement positionType="Float" mode="Opaque" x="0" y="0" width="120" height="20" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="0d449b7d-443b-4dc8-96b3-7eb5ffed43dc">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="20" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="0d449b7d-443b-4dc8-96b3-7eb5ffed43dc">
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1560,12 +1560,12 @@
                 </textField>
             </frame>
             <frame>
-                <reportElement positionType="Float" x="120" y="60" width="438" height="20" isPrintWhenDetailOverflows="true" uuid="3a4d639a-63c7-4b2e-9887-c0a0b204e6f7">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="60" width="438" height="20" isPrintWhenDetailOverflows="true" uuid="3a4d639a-63c7-4b2e-9887-c0a0b204e6f7">
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 </reportElement>
                 <staticText>
-                    <reportElement positionType="Float" mode="Opaque" x="0" y="0" width="120" height="20" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="48d29d1d-100f-426d-abca-f9f34514ec43">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="20" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="48d29d1d-100f-426d-abca-f9f34514ec43">
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     </reportElement>
@@ -1581,7 +1581,7 @@
                     <text><![CDATA[Азаматтық/Гражданство]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" x="120" y="0" width="243" height="20" isPrintWhenDetailOverflows="true" uuid="a1b38835-a9d9-4b29-b853-0ebdc0018a7b">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="243" height="20" isPrintWhenDetailOverflows="true" uuid="a1b38835-a9d9-4b29-b853-0ebdc0018a7b">
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1618,12 +1618,12 @@
                 </textField>
             </frame>
             <frame>
-                <reportElement positionType="Float" x="120" y="80" width="438" height="20" isPrintWhenDetailOverflows="true" uuid="c5d8fff1-0ca5-4209-a727-870108836d80">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="80" width="438" height="20" isPrintWhenDetailOverflows="true" uuid="c5d8fff1-0ca5-4209-a727-870108836d80">
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 </reportElement>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" x="120" y="0" width="243" height="20" isPrintWhenDetailOverflows="true" uuid="5dcc5a4b-cf1c-445c-85ad-1fd5a712764d">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="243" height="20" isPrintWhenDetailOverflows="true" uuid="5dcc5a4b-cf1c-445c-85ad-1fd5a712764d">
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -1640,7 +1640,7 @@
                     <textFieldExpression><![CDATA[$F{nationality}]]></textFieldExpression>
                 </textField>
                 <staticText>
-                    <reportElement positionType="Float" mode="Opaque" x="0" y="0" width="120" height="20" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="7fb11bed-4709-4683-966e-2626e1f330ef">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="20" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="7fb11bed-4709-4683-966e-2626e1f330ef">
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
