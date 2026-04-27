@@ -720,17 +720,18 @@
         )]]></imageExpression>
 			</image>
 			<frame>
-				<reportElement positionType="Float" x="120" y="60" width="438" height="20" isPrintWhenDetailOverflows="true" uuid="6924b24b-7503-4376-a1c3-612a697cc5f3">
+				<reportElement positionType="Float" x="120" y="60" width="438" height="34" isPrintWhenDetailOverflows="true" uuid="6924b24b-7503-4376-a1c3-612a697cc5f3">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" x="120" y="0" width="243" height="20" isPrintWhenDetailOverflows="true" uuid="ad5eb8f5-fc8a-4617-aa29-1b314dce40bd">
+					<reportElement positionType="Float" x="120" y="0" width="243" height="34" isPrintWhenDetailOverflows="true" uuid="ad5eb8f5-fc8a-4617-aa29-1b314dce40bd">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="0">
 						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -744,7 +745,7 @@
 					<textFieldExpression><![CDATA[$F{fullName}]]></textFieldExpression>
 				</textField>
 				<staticText>
-					<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="120" height="20" backcolor="#E7E6E6" uuid="3b0d311e-d11c-4a5e-9d24-5bc2c14457aa">
+					<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="120" height="34" backcolor="#E7E6E6" uuid="3b0d311e-d11c-4a5e-9d24-5bc2c14457aa">
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -761,8 +762,8 @@
 					</textElement>
 					<text><![CDATA[ФИО/ТӘЖ]]></text>
 				</staticText>
-				<textField>
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="363" y="0" width="75" height="20" uuid="b0589ed1-9bce-460d-8c3c-bc49351bfa7a">
+				<textField textAdjust="StretchHeight">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="363" y="0" width="75" height="34" uuid="b0589ed1-9bce-460d-8c3c-bc49351bfa7a">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -774,11 +775,14 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{fullName_data}]]></textFieldExpression>
 				</textField>
 			</frame>
 			<frame>
-				<reportElement positionType="Float" x="120" y="80" width="438" height="30" isPrintWhenDetailOverflows="true" uuid="503ebb5d-13d0-4970-8831-0e852241db2b">
+				<reportElement positionType="Float" x="120" y="94" width="438" height="30" isPrintWhenDetailOverflows="true" uuid="503ebb5d-13d0-4970-8831-0e852241db2b">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
@@ -828,11 +832,14 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{relationship_data}]]></textFieldExpression>
 				</textField>
 			</frame>
 			<frame>
-				<reportElement positionType="Float" x="120" y="110" width="438" height="30" isPrintWhenDetailOverflows="true" uuid="f0012e43-680d-45f4-9ae9-b002cc2ef655">
+				<reportElement positionType="Float" x="120" y="124" width="438" height="30" isPrintWhenDetailOverflows="true" uuid="f0012e43-680d-45f4-9ae9-b002cc2ef655">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -883,16 +890,19 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{date_of_birth_data}]]></textFieldExpression>
 				</textField>
 			</frame>
 			<frame>
-				<reportElement positionType="Float" x="120" y="140" width="438" height="20" isPrintWhenDetailOverflows="true" uuid="1746a68c-a186-4e25-bd32-2e525556216d">
+				<reportElement positionType="Float" x="120" y="154" width="438" height="23" isPrintWhenDetailOverflows="true" uuid="1746a68c-a186-4e25-bd32-2e525556216d">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<staticText>
-					<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="120" height="20" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="78f8286c-84c4-4a2a-8307-47da7e23f74e">
+					<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="120" height="23" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="78f8286c-84c4-4a2a-8307-47da7e23f74e">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					</reportElement>
@@ -908,7 +918,7 @@
 					<text><![CDATA[ЖСН / ИИН]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" x="120" y="0" width="243" height="20" isPrintWhenDetailOverflows="true" uuid="c5f67b0f-735b-433a-91af-47528432a292">
+					<reportElement positionType="Float" x="120" y="0" width="243" height="23" isPrintWhenDetailOverflows="true" uuid="c5f67b0f-735b-433a-91af-47528432a292">
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -925,7 +935,7 @@
 					<textFieldExpression><![CDATA[$F{IIN}]]></textFieldExpression>
 				</textField>
 				<textField>
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="363" y="0" width="75" height="20" uuid="65f279a2-4ac6-409a-8f23-a6714fae50c0">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="363" y="0" width="75" height="23" uuid="65f279a2-4ac6-409a-8f23-a6714fae50c0">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -937,16 +947,19 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{IIN_data}]]></textFieldExpression>
 				</textField>
 			</frame>
 			<frame>
-				<reportElement positionType="Float" x="120" y="160" width="438" height="20" isPrintWhenDetailOverflows="true" uuid="01c6dac8-3b76-408b-a377-5393684fcb09">
+				<reportElement positionType="Float" x="120" y="177" width="438" height="23" isPrintWhenDetailOverflows="true" uuid="01c6dac8-3b76-408b-a377-5393684fcb09">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" x="120" y="0" width="243" height="20" isPrintWhenDetailOverflows="true" uuid="d590559e-5b04-416f-ac75-a9d5d0d39777">
+					<reportElement positionType="Float" x="120" y="0" width="243" height="23" isPrintWhenDetailOverflows="true" uuid="d590559e-5b04-416f-ac75-a9d5d0d39777">
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -963,7 +976,7 @@
 					<textFieldExpression><![CDATA[$F{citizenship}]]></textFieldExpression>
 				</textField>
 				<staticText>
-					<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="120" height="20" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="b9717d06-7b62-41d8-b045-f704649f0a81">
+					<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="120" height="23" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="b9717d06-7b62-41d8-b045-f704649f0a81">
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -980,7 +993,7 @@
 					<text><![CDATA[Азаматтық / Гражданство]]></text>
 				</staticText>
 				<textField>
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="363" y="0" width="75" height="20" uuid="f3c0f3bb-f1a8-4649-815b-9e1cb9a13648">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="363" y="0" width="75" height="23" uuid="f3c0f3bb-f1a8-4649-815b-9e1cb9a13648">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -992,16 +1005,37 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{citizenship_data}]]></textFieldExpression>
 				</textField>
 			</frame>
-			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="180" width="438" height="20" isPrintWhenDetailOverflows="true" uuid="20abe4a7-bc30-45c9-a8a8-c1fb4248c881">
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="560" height="50" uuid="de978517-e97a-499f-95fd-e17ec3746727">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Жақын туыстарын толық емес арнайы тексеру бойынша
+ҚОРЫТЫНДЫ / ЗАКЛЮЧЕНИЕ
+по результатам не полной специальной проверки близких родственников]]></text>
+			</staticText>
+		</band>
+		<band height="25">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="25" isPrintWhenDetailOverflows="true" uuid="aa43a0ce-58f0-4a39-93c0-9af22bba6dfd">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
 				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="20" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="b139eb88-19c4-4096-9ad5-e2ac626f0930">
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="25" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="dcbc1a0a-aff0-449d-9613-274388086b79">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					</reportElement>
@@ -1017,7 +1051,7 @@
 					<text><![CDATA[Ұлтты / Национальность]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="243" height="20" isPrintWhenDetailOverflows="true" uuid="6782464d-38c6-44fa-a6c5-6afae49647a2">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="363" height="25" isPrintWhenDetailOverflows="true" uuid="6e87bcdc-b628-4631-b97d-7ba731d3a846">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -1034,7 +1068,7 @@
 					<textFieldExpression><![CDATA[$F{nationality}]]></textFieldExpression>
 				</textField>
 				<textField>
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="363" y="0" width="75" height="20" uuid="6722a33f-e410-4b3a-90af-dd99c6126db9">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="25" uuid="18d07516-c817-4038-8000-99a57176aae6">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -1046,22 +1080,12 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{nationality_data}]]></textFieldExpression>
 				</textField>
 			</frame>
-			<staticText>
-				<reportElement positionType="Float" x="0" y="0" width="560" height="50" uuid="de978517-e97a-499f-95fd-e17ec3746727">
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-				</reportElement>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="Times New Roman" size="14" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-				</textElement>
-				<text><![CDATA[Жақын туыстарын толық емес арнайы тексеру бойынша
-ҚОРЫТЫНДЫ / ЗАКЛЮЧЕНИЕ
-по результатам не полной специальной проверки близких родственников]]></text>
-			</staticText>
 		</band>
 		<band height="40" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1121,6 +1145,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{place_of_birth_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -1186,6 +1213,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{date_of_death_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -1248,6 +1278,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{fullName_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -1310,6 +1343,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{phone_number_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -1408,6 +1444,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{criminal_record_case_number_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -1470,6 +1509,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{criminal_record_card_category_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -1532,6 +1574,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{criminal_record_court_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -1594,6 +1639,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{criminal_record_ascourt_date_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -1654,6 +1702,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{criminal_record_indictment_organ_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -1716,6 +1767,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{criminal_record_indictment_date_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -1778,6 +1832,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{criminal_record_main_qualification_article_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -1840,6 +1897,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{criminal_record_inv_qualification_article_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -1902,6 +1962,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{criminal_record_main_special_part_qualification_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -1964,6 +2027,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{criminal_record_inv_special_part_qualification_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -2026,6 +2092,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{criminal_record_crime_severity_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -2088,6 +2157,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{criminal_record_offense_character_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -2148,6 +2220,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{criminal_record_crime_date_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -2210,6 +2285,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{criminal_record_excitation_date_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -2272,6 +2350,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{criminal_record_entry_of_sentence_date_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -2332,6 +2413,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{criminal_record_punish_fine_amount_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -2394,6 +2478,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{criminal_record_punish_imprisonment_term_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -2454,6 +2541,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{criminal_record_instance_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -2534,6 +2624,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{admin_crime_case_number_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -2596,6 +2689,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{admin_crime_agency_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -2658,6 +2754,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{admin_crime_start_date_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -2720,6 +2819,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{admin_crime_avs_name_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -2782,6 +2884,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{admin_crime_qualification_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -2844,6 +2949,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{admin_crime_case_result_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -2906,6 +3014,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{admin_crime_main_penalty_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -2968,6 +3079,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{admin_crime_measures_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -3048,6 +3162,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{dismissal_work_place_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -3106,6 +3223,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{dismissal_post_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -3168,6 +3288,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{dismissal_indication_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -3230,6 +3353,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{dismissal_order_numberv}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -3292,6 +3418,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{dismissal_order_date_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -3370,6 +3499,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{capacity_status_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -3432,6 +3564,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{capable_number_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -3494,6 +3629,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{capacity_date_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -3572,6 +3710,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{psycho_diagnosis_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -3634,6 +3775,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{psycho_begin_date_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -3696,6 +3840,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{psycho_end_date_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -3758,6 +3905,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{psycho_end_reason_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -3836,6 +3986,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{narcology_diagnosis_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -3898,6 +4051,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{narcology_begin_date_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -3960,6 +4116,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{narcology_end_date_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -4022,6 +4181,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{narcology_end_reason_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -4100,6 +4262,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{phthisiopulmonology_diagnosis_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -4162,6 +4327,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{phthisiopulmonology_begin_date_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -4224,6 +4392,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{phthisiopulmonology_end_date_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -4286,6 +4457,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{fullName_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -4366,6 +4540,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{declaration_type_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -4428,6 +4605,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{declaration_accept_date_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -4490,6 +4670,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{declaration_number_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -4552,6 +4735,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{declaration_period_data}]]></textFieldExpression>
 				</textField>
 			</frame>
@@ -4614,6 +4800,9 @@
 						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
+					<textElement>
+						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
 					<textFieldExpression><![CDATA[$F{declaration_tax_division_data}]]></textFieldExpression>
 				</textField>
 			</frame>
