@@ -8,7 +8,7 @@
         <band splitType="Immediate"/>
     </background>
     <detail>
-        <band height="425" splitType="Immediate">
+        <band height="430" splitType="Immediate">
             <property name="com.jaspersoft.studio.unit.height" value="px"/>
             <staticText>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="45" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="4ec2cd39-c685-4f84-a895-773e97f86784">
@@ -27,7 +27,7 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Кандидатпен және оның жақын туыстарымен кездесулер өткізу/Проведение встреч с кандидатом и его близкими родственниками]]></text>
+                <text><![CDATA[Ата-анасымен немесе жұбайымен әңгімелесу/Беседа с родителями или супругом/супругой]]></text>
             </staticText>
             <staticText>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="60" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="bc0d8f1f-1773-4179-bcb5-4b2d293ba130">
@@ -522,6 +522,66 @@
                     <paragraph leftIndent="5"/>
                 </textElement>
                 <text><![CDATA[]]></text>
+            </staticText>
+            <staticText>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="30" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="0693518d-dd56-462e-ac05-7e263e59f724">
+                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                </reportElement>
+                <box>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
+                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    <paragraph leftIndent="5"/>
+                </textElement>
+                <text><![CDATA[ОБД бөлімінің басшысымен әңгіме/Беседа с руководителем подразделения по  ОСД]]></text>
+            </staticText>
+            <staticText>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="15" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="3a1c683e-20f8-4670-9283-15f36509900c">
+                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                </reportElement>
+                <box>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
+                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    <paragraph leftIndent="5"/>
+                </textElement>
+                <text><![CDATA[Ішкі қауіпсіздік қызметкерімен әңгімелесу/Беседа с сотрудником собственной безопасности]]></text>
+            </staticText>
+            <staticText>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="477c5647-89d9-46f6-8d79-12c6cac8edb3">
+                    <property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                </reportElement>
+                <box>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Left" verticalAlignment="Top" rotation="Right">
+                    <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    <paragraph leftIndent="5"/>
+                </textElement>
+                <text><![CDATA[Орган басшысымен және оның орынбасарымен әңгімелесу/Беседа с руководителем органа и его заместителем направляющим кадровую деятельность]]></text>
             </staticText>
         </band>
     </detail>
