@@ -50,6 +50,10 @@
         <property name="net.sf.jasperreports.json.field.expression" value="date_of_death"/>
         <fieldDescription><![CDATA[date_of_death]]></fieldDescription>
     </field>
+    <field name="diagnosis_of_death" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="diagnosis_of_death"/>
+        <fieldDescription><![CDATA[diagnosis_of_death]]></fieldDescription>
+    </field>
     <field name="criminal_record_case_number" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_case_number"/>
         <fieldDescription><![CDATA[criminal_record_case_number]]></fieldDescription>
@@ -293,6 +297,10 @@
     <field name="date_of_death_data" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="date_of_death_data"/>
         <fieldDescription><![CDATA[date_of_death_data]]></fieldDescription>
+    </field>
+    <field name="diagnosis_of_death_data" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="diagnosis_of_death_data"/>
+        <fieldDescription><![CDATA[diagnosis_of_death_data]]></fieldDescription>
     </field>
     <field name="criminal_record_case_number_data" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="criminal_record_case_number_data"/>
@@ -1217,6 +1225,74 @@
                         <font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
                     <textFieldExpression><![CDATA[$F{date_of_death_data}]]></textFieldExpression>
+                </textField>
+            </frame>
+        </band>
+        <band height="40" splitType="Stretch">
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <frame>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="914dede6-c0e1-4f19-9059-dbf0d0c84db4">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                </reportElement>
+                <box>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <staticText>
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="0a8bb87d-5164-4995-a885-20a8edb4773a">
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    </reportElement>
+                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Left" verticalAlignment="Top">
+                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <text><![CDATA[Өлім диагнозы/Диагноз причина смерти ]]></text>
+                </staticText>
+                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="363" height="40" isPrintWhenDetailOverflows="true" uuid="5ba65ba5-7dca-4638-b488-0a6ab685296a">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    </reportElement>
+                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
+                        <rightPen lineWidth="1.0"/>
+                    </box>
+                    <textElement textAlignment="Left" verticalAlignment="Top">
+                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{diagnosis_of_death}]]></textFieldExpression>
+                </textField>
+                <textField>
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="4c5d9b6e-5784-4e83-a7be-d914c0007674">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    </reportElement>
+                    <box leftPadding="5">
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement>
+                        <font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{diagnosis_of_death_data}]]></textFieldExpression>
                 </textField>
             </frame>
         </band>

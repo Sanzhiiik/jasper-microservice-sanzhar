@@ -8,7 +8,7 @@
         <band splitType="Immediate"/>
     </background>
     <detail>
-        <band height="430" splitType="Immediate">
+        <band height="425" splitType="Immediate">
             <property name="com.jaspersoft.studio.unit.height" value="px"/>
             <staticText>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="45" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="4ec2cd39-c685-4f84-a895-773e97f86784">
@@ -46,7 +46,7 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Мемлекеттік тілді меңгеру және ҚР заңнамасын білу/Владения государственным языком и знание законодательства РК]]></text>
+                <text><![CDATA[Мемлекеттік тілді және ҚР заңнамасын білу/Владения гос.языком и знание законодательства РК]]></text>
             </staticText>
             <staticText>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="75" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="35a55aae-dded-4f40-8b94-ff0227226716">
@@ -103,7 +103,7 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Психологиялық зерттеу және құзыреттіліктер бағасы/Психологические исследования и оценка компетенций]]></text>
+                <text><![CDATA[Психологиялық зерттеу бағасы/Психологические исследования и оценка компетенций]]></text>
             </staticText>
             <staticText>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="fd8c95f3-17de-4a05-b892-76cf704fbafc">
@@ -198,7 +198,7 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Оқу/жұмыс орындары бойынша сипаттамалық деректер/Характеризующие данные по местам учебы/работы]]></text>
+                <text><![CDATA[Оқу/жұмыс орындары бойынша деректер/Данные по местам учебы/работы]]></text>
             </staticText>
             <staticText>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="195" y="0" width="25" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="ea4a43f7-c0c7-43c7-ab26-6e10911f3f13">
@@ -369,7 +369,8 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Туб.диспансердің диспансерлік есептегі жағдайы/Состояние на диспансерном учете туб.диспансера]]></text>
+                <text><![CDATA[Туб.диспансерлік есеп/Диспансерный учет туб.диспансера.
+]]></text>
             </staticText>
             <staticText>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="350" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="4a6c7fe3-4799-407e-9d20-548142dafbd6">
@@ -388,7 +389,8 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Диспансерлік наркологиялық есепке алу жағдайы/Состояние на диспансерном наркологическом учете]]></text>
+                <text><![CDATA[Наркологиялық есеп/Наркологический учет.
+]]></text>
             </staticText>
             <staticText>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="365" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="0b16fcc9-0f93-4b32-9906-882b07a471b0">
@@ -407,7 +409,8 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Психиатриялық диспансерлік есепке алу жағдайы/Состояние на диспансерном психиатрическом учете]]></text>
+                <text><![CDATA[Психиатриялық есеп/Диспансерный учет.
+]]></text>
             </staticText>
             <staticText>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="380" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="4d5efc62-df72-49e4-871f-eebed95f6b23">
@@ -426,7 +429,7 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Мемлекеттік шекараны кесіп өту (шығу/кіруге тыйым салу)/Пересечение гос.границы (запрет на выезд/въезд)]]></text>
+                <text><![CDATA[Мемлекеттік шекараны кесіп өтуге тыйым/Запрет на пересечение государственной границы]]></text>
             </staticText>
             <staticText>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="395" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="de019889-fdd9-438d-a3f9-71ee0072902d">
@@ -581,7 +584,7 @@
                     <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     <paragraph leftIndent="5"/>
                 </textElement>
-                <text><![CDATA[Орган басшысымен және оның орынбасарымен әңгімелесу/Беседа с руководителем органа и его заместителем направляющим кадровую деятельность]]></text>
+                <text><![CDATA[Орган басшысымен және орынбасарымен әңгімелесу/Беседа с рук.органа и его заместителем ]]></text>
             </staticText>
             <staticText>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="-15" y="0" width="15" height="425" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="7d6ef553-d40f-4f7f-a368-1b29a727f2c3">
