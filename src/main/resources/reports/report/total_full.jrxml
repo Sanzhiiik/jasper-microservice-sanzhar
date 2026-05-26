@@ -1405,7 +1405,7 @@
 				<text><![CDATA[Форма заключения]]></text>
 			</staticText>
 			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="150" height="25" isPrintWhenDetailOverflows="true" uuid="2c0fb114-d8af-4a2b-a423-9b4fd843735f">
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="240" height="25" isPrintWhenDetailOverflows="true" uuid="2c0fb114-d8af-4a2b-a423-9b4fd843735f">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -1417,7 +1417,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<frame>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="0" y="0" width="150" height="25" isPrintWhenDetailOverflows="true" uuid="ef601148-585d-4661-8f68-fe7cad68c8a9">
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="0" y="0" width="240" height="25" isPrintWhenDetailOverflows="true" uuid="ef601148-585d-4661-8f68-fe7cad68c8a9">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1430,7 +1430,7 @@
 						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					</box>
 					<staticText>
-						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="0" y="0" width="75" height="25" isPrintWhenDetailOverflows="true" backcolor="#FCFCFC" uuid="d27616d3-1171-4118-aa66-3a9b0a7ee529">
+						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="0" y="0" width="160" height="25" isPrintWhenDetailOverflows="true" backcolor="#FCFCFC" uuid="d27616d3-1171-4118-aa66-3a9b0a7ee529">
 							<property name="com.jaspersoft.studio.unit.width" value="px"/>
 							<property name="com.jaspersoft.studio.unit.height" value="px"/>
 							<property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1444,10 +1444,10 @@
 						<textElement textAlignment="Left" verticalAlignment="Middle">
 							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 						</textElement>
-						<text><![CDATA[Дата создания:]]></text>
+						<text><![CDATA[Жасалу мерзімі/Дата создания:]]></text>
 					</staticText>
 					<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-						<reportElement positionType="Float" stretchType="ContainerBottom" x="75" y="0" width="75" height="25" isPrintWhenDetailOverflows="true" uuid="a8a03165-be0f-466b-874e-c176af4364c8">
+						<reportElement positionType="Float" stretchType="ContainerBottom" x="160" y="0" width="80" height="25" isPrintWhenDetailOverflows="true" uuid="a8a03165-be0f-466b-874e-c176af4364c8">
 							<property name="com.jaspersoft.studio.unit.width" value="px"/>
 							<property name="com.jaspersoft.studio.unit.height" value="px"/>
 							<property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -2714,7 +2714,7 @@
 					<textElement textAlignment="Left" verticalAlignment="Top">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Меңгерген шетел тілдері/Владение иностранными языками]]></text>
+					<text><![CDATA[Шет тілдерді меңгеру/Владение иностранными языками]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="363" height="40" isPrintWhenDetailOverflows="true" uuid="484351ef-a352-4c4b-a766-becca44efedb">
@@ -5815,7 +5815,7 @@
 					<textElement textAlignment="Left" verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Айыптау органы/Орган обвинения]]></text>
+					<text><![CDATA[Айыптаушы орган/Орган обвинения]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="363" height="30" isPrintWhenDetailOverflows="true" uuid="067eff79-e1af-4b6d-8563-3d30d844e0fe">
@@ -5944,7 +5944,7 @@
 					<textElement textAlignment="Left" verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Біліктіліктің негізгі бабы/Основная статья квалификации]]></text>
+					<text><![CDATA[Негізгі біліктілік бабы/Основная статья квалификации]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="363" height="40" isPrintWhenDetailOverflows="true" uuid="fdacc0bd-892c-4ed4-bdb1-947214e1ba9a">
@@ -8985,7 +8985,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[ҰҚО жедел есепке алу бойынша тексеру/Проверка по оперативным учетам ОНБ]]></text>
+				<text><![CDATA[ҰҚО жедел есептері бойынша тексеру / Проверка по оперативным учетам ОНБ ]]></text>
 			</staticText>
 		</band>
 		<band height="30" splitType="Stretch">
@@ -9064,7 +9064,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Бастапқы бірлік атаулары/Наименования подразделения первоисточника]]></text>
+					<text><![CDATA[Алғашқы мәлімет енгізген бөлімше/Наименования подразделения первоисточника]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="6cbddfd9-e6ce-4642-8a6b-9d80a6ba7fd8">
@@ -9209,7 +9209,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Жасалу күні/Дата создания]]></text>
+					<text><![CDATA[Жасалу мерзімі/Дата создания]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="3eb1a9ec-905b-46cc-9f60-830c4e68e4bf">
@@ -9517,7 +9517,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Жасалу күні/Дата создания]]></text>
+					<text><![CDATA[Жасалу мерзімі/Дата создания]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="db8e76d7-97aa-4679-ba3d-741f8cafc3f4">
@@ -9873,7 +9873,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Жасалу күні/Дата создания]]></text>
+					<text><![CDATA[Жасалу мерзімі/Дата создания]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="33055980-86c8-4ac5-a0e3-6644f943e96a">
@@ -10101,7 +10101,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Жедел анықтамалық карточка есебі бойынша тексеру/Проверка по учетам оперативно справочной картотеки]]></text>
+				<text><![CDATA[Жедел анықтамалық картотека есебі бойынша тексеру/Проверка по учетам оперативно справочной картотеки]]></text>
 			</staticText>
 		</band>
 		<band height="30" splitType="Stretch">
@@ -10229,7 +10229,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Жасалу күні/Дата создания]]></text>
+					<text><![CDATA[Жасалу мерзімі/Дата создания]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="e4ee70c7-b324-4dea-8b33-52f01f625bad">
@@ -10484,7 +10484,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[ Чек түрі/Тип проверки]]></text>
+					<text><![CDATA[ Тексеру түрі/Тип проверки]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="f687bd2f-643a-483e-95d0-4999351bf49a">
@@ -10676,7 +10676,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Жасалу күні/Дата создания]]></text>
+					<text><![CDATA[Жасалу мерзімі/Дата создания]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="14ba7537-139a-4f99-8caa-afcd4e9110d3">
@@ -10979,7 +10979,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Жасалу күні/Дата создания]]></text>
+					<text><![CDATA[Жасалу мерзімі/Дата создания]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="7c0b844a-6287-4c8f-9fc5-8695f2c17bbd">
