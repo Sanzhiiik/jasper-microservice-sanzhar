@@ -131,24 +131,6 @@
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                 </reportElement>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="15" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="c2261f77-1016-4c6a-ad2d-493e37688779">
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.x" value="pixel"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{securityStaffInterview})]]></printWhenExpression>
-                    </reportElement>
-                    <box>
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
-                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{securityStaffInterview}]]></textFieldExpression>
-                </textField>
-                <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="15" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="c2261f77-1016-4c6a-ad2d-493e37688779">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -167,11 +149,11 @@
                     <textFieldExpression><![CDATA[$F{securityStaffInterview}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="30" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="35c1e00a-9f4d-4c00-8cac-227abbd6fe2e">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="15" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="c2261f77-1016-4c6a-ad2d-493e37688779">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{familyInterview})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{securityStaffInterview}) && $F{securityStaffInterview} != null && !$F{securityStaffInterview}.trim().isEmpty() && !"null".equals($F{securityStaffInterview}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -182,7 +164,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{familyInterview}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{securityStaffInterview}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="15" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="c2261f77-1016-4c6a-ad2d-493e37688779">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{securityStaffInterview} == null || $F{securityStaffInterview}.trim().isEmpty() || "null".equals($F{securityStaffInterview}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="30" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="35c1e00a-9f4d-4c00-8cac-227abbd6fe2e">
@@ -203,11 +203,11 @@
                     <textFieldExpression><![CDATA[$F{familyInterview}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="45" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="dd60ee19-0acf-4f1f-bc15-64367a5e8e97">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="30" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="35c1e00a-9f4d-4c00-8cac-227abbd6fe2e">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{physicalTrainingCheck})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{familyInterview}) && $F{familyInterview} != null && !$F{familyInterview}.trim().isEmpty() && !"null".equals($F{familyInterview}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -218,7 +218,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{physicalTrainingCheck}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{familyInterview}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="30" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="35c1e00a-9f4d-4c00-8cac-227abbd6fe2e">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{familyInterview} == null || $F{familyInterview}.trim().isEmpty() || "null".equals($F{familyInterview}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="45" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="dd60ee19-0acf-4f1f-bc15-64367a5e8e97">
@@ -239,11 +257,11 @@
                     <textFieldExpression><![CDATA[$F{physicalTrainingCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="60" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="5cbd2bdf-3e8e-4a68-b81d-924477b23a0a">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="45" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="dd60ee19-0acf-4f1f-bc15-64367a5e8e97">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{taskAssignmentCheck})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{physicalTrainingCheck}) && $F{physicalTrainingCheck} != null && !$F{physicalTrainingCheck}.trim().isEmpty() && !"null".equals($F{physicalTrainingCheck}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -254,7 +272,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{taskAssignmentCheck}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{physicalTrainingCheck}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="45" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="dd60ee19-0acf-4f1f-bc15-64367a5e8e97">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{physicalTrainingCheck} == null || $F{physicalTrainingCheck}.trim().isEmpty() || "null".equals($F{physicalTrainingCheck}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="60" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="5cbd2bdf-3e8e-4a68-b81d-924477b23a0a">
@@ -275,11 +311,11 @@
                     <textFieldExpression><![CDATA[$F{taskAssignmentCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="75" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="96199c47-c99c-468f-8c0b-509f9381bd1a">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="60" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="5cbd2bdf-3e8e-4a68-b81d-924477b23a0a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{legalAndLanguageTest})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{taskAssignmentCheck}) && $F{taskAssignmentCheck} != null && !$F{taskAssignmentCheck}.trim().isEmpty() && !"null".equals($F{taskAssignmentCheck}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -290,7 +326,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{legalAndLanguageTest}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{taskAssignmentCheck}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="60" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="5cbd2bdf-3e8e-4a68-b81d-924477b23a0a">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{taskAssignmentCheck} == null || $F{taskAssignmentCheck}.trim().isEmpty() || "null".equals($F{taskAssignmentCheck}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="75" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="96199c47-c99c-468f-8c0b-509f9381bd1a">
@@ -311,11 +365,11 @@
                     <textFieldExpression><![CDATA[$F{legalAndLanguageTest}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="90" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="9a527d7c-b05d-47d5-9ca1-e8a468ebf982">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="75" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="96199c47-c99c-468f-8c0b-509f9381bd1a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{polygraphExam})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{legalAndLanguageTest}) && $F{legalAndLanguageTest} != null && !$F{legalAndLanguageTest}.trim().isEmpty() && !"null".equals($F{legalAndLanguageTest}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -326,7 +380,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{polygraphExam}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{legalAndLanguageTest}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="75" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="96199c47-c99c-468f-8c0b-509f9381bd1a">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{legalAndLanguageTest} == null || $F{legalAndLanguageTest}.trim().isEmpty() || "null".equals($F{legalAndLanguageTest}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="90" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="9a527d7c-b05d-47d5-9ca1-e8a468ebf982">
@@ -347,11 +419,11 @@
                     <textFieldExpression><![CDATA[$F{polygraphExam}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="105" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="bbdb73a6-1846-45fc-bb7f-d6836aba6eeb">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="90" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="9a527d7c-b05d-47d5-9ca1-e8a468ebf982">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{psychosocialStudy})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{polygraphExam}) && $F{polygraphExam} != null && !$F{polygraphExam}.trim().isEmpty() && !"null".equals($F{polygraphExam}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -362,7 +434,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{psychosocialStudy}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{polygraphExam}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="90" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="9a527d7c-b05d-47d5-9ca1-e8a468ebf982">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{polygraphExam} == null || $F{polygraphExam}.trim().isEmpty() || "null".equals($F{polygraphExam}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="105" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="bbdb73a6-1846-45fc-bb7f-d6836aba6eeb">
@@ -383,11 +473,11 @@
                     <textFieldExpression><![CDATA[$F{psychosocialStudy}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="120" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="c6420b95-a10a-4c6a-a75c-5d0342e98e2b">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="105" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="bbdb73a6-1846-45fc-bb7f-d6836aba6eeb">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{psychophysiologicalExam})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{psychosocialStudy}) && $F{psychosocialStudy} != null && !$F{psychosocialStudy}.trim().isEmpty() && !"null".equals($F{psychosocialStudy}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -398,7 +488,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{psychophysiologicalExam}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{psychosocialStudy}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="105" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="bbdb73a6-1846-45fc-bb7f-d6836aba6eeb">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{psychosocialStudy} == null || $F{psychosocialStudy}.trim().isEmpty() || "null".equals($F{psychosocialStudy}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="c6420b95-a10a-4c6a-a75c-5d0342e98e2b">
@@ -419,11 +527,11 @@
                     <textFieldExpression><![CDATA[$F{psychophysiologicalExam}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="135" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="798a5303-f252-49d4-8593-e4760aebb18e">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="120" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="c6420b95-a10a-4c6a-a75c-5d0342e98e2b">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{militaryMedicalCommission})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{psychophysiologicalExam}) && $F{psychophysiologicalExam} != null && !$F{psychophysiologicalExam}.trim().isEmpty() && !"null".equals($F{psychophysiologicalExam}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -434,7 +542,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{militaryMedicalCommission}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{psychophysiologicalExam}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="120" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="c6420b95-a10a-4c6a-a75c-5d0342e98e2b">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{psychophysiologicalExam} == null || $F{psychophysiologicalExam}.trim().isEmpty() || "null".equals($F{psychophysiologicalExam}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="135" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="798a5303-f252-49d4-8593-e4760aebb18e">
@@ -455,11 +581,11 @@
                     <textFieldExpression><![CDATA[$F{militaryMedicalCommission}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="195" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="2d442dbe-9a06-4457-b896-43e300d34a76">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="135" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="798a5303-f252-49d4-8593-e4760aebb18e">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{educationWorkReference})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{militaryMedicalCommission}) && $F{militaryMedicalCommission} != null && !$F{militaryMedicalCommission}.trim().isEmpty() && !"null".equals($F{militaryMedicalCommission}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -470,7 +596,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{educationWorkReference}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{militaryMedicalCommission}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="135" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="798a5303-f252-49d4-8593-e4760aebb18e">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{militaryMedicalCommission} == null || $F{militaryMedicalCommission}.trim().isEmpty() || "null".equals($F{militaryMedicalCommission}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="195" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="2d442dbe-9a06-4457-b896-43e300d34a76">
@@ -491,11 +635,11 @@
                     <textFieldExpression><![CDATA[$F{educationWorkReference}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="180" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="0c03a514-5b88-4468-9327-553cfd73773a">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="195" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="2d442dbe-9a06-4457-b896-43e300d34a76">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{operationalInstallation})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{educationWorkReference}) && $F{educationWorkReference} != null && !$F{educationWorkReference}.trim().isEmpty() && !"null".equals($F{educationWorkReference}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -506,7 +650,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{operationalInstallation}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{educationWorkReference}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="195" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="2d442dbe-9a06-4457-b896-43e300d34a76">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{educationWorkReference} == null || $F{educationWorkReference}.trim().isEmpty() || "null".equals($F{educationWorkReference}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="180" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="0c03a514-5b88-4468-9327-553cfd73773a">
@@ -527,11 +689,11 @@
                     <textFieldExpression><![CDATA[$F{operationalInstallation}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="250" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="6f6e27e7-bfa0-4d39-b5ea-30144a700745">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="180" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="0c03a514-5b88-4468-9327-553cfd73773a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{kmDataDetails})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{operationalInstallation}) && $F{operationalInstallation} != null && !$F{operationalInstallation}.trim().isEmpty() && !"null".equals($F{operationalInstallation}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -542,7 +704,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{kmDataDetails}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{operationalInstallation}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="180" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="0c03a514-5b88-4468-9327-553cfd73773a">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{operationalInstallation} == null || $F{operationalInstallation}.trim().isEmpty() || "null".equals($F{operationalInstallation}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="250" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="6f6e27e7-bfa0-4d39-b5ea-30144a700745">
@@ -563,11 +743,47 @@
                     <textFieldExpression><![CDATA[$F{kmDataDetails}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="250" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="6f6e27e7-bfa0-4d39-b5ea-30144a700745">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[!"-".equals($F{kmDataDetails}) && $F{kmDataDetails} != null && !$F{kmDataDetails}.trim().isEmpty() && !"null".equals($F{kmDataDetails}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{kmDataDetails}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="250" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="6f6e27e7-bfa0-4d39-b5ea-30144a700745">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{kmDataDetails} == null || $F{kmDataDetails}.trim().isEmpty() || "null".equals($F{kmDataDetails}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="210" y="0" width="25" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="9a374934-c590-4c03-812b-57be4fd774d7">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{internetOffenseCheck})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{internetOffenseCheck}) && $F{internetOffenseCheck} != null && !$F{internetOffenseCheck}.trim().isEmpty() && !"null".equals($F{internetOffenseCheck}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -599,11 +815,11 @@
                     <textFieldExpression><![CDATA[$F{internetOffenseCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="165" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="ffbcf233-4b82-4b8e-8c42-01a86a23146f">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="210" y="0" width="25" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="9a374934-c590-4c03-812b-57be4fd774d7">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{sormDatabaseCheck})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[$F{internetOffenseCheck} == null || $F{internetOffenseCheck}.trim().isEmpty() || "null".equals($F{internetOffenseCheck}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -611,10 +827,10 @@
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
-                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Right">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{sormDatabaseCheck}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="165" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="ffbcf233-4b82-4b8e-8c42-01a86a23146f">
@@ -635,11 +851,11 @@
                     <textFieldExpression><![CDATA[$F{sormDatabaseCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="235" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="6240d034-6b8b-47bb-9133-3b79cba1d69a">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="165" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="ffbcf233-4b82-4b8e-8c42-01a86a23146f">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{oskDatabaseCheck})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{sormDatabaseCheck}) && $F{sormDatabaseCheck} != null && !$F{sormDatabaseCheck}.trim().isEmpty() && !"null".equals($F{sormDatabaseCheck}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -650,7 +866,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{oskDatabaseCheck}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{sormDatabaseCheck}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="165" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="ffbcf233-4b82-4b8e-8c42-01a86a23146f">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{sormDatabaseCheck} == null || $F{sormDatabaseCheck}.trim().isEmpty() || "null".equals($F{sormDatabaseCheck}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="235" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="6240d034-6b8b-47bb-9133-3b79cba1d69a">
@@ -671,11 +905,11 @@
                     <textFieldExpression><![CDATA[$F{oskDatabaseCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="265" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="9df1fdc3-6772-4130-817b-2816dfdf5495">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="235" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="6240d034-6b8b-47bb-9133-3b79cba1d69a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{kpDatabaseCheck})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{oskDatabaseCheck}) && $F{oskDatabaseCheck} != null && !$F{oskDatabaseCheck}.trim().isEmpty() && !"null".equals($F{oskDatabaseCheck}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -686,7 +920,79 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{kpDatabaseCheck}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{oskDatabaseCheck}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="235" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="6240d034-6b8b-47bb-9133-3b79cba1d69a">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{oskDatabaseCheck} == null || $F{oskDatabaseCheck}.trim().isEmpty() || "null".equals($F{oskDatabaseCheck}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="b9c62e23-bf6c-4de1-bc48-b2b8c80903ec">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA["-".equals($F{dvkrOvkrDatabaseCheck})]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{dvkrOvkrDatabaseCheck}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="b9c62e23-bf6c-4de1-bc48-b2b8c80903ec">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[!"-".equals($F{dvkrOvkrDatabaseCheck}) && $F{dvkrOvkrDatabaseCheck} != null && !$F{dvkrOvkrDatabaseCheck}.trim().isEmpty() && !"null".equals($F{dvkrOvkrDatabaseCheck}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{dvkrOvkrDatabaseCheck}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="b9c62e23-bf6c-4de1-bc48-b2b8c80903ec">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{dvkrOvkrDatabaseCheck} == null || $F{dvkrOvkrDatabaseCheck}.trim().isEmpty() || "null".equals($F{dvkrOvkrDatabaseCheck}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="265" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="9df1fdc3-6772-4130-817b-2816dfdf5495">
@@ -707,11 +1013,11 @@
                     <textFieldExpression><![CDATA[$F{kpDatabaseCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="280" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="24434ad9-d5ed-4284-83b3-04cde1147827">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="265" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="9df1fdc3-6772-4130-817b-2816dfdf5495">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{akparatDatabaseCheck})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{kpDatabaseCheck}) && $F{kpDatabaseCheck} != null && !$F{kpDatabaseCheck}.trim().isEmpty() && !"null".equals($F{kpDatabaseCheck}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -722,7 +1028,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{akparatDatabaseCheck}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{kpDatabaseCheck}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="265" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="9df1fdc3-6772-4130-817b-2816dfdf5495">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{kpDatabaseCheck} == null || $F{kpDatabaseCheck}.trim().isEmpty() || "null".equals($F{kpDatabaseCheck}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="280" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="24434ad9-d5ed-4284-83b3-04cde1147827">
@@ -743,11 +1067,11 @@
                     <textFieldExpression><![CDATA[$F{akparatDatabaseCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="320" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="50ee0d12-9815-44f0-8361-67322fe5e262">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="280" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="24434ad9-d5ed-4284-83b3-04cde1147827">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{initialStudySummary})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{akparatDatabaseCheck}) && $F{akparatDatabaseCheck} != null && !$F{akparatDatabaseCheck}.trim().isEmpty() && !"null".equals($F{akparatDatabaseCheck}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -758,7 +1082,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{initialStudySummary}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{akparatDatabaseCheck}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="280" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="24434ad9-d5ed-4284-83b3-04cde1147827">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{akparatDatabaseCheck} == null || $F{akparatDatabaseCheck}.trim().isEmpty() || "null".equals($F{akparatDatabaseCheck}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="320" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="50ee0d12-9815-44f0-8361-67322fe5e262">
@@ -779,11 +1121,11 @@
                     <textFieldExpression><![CDATA[$F{initialStudySummary}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="440" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="e3d95048-e28a-4540-a0a4-b5601ee1f854">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="320" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="50ee0d12-9815-44f0-8361-67322fe5e262">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{checkByPreviousData})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{initialStudySummary}) && $F{initialStudySummary} != null && !$F{initialStudySummary}.trim().isEmpty() && !"null".equals($F{initialStudySummary}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -794,11 +1136,29 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{checkByPreviousData}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{initialStudySummary}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="320" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="50ee0d12-9815-44f0-8361-67322fe5e262">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{initialStudySummary} == null || $F{initialStudySummary}.trim().isEmpty() || "null".equals($F{initialStudySummary}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="440" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="e3d95048-e28a-4540-a0a4-b5601ee1f854">
-                        <property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <printWhenExpression><![CDATA["-".equals($F{checkByPreviousData})]]></printWhenExpression>
@@ -815,11 +1175,11 @@
                     <textFieldExpression><![CDATA[$F{checkByPreviousData}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="335" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="573c5386-c563-4499-9168-5d1fe18a1e1b">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="440" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="e3d95048-e28a-4540-a0a4-b5601ee1f854">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{registeredLegalEntities})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{checkByPreviousData}) && $F{checkByPreviousData} != null && !$F{checkByPreviousData}.trim().isEmpty() && !"null".equals($F{checkByPreviousData}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -830,7 +1190,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{registeredLegalEntities}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{checkByPreviousData}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="440" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="e3d95048-e28a-4540-a0a4-b5601ee1f854">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{checkByPreviousData} == null || $F{checkByPreviousData}.trim().isEmpty() || "null".equals($F{checkByPreviousData}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="335" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="573c5386-c563-4499-9168-5d1fe18a1e1b">
@@ -851,11 +1229,11 @@
                     <textFieldExpression><![CDATA[$F{registeredLegalEntities}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="350" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="553b2700-7576-4ab9-bf1a-9eed511ab44d">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="335" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="573c5386-c563-4499-9168-5d1fe18a1e1b">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{tuberculosisRegistryStatus})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{registeredLegalEntities}) && $F{registeredLegalEntities} != null && !$F{registeredLegalEntities}.trim().isEmpty() && !"null".equals($F{registeredLegalEntities}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -866,7 +1244,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{tuberculosisRegistryStatus}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{registeredLegalEntities}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="335" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="573c5386-c563-4499-9168-5d1fe18a1e1b">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{registeredLegalEntities} == null || $F{registeredLegalEntities}.trim().isEmpty() || "null".equals($F{registeredLegalEntities}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="350" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="553b2700-7576-4ab9-bf1a-9eed511ab44d">
@@ -887,11 +1283,11 @@
                     <textFieldExpression><![CDATA[$F{tuberculosisRegistryStatus}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="365" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="0fbca7f1-6ea9-40d5-8691-f64b609fde67">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="350" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="553b2700-7576-4ab9-bf1a-9eed511ab44d">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{narcologicalRegistryStatus})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{tuberculosisRegistryStatus}) && $F{tuberculosisRegistryStatus} != null && !$F{tuberculosisRegistryStatus}.trim().isEmpty() && !"null".equals($F{tuberculosisRegistryStatus}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -902,7 +1298,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{narcologicalRegistryStatus}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{tuberculosisRegistryStatus}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="350" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="553b2700-7576-4ab9-bf1a-9eed511ab44d">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{tuberculosisRegistryStatus} == null || $F{tuberculosisRegistryStatus}.trim().isEmpty() || "null".equals($F{tuberculosisRegistryStatus}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="365" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="0fbca7f1-6ea9-40d5-8691-f64b609fde67">
@@ -923,11 +1337,11 @@
                     <textFieldExpression><![CDATA[$F{narcologicalRegistryStatus}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="380" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="50d616bf-0d10-44a0-a733-d805ba1af0a6">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="365" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="0fbca7f1-6ea9-40d5-8691-f64b609fde67">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{psychiatricRegistryStatus})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{narcologicalRegistryStatus}) && $F{narcologicalRegistryStatus} != null && !$F{narcologicalRegistryStatus}.trim().isEmpty() && !"null".equals($F{narcologicalRegistryStatus}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -938,7 +1352,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{psychiatricRegistryStatus}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{narcologicalRegistryStatus}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="365" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="0fbca7f1-6ea9-40d5-8691-f64b609fde67">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{narcologicalRegistryStatus} == null || $F{narcologicalRegistryStatus}.trim().isEmpty() || "null".equals($F{narcologicalRegistryStatus}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="380" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="50d616bf-0d10-44a0-a733-d805ba1af0a6">
@@ -959,11 +1391,11 @@
                     <textFieldExpression><![CDATA[$F{psychiatricRegistryStatus}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="425" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="7c896ff7-cb94-4f4f-9b1d-6f65a3bbcc3a">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="380" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="50d616bf-0d10-44a0-a733-d805ba1af0a6">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{militaryServiceStatus})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{psychiatricRegistryStatus}) && $F{psychiatricRegistryStatus} != null && !$F{psychiatricRegistryStatus}.trim().isEmpty() && !"null".equals($F{psychiatricRegistryStatus}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -974,7 +1406,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{militaryServiceStatus}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{psychiatricRegistryStatus}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="380" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="50d616bf-0d10-44a0-a733-d805ba1af0a6">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{psychiatricRegistryStatus} == null || $F{psychiatricRegistryStatus}.trim().isEmpty() || "null".equals($F{psychiatricRegistryStatus}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="425" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="7c896ff7-cb94-4f4f-9b1d-6f65a3bbcc3a">
@@ -995,11 +1445,11 @@
                     <textFieldExpression><![CDATA[$F{militaryServiceStatus}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="395" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="d2318255-8d25-45cb-b8df-fdfcad872c5f">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="425" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="7c896ff7-cb94-4f4f-9b1d-6f65a3bbcc3a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{borderCrossingBan})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{militaryServiceStatus}) && $F{militaryServiceStatus} != null && !$F{militaryServiceStatus}.trim().isEmpty() && !"null".equals($F{militaryServiceStatus}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -1010,7 +1460,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{borderCrossingBan}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{militaryServiceStatus}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="425" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="7c896ff7-cb94-4f4f-9b1d-6f65a3bbcc3a">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{militaryServiceStatus} == null || $F{militaryServiceStatus}.trim().isEmpty() || "null".equals($F{militaryServiceStatus}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="395" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="d2318255-8d25-45cb-b8df-fdfcad872c5f">
@@ -1031,11 +1499,11 @@
                     <textFieldExpression><![CDATA[$F{borderCrossingBan}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="410" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="3fdc4218-2958-4506-b832-82062678a8c5">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="395" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="d2318255-8d25-45cb-b8df-fdfcad872c5f">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{violations})]]></printWhenExpression>
+                        <printWhenExpression><![CDATA[!"-".equals($F{borderCrossingBan}) && $F{borderCrossingBan} != null && !$F{borderCrossingBan}.trim().isEmpty() && !"null".equals($F{borderCrossingBan}.trim())]]></printWhenExpression>
                     </reportElement>
                     <box>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -1046,7 +1514,25 @@
                     <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{violations}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{borderCrossingBan}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="395" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="d2318255-8d25-45cb-b8df-fdfcad872c5f">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{borderCrossingBan} == null || $F{borderCrossingBan}.trim().isEmpty() || "null".equals($F{borderCrossingBan}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="410" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="3fdc4218-2958-4506-b832-82062678a8c5">
@@ -1065,6 +1551,42 @@
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
                     <textFieldExpression><![CDATA[$F{violations}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="410" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="3fdc4218-2958-4506-b832-82062678a8c5">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[!"-".equals($F{violations}) && $F{violations} != null && !$F{violations}.trim().isEmpty() && !"null".equals($F{violations}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{violations}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="410" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="3fdc4218-2958-4506-b832-82062678a8c5">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <printWhenExpression><![CDATA[$F{violations} == null || $F{violations}.trim().isEmpty() || "null".equals($F{violations}.trim())]]></printWhenExpression>
+                    </reportElement>
+                    <box>
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <staticText>
                     <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="150" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="971b7a92-89fc-40ec-a719-466a9943c52b">
@@ -1133,44 +1655,6 @@
                         <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
                     <textFieldExpression><![CDATA[$F{type}]]></textFieldExpression>
-                </textField>
-                <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="0a289bf3-9cb0-4745-85b2-05b3cf2340d2">
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <printWhenExpression><![CDATA[!"-".equals($F{securityStaffInterview})]]></printWhenExpression>
-                    </reportElement>
-                    <box>
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
-                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{dvkrOvkrDatabaseCheck}]]></textFieldExpression>
-                </textField>
-                <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="4e1c1460-e24d-405e-b5c3-18ca631f69a2">
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <printWhenExpression><![CDATA["-".equals($F{securityStaffInterview})]]></printWhenExpression>
-                    </reportElement>
-                    <box>
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
-                        <font fontName="Times New Roman" size="10" pdfFontName="fonts/timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{dvkrOvkrDatabaseCheck}]]></textFieldExpression>
                 </textField>
             </frame>
         </band>
