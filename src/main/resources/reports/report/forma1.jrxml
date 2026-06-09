@@ -9,6 +9,10 @@
         <property name="net.sf.jasperreports.json.field.expression" value="photo"/>
         <fieldDescription><![CDATA[photo]]></fieldDescription>
     </field>
+    <field name="fullName" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="fullName"/>
+        <fieldDescription><![CDATA[fullName]]></fieldDescription>
+    </field>
     <field name="dateOfBirth" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="dateOfBirth"/>
         <fieldDescription><![CDATA[dateOfBirth]]></fieldDescription>
@@ -101,7 +105,6 @@
         <property name="net.sf.jasperreports.json.field.expression" value="commissionAssessment"/>
         <fieldDescription><![CDATA[commissionAssessment]]></fieldDescription>
     </field>
-    <field name="fullName" class="java.lang.String"/>
     <background>
         <band splitType="Stretch"/>
     </background>

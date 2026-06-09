@@ -5,41 +5,61 @@
     <queryString language="JSON">
         <![CDATA[]]>
     </queryString>
-    <field name="securityStaffInterview" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="securityStaffInterview"/>
-        <fieldDescription><![CDATA[securityStaffInterview]]></fieldDescription>
+    <field name="checkByPreviousData" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="checkByPreviousData"/>
+        <fieldDescription><![CDATA[checkByPreviousData]]></fieldDescription>
     </field>
-    <field name="familyInterview" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="familyInterview"/>
-        <fieldDescription><![CDATA[familyInterview]]></fieldDescription>
+    <field name="militaryServiceStatus" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="militaryServiceStatus"/>
+        <fieldDescription><![CDATA[militaryServiceStatus]]></fieldDescription>
     </field>
-    <field name="physicalTrainingCheck" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="physicalTrainingCheck"/>
-        <fieldDescription><![CDATA[physicalTrainingCheck]]></fieldDescription>
+    <field name="violations" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="violations"/>
+        <fieldDescription><![CDATA[violations]]></fieldDescription>
     </field>
-    <field name="taskAssignmentCheck" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="taskAssignmentCheck"/>
-        <fieldDescription><![CDATA[taskAssignmentCheck]]></fieldDescription>
+    <field name="borderCrossingBan" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="borderCrossingBan"/>
+        <fieldDescription><![CDATA[borderCrossingBan]]></fieldDescription>
     </field>
-    <field name="legalAndLanguageTest" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="legalAndLanguageTest"/>
-        <fieldDescription><![CDATA[legalAndLanguageTest]]></fieldDescription>
+    <field name="psychiatricRegistryStatus" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psychiatricRegistryStatus"/>
+        <fieldDescription><![CDATA[psychiatricRegistryStatus]]></fieldDescription>
     </field>
-    <field name="polygraphExam" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="polygraphExam"/>
-        <fieldDescription><![CDATA[polygraphExam]]></fieldDescription>
+    <field name="narcologicalRegistryStatus" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="narcologicalRegistryStatus"/>
+        <fieldDescription><![CDATA[narcologicalRegistryStatus]]></fieldDescription>
     </field>
-    <field name="psychosocialStudy" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="psychosocialStudy"/>
-        <fieldDescription><![CDATA[psychosocialStudy]]></fieldDescription>
+    <field name="tuberculosisRegistryStatus" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="tuberculosisRegistryStatus"/>
+        <fieldDescription><![CDATA[tuberculosisRegistryStatus]]></fieldDescription>
     </field>
-    <field name="psychophysiologicalExam" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="psychophysiologicalExam"/>
-        <fieldDescription><![CDATA[psychophysiologicalExam]]></fieldDescription>
+    <field name="registeredLegalEntities" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="registeredLegalEntities"/>
+        <fieldDescription><![CDATA[registeredLegalEntities]]></fieldDescription>
     </field>
-    <field name="militaryMedicalCommission" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="militaryMedicalCommission"/>
-        <fieldDescription><![CDATA[militaryMedicalCommission]]></fieldDescription>
+    <field name="initialStudySummary" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="initialStudySummary"/>
+        <fieldDescription><![CDATA[initialStudySummary]]></fieldDescription>
+    </field>
+    <field name="akparatDatabaseCheck" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="akparatDatabaseCheck"/>
+        <fieldDescription><![CDATA[akparatDatabaseCheck]]></fieldDescription>
+    </field>
+    <field name="kpDatabaseCheck" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="kpDatabaseCheck"/>
+        <fieldDescription><![CDATA[kpDatabaseCheck]]></fieldDescription>
+    </field>
+    <field name="kmDataDetails" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="kmDataDetails"/>
+        <fieldDescription><![CDATA[kmDataDetails]]></fieldDescription>
+    </field>
+    <field name="oskDatabaseCheck" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="oskDatabaseCheck"/>
+        <fieldDescription><![CDATA[oskDatabaseCheck]]></fieldDescription>
+    </field>
+    <field name="internetOffenseCheck" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="internetOffenseCheck"/>
+        <fieldDescription><![CDATA[internetOffenseCheck]]></fieldDescription>
     </field>
     <field name="educationWorkReference" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="educationWorkReference"/>
@@ -49,73 +69,53 @@
         <property name="net.sf.jasperreports.json.field.expression" value="operationalInstallation"/>
         <fieldDescription><![CDATA[operationalInstallation]]></fieldDescription>
     </field>
-    <field name="kmDataDetails" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="kmDataDetails"/>
-        <fieldDescription><![CDATA[kmDataDetails]]></fieldDescription>
-    </field>
-    <field name="internetOffenseCheck" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="internetOffenseCheck"/>
-        <fieldDescription><![CDATA[internetOffenseCheck]]></fieldDescription>
-    </field>
     <field name="sormDatabaseCheck" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="sormDatabaseCheck"/>
         <fieldDescription><![CDATA[sormDatabaseCheck]]></fieldDescription>
     </field>
-    <field name="oskDatabaseCheck" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="oskDatabaseCheck"/>
-        <fieldDescription><![CDATA[oskDatabaseCheck]]></fieldDescription>
+    <field name="militaryMedicalCommission" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="militaryMedicalCommission"/>
+        <fieldDescription><![CDATA[militaryMedicalCommission]]></fieldDescription>
     </field>
-    <field name="dvkrOvkrDatabaseCheck" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="dvkrOvkrDatabaseCheck"/>
-        <fieldDescription><![CDATA[dvkrOvkrDatabaseCheck]]></fieldDescription>
+    <field name="psychophysiologicalExam" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psychophysiologicalExam"/>
+        <fieldDescription><![CDATA[psychophysiologicalExam]]></fieldDescription>
     </field>
-    <field name="kpDatabaseCheck" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="kpDatabaseCheck"/>
-        <fieldDescription><![CDATA[kpDatabaseCheck]]></fieldDescription>
-    </field>
-    <field name="akparatDatabaseCheck" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="akparatDatabaseCheck"/>
-        <fieldDescription><![CDATA[akparatDatabaseCheck]]></fieldDescription>
-    </field>
-    <field name="initialStudySummary" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="initialStudySummary"/>
-        <fieldDescription><![CDATA[initialStudySummary]]></fieldDescription>
+    <field name="psychosocialStudy" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psychosocialStudy"/>
+        <fieldDescription><![CDATA[psychosocialStudy]]></fieldDescription>
     </field>
     <field name="interviewSummary" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="interviewSummary"/>
         <fieldDescription><![CDATA[interviewSummary]]></fieldDescription>
     </field>
-    <field name="checkByPreviousData" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="checkByPreviousData"/>
-        <fieldDescription><![CDATA[checkByPreviousData]]></fieldDescription>
+    <field name="polygraphExam" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="polygraphExam"/>
+        <fieldDescription><![CDATA[polygraphExam]]></fieldDescription>
     </field>
-    <field name="registeredLegalEntities" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="registeredLegalEntities"/>
-        <fieldDescription><![CDATA[registeredLegalEntities]]></fieldDescription>
+    <field name="legalAndLanguageTest" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="legalAndLanguageTest"/>
+        <fieldDescription><![CDATA[legalAndLanguageTest]]></fieldDescription>
     </field>
-    <field name="tuberculosisRegistryStatus" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="tuberculosisRegistryStatus"/>
-        <fieldDescription><![CDATA[tuberculosisRegistryStatus]]></fieldDescription>
+    <field name="taskAssignmentCheck" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="taskAssignmentCheck"/>
+        <fieldDescription><![CDATA[taskAssignmentCheck]]></fieldDescription>
     </field>
-    <field name="narcologicalRegistryStatus" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="narcologicalRegistryStatus"/>
-        <fieldDescription><![CDATA[narcologicalRegistryStatus]]></fieldDescription>
+    <field name="physicalTrainingCheck" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="physicalTrainingCheck"/>
+        <fieldDescription><![CDATA[physicalTrainingCheck]]></fieldDescription>
     </field>
-    <field name="psychiatricRegistryStatus" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="psychiatricRegistryStatus"/>
-        <fieldDescription><![CDATA[psychiatricRegistryStatus]]></fieldDescription>
+    <field name="familyInterview" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="familyInterview"/>
+        <fieldDescription><![CDATA[familyInterview]]></fieldDescription>
     </field>
-    <field name="militaryServiceStatus" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="militaryServiceStatus"/>
-        <fieldDescription><![CDATA[militaryServiceStatus]]></fieldDescription>
+    <field name="securityStaffInterview" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="securityStaffInterview"/>
+        <fieldDescription><![CDATA[securityStaffInterview]]></fieldDescription>
     </field>
-    <field name="borderCrossingBan" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="borderCrossingBan"/>
-        <fieldDescription><![CDATA[borderCrossingBan]]></fieldDescription>
-    </field>
-    <field name="violations" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="violations"/>
-        <fieldDescription><![CDATA[violations]]></fieldDescription>
+    <field name="dvkrOvkrDatabaseCheck" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="dvkrOvkrDatabaseCheck"/>
+        <fieldDescription><![CDATA[dvkrOvkrDatabaseCheck]]></fieldDescription>
     </field>
     <field name="type" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="type"/>
