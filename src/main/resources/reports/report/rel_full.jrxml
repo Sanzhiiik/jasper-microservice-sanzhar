@@ -4883,7 +4883,8 @@
 				</textField>
 			</frame>
 		</band>
-		<band height="100" splitType="Stretch">
+		<band height="70" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<staticText>
 				<reportElement positionType="Float" mode="Opaque" x="0" y="40" width="558" height="30" backcolor="#E7E6E6" uuid="fac9bd78-93d8-4baa-ad7b-4b600e027b5b">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -4900,50 +4901,6 @@
 				</textElement>
 				<text><![CDATA[«Ақпарат» РБД бойынша тексеру/Проверка по РБД "Ақпарат"]]></text>
 			</staticText>
-			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="70" width="558" height="30" uuid="d8d32324-9c31-4a87-be57-c7903549b044">
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<box>
-					<topPen lineWidth="1.0"/>
-					<leftPen lineWidth="1.0"/>
-					<bottomPen lineWidth="1.0"/>
-					<rightPen lineWidth="1.0"/>
-				</box>
-				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="30" backcolor="#E7E6E6" uuid="d298df9d-85e4-4b5f-a25e-11e333f9d3b8">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<text><![CDATA[Тағайындау бөлімі/Подразделение для назначение]]></text>
-				</staticText>
-				<textField textAdjust="StretchHeight">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="d9c60145-a78e-4cba-8652-42914436b93c">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<textFieldExpression><![CDATA[$F{aqparat_department}]]></textFieldExpression>
-				</textField>
-			</frame>
 			<staticText>
 				<reportElement positionType="Float" mode="Opaque" x="0" y="10" width="558" height="30" backcolor="#E7E6E6" uuid="d638ad6c-b98a-4a03-a667-49e47aa0eacc">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -5219,7 +5176,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[КM анықтаған ақпаратты егжей-тегжейлі көрсету/Детализация выявленных КМ сведений]]></text>
+				<text><![CDATA[Анықталған КМ мәліметтерін детализациялау/Детализация выявленных КМ сведений]]></text>
 			</staticText>
 		</band>
 		<band height="30" splitType="Stretch">
@@ -5430,7 +5387,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Операциялық анықтамалық картотеканың жазбаларын тексеру/Проверка по учетам оперативно справочной картотеки]]></text>
+				<text><![CDATA[Жедел-анықтамалық картотека есебі бойынша тексеру/Проверка по учетам оперативно-справочной картотеки]]></text>
 			</staticText>
 			<frame>
 				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="30" width="558" height="30" uuid="c11e1f47-81ac-4bb2-aa87-24e0e9af1657">
@@ -5625,214 +5582,6 @@
 		</band>
 		<band height="60" splitType="Stretch">
 			<staticText>
-				<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="68b9cbc6-e5c2-4c50-9955-0cf241ce062e">
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-				</reportElement>
-				<box>
-					<topPen lineWidth="1.0"/>
-					<leftPen lineWidth="1.0"/>
-					<bottomPen lineWidth="1.0"/>
-					<rightPen lineWidth="1.0"/>
-				</box>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-				</textElement>
-				<text><![CDATA[Операциялық анықтамалық картотеканың жазбаларын тексеру/Проверка по учетам оперативно справочной картотеки]]></text>
-			</staticText>
-			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="30" width="558" height="30" uuid="364372f7-95ef-46f4-99fd-974f3ca6ba0e">
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-				</reportElement>
-				<box>
-					<topPen lineWidth="1.0"/>
-					<leftPen lineWidth="1.0"/>
-					<bottomPen lineWidth="1.0"/>
-					<rightPen lineWidth="1.0"/>
-				</box>
-				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="30" backcolor="#E7E6E6" uuid="f69a3fa3-0720-4653-8127-2e9e573694ce">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<text><![CDATA[Тағайындау бөлімі/Подразделение для назначение]]></text>
-				</staticText>
-				<textField>
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="188c2703-7a71-4419-b98f-a5c54642ae1a">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<textFieldExpression><![CDATA[$F{operational_reference_department}]]></textFieldExpression>
-				</textField>
-			</frame>
-		</band>
-		<band height="30" splitType="Stretch">
-			<property name="com.jaspersoft.studio.unit.height" value="px"/>
-			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="30" uuid="59390614-d76b-4ced-9592-69ab2cb6ad05">
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-				</reportElement>
-				<box>
-					<topPen lineWidth="1.0"/>
-					<leftPen lineWidth="1.0"/>
-					<bottomPen lineWidth="1.0"/>
-					<rightPen lineWidth="1.0"/>
-				</box>
-				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="30" backcolor="#E7E6E6" uuid="59c6e980-5f9e-4023-9b17-6575e91eb3ab">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<text><![CDATA[Мәртебе/Статус]]></text>
-				</staticText>
-				<textField>
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="1975b89b-eead-4b23-836f-13238604c880">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<textFieldExpression><![CDATA[$F{operational_status}]]></textFieldExpression>
-				</textField>
-			</frame>
-		</band>
-		<band height="30" splitType="Stretch">
-			<property name="com.jaspersoft.studio.unit.height" value="px"/>
-			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="30" uuid="720fa7d1-fd36-4896-8bc8-b372a96f0bcd">
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-				</reportElement>
-				<box>
-					<topPen lineWidth="1.0"/>
-					<leftPen lineWidth="1.0"/>
-					<bottomPen lineWidth="1.0"/>
-					<rightPen lineWidth="1.0"/>
-				</box>
-				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="30" backcolor="#E7E6E6" uuid="06e6802d-2077-41ff-9b55-82a2e1308cca">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Top">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<text><![CDATA[
-Пікірлер/Комментарии]]></text>
-				</staticText>
-				<textField>
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="eb86e051-76f4-4b1b-bfff-c11479396f59">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<textFieldExpression><![CDATA[$F{operational_comments}]]></textFieldExpression>
-				</textField>
-			</frame>
-		</band>
-		<band height="30" splitType="Stretch">
-			<property name="com.jaspersoft.studio.unit.height" value="px"/>
-			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="30" uuid="a5d91235-0325-4c82-895b-5a6733b9f200">
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-				</reportElement>
-				<box>
-					<topPen lineWidth="1.0"/>
-					<leftPen lineWidth="1.0"/>
-					<bottomPen lineWidth="1.0"/>
-					<rightPen lineWidth="1.0"/>
-				</box>
-				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="30" backcolor="#E7E6E6" uuid="0a949957-9707-4cb0-b883-52a6bcafaf75">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<text><![CDATA[Жасалу күні/Дата создания]]></text>
-				</staticText>
-				<textField>
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="c69d5f5d-8522-4ae5-9419-556a861ea3d6">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<textFieldExpression><![CDATA[$F{operational_create_date}]]></textFieldExpression>
-				</textField>
-			</frame>
-		</band>
-		<band height="60" splitType="Stretch">
-			<staticText>
 				<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="73d6355c-de46-4b9c-89d8-8c33b5fa3702">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -5846,7 +5595,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Кандидаттың жұмыс/оқу орындарын растау және сипаттама деректерін жинау/Подтверждение мест работы/учебы кандидата и сбор характеризующих данных]]></text>
+				<text><![CDATA[Кандидаттың жұмыс/оқу орнын растау және сипаттайтын мәліметтер сұрату/Подтверждение мест работы/учебы кандидата и сбор характеризующих данных]]></text>
 			</staticText>
 			<frame>
 				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="30" width="558" height="30" uuid="3f9c2824-a05b-4c12-a5c9-136f1f8fa0f4">
@@ -6149,7 +5898,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Интернеттегі заңсыз әрекеттерді тексеруді сұрау/Запрос на проверку на противоправные действия в сети Интернет]]></text>
+				<text><![CDATA[Интернеттегі желісіндегі құқыққа қайшы іс-әрекеттерді тексеру/Запрос на проверку на противоправные действия в сети Интернет]]></text>
 			</staticText>
 			<frame>
 				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="30" width="558" height="30" uuid="cf266a77-4fc0-41a9-a816-2bf14beda5f1">
@@ -6213,7 +5962,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Арнайы жедел-іздестіру іс-шараларын өткізуге сұраныс/Запрос на проведение специально оперативно – розыскных мероприятий]]></text>
+				<text><![CDATA[Тұрғылықты жері бойынша жедел айқындау жүргізу/Проведение оперативной установки по месту жительства]]></text>
 			</staticText>
 		</band>
 		<band height="20" splitType="Stretch">
@@ -6253,7 +6002,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Тұрғылықты жеріңізде жедел монтаждау жұмыстарын жүргізу/Проведение оперативной установки по месту жительства]]></text>
+				<text><![CDATA[Арнайы жедел-іздестіру іс-шараларын жүргізуге тексеру/Проверка на проведение специальных оперативных-розыскных мероприятий]]></text>
 			</staticText>
 		</band>
 		<band height="20" splitType="Stretch">
