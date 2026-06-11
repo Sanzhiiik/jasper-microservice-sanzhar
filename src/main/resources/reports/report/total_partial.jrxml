@@ -878,45 +878,45 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="declaration_tax_division_data"/>
 		<fieldDescription><![CDATA[declaration_tax_division_data]]></fieldDescription>
 	</field>
-	<field name="aqparat_department" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="aqparat_department"/>
-		<fieldDescription><![CDATA[aqparat_department]]></fieldDescription>
+	<field name="akparat_department" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="akparat_department"/>
+		<fieldDescription><![CDATA[akparat_department]]></fieldDescription>
 	</field>
-	<field name="aqparat_number" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="aqparat_number"/>
-		<fieldDescription><![CDATA[aqparat_number]]></fieldDescription>
+	<field name="akparat_number" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="akparat_number"/>
+		<fieldDescription><![CDATA[akparat_number]]></fieldDescription>
 	</field>
-	<field name="aqparat_unit_name" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="aqparat_unit_name"/>
-		<fieldDescription><![CDATA[aqparat_unit_name]]></fieldDescription>
+	<field name="akparat_unit_name" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="akparat_unit_name"/>
+		<fieldDescription><![CDATA[akparat_unit_name]]></fieldDescription>
 	</field>
-	<field name="aqparat_status" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="aqparat_status"/>
-		<fieldDescription><![CDATA[aqparat_status]]></fieldDescription>
+	<field name="akparat_status" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="akparat_status"/>
+		<fieldDescription><![CDATA[akparat_status]]></fieldDescription>
 	</field>
-	<field name="aqparat_comments" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="aqparat_comments"/>
-		<fieldDescription><![CDATA[aqparat_comments]]></fieldDescription>
+	<field name="akparat_comments" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="akparat_comments"/>
+		<fieldDescription><![CDATA[akparat_comments]]></fieldDescription>
 	</field>
-	<field name="aqparat_create_date" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="aqparat_create_date"/>
-		<fieldDescription><![CDATA[aqparat_create_date]]></fieldDescription>
+	<field name="akparat_create_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="akparat_create_date"/>
+		<fieldDescription><![CDATA[akparat_create_date]]></fieldDescription>
 	</field>
-	<field name="aqparat_department_request_sent" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="aqparat_department_request_sent"/>
-		<fieldDescription><![CDATA[aqparat_department_request_sent]]></fieldDescription>
+	<field name="akparat_department_request_sent" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="akparat_department_request_sent"/>
+		<fieldDescription><![CDATA[akparat_department_request_sent]]></fieldDescription>
 	</field>
-	<field name="aqparat_fullname_performer" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="aqparat_fullname_performer"/>
-		<fieldDescription><![CDATA[aqparat_fullname_performer]]></fieldDescription>
+	<field name="akparat_fullname_performer" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="akparat_fullname_performer"/>
+		<fieldDescription><![CDATA[akparat_fullname_performer]]></fieldDescription>
 	</field>
-	<field name="aqparat_fullname_approved" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="aqparat_fullname_approved"/>
-		<fieldDescription><![CDATA[aqparat_fullname_approved]]></fieldDescription>
+	<field name="akparat_fullname_approved" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="akparat_fullname_approved"/>
+		<fieldDescription><![CDATA[akparat_fullname_approved]]></fieldDescription>
 	</field>
-	<field name="aqparat_position_approved" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="aqparat_position_approved"/>
-		<fieldDescription><![CDATA[aqparat_position_approved]]></fieldDescription>
+	<field name="akparat_position_approved" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="akparat_position_approved"/>
+		<fieldDescription><![CDATA[akparat_position_approved]]></fieldDescription>
 	</field>
 	<field name="assistent_department" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="assistent_department"/>
@@ -9063,7 +9063,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{aqparat_number}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{akparat_number}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -9111,7 +9111,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{aqparat_unit_name}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{akparat_unit_name}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -9159,7 +9159,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{aqparat_status}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{akparat_status}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -9208,7 +9208,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{aqparat_comments}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{akparat_comments}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -9256,7 +9256,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{aqparat_create_date}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{akparat_create_date}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -9304,7 +9304,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{aqparat_department_request_sent}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{akparat_department_request_sent}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -9352,7 +9352,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{aqparat_fullname_performer}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{akparat_fullname_performer}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -9400,7 +9400,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{aqparat_fullname_approved}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{akparat_fullname_approved}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -9448,7 +9448,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{aqparat_position_approved}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{akparat_position_approved}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
