@@ -4947,7 +4947,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Жүйелік нөмір/Системный номер]]></text>
+					<text><![CDATA[Мәртебе/Статус]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="252eae67-6472-4057-9bb5-9f9e728bfb83">
@@ -4963,7 +4963,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{aqparat_number}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{aqparat_status}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -5043,7 +5043,8 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Мәртебе/Статус]]></text>
+					<text><![CDATA[Жүйелік нөмір/Системный номер
+]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="237e741d-d7b9-456c-a36a-e5095aeb39ac">
@@ -5059,7 +5060,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{aqparat_status}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{aqparat_number}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -5176,7 +5177,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Анықталған КМ мәліметтерін детализациялау/Детализация выявленных КМ сведений]]></text>
+				<text><![CDATA[Анықталған мәліметтерді егжей-тегжейлі тексеру/Детализация выявленных КМ сведений]]></text>
 			</staticText>
 		</band>
 		<band height="30" splitType="Stretch">
@@ -5207,7 +5208,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Тағайындау бөлімі/Подразделение для назначение]]></text>
+					<text><![CDATA[Мәртебе/Статус]]></text>
 				</staticText>
 				<textField>
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="faaa620e-9936-4a14-9604-5b57969db74d">
@@ -5223,7 +5224,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{km_department}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{km_status}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -5255,7 +5256,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Мәртебе/Статус]]></text>
+					<text><![CDATA[Сұрау жіберілген бөлімше/Подразделение куда отправлен запрос]]></text>
 				</staticText>
 				<textField>
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="39042a61-cfa5-424b-b57b-a629ca82b8c2">
@@ -5271,7 +5272,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{km_status}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{km_department}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -5415,7 +5416,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Тағайындау бөлімі/Подразделение для назначение]]></text>
+					<text><![CDATA[Мәртебе/Статус]]></text>
 				</staticText>
 				<textField>
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="061b8430-678d-48cd-a1e1-52004844b560">
@@ -5431,7 +5432,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{operational_reference_department}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{operational_status}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -5463,7 +5464,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Мәртебе/Статус]]></text>
+					<text><![CDATA[Сұрау жіберілген бөлімше/Подразделение куда отправлен запрос]]></text>
 				</staticText>
 				<textField>
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="01d347dc-ad37-4d65-90b0-bb773d3b16f4">
@@ -5479,7 +5480,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{operational_status}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{operational_reference_department}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -5623,7 +5624,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[ Чек түрі/Тип проверки]]></text>
+					<text><![CDATA[Мәртебе/Статус]]></text>
 				</staticText>
 				<textField>
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="09b6891a-7cf6-4f11-bcdb-4078478b0272">
@@ -5639,7 +5640,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{confirmation_type}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{confirmation_status}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -5671,7 +5672,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Тағайындау бөлімі/Подразделение для назначение]]></text>
+					<text><![CDATA[Сұрау жіберілген бөлімше/Подразделение куда отправлен запрос]]></text>
 				</staticText>
 				<textField>
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="1f7d6f66-ecb4-4e89-a2ea-f4894841d6f4">
@@ -5767,7 +5768,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Мәртебе/Статус]]></text>
+					<text><![CDATA[Тексеру түрі/Тип проверки]]></text>
 				</staticText>
 				<textField>
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="23a04b8f-3d64-4969-9fbc-e79710636ffc">
@@ -5783,7 +5784,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{confirmation_status}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{confirmation_type}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -5898,7 +5899,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Интернеттегі желісіндегі құқыққа қайшы іс-әрекеттерді тексеру/Запрос на проверку на противоправные действия в сети Интернет]]></text>
+				<text><![CDATA[Интернет желісіндегі құқыққа қайшы іс-әрекеттерді тексеру/Запрос на проверку на противоправные действия в сети Интернет]]></text>
 			</staticText>
 			<frame>
 				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="30" width="558" height="30" uuid="cf266a77-4fc0-41a9-a816-2bf14beda5f1">
@@ -5926,7 +5927,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Тағайындау бөлімі/Подразделение для назначение]]></text>
+					<text><![CDATA[Сұрау жіберілген бөлімше/Подразделение куда отправлен запрос]]></text>
 				</staticText>
 				<textField>
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="a02775c9-030b-4f47-abc5-67a55759cf84">
