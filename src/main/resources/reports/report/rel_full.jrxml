@@ -418,9 +418,9 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_indication_data"/>
 		<fieldDescription><![CDATA[dismissal_indication_data]]></fieldDescription>
 	</field>
-	<field name="dismissal_order_numberv" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_order_numberv"/>
-		<fieldDescription><![CDATA[dismissal_order_numberv]]></fieldDescription>
+	<field name="dismissal_order_number_data" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_order_number_data"/>
+		<fieldDescription><![CDATA[dismissal_order_number_data]]></fieldDescription>
 	</field>
 	<field name="dismissal_order_date_data" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="dismissal_order_date_data"/>
@@ -3432,7 +3432,7 @@
 					<textElement>
 						<font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{dismissal_order_numberv}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{dismissal_order_number_data}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
