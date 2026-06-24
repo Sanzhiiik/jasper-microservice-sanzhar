@@ -1208,7 +1208,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{date_of_death}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField textAdjust="ScaleFont">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="23a9ebd8-4979-46e1-bc6b-d54f8f483fad">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1259,7 +1259,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Top">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Қайтыс болу туралы мәлімет/Сведения о смерти ]]></text>
+                    <text><![CDATA[Қайтыс болу себебі/Причина смерти]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="363" height="40" isPrintWhenDetailOverflows="true" uuid="634e2cc4-6cc7-45b6-a118-5e4946ef2402">
@@ -1276,7 +1276,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{diagnosis_of_death}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField textAdjust="ScaleFont">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="e1c1c612-df06-478a-9029-6b866c527c9a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1341,7 +1341,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{address}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField textAdjust="ScaleFont">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="f568e541-b2ae-4a29-bb3d-858029e74279">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1406,7 +1406,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{phone_number}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField textAdjust="ScaleFont">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="12d1fed0-fb28-479c-8cbd-e268bc0da0af">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1507,7 +1507,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{criminal_record_case_number}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="ab40eaee-5836-43cc-ae08-8ab8e1f86e66">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1572,7 +1572,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{criminal_record_card_category}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="a829f1a2-8171-47f1-952a-dac56003e371">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1637,7 +1637,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{criminal_record_court}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="6ff3093f-d26b-448f-8795-64c5608023df">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1702,7 +1702,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{criminal_record_ascourt_date}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="f15feb5c-910c-4486-8f56-ea7b612009e7">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1765,7 +1765,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{criminal_record_indictment_organ}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="30" uuid="9c2b5592-15bd-4ca4-bce8-aef5514457fa">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1830,7 +1830,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{criminal_record_indictment_date}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="50" uuid="c3dda357-ee44-46dd-a714-0b2c6d8ce575">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1895,7 +1895,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{criminal_record_main_qualification_article}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="3d38ac85-402b-4699-83b0-16241a726566">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1960,7 +1960,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{criminal_record_inv_qualification_article}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="ede07397-979f-408d-b697-7ac53da71231">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2025,7 +2025,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{criminal_record_main_special_part_qualification}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="50" uuid="47812809-d40c-41b4-95d3-c7a24b1ee51a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2090,7 +2090,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{criminal_record_inv_special_part_qualification}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="50" uuid="49ddd5e3-c278-4f09-8572-3b2c10b62f54">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2155,7 +2155,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{criminal_record_crime_severity}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="4ce9e5f2-c2c0-4c96-9848-daac05c3e333">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2220,7 +2220,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{criminal_record_offense_character}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="47045339-d278-4e04-a0f0-ed29664fa257">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2283,7 +2283,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{criminal_record_crime_date}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="30" uuid="2ec4b448-2e81-470c-ab77-c4d445a5e377">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2348,7 +2348,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{criminal_record_excitation_date}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="2f23b04e-281c-49c4-a846-5d5285bd4aae">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2413,7 +2413,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{criminal_record_entry_of_sentence_date}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="f178776c-7f5e-404d-aa67-b533d3f1c136">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2476,7 +2476,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{criminal_record_punish_fine_amount}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="30" uuid="64bf10da-47fb-4515-8884-60395b6e10c1">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2541,7 +2541,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{criminal_record_punish_imprisonment_term}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="86930378-627f-4f9a-b781-8a598d004d83">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2604,7 +2604,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{criminal_record_instance}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="30" uuid="4a8b164b-fc30-4bd1-a191-2b3576f84c6b">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2687,7 +2687,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{admin_crime_case_number}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="50" uuid="8b5943a4-bfeb-4ade-b5aa-e514236158ea">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2752,7 +2752,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{admin_crime_agency}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="60" uuid="140d641f-8d09-4cad-8b9d-f43ecc3d872a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2817,7 +2817,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{admin_crime_start_date}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="ddc7a6cf-25be-4b14-bacd-f63f5049753a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2882,7 +2882,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{admin_crime_avs_name}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="072d816d-4529-4298-a276-339a1ed6d252">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -2947,7 +2947,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{admin_crime_qualification}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="50" uuid="0e0a8d2a-1929-4c09-ad68-91d5a54ccd44">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -3012,7 +3012,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{admin_crime_case_result}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="50" uuid="3282a050-64e4-486b-8cca-a859d50503d9">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -3077,7 +3077,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{admin_crime_main_penalty}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="50" uuid="529dc18d-8076-42b4-a2e6-146f565697a1">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -3142,7 +3142,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{admin_crime_measures}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="50" uuid="765a442b-29e9-449e-a577-d4eeabb0ad10">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -3225,7 +3225,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{dismissal_work_place}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="3f2cd87c-7643-4b3e-b8d9-8dbd3b8457a8">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -3286,7 +3286,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{dismissal_post}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="30" uuid="c0fcda9d-421a-4318-b443-a022024f74a7">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -3351,7 +3351,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{dismissal_indication}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="50" uuid="9b3b8b38-be5c-4e85-bddb-06cb03933bfb">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -3416,7 +3416,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{dismissal_order_number}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="684a509a-c927-4c32-a0c2-44db2f6d6c69">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -3481,7 +3481,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{dismissal_order_date}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="287caa27-ac09-455c-9fc1-e454a3a9e92e">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -3562,7 +3562,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{capacity_status}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="30" uuid="66583ff1-a96f-43fe-8422-aa9e0b4e8e02">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -3627,7 +3627,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{capable_number}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="2e5a8af6-fc94-4a8b-acd0-5a6c74593e00">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -3692,7 +3692,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{capacity_date}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="ed453f1a-4509-43c2-84bd-fb26bac69a52">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -3773,7 +3773,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{psycho_diagnosis}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="30" uuid="fb5057e9-d776-4a42-8c0f-e4fe4e473ee7">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -3838,7 +3838,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{psycho_begin_date}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="439b2d02-8c42-4da6-95a1-73d02b4fae18">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -3903,7 +3903,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{psycho_end_date}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="50" uuid="3ff480e1-39a6-4250-af43-dc7c5a7bdbe9">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -3968,7 +3968,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{psycho_end_reason}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="323a770f-002e-4fc0-82df-2cf34bd5af92">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -4049,7 +4049,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{narcology_diagnosis}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="30" uuid="e1c6533a-695a-4bba-bf7b-be7f6dac4346">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -4114,7 +4114,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{narcology_begin_date}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="dc5a4458-7717-40c7-9e27-c7501d4a388a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -4179,7 +4179,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{narcology_end_date}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="50" uuid="15ce5072-4d57-4207-bc43-02dd43ba1227">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -4244,7 +4244,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{narcology_end_reason}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="50" uuid="d55adbb1-0dc1-45e5-87dd-8fe0cbd8f38a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -4325,7 +4325,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{phthisiopulmonology_diagnosis}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="30" uuid="1c7539ef-8e00-4a58-9aa3-8279629dadd0">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -4390,7 +4390,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{phthisiopulmonology_begin_date}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="48370ca2-b6fd-47a1-980e-f00a42e3a3fe">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -4455,7 +4455,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{phthisiopulmonology_end_date}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="6f7bb93d-7c5f-4c15-97df-88056c15912b">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -4520,7 +4520,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{phthisiopulmonology_end_reason}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="207e6d36-d60d-4f57-9748-b3e31305f08c">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -4603,7 +4603,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{declaration_type}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="40" uuid="e55b5662-4c91-400f-bbc9-19c95f96e9e7">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -4668,7 +4668,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{declaration_accept_date}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="50" uuid="bef2aee0-1cd9-473d-9661-d732fc1ac16f">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -4733,7 +4733,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{declaration_number}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="50" uuid="a1d22370-09bf-4559-aa04-18f5d59c9ede">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -4798,7 +4798,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{declaration_period}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="50" uuid="3018da1f-c4cf-492d-b3a5-1369c66be5b1">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -4863,7 +4863,7 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{declaration_tax_division}]]></textFieldExpression>
                 </textField>
-                <textField textAdjust="StretchHeight">
+                <textField>
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="483" y="0" width="75" height="50" uuid="28a50fb0-7c7d-4255-9ce7-fa6e534a0a89">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
