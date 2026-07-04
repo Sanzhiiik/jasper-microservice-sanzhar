@@ -1282,9 +1282,13 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="psycho_request_data"/>
 		<fieldDescription><![CDATA[psycho_request_data]]></fieldDescription>
 	</field>
-	<field name="psycho_answer_number" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="psycho_answer_number"/>
-		<fieldDescription><![CDATA[psycho_answer_number]]></fieldDescription>
+	<field name="psycho_answer_grade" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="psycho_answer_grade"/>
+		<fieldDescription><![CDATA[psycho_answer_grade]]></fieldDescription>
+	</field>
+	<field name="psycho_iq" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="psycho_iq"/>
+		<fieldDescription><![CDATA[psycho_iq]]></fieldDescription>
 	</field>
 	<field name="psycho_answer_data" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="psycho_answer_data"/>
@@ -1298,33 +1302,53 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="psycho_comments"/>
 		<fieldDescription><![CDATA[psycho_comments]]></fieldDescription>
 	</field>
-	<field name="assignment_check_plan_reg_number" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="assignment_check_plan_reg_number"/>
-		<fieldDescription><![CDATA[assignment_check_plan_reg_number]]></fieldDescription>
-	</field>
 	<field name="assignment_check_plan_date" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="assignment_check_plan_date"/>
 		<fieldDescription><![CDATA[assignment_check_plan_date]]></fieldDescription>
+	</field>
+	<field name="assignment_check_name" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assignment_check_name"/>
+		<fieldDescription><![CDATA[assignment_check_name]]></fieldDescription>
+	</field>
+	<field name="assignment_check_certificate_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assignment_check_certificate_date"/>
+		<fieldDescription><![CDATA[assignment_check_certificate_date]]></fieldDescription>
+	</field>
+	<field name="assignment_check_brief_information" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assignment_check_brief_information"/>
+		<fieldDescription><![CDATA[assignment_check_brief_information]]></fieldDescription>
 	</field>
 	<field name="assignment_check_result_reg_number" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="assignment_check_result_reg_number"/>
 		<fieldDescription><![CDATA[assignment_check_result_reg_number]]></fieldDescription>
 	</field>
-	<field name="assignment_check_result_date" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="assignment_check_result_date"/>
-		<fieldDescription><![CDATA[assignment_check_result_date]]></fieldDescription>
+	<field name="assignment_check_fio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assignment_check_fio"/>
+		<fieldDescription><![CDATA[assignment_check_fio]]></fieldDescription>
 	</field>
-	<field name="fitness_check_plan_reg_number" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="fitness_check_plan_reg_number"/>
-		<fieldDescription><![CDATA[fitness_check_plan_reg_number]]></fieldDescription>
+	<field name="assignment_check_position_employee" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assignment_check_position_employee"/>
+		<fieldDescription><![CDATA[assignment_check_position_employee]]></fieldDescription>
 	</field>
-	<field name="fitness_check_plan_date" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="fitness_check_plan_date"/>
-		<fieldDescription><![CDATA[fitness_check_plan_date]]></fieldDescription>
+	<field name="fitness_check_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="fitness_check_date"/>
+		<fieldDescription><![CDATA[fitness_check_date]]></fieldDescription>
 	</field>
-	<field name="fitness_check_score" class="java.lang.String">
-		<property name="net.sf.jasperreports.json.field.expression" value="fitness_check_score"/>
-		<fieldDescription><![CDATA[fitness_check_score]]></fieldDescription>
+	<field name="fitness_check_score_1" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="fitness_check_score_1"/>
+		<fieldDescription><![CDATA[fitness_check_score_1]]></fieldDescription>
+	</field>
+	<field name="fitness_check_score_2" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="fitness_check_score_2"/>
+		<fieldDescription><![CDATA[fitness_check_score_2]]></fieldDescription>
+	</field>
+	<field name="fitness_check_score_3" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="fitness_check_score_3"/>
+		<fieldDescription><![CDATA[fitness_check_score_3]]></fieldDescription>
+	</field>
+	<field name="fitness_check_overall_score" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="fitness_check_overall_score"/>
+		<fieldDescription><![CDATA[fitness_check_overall_score]]></fieldDescription>
 	</field>
 	<field name="fitness_check_result_reg_number" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="fitness_check_result_reg_number"/>
@@ -1357,6 +1381,134 @@
 	<field name="phthisiopulmonology_file_status" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="phthisiopulmonology_file_status"/>
 		<fieldDescription><![CDATA[phthisiopulmonology_file_status]]></fieldDescription>
+	</field>
+	<field name="kazakh_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kazakh_date"/>
+		<fieldDescription><![CDATA[kazakh_date]]></fieldDescription>
+	</field>
+	<field name="kazakh_result" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kazakh_result"/>
+		<fieldDescription><![CDATA[kazakh_result]]></fieldDescription>
+	</field>
+	<field name="kazakh_re_test_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kazakh_re_test_date"/>
+		<fieldDescription><![CDATA[kazakh_re_test_date]]></fieldDescription>
+	</field>
+	<field name="kazakh_re_test_result" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kazakh_re_test_result"/>
+		<fieldDescription><![CDATA[kazakh_re_test_result]]></fieldDescription>
+	</field>
+	<field name="kr_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kr_date"/>
+		<fieldDescription><![CDATA[kr_date]]></fieldDescription>
+	</field>
+	<field name="kr_result" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kr_result"/>
+		<fieldDescription><![CDATA[kr_result]]></fieldDescription>
+	</field>
+	<field name="kr_re_test_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kr_re_test_date"/>
+		<fieldDescription><![CDATA[kr_re_test_date]]></fieldDescription>
+	</field>
+	<field name="kr_re_test_result" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kr_re_test_result"/>
+		<fieldDescription><![CDATA[kr_re_test_result]]></fieldDescription>
+	</field>
+	<field name="kazakh_test_fio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kazakh_test_fio"/>
+		<fieldDescription><![CDATA[kazakh_test_fio]]></fieldDescription>
+	</field>
+	<field name="kazakh_test_position_employee" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kazakh_test_position_employee"/>
+		<fieldDescription><![CDATA[kazakh_test_position_employee]]></fieldDescription>
+	</field>
+	<field name="family_meeting_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="family_meeting_date"/>
+		<fieldDescription><![CDATA[family_meeting_date]]></fieldDescription>
+	</field>
+	<field name="family_meeting_certificate_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="family_meeting_certificate_date"/>
+		<fieldDescription><![CDATA[family_meeting_certificate_date]]></fieldDescription>
+	</field>
+	<field name="family_meeting_reg_number" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="family_meeting_reg_number"/>
+		<fieldDescription><![CDATA[family_meeting_reg_number]]></fieldDescription>
+	</field>
+	<field name="family_meeting_short_story" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="family_meeting_short_story"/>
+		<fieldDescription><![CDATA[family_meeting_short_story]]></fieldDescription>
+	</field>
+	<field name="osd_meeting_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="osd_meeting_date"/>
+		<fieldDescription><![CDATA[osd_meeting_date]]></fieldDescription>
+	</field>
+	<field name="osd_meeting_sertificate_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="osd_meeting_sertificate_date"/>
+		<fieldDescription><![CDATA[osd_meeting_sertificate_date]]></fieldDescription>
+	</field>
+	<field name="osd_meeting_reg_number" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="osd_meeting_reg_number"/>
+		<fieldDescription><![CDATA[osd_meeting_reg_number]]></fieldDescription>
+	</field>
+	<field name="osd_meeting_fio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="osd_meeting_fio"/>
+		<fieldDescription><![CDATA[osd_meeting_fio]]></fieldDescription>
+	</field>
+	<field name="osd_meeting_position_employee" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="osd_meeting_position_employee"/>
+		<fieldDescription><![CDATA[osd_meeting_position_employee]]></fieldDescription>
+	</field>
+	<field name="osd_meeting_short_story" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="osd_meeting_short_story"/>
+		<fieldDescription><![CDATA[osd_meeting_short_story]]></fieldDescription>
+	</field>
+	<field name="security_meeting_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="security_meeting_date"/>
+		<fieldDescription><![CDATA[security_meeting_date]]></fieldDescription>
+	</field>
+	<field name="security_meeting_sertificate_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="security_meeting_sertificate_date"/>
+		<fieldDescription><![CDATA[security_meeting_sertificate_date]]></fieldDescription>
+	</field>
+	<field name="security_meeting_reg_number" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="security_meeting_reg_number"/>
+		<fieldDescription><![CDATA[security_meeting_reg_number]]></fieldDescription>
+	</field>
+	<field name="security_meeting_fio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="security_meeting_fio"/>
+		<fieldDescription><![CDATA[security_meeting_fio]]></fieldDescription>
+	</field>
+	<field name="security_meeting_position_employee" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="security_meeting_position_employee"/>
+		<fieldDescription><![CDATA[security_meeting_position_employee]]></fieldDescription>
+	</field>
+	<field name="security_meeting_short_story" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="security_meeting_short_story"/>
+		<fieldDescription><![CDATA[security_meeting_short_story]]></fieldDescription>
+	</field>
+	<field name="head_meeting_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="head_meeting_date"/>
+		<fieldDescription><![CDATA[head_meeting_date]]></fieldDescription>
+	</field>
+	<field name="head_meeting_sertificate_date" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="head_meeting_sertificate_date"/>
+		<fieldDescription><![CDATA[head_meeting_sertificate_date]]></fieldDescription>
+	</field>
+	<field name="head_meeting_reg_number" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="head_meeting_reg_number"/>
+		<fieldDescription><![CDATA[head_meeting_reg_number]]></fieldDescription>
+	</field>
+	<field name="head_meeting_fio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="head_meeting_fio"/>
+		<fieldDescription><![CDATA[head_meeting_fio]]></fieldDescription>
+	</field>
+	<field name="head_meeting_position_employee" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="head_meeting_position_employee"/>
+		<fieldDescription><![CDATA[head_meeting_position_employee]]></fieldDescription>
+	</field>
+	<field name="head_meeting_short_story" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="head_meeting_short_story"/>
+		<fieldDescription><![CDATA[head_meeting_short_story]]></fieldDescription>
 	</field>
 	<field name="primary_check_conclusion" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="primary_check_conclusion"/>
@@ -2834,56 +2986,6 @@
 					</textElement>
 					<text><![CDATA[Әскери қызметке қатыстылығы/Отношение к воинской службе]]></text>
 				</staticText>
-				<frame>
-					<reportElement positionType="Float" x="120" y="0" width="363" height="50" isPrintWhenDetailOverflows="true" uuid="03cabbbd-d814-4dfc-867c-ebc1e3855d35">
-						<property name="com.jaspersoft.studio.unit.width" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-						<property name="com.jaspersoft.studio.unit.x" value="px"/>
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					</reportElement>
-					<box>
-						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					</box>
-					<staticText>
-						<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="50" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="62303d5a-1269-4077-aa73-49df8422ae87">
-							<property name="com.jaspersoft.studio.unit.width" value="px"/>
-							<property name="com.jaspersoft.studio.unit.y" value="px"/>
-							<property name="com.jaspersoft.studio.unit.x" value="px"/>
-							<property name="com.jaspersoft.studio.unit.height" value="px"/>
-						</reportElement>
-						<box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-							<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-							<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-							<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-							<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						</box>
-						<textElement textAlignment="Left" verticalAlignment="Top">
-							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-						</textElement>
-						<text><![CDATA[Жарамдылық санаты/Категория годности]]></text>
-					</staticText>
-					<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-						<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="243" height="50" isPrintWhenDetailOverflows="true" uuid="f8c1bdd2-3e03-4ffc-beac-50eed47cd4ed">
-							<property name="com.jaspersoft.studio.unit.width" value="px"/>
-							<property name="com.jaspersoft.studio.unit.x" value="px"/>
-							<property name="com.jaspersoft.studio.unit.y" value="px"/>
-							<property name="com.jaspersoft.studio.unit.height" value="px"/>
-						</reportElement>
-						<box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
-							<topPen lineWidth="1.0"/>
-							<leftPen lineWidth="1.0"/>
-							<bottomPen lineWidth="1.0"/>
-							<rightPen lineWidth="1.0"/>
-						</box>
-						<textElement textAlignment="Left" verticalAlignment="Top">
-							<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-						</textElement>
-						<textFieldExpression><![CDATA[$F{suitability_level}]]></textFieldExpression>
-					</textField>
-				</frame>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="483" y="0" width="75" height="50" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="c9726c54-8182-47e7-939d-9c087be0d530">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -2901,6 +3003,42 @@
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
 					<textFieldExpression><![CDATA[$F{military_data}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="120" y="0" width="120" height="50" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="62303d5a-1269-4077-aa73-49df8422ae87">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Жарамдылық санаты/Категория годности]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="240" y="0" width="243" height="50" isPrintWhenDetailOverflows="true" uuid="f8c1bdd2-3e03-4ffc-beac-50eed47cd4ed">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{suitability_level}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -3908,7 +4046,7 @@
 				</textField>
 			</frame>
 		</band>
-		<band height="80" splitType="Stretch">
+		<band height="20" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<staticText>
 				<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="558" height="20" backcolor="#E7E6E6" uuid="1d4a6a1a-e45a-408d-b8d6-428b650b0e15">
@@ -3928,198 +4066,6 @@
 				</textElement>
 				<text><![CDATA[Туу туралы ақпарат/Сведения о рождении]]></text>
 			</staticText>
-			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="20" width="558" height="60" isPrintWhenDetailOverflows="true" uuid="f92fd084-2a82-4b0c-ad60-b95579731a95">
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
-				</reportElement>
-				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="60" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="95f98e79-eaac-4e2c-89cb-777268ec6a65">
-						<property name="com.jaspersoft.studio.unit.x" value="px"/>
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.width" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					</box>
-					<textElement textAlignment="Left" verticalAlignment="Top">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<text><![CDATA[Туу туралы актілерді тіркеу кітабындағы жазба нөмірі/Номер записи в книге регистрации актов о рождении]]></text>
-				</staticText>
-				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="363" height="60" isPrintWhenDetailOverflows="true" uuid="5c83061b-272f-4691-8bbe-fc782ad9c5ab">
-						<property name="com.jaspersoft.studio.unit.x" value="px"/>
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.width" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
-						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					</box>
-					<textElement textAlignment="Left" verticalAlignment="Top">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<textFieldExpression><![CDATA[$F{reg_act_number}]]></textFieldExpression>
-				</textField>
-				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="483" y="0" width="75" height="60" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="02adbed2-bf1c-43c6-a9c6-4cba6dc55b4b">
-						<property name="com.jaspersoft.studio.unit.width" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-						<property name="com.jaspersoft.studio.unit.x" value="px"/>
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					</reportElement>
-					<box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
-						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					</box>
-					<textElement textAlignment="Left" verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<textFieldExpression><![CDATA[$F{reg_act_number_data}]]></textFieldExpression>
-				</textField>
-			</frame>
-		</band>
-		<band height="60" splitType="Stretch">
-			<property name="com.jaspersoft.studio.unit.height" value="px"/>
-			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="60" isPrintWhenDetailOverflows="true" uuid="a96a5ed9-9c87-4237-a8ad-46c39cd5ac3b">
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-				</reportElement>
-				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="60" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="7e1ddac6-9000-47fd-9705-2a55981d3ca0">
-						<property name="com.jaspersoft.studio.unit.x" value="px"/>
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.width" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					</box>
-					<textElement textAlignment="Left" verticalAlignment="Top">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<text><![CDATA[Туу туралы актілерде тіркеу кітабына жазылған күні/Дата записи в книге регистрации актов о рождении]]></text>
-				</staticText>
-				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="363" height="60" isPrintWhenDetailOverflows="true" uuid="6655d88f-4868-4ff1-9849-220ec7aca234">
-						<property name="com.jaspersoft.studio.unit.x" value="px"/>
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.width" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
-						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					</box>
-					<textElement textAlignment="Left" verticalAlignment="Top">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<textFieldExpression><![CDATA[$F{reg_act_date}]]></textFieldExpression>
-				</textField>
-				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="483" y="0" width="75" height="60" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="ba93314d-1cef-4db7-82a1-cc2997f27fc9">
-						<property name="com.jaspersoft.studio.unit.width" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-						<property name="com.jaspersoft.studio.unit.x" value="px"/>
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					</reportElement>
-					<box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
-						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					</box>
-					<textElement textAlignment="Left" verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<textFieldExpression><![CDATA[$F{reg_act_date_data}]]></textFieldExpression>
-				</textField>
-			</frame>
-		</band>
-		<band height="60" splitType="Stretch">
-			<property name="com.jaspersoft.studio.unit.height" value="px"/>
-			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="60" isPrintWhenDetailOverflows="true" uuid="9408090d-586b-4098-b299-3f336a59831d">
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-				</reportElement>
-				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="60" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="d6b75768-c89e-44d3-8b72-9d1bb074c73e">
-						<property name="com.jaspersoft.studio.unit.x" value="px"/>
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.width" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					</box>
-					<textElement textAlignment="Left" verticalAlignment="Top">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<text><![CDATA[Туу туралы құжатты берген орган/Орган выдачи документа подтверждающего факт рождения]]></text>
-				</staticText>
-				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="363" height="60" isPrintWhenDetailOverflows="true" uuid="6d1c4782-da42-4c4c-a3c5-d819d822a0e5">
-						<property name="com.jaspersoft.studio.unit.x" value="px"/>
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.width" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
-						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					</box>
-					<textElement textAlignment="Left" verticalAlignment="Top">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<textFieldExpression><![CDATA[$F{reg_act_region}]]></textFieldExpression>
-				</textField>
-				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="483" y="0" width="75" height="60" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="27350f6b-2afe-42d3-9551-a9861fab0acd">
-						<property name="com.jaspersoft.studio.unit.width" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-						<property name="com.jaspersoft.studio.unit.x" value="px"/>
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					</reportElement>
-					<box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
-						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					</box>
-					<textElement textAlignment="Left" verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<textFieldExpression><![CDATA[$F{reg_act_region_data}]]></textFieldExpression>
-				</textField>
-			</frame>
 		</band>
 		<band height="40" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -11114,210 +11060,6 @@
 				<text><![CDATA[3 этап]]></text>
 			</staticText>
 		</band>
-		<band height="30">
-			<property name="com.jaspersoft.studio.unit.height" value="px"/>
-			<staticText>
-				<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="a2f41331-c54d-42c3-b65c-efe31b9b92e0">
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-				</reportElement>
-				<box>
-					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-				</box>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-				</textElement>
-				<text><![CDATA[Медицина]]></text>
-			</staticText>
-		</band>
-		<band height="50" splitType="Stretch">
-			<staticText>
-				<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="cff760df-3ccd-43c6-8775-711704d4594f">
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-				</reportElement>
-				<box>
-					<topPen lineWidth="1.0"/>
-					<leftPen lineWidth="1.0"/>
-					<bottomPen lineWidth="1.0"/>
-					<rightPen lineWidth="1.0"/>
-				</box>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-				</textElement>
-				<text><![CDATA[Денсаулық жағдайы/Состояние здоровья]]></text>
-			</staticText>
-			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="30" width="558" height="20" uuid="e00eeacb-1de3-4633-a190-cecff6d757c4">
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="20" backcolor="#E7E6E6" uuid="cd8da101-5211-426e-90a1-e196cefed161">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<text><![CDATA[Диагноз]]></text>
-				</staticText>
-				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="20" uuid="b83e7bfb-7958-4ea0-aa0a-fc12ab0c4286">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<textFieldExpression><![CDATA[$F{health_diagnosis}]]></textFieldExpression>
-				</textField>
-			</frame>
-		</band>
-		<band height="30" splitType="Stretch">
-			<property name="com.jaspersoft.studio.unit.height" value="px"/>
-			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="30" uuid="d3b4008b-c01a-4f47-baae-68d2cd9420c6">
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="30" backcolor="#E7E6E6" uuid="033d8e41-77f3-4a02-9fa1-b77fd7fa54a9">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<text><![CDATA[Диагноздың басталу күні/Дата начала диагноза]]></text>
-				</staticText>
-				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="6d82e3fb-06f1-4bd7-985d-4cc6b2de9538">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<textFieldExpression><![CDATA[$F{health_start_date}]]></textFieldExpression>
-				</textField>
-			</frame>
-		</band>
-		<band height="30" splitType="Stretch">
-			<property name="com.jaspersoft.studio.unit.height" value="px"/>
-			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="30" uuid="cbf39668-bb42-4cbe-8fbc-557119eb9952">
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="30" backcolor="#E7E6E6" uuid="39513438-da1e-417c-8457-49911dcfcb20">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<text><![CDATA[Аяқталу күні/Дата завершения]]></text>
-				</staticText>
-				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="d3f0b552-2f1d-4534-935f-9a32582db03b">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<textFieldExpression><![CDATA[$F{health_end_date}]]></textFieldExpression>
-				</textField>
-			</frame>
-		</band>
-		<band height="30" splitType="Stretch">
-			<property name="com.jaspersoft.studio.unit.height" value="px"/>
-			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="30" uuid="0528fec5-b364-499d-9555-5b19468b9f1e">
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="30" backcolor="#E7E6E6" uuid="e6038db2-d118-48ea-87f3-473ed527a036">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<text><![CDATA[Себебі/Причина]]></text>
-				</staticText>
-				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="632c1aee-2846-4f87-a0de-b44d3cda13a6">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<textFieldExpression><![CDATA[$F{health_reason}]]></textFieldExpression>
-				</textField>
-			</frame>
-		</band>
 		<band height="50" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<staticText>
@@ -11334,7 +11076,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Медициналық тексеру жүргізу/Проведение медицинского освидетельствования]]></text>
+				<text><![CDATA[Медициналық куәландыру деректерін есепке алу/Проведение медицинского освидетельствования]]></text>
 			</staticText>
 			<frame>
 				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="30" width="558" height="20" uuid="f43266ba-4768-4fb6-aaf7-e13cfae5b4b0">
@@ -11884,7 +11626,7 @@
 				<text><![CDATA[Құжат қоса беріледі/Документ прилагается]]></text>
 			</staticText>
 		</band>
-		<band height="50" splitType="Stretch">
+		<band height="60" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<staticText>
 				<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="f5fe01b9-0866-4715-8b55-0ee4028c1e72">
@@ -11900,18 +11642,19 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Психофизиологиялық тексеру/Психофизиологическое обследование]]></text>
+				<text><![CDATA[Психологиялық-әлеуметтік зерттеу және кәсіби құзыреттерге сәйкестік дәрежесін бағалау/Психолого-социологическое исследование и оценка степени соответсвия профессиональных компетенций ]]></text>
 			</staticText>
 			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="30" width="558" height="20" uuid="8cddcb84-ca63-4141-9785-7faf805e884b">
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="30" width="558" height="30" uuid="8cddcb84-ca63-4141-9785-7faf805e884b">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="20" backcolor="#E7E6E6" uuid="7b4b0541-43be-42e9-bb8c-74187d96c36b">
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="30" backcolor="#E7E6E6" uuid="7b4b0541-43be-42e9-bb8c-74187d96c36b">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -11922,11 +11665,12 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Рег. сұрау нөмірі/Рег. номер запроса]]></text>
+					<text><![CDATA[Қорытындыны тіркеу нөмірі нөмірі/Рег. номер заключение]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="20" uuid="22334db4-8cac-41c6-88be-cfb6d57c62d5">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="22334db4-8cac-41c6-88be-cfb6d57c62d5">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -11941,18 +11685,19 @@
 				</textField>
 			</frame>
 		</band>
-		<band height="20" splitType="Stretch">
+		<band height="30" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="20" uuid="ba75756d-5663-4994-a1c4-42b4b3a52bb2">
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="30" uuid="ba75756d-5663-4994-a1c4-42b4b3a52bb2">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="20" backcolor="#E7E6E6" uuid="ced8fef7-c56b-41f1-81a6-a3719874c844">
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="30" backcolor="#E7E6E6" uuid="ced8fef7-c56b-41f1-81a6-a3719874c844">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -11963,11 +11708,12 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Сұраныс күні/Дата запроса]]></text>
+					<text><![CDATA[Зерттеу жүргізілген күн/Дата проведения исследование ]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="20" uuid="d06e8f43-1fa5-4919-8215-86a35065ce2f">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="d06e8f43-1fa5-4919-8215-86a35065ce2f">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -11982,18 +11728,19 @@
 				</textField>
 			</frame>
 		</band>
-		<band height="20" splitType="Stretch">
+		<band height="30" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="20" uuid="517f8105-8495-43ad-b0ec-ff70981b1784">
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="30" uuid="517f8105-8495-43ad-b0ec-ff70981b1784">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="20" backcolor="#E7E6E6" uuid="5eb451bf-8c46-4eed-a92f-694dd0478134">
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="30" backcolor="#E7E6E6" uuid="5eb451bf-8c46-4eed-a92f-694dd0478134">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -12004,11 +11751,12 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Рег. жауап нөмірі/Рег. номер ответа]]></text>
+					<text><![CDATA[Кейстер бойынша жалпы баға/Общая оценка по кейсам]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="20" uuid="0dbe3f82-fc66-4fdb-9304-06f64f7d3d14">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" uuid="0dbe3f82-fc66-4fdb-9304-06f64f7d3d14">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -12019,7 +11767,50 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{psycho_answer_number}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{psycho_answer_grade}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="20" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="20" uuid="252bcf81-46d1-4ea7-b51a-8d2b2b03ebf2">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="20" backcolor="#E7E6E6" uuid="25841686-b752-4e96-97d7-d5370e6e7822">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[IQ]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="20" uuid="45596159-7a5d-45df-a300-69cda754bcbc">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{psycho_iq}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -12045,7 +11836,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Жауап беру күні/Дата ответа]]></text>
+					<text><![CDATA[Қорытынды күні/Дата заключения]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="20" uuid="d2f7384e-bb34-430a-a29d-eda70d58e90f">
@@ -12101,7 +11892,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[ Жауап нәтижесі/Результат ответа]]></text>
+					<text><![CDATA[ Қорытынды/Заключение]]></text>
 				</staticText>
 			</frame>
 		</band>
@@ -12167,7 +11958,8 @@
 				<text><![CDATA[Құжат қоса беріледі/Документ прилагается]]></text>
 			</staticText>
 		</band>
-		<band height="50" splitType="Stretch">
+		<band height="30" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<staticText>
 				<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="3c648840-6bab-4cf4-81bf-c61c28fcd200">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -12184,57 +11976,20 @@
 				</textElement>
 				<text><![CDATA[Тапсырмаларға үміткерлерді тексеру/Проверка кандидатов на поручениях]]></text>
 			</staticText>
-			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="30" width="558" height="20" uuid="af28518e-76c2-4656-9cd8-dda56b311158">
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-				</reportElement>
-				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="20" backcolor="#E7E6E6" uuid="66261d9f-3449-496c-9134-f34f6f271def">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<text><![CDATA[Рег. сұрау нөмірі/Рег. номер запроса]]></text>
-				</staticText>
-				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="20" uuid="0199fc05-d6b5-4da5-8c76-68d7cdaa64dc">
-						<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					</reportElement>
-					<box leftPadding="5">
-						<topPen lineWidth="1.0"/>
-						<leftPen lineWidth="1.0"/>
-						<bottomPen lineWidth="1.0"/>
-						<rightPen lineWidth="1.0"/>
-					</box>
-					<textElement verticalAlignment="Middle">
-						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-					</textElement>
-					<textFieldExpression><![CDATA[$F{assignment_check_plan_reg_number}]]></textFieldExpression>
-				</textField>
-			</frame>
 		</band>
-		<band height="20" splitType="Stretch">
+		<band height="40" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="20" uuid="a02ed2c8-d2c3-4412-9ce8-38e6c22020a4">
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="a02ed2c8-d2c3-4412-9ce8-38e6c22020a4">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="20" backcolor="#E7E6E6" uuid="9514b033-f0a4-4667-9df6-191b48ed68c6">
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="9514b033-f0a4-4667-9df6-191b48ed68c6">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -12245,11 +12000,12 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Сұраныс күні/Дата запроса]]></text>
+					<text><![CDATA[Тапсырма берілген күн/Дата поручения ]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="20" uuid="fad7fea6-3621-4559-adad-b47a23a2c362">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="fad7fea6-3621-4559-adad-b47a23a2c362">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -12264,18 +12020,19 @@
 				</textField>
 			</frame>
 		</band>
-		<band height="20" splitType="Stretch">
+		<band height="40" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="20" uuid="2e7a94a0-7d8c-48fb-81f1-d36008c28159">
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="658bd210-3e88-41c8-b3a1-cd54dacd4bca">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="20" backcolor="#E7E6E6" uuid="832bf6f5-bd91-4513-8b84-1e50e41094ca">
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="03aba648-2c68-4e12-a547-37f513eb13fc">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -12286,11 +12043,141 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Рег. жауап нөмірі/Рег. номер ответа]]></text>
+					<text><![CDATA[Берілген тапсырманың атауы/Названия порученного задания]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="20" uuid="c542f4ce-cb07-4278-bdfd-c41c6450eaaa">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="146acc55-2d3a-4627-84f0-e3ee4004b7ee">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{assignment_check_name}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="c07e0b73-313f-4880-b7de-fa055e90235c">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="a73cecd4-9a21-4a68-b386-66535946c3ef">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Орындау туралы анықтаманың күні/Дата справки об исполнении ]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="f7bf5524-0be7-4ec4-be43-dedb56544d7a">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{assignment_check_certificate_date}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="a4020ecb-4944-436d-8926-7f170e41cefb">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="2460237a-7d25-4e5e-b3d4-db3845b7428d">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Орындау нәтижелері туралы қысқаша ақпарат/Краткая информация о результатах исполнения]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="3a18d3ef-7dd0-451b-bf5d-4c1086b75137">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{assignment_check_brief_information}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="2e7a94a0-7d8c-48fb-81f1-d36008c28159">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="832bf6f5-bd91-4513-8b84-1e50e41094ca">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Орындау туралы анықтаманың тіркеу нөмірі/Рег. номер справки об исполнении]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="c542f4ce-cb07-4278-bdfd-c41c6450eaaa">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -12305,18 +12192,19 @@
 				</textField>
 			</frame>
 		</band>
-		<band height="20" splitType="Stretch">
+		<band height="40" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="20" uuid="2dc8282f-a715-4fff-96b5-8677f4b803a7">
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="2dc8282f-a715-4fff-96b5-8677f4b803a7">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="20" backcolor="#E7E6E6" uuid="bb05f335-30ba-4fda-a72a-b7ef6f648c2c">
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="bb05f335-30ba-4fda-a72a-b7ef6f648c2c">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -12327,11 +12215,12 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Жауап беру күні/Дата ответа]]></text>
+					<text><![CDATA[Тапсырманы берген қызметкердің ТАӘ/ФИО сотрудника, кем дано поручение]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="20" uuid="e7955e1b-e550-4b67-977a-3fda4a1d615e">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="e7955e1b-e550-4b67-977a-3fda4a1d615e">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -12342,7 +12231,50 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{assignment_check_result_date}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{assignment_check_fio}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="cee968e1-edaf-4e33-abfc-e08c983e4b7d">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="55cad38d-a63d-4602-8c9a-347b79925cdb">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Тапсырманы берген қызметкердің лауазымы/Должность сотрудника, кем дано поручение]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="b5af72eb-cf07-4a05-8750-42162ed31843">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{assignment_check_position_employee}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
@@ -12367,7 +12299,8 @@
 				<text><![CDATA[Құжат қоса беріледі/Документ прилагается]]></text>
 			</staticText>
 		</band>
-		<band height="50" splitType="Stretch">
+		<band height="70" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<staticText>
 				<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="08ed575f-7f75-49df-8787-ef28ae25e1f6">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -12385,15 +12318,16 @@
 				<text><![CDATA[Дене шынықтыру деңгейін тексеру/Проверка уровня физической подготовленности ]]></text>
 			</staticText>
 			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="30" width="558" height="20" uuid="4d26421d-6040-46ff-a4cb-9eeacabc3294">
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="30" width="558" height="40" uuid="4d26421d-6040-46ff-a4cb-9eeacabc3294">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="20" backcolor="#E7E6E6" uuid="d7eeb438-8667-4faf-9573-ba6f8ae4c29d">
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="d7eeb438-8667-4faf-9573-ba6f8ae4c29d">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -12404,11 +12338,12 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Рег. сұрау нөмірі/Рег. номер запроса]]></text>
+					<text><![CDATA[Дата сдачи нормативов/Нормативтерді тапсыру күні]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="20" uuid="4561b730-b7ae-4748-8c68-5ea3cd484884">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="4561b730-b7ae-4748-8c68-5ea3cd484884">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -12419,22 +12354,23 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{fitness_check_plan_reg_number}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{fitness_check_date}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
-		<band height="20" splitType="Stretch">
+		<band height="40">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="20" uuid="556be0dc-b7fa-425a-bb49-554e4efddfcf">
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="dcd28a27-d154-4290-8c40-1d21136ad939">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="20" backcolor="#E7E6E6" uuid="41657e9e-bde0-4975-9acf-058404d58163">
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="2c613a37-7bbe-4ae3-bb6e-333aaaa93a81">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -12445,11 +12381,12 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Сұраныс күні/Дата запроса]]></text>
+					<text><![CDATA[Жаттығу/нәтиже/баға№1/Упр/результат/оценка №1]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="20" uuid="1e3d43c2-00cb-4171-8fcc-4460162afc82">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="5cd432c8-117e-4078-ba23-dbcb244de9d9">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -12460,22 +12397,23 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{fitness_check_plan_date}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{fitness_check_score_1}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
-		<band height="20" splitType="Stretch">
+		<band height="40">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="20" uuid="20b0fc5a-e9b5-4642-87d4-0077b7cff558">
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="40914331-2194-4f28-ba8f-627d958aecab">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="20" backcolor="#E7E6E6" uuid="0781a671-b6d0-452a-97d5-465486e984be">
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="a821e964-09c0-4ab0-9e86-e266e89e2db6">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -12486,11 +12424,12 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Ұпай саны/Набранные балы]]></text>
+					<text><![CDATA[Жаттығу/нәтиже/баға№2/Упр/результат/оценка №2]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="20" uuid="1a904a92-7d7d-437d-8f49-ec79db39f90c">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="3786b137-dd25-4244-a8b2-52a22fadab73">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -12501,22 +12440,23 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$F{fitness_check_score}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{fitness_check_score_2}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
-		<band height="20" splitType="Stretch">
+		<band height="40">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="20" uuid="c0080e55-ab20-4a2b-ba10-a25d3052fbf3">
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="bd2a3ad2-630d-47c0-973b-d45e303d537d">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="20" backcolor="#E7E6E6" uuid="8e6ade92-7d5c-4699-a84e-22d0952bab1d">
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="b85303c4-fcaf-4b6b-8c44-94a29d676cc4">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -12527,11 +12467,98 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Рег. жауап нөмірі/Рег. номер ответа]]></text>
+					<text><![CDATA[Жаттығу/нәтиже/баға№3/Упр/результат/оценка №3]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="20" uuid="7ced37f5-b8f0-424d-af20-f3add8de4218">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="038750a3-e9d5-405c-848c-acd554901d8c">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{fitness_check_score_3}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="20b0fc5a-e9b5-4642-87d4-0077b7cff558">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="0781a671-b6d0-452a-97d5-465486e984be">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Жалпы нәтиже/Общий результат]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="1a904a92-7d7d-437d-8f49-ec79db39f90c">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{fitness_check_overall_score}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="50" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="50" uuid="c0080e55-ab20-4a2b-ba10-a25d3052fbf3">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="50" backcolor="#E7E6E6" uuid="8e6ade92-7d5c-4699-a84e-22d0952bab1d">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Дене шынықтыруды тексеру нәтижелері бойынша анықтаманың тіркеу номері/Рег. номер справки по результатам проверки физической подготовленности]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="50" uuid="7ced37f5-b8f0-424d-af20-f3add8de4218">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -12546,18 +12573,19 @@
 				</textField>
 			</frame>
 		</band>
-		<band height="20" splitType="Stretch">
+		<band height="50" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<frame>
-				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="20" uuid="66348e55-c2de-4a6b-af3d-3774e33a2fc3">
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="50" uuid="66348e55-c2de-4a6b-af3d-3774e33a2fc3">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<staticText>
-					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="20" backcolor="#E7E6E6" uuid="f1cf853c-edb5-48c7-b26f-743f48d9054d">
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="50" backcolor="#E7E6E6" uuid="f1cf853c-edb5-48c7-b26f-743f48d9054d">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -12568,11 +12596,12 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Жауап беру күні/Дата ответа]]></text>
+					<text><![CDATA[Дене шынықтыруды тексеру нәтижелері бойынша анықтаманың күні/Дата справки по результатам проверки физической подготовленности]]></text>
 				</staticText>
 				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="20" uuid="83c9f9ee-1fcb-4f9d-9db9-69794376104c">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="50" uuid="83c9f9ee-1fcb-4f9d-9db9-69794376104c">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<box leftPadding="5">
 						<topPen lineWidth="1.0"/>
@@ -12608,7 +12637,8 @@
 				<text><![CDATA[Құжат қоса беріледі/Документ прилагается]]></text>
 			</staticText>
 		</band>
-		<band height="50">
+		<band height="30">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<staticText>
 				<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="515bee92-0fd9-433f-acd8-19b1916cee93">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -12623,14 +12653,275 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Мемлекеттік тілді меңгеру деңгейін және ҚР заңнамасын білу деңгейін тексеру/Проверка уровня владения  государственным языком и знание законодательство РК ]]></text>
+				<text><![CDATA[Мемлекеттік тілді меңгеру деңгейін тексеру/Проверка уровня владения государственным языком ]]></text>
 			</staticText>
-			<staticText>
-				<reportElement positionType="Float" x="0" y="30" width="558" height="20" uuid="d75b834a-9bdc-4d00-8380-8913584e0033">
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="36d76f40-e01e-494e-be3d-0cff5188a2e2">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="1aaa9608-3e82-4c84-9d4c-ecb625c62610">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Тестілеу күні/Дата тестирования]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="3a818cd3-abda-45cf-8cb8-1d5ead41020e">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{kazakh_date}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="47c7bd97-9cce-4a5e-ab0e-3b2ac257b382">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="eac793d8-8043-4ac1-b1dd-4be32f4f28e8">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Тестілеу нәтижесі/Результат тестирования]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="73832ac1-b2f2-462a-9059-4b39683ab45d">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{kazakh_result}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="dc629596-0ebc-4ede-b941-490838f6fa66">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="fb6fd66d-b3fe-4eb2-bbfe-243ae063547e">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Қайта тестілеу күні/Дата повторного тестирования]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="1fe8d4ec-5a30-4f53-98e5-66157ff1863c">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{kazakh_re_test_date}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="e80d4459-addd-4607-8673-a0c81e81b078">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="bca2c210-6a43-4ccf-9a61-f65525aec10d">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Қайта тестілеу нәтижесі/Результат повторного тестирования]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="831ef40e-f513-4b93-8bc8-45f7b409a159">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{kazakh_re_test_result}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="85ecc1b0-9e81-4a5d-b4c1-1072de6fcee0">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="53e321ab-f2ee-4cd6-bae3-ed02f216836b">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Тестілеу жүргізген қызметкердің ТАӘ/ФИО сотрудника, проводившего тестирование]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="475a95bf-49e4-400a-b076-bde48d78203d">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{kazakh_test_fio}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="8b0dd08d-6efb-4552-b9d0-2ce38c40a7dd">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="e7073d7a-7cd9-49c5-a7ce-921dfb5b1b37">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Тестілеу жүргізген қызметкердің лауазымы/Должность сотрудника, проводившего тестирование]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="f12143fa-188b-445d-a4e0-985460fd6b01">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{kazakh_test_position_employee}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="20">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="558" height="20" uuid="e132f8cc-167d-48f1-bfd6-949b478b5022">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<box>
 					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
@@ -12644,7 +12935,220 @@
 				<text><![CDATA[Құжат қоса беріледі/Документ прилагается]]></text>
 			</staticText>
 		</band>
-		<band height="50">
+		<band height="30">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="5258050c-f84d-45f5-9925-d9e752d8b0e2">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[ҚР заңнамасын білу деңгейін тексеру/Проверка уровня законодательство РК ]]></text>
+			</staticText>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="31af7272-538a-4f23-b2ab-d5af8057826f">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="b8fa279b-bbac-4a06-aa62-952303b04a61">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Тестілеу күні/Дата тестирования]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="aa13f75d-5424-4990-8df1-1f328eff9ea3">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{kr_date}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="9746df13-344c-4820-bfc7-1ef8df2100a9">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="2360d236-0b2c-4c39-be85-6da1a6724a8b">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Тестілеу нәтижесі/Результат тестирования]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="93ad6b9a-04f5-406d-8a35-8e227b8c8337">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{kr_result}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="aae79482-878d-492d-8d6a-c175b34795c6">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="1c2f71cf-462c-4a17-b8e1-5fe3845bf34b">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Қайта тестілеу күні/Дата повторного тестирования]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="c9f69288-8736-4739-aea8-64e7ad5e0df9">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{kr_re_test_date}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="45b3cd7c-0d7e-4a4a-ac2d-05dbfe3ab0f5">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="44396c87-c567-4057-bde5-7314a43b1b43">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Қайта тестілеу нәтижесі/Результат повторного тестирования]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="7527cba4-9d30-4cfd-b868-72fcf8e54bdb">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{kr_re_test_result}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="20">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="558" height="20" uuid="7e0ab1e0-a263-4c37-b193-28aff0a9c5c1">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Құжат қоса беріледі/Документ прилагается]]></text>
+			</staticText>
+		</band>
+		<band height="30">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<staticText>
 				<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="84b45b57-3393-49be-8209-568ea961e11f">
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -12659,14 +13163,1102 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Кандидатпен және оның жақын туыстарымен кездесулер өткізу/Проведение встреч с кандидатом и его близкими родственниками ]]></text>
+				<text><![CDATA[Әнгіме нәтижесі бойынша қысқаша мазмұны және қорытынды/Краткое содержание и вывод по результатам беседы]]></text>
 			</staticText>
+		</band>
+		<band height="30">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<staticText>
-				<reportElement positionType="Float" x="0" y="30" width="558" height="20" uuid="9a572e5c-f9d7-47c7-a2ab-10f882a49f8b">
+				<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="a7953adf-ff3a-459f-a7cd-6ad016cf95bc">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Ата-анасымен немесе жұбайымен/зайыбымен әнгімелесу/Беседа с родителями или супругом/супругой]]></text>
+			</staticText>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="3d2848cb-a90b-412c-a3a8-e7e3ff14f092">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="324b03b3-a44e-4609-90f1-00ebae744df0">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Әнгімелесу өткізілген күн/Дата проведения беседы]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="cbb3b095-7d7b-4bf3-865c-b67173df6dca">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{family_meeting_date}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="b04f3b82-0ccc-442a-85bb-01bbfd1274cd">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="ec10d6f7-7636-4c2a-af9e-4d2e88bce517">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Анықтама күні/Дата справки]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="d6d8c7ae-3b9d-4ed3-9c13-19324bcf2491">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{family_meeting_certificate_date}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="2480db24-94f8-43b0-bc5e-bc66d110db09">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="7f0d95ea-1f15-44dc-97a6-c5593d3fa92d">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Анықтама тіркеу нөмері/Регистрационный номер справки]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="db2ec444-1e4e-465c-bae1-ed08ca79966f">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{family_meeting_reg_number}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="561fc489-d716-40ac-a51d-c3e47985befa">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="ec7089a0-b785-4c76-8ec9-6f89b9d1a1f2">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Қысқаша мазмұны/Краткое содержание]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="194b5eaa-9950-42f0-9d65-9014b91f910e">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{family_meeting_short_story}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="20">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="558" height="20" uuid="53ef09c1-49ea-47f4-b5a1-36524c7bcd2b">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Құжат қоса беріледі/Документ прилагается]]></text>
+			</staticText>
+		</band>
+		<band height="30">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="d622981d-e1f4-44a8-8200-4afc99abd6b5">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[ЖБҚ тиісті желілері мен бағыттары бойынша бөлімше басшысымен әңгімелесу/Беседа с руководителем подразделения по соответствующим линиям и направлениям ОСД]]></text>
+			</staticText>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="39608f88-b952-49e1-9839-3d9a4643f7e4">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="bdd1a66b-c227-4f63-81a6-b30de7584bec">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Әнгімелесу өткізілген күн/Дата проведения беседы]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="8c6d5503-017f-4386-bc57-f3e0cd629522">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{osd_meeting_date}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="5ac1eedd-3de5-4071-98e3-9ee718f34029">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="686a8c0d-9f1c-4885-9685-b53bfbdb6cb4">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Анықтама күні/Дата справки]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="1936f558-786c-40de-ac33-866e2297177e">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{osd_meeting_sertificate_date}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="313feae8-84c6-4821-9bd3-4e6229a02401">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="36ee23fd-3fb4-4a52-a5a1-cea9bcf3d76a">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Анықтаманың тіркеу нөмірі/Регистрационный номер справки]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="36a65c58-1f5c-4b28-a2af-547316c8b145">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{osd_meeting_reg_number}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="f343f0cd-14a2-42c0-bde4-54a884cd0a60">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="9fb164cf-8dcb-4f5e-b8a3-2f07f36edb9a">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Әңгімелесуді жүргізген қызметкердің ТАӘ/ФИО сотрудника, проводившего беседу ]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="24daf447-a442-412f-8670-b2e0ef200171">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{osd_meeting_fio}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="8cc5f95f-b8b1-463f-802b-db072cd8947d">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="1864b06b-28de-4e9b-a97c-56d3a660fb90">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Әңгімелесуді жүргізген қызметкердің лауазымы/Должность сотрудника, проводившего беседу]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="5909dbc3-bfa6-445f-a897-cbc9451b1e5e">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{osd_meeting_position_employee}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="b6a19553-f695-41bc-bdad-9f3f36fc5ab0">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="b255e2ba-b5bd-4588-83dd-ac256402aff3">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Әнгіме нәтижесі бойынша қысқаша мазмұны және қорытынды/Краткое содержание и вывод по результатам беседы]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="9823356b-9662-4e4f-9359-407a3ffd4ede">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{osd_meeting_short_story}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="20">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="558" height="20" uuid="3afcd3f1-31f4-4fd1-8698-72f709a0a709">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Құжат қоса беріледі/Документ прилагается]]></text>
+			</staticText>
+		</band>
+		<band height="30">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="5c934d42-6304-43f4-873f-fdfb5a676f4a">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Меншікті қауіпсіздік қызметкерімен әңгімелесу/Беседа с сотрудником собственной безопасности ]]></text>
+			</staticText>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="033b64ba-6598-457d-840a-a3d7adf09549">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="db9202fc-7cd0-402c-83d2-56c31a810562">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Әнгімелесу өткізілген күн/Дата проведения беседы]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="ae70b151-f7a8-471e-ad3e-3fd054c73c75">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{security_meeting_date}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="984c7462-de55-40bd-ba57-a99b12342123">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="baa49364-582f-422d-8ef2-d528d35797f1">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Анықтама күні/Дата справки]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="8c702daa-b738-47d3-891c-17e332a76a05">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{security_meeting_sertificate_date}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="e3692a73-484b-42da-8119-6653640dc4bc">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="2efaa092-9d5c-4a79-bb30-21395259691b">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Анықтаманың тіркеу нөмірі/Регистрационный номер справки]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="c198959c-b952-4fb5-a77f-e46ff478352d">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{security_meeting_reg_number}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="cabaea9f-3a9b-4411-9e39-696c17bd7cc6">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="f54a47f1-f378-4845-8c49-770abbe0f188">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Әңгімелесуді жүргізген қызметкердің ТАӘ/ФИО сотрудника, проводившего беседу ]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="d45a9d87-63e9-4049-9337-585b5332c856">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{security_meeting_fio}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="1ee3a654-4c77-4191-9309-692b19092a11">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="bd076508-f4ac-483f-b6d2-e1d5ae5b74c4">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Әңгімелесуді жүргізген қызметкердің лауазымы/Должность сотрудника, проводившего беседу]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="c1e21c07-e65f-42c6-bbbb-ab3d3ae9af85">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{security_meeting_position_employee}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="bf8c7218-9dcf-4428-a62e-fb8d03008f77">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="bb6a409d-06c7-480c-b3cc-f6d142dd03cb">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Әнгіме нәтижесі бойынша қысқаша мазмұны және қорытынды/Краткое содержание и вывод по результатам беседы]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="6eb014df-5215-4e3a-a2f1-7820a322a47c">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{security_meeting_short_story}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="20">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="558" height="20" uuid="18052d80-847c-4514-9075-b6119b4f7167">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Құжат қоса беріледі/Документ прилагается]]></text>
+			</staticText>
+		</band>
+		<band height="30">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="558" height="30" backcolor="#E7E6E6" uuid="40751e75-83ee-4425-ace7-be34ad0ae821">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Орган басшысымен және кадр қызметін бағыттайтын оның орынбасарларымен әңгімелесу/Беседа с руководителем органа и его заместителем направляющим кадровую деятельность]]></text>
+			</staticText>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="b930026c-db3b-40e7-be26-c753ade81c2b">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="f978042c-d990-4a9e-a7fb-47d64c24ba7e">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Әнгімелесу өткізілген күн/Дата проведения беседы]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="f53375ae-6927-4d24-a922-14266d8872ce">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{head_meeting_date}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="8fc95476-e538-445a-988b-dcc86a719c50">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="e7856f52-b494-413c-b1c8-0a34d5645d9c">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Анықтама күні/Дата справки]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="b9a4aadb-fb48-4a8c-b12f-6002fa2887b2">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{head_meeting_sertificate_date}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="654e7f69-d157-4444-bc69-cb650e871336">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="f9e6d7c0-910a-433b-a8ba-090d0f5c9734">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Анықтаманың тіркеу нөмірі/Регистрационный номер справки]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="261cbc78-f52b-42ea-bc01-17f36bc30e98">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{head_meeting_reg_number}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="b5188907-c5f3-4f30-9654-d60f85ddc457">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="d8370ea4-f725-45c3-943a-3971b48082ae">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Әңгімелесуді жүргізген қызметкердің ТАӘ/ФИО сотрудника, проводившего беседу ]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="3390ffbb-7b21-4a11-8e36-8627fee71312">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{head_meeting_fio}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="69e64797-8008-4692-9c3e-ed431615d537">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="9d619180-6533-4387-8473-c8ea1e9e2ef5">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Әңгімелесуді жүргізген қызметкердің лауазымы/Должность сотрудника, проводившего беседу]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="6d5ce769-60ca-4830-b9b5-1e2ba7e26f93">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{head_meeting_position_employee}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" uuid="1ca4475b-988b-4299-b287-aa1f11365c9f">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="200" height="40" backcolor="#E7E6E6" uuid="af3803e8-883f-4ccc-bb7f-1db571e39445">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[Әнгіме нәтижесі бойынша қысқаша мазмұны және қорытынды/Краткое содержание и вывод по результатам беседы]]></text>
+				</staticText>
+				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+					<reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="40" uuid="fc48ee4f-bff3-4f31-8b4d-3feaafe57db7">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box leftPadding="5">
+						<topPen lineWidth="1.0"/>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{head_meeting_short_story}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="20">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="558" height="20" uuid="aabe742e-6aa5-4440-aafc-41a78694c124">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<box>
 					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
