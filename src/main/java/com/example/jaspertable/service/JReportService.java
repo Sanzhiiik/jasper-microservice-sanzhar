@@ -61,12 +61,13 @@ public class JReportService {
                 }
                 log.debug("Processing subreport for key: '{}' with {} data entries.", templateKey, values.size());
 
-                for (Map<String, Object> value : values) {
-                    subreportSources.add(subreport);
-                    JRMapCollectionDataSource dataSource = new JRMapCollectionDataSource(Collections.singletonList(value));
-                    subreportDataSources.add(dataSource);
-                    log.trace("Added subreport '{}' and its data source to lists.", templateKey);
-                }
+                // One subreport fill per key, fed with the full list of records as its data source.
+                // This lets the subreport's own detail band repeat internally (growing table),
+                // instead of the title/columnHeader/summary bands re-printing once per record.
+                subreportSources.add(subreport);
+                JRMapCollectionDataSource dataSource = new JRMapCollectionDataSource(new ArrayList<Map<String, ?>>(values));
+                subreportDataSources.add(dataSource);
+                log.trace("Added subreport '{}' with a data source of {} records.", templateKey, values.size());
             }
             log.debug("Finished preparing subreport sources and data sources. Total subreports: {}", subreportSources.size());
 
