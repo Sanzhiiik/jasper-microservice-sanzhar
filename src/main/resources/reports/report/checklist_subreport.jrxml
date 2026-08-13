@@ -122,16 +122,16 @@
         <fieldDescription><![CDATA[type]]></fieldDescription>
     </field>
     <detail>
-        <band height="30" splitType="Immediate">
+        <band height="40" splitType="Immediate">
             <property name="com.jaspersoft.studio.unit.height" value="px"/>
             <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="-15" y="-20" width="575" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="121072f6-c1f9-4cba-8b6e-11211972161b">
+                <reportElement positionType="Float" stretchType="NoStretch" x="-15" y="0" width="575" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="121072f6-c1f9-4cba-8b6e-11211972161b">
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                     <property name="com.jaspersoft.studio.unit.x" value="px"/>
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                 </reportElement>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="15" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="c2261f77-1016-4c6a-ad2d-493e37688779">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="15" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="c2261f77-1016-4c6a-ad2d-493e37688779">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -149,7 +149,7 @@
                     <textFieldExpression><![CDATA[$F{securityStaffInterview}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="15" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="c2261f77-1016-4c6a-ad2d-493e37688779">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="15" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="c2261f77-1016-4c6a-ad2d-493e37688779">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -167,7 +167,7 @@
                     <textFieldExpression><![CDATA[$F{securityStaffInterview}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="15" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="c2261f77-1016-4c6a-ad2d-493e37688779">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="15" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="c2261f77-1016-4c6a-ad2d-493e37688779">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -185,7 +185,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="30" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="35c1e00a-9f4d-4c00-8cac-227abbd6fe2e">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="30" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="35c1e00a-9f4d-4c00-8cac-227abbd6fe2e">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -203,7 +203,7 @@
                     <textFieldExpression><![CDATA[$F{familyInterview}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="30" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="35c1e00a-9f4d-4c00-8cac-227abbd6fe2e">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="30" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="35c1e00a-9f4d-4c00-8cac-227abbd6fe2e">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -221,7 +221,7 @@
                     <textFieldExpression><![CDATA[$F{familyInterview}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="30" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="35c1e00a-9f4d-4c00-8cac-227abbd6fe2e">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="30" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="35c1e00a-9f4d-4c00-8cac-227abbd6fe2e">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -239,7 +239,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="45" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="dd60ee19-0acf-4f1f-bc15-64367a5e8e97">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="45" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="dd60ee19-0acf-4f1f-bc15-64367a5e8e97">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -257,7 +257,7 @@
                     <textFieldExpression><![CDATA[$F{physicalTrainingCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="45" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="dd60ee19-0acf-4f1f-bc15-64367a5e8e97">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="45" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="dd60ee19-0acf-4f1f-bc15-64367a5e8e97">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -275,7 +275,7 @@
                     <textFieldExpression><![CDATA[$F{physicalTrainingCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="45" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="dd60ee19-0acf-4f1f-bc15-64367a5e8e97">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="45" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="dd60ee19-0acf-4f1f-bc15-64367a5e8e97">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -293,7 +293,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="60" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="5cbd2bdf-3e8e-4a68-b81d-924477b23a0a">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="60" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="5cbd2bdf-3e8e-4a68-b81d-924477b23a0a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -311,7 +311,7 @@
                     <textFieldExpression><![CDATA[$F{taskAssignmentCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="60" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="5cbd2bdf-3e8e-4a68-b81d-924477b23a0a">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="60" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="5cbd2bdf-3e8e-4a68-b81d-924477b23a0a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -329,7 +329,7 @@
                     <textFieldExpression><![CDATA[$F{taskAssignmentCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="60" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="5cbd2bdf-3e8e-4a68-b81d-924477b23a0a">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="60" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="5cbd2bdf-3e8e-4a68-b81d-924477b23a0a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -347,7 +347,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="75" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="96199c47-c99c-468f-8c0b-509f9381bd1a">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="75" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="96199c47-c99c-468f-8c0b-509f9381bd1a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -365,7 +365,7 @@
                     <textFieldExpression><![CDATA[$F{legalAndLanguageTest}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="75" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="96199c47-c99c-468f-8c0b-509f9381bd1a">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="75" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="96199c47-c99c-468f-8c0b-509f9381bd1a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -383,7 +383,7 @@
                     <textFieldExpression><![CDATA[$F{legalAndLanguageTest}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="75" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="96199c47-c99c-468f-8c0b-509f9381bd1a">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="75" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="96199c47-c99c-468f-8c0b-509f9381bd1a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -401,7 +401,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="90" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="9a527d7c-b05d-47d5-9ca1-e8a468ebf982">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="90" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="9a527d7c-b05d-47d5-9ca1-e8a468ebf982">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -419,7 +419,7 @@
                     <textFieldExpression><![CDATA[$F{polygraphExam}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="90" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="9a527d7c-b05d-47d5-9ca1-e8a468ebf982">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="90" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="9a527d7c-b05d-47d5-9ca1-e8a468ebf982">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -437,7 +437,7 @@
                     <textFieldExpression><![CDATA[$F{polygraphExam}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="90" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="9a527d7c-b05d-47d5-9ca1-e8a468ebf982">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="90" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="9a527d7c-b05d-47d5-9ca1-e8a468ebf982">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -455,7 +455,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="105" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="bbdb73a6-1846-45fc-bb7f-d6836aba6eeb">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="105" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="bbdb73a6-1846-45fc-bb7f-d6836aba6eeb">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -473,7 +473,7 @@
                     <textFieldExpression><![CDATA[$F{psychosocialStudy}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="105" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="bbdb73a6-1846-45fc-bb7f-d6836aba6eeb">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="105" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="bbdb73a6-1846-45fc-bb7f-d6836aba6eeb">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -491,7 +491,7 @@
                     <textFieldExpression><![CDATA[$F{psychosocialStudy}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="105" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="bbdb73a6-1846-45fc-bb7f-d6836aba6eeb">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="105" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="bbdb73a6-1846-45fc-bb7f-d6836aba6eeb">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -509,7 +509,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="c6420b95-a10a-4c6a-a75c-5d0342e98e2b">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="120" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="c6420b95-a10a-4c6a-a75c-5d0342e98e2b">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -527,7 +527,7 @@
                     <textFieldExpression><![CDATA[$F{psychophysiologicalExam}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="120" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="c6420b95-a10a-4c6a-a75c-5d0342e98e2b">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="120" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="c6420b95-a10a-4c6a-a75c-5d0342e98e2b">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -545,7 +545,7 @@
                     <textFieldExpression><![CDATA[$F{psychophysiologicalExam}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="120" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="c6420b95-a10a-4c6a-a75c-5d0342e98e2b">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="120" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="c6420b95-a10a-4c6a-a75c-5d0342e98e2b">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -563,7 +563,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="135" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="798a5303-f252-49d4-8593-e4760aebb18e">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="135" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="798a5303-f252-49d4-8593-e4760aebb18e">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -581,7 +581,7 @@
                     <textFieldExpression><![CDATA[$F{militaryMedicalCommission}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="135" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="798a5303-f252-49d4-8593-e4760aebb18e">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="135" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="798a5303-f252-49d4-8593-e4760aebb18e">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -599,7 +599,7 @@
                     <textFieldExpression><![CDATA[$F{militaryMedicalCommission}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="135" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="798a5303-f252-49d4-8593-e4760aebb18e">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="135" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="798a5303-f252-49d4-8593-e4760aebb18e">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -617,7 +617,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="195" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="2d442dbe-9a06-4457-b896-43e300d34a76">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="195" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="2d442dbe-9a06-4457-b896-43e300d34a76">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -635,7 +635,7 @@
                     <textFieldExpression><![CDATA[$F{educationWorkReference}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="195" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="2d442dbe-9a06-4457-b896-43e300d34a76">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="195" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="2d442dbe-9a06-4457-b896-43e300d34a76">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -653,7 +653,7 @@
                     <textFieldExpression><![CDATA[$F{educationWorkReference}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="195" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="2d442dbe-9a06-4457-b896-43e300d34a76">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="195" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="2d442dbe-9a06-4457-b896-43e300d34a76">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -671,7 +671,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="180" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="0c03a514-5b88-4468-9327-553cfd73773a">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="180" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="0c03a514-5b88-4468-9327-553cfd73773a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -689,7 +689,7 @@
                     <textFieldExpression><![CDATA[$F{operationalInstallation}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="180" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="0c03a514-5b88-4468-9327-553cfd73773a">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="180" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="0c03a514-5b88-4468-9327-553cfd73773a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -707,7 +707,7 @@
                     <textFieldExpression><![CDATA[$F{operationalInstallation}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="180" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="0c03a514-5b88-4468-9327-553cfd73773a">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="180" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="0c03a514-5b88-4468-9327-553cfd73773a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -725,7 +725,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="250" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="6f6e27e7-bfa0-4d39-b5ea-30144a700745">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="250" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="6f6e27e7-bfa0-4d39-b5ea-30144a700745">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -743,7 +743,7 @@
                     <textFieldExpression><![CDATA[$F{kmDataDetails}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="250" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="6f6e27e7-bfa0-4d39-b5ea-30144a700745">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="250" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="6f6e27e7-bfa0-4d39-b5ea-30144a700745">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -761,7 +761,7 @@
                     <textFieldExpression><![CDATA[$F{kmDataDetails}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="250" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="6f6e27e7-bfa0-4d39-b5ea-30144a700745">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="250" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="6f6e27e7-bfa0-4d39-b5ea-30144a700745">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -779,7 +779,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="210" y="0" width="25" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="9a374934-c590-4c03-812b-57be4fd774d7">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="210" y="0" width="25" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="9a374934-c590-4c03-812b-57be4fd774d7">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -797,7 +797,7 @@
                     <textFieldExpression><![CDATA[$F{internetOffenseCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="210" y="0" width="25" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="9a374934-c590-4c03-812b-57be4fd774d7">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="210" y="0" width="25" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="9a374934-c590-4c03-812b-57be4fd774d7">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -815,7 +815,7 @@
                     <textFieldExpression><![CDATA[$F{internetOffenseCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="210" y="0" width="25" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="9a374934-c590-4c03-812b-57be4fd774d7">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="210" y="0" width="25" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="9a374934-c590-4c03-812b-57be4fd774d7">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -833,7 +833,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="165" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="ffbcf233-4b82-4b8e-8c42-01a86a23146f">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="165" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="ffbcf233-4b82-4b8e-8c42-01a86a23146f">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -851,7 +851,7 @@
                     <textFieldExpression><![CDATA[$F{sormDatabaseCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="165" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="ffbcf233-4b82-4b8e-8c42-01a86a23146f">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="165" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="ffbcf233-4b82-4b8e-8c42-01a86a23146f">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -869,7 +869,7 @@
                     <textFieldExpression><![CDATA[$F{sormDatabaseCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="165" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="ffbcf233-4b82-4b8e-8c42-01a86a23146f">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="165" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="ffbcf233-4b82-4b8e-8c42-01a86a23146f">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -887,7 +887,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="235" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="6240d034-6b8b-47bb-9133-3b79cba1d69a">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="235" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="6240d034-6b8b-47bb-9133-3b79cba1d69a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -905,7 +905,7 @@
                     <textFieldExpression><![CDATA[$F{oskDatabaseCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="235" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="6240d034-6b8b-47bb-9133-3b79cba1d69a">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="235" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="6240d034-6b8b-47bb-9133-3b79cba1d69a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -923,7 +923,7 @@
                     <textFieldExpression><![CDATA[$F{oskDatabaseCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="235" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="6240d034-6b8b-47bb-9133-3b79cba1d69a">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="235" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="6240d034-6b8b-47bb-9133-3b79cba1d69a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -941,7 +941,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="b9c62e23-bf6c-4de1-bc48-b2b8c80903ec">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="0" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="b9c62e23-bf6c-4de1-bc48-b2b8c80903ec">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -959,7 +959,7 @@
                     <textFieldExpression><![CDATA[$F{dvkrOvkrDatabaseCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="b9c62e23-bf6c-4de1-bc48-b2b8c80903ec">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="0" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="b9c62e23-bf6c-4de1-bc48-b2b8c80903ec">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -977,7 +977,7 @@
                     <textFieldExpression><![CDATA[$F{dvkrOvkrDatabaseCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="b9c62e23-bf6c-4de1-bc48-b2b8c80903ec">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="0" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="b9c62e23-bf6c-4de1-bc48-b2b8c80903ec">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -995,7 +995,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="265" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="9df1fdc3-6772-4130-817b-2816dfdf5495">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="265" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="9df1fdc3-6772-4130-817b-2816dfdf5495">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1013,7 +1013,7 @@
                     <textFieldExpression><![CDATA[$F{kpDatabaseCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="265" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="9df1fdc3-6772-4130-817b-2816dfdf5495">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="265" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="9df1fdc3-6772-4130-817b-2816dfdf5495">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1031,7 +1031,7 @@
                     <textFieldExpression><![CDATA[$F{kpDatabaseCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="265" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="9df1fdc3-6772-4130-817b-2816dfdf5495">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="265" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="9df1fdc3-6772-4130-817b-2816dfdf5495">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1049,7 +1049,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="280" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="24434ad9-d5ed-4284-83b3-04cde1147827">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="280" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="24434ad9-d5ed-4284-83b3-04cde1147827">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1067,7 +1067,7 @@
                     <textFieldExpression><![CDATA[$F{akparatDatabaseCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="280" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="24434ad9-d5ed-4284-83b3-04cde1147827">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="280" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="24434ad9-d5ed-4284-83b3-04cde1147827">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1085,7 +1085,7 @@
                     <textFieldExpression><![CDATA[$F{akparatDatabaseCheck}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="280" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="24434ad9-d5ed-4284-83b3-04cde1147827">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="280" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="24434ad9-d5ed-4284-83b3-04cde1147827">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1103,7 +1103,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="320" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="50ee0d12-9815-44f0-8361-67322fe5e262">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="320" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="50ee0d12-9815-44f0-8361-67322fe5e262">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1121,7 +1121,7 @@
                     <textFieldExpression><![CDATA[$F{initialStudySummary}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="320" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="50ee0d12-9815-44f0-8361-67322fe5e262">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="320" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="50ee0d12-9815-44f0-8361-67322fe5e262">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1139,7 +1139,7 @@
                     <textFieldExpression><![CDATA[$F{initialStudySummary}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="320" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="50ee0d12-9815-44f0-8361-67322fe5e262">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="320" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="50ee0d12-9815-44f0-8361-67322fe5e262">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1157,7 +1157,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="440" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="e3d95048-e28a-4540-a0a4-b5601ee1f854">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="440" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="e3d95048-e28a-4540-a0a4-b5601ee1f854">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1175,7 +1175,7 @@
                     <textFieldExpression><![CDATA[$F{checkByPreviousData}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="440" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="e3d95048-e28a-4540-a0a4-b5601ee1f854">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="440" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="e3d95048-e28a-4540-a0a4-b5601ee1f854">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1193,7 +1193,7 @@
                     <textFieldExpression><![CDATA[$F{checkByPreviousData}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="440" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="e3d95048-e28a-4540-a0a4-b5601ee1f854">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="440" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="e3d95048-e28a-4540-a0a4-b5601ee1f854">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1211,7 +1211,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="335" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="573c5386-c563-4499-9168-5d1fe18a1e1b">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="335" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="573c5386-c563-4499-9168-5d1fe18a1e1b">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1229,7 +1229,7 @@
                     <textFieldExpression><![CDATA[$F{registeredLegalEntities}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="335" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="573c5386-c563-4499-9168-5d1fe18a1e1b">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="335" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="573c5386-c563-4499-9168-5d1fe18a1e1b">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1247,7 +1247,7 @@
                     <textFieldExpression><![CDATA[$F{registeredLegalEntities}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="335" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="573c5386-c563-4499-9168-5d1fe18a1e1b">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="335" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="573c5386-c563-4499-9168-5d1fe18a1e1b">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1265,7 +1265,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="350" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="553b2700-7576-4ab9-bf1a-9eed511ab44d">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="350" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="553b2700-7576-4ab9-bf1a-9eed511ab44d">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1283,7 +1283,7 @@
                     <textFieldExpression><![CDATA[$F{tuberculosisRegistryStatus}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="350" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="553b2700-7576-4ab9-bf1a-9eed511ab44d">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="350" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="553b2700-7576-4ab9-bf1a-9eed511ab44d">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1301,7 +1301,7 @@
                     <textFieldExpression><![CDATA[$F{tuberculosisRegistryStatus}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="350" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="553b2700-7576-4ab9-bf1a-9eed511ab44d">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="350" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="553b2700-7576-4ab9-bf1a-9eed511ab44d">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1319,7 +1319,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="365" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="0fbca7f1-6ea9-40d5-8691-f64b609fde67">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="365" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="0fbca7f1-6ea9-40d5-8691-f64b609fde67">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1337,7 +1337,7 @@
                     <textFieldExpression><![CDATA[$F{narcologicalRegistryStatus}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="365" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="0fbca7f1-6ea9-40d5-8691-f64b609fde67">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="365" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="0fbca7f1-6ea9-40d5-8691-f64b609fde67">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1355,7 +1355,7 @@
                     <textFieldExpression><![CDATA[$F{narcologicalRegistryStatus}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="365" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="0fbca7f1-6ea9-40d5-8691-f64b609fde67">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="365" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="0fbca7f1-6ea9-40d5-8691-f64b609fde67">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1373,7 +1373,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="380" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="50d616bf-0d10-44a0-a733-d805ba1af0a6">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="380" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="50d616bf-0d10-44a0-a733-d805ba1af0a6">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1391,7 +1391,7 @@
                     <textFieldExpression><![CDATA[$F{psychiatricRegistryStatus}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="380" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="50d616bf-0d10-44a0-a733-d805ba1af0a6">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="380" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="50d616bf-0d10-44a0-a733-d805ba1af0a6">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1409,7 +1409,7 @@
                     <textFieldExpression><![CDATA[$F{psychiatricRegistryStatus}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="380" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="50d616bf-0d10-44a0-a733-d805ba1af0a6">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="380" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="50d616bf-0d10-44a0-a733-d805ba1af0a6">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1427,7 +1427,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="425" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="7c896ff7-cb94-4f4f-9b1d-6f65a3bbcc3a">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="425" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="7c896ff7-cb94-4f4f-9b1d-6f65a3bbcc3a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1445,7 +1445,7 @@
                     <textFieldExpression><![CDATA[$F{militaryServiceStatus}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="425" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="7c896ff7-cb94-4f4f-9b1d-6f65a3bbcc3a">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="425" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="7c896ff7-cb94-4f4f-9b1d-6f65a3bbcc3a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1463,7 +1463,7 @@
                     <textFieldExpression><![CDATA[$F{militaryServiceStatus}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="425" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="7c896ff7-cb94-4f4f-9b1d-6f65a3bbcc3a">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="425" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="7c896ff7-cb94-4f4f-9b1d-6f65a3bbcc3a">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1481,7 +1481,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="395" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="d2318255-8d25-45cb-b8df-fdfcad872c5f">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="395" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="d2318255-8d25-45cb-b8df-fdfcad872c5f">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1499,7 +1499,7 @@
                     <textFieldExpression><![CDATA[$F{borderCrossingBan}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="395" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="d2318255-8d25-45cb-b8df-fdfcad872c5f">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="395" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="d2318255-8d25-45cb-b8df-fdfcad872c5f">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1517,7 +1517,7 @@
                     <textFieldExpression><![CDATA[$F{borderCrossingBan}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="395" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="d2318255-8d25-45cb-b8df-fdfcad872c5f">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="395" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="d2318255-8d25-45cb-b8df-fdfcad872c5f">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1535,7 +1535,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="410" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="3fdc4218-2958-4506-b832-82062678a8c5">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="410" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="3fdc4218-2958-4506-b832-82062678a8c5">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1553,7 +1553,7 @@
                     <textFieldExpression><![CDATA[$F{violations}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="410" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="3fdc4218-2958-4506-b832-82062678a8c5">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="410" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="3fdc4218-2958-4506-b832-82062678a8c5">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1571,7 +1571,7 @@
                     <textFieldExpression><![CDATA[$F{violations}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="410" y="0" width="15" height="50" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="3fdc4218-2958-4506-b832-82062678a8c5">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="410" y="0" width="15" height="40" isPrintInFirstWholeBand="true" backcolor="#D3D3D3" uuid="3fdc4218-2958-4506-b832-82062678a8c5">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1589,7 +1589,7 @@
                     <textFieldExpression><![CDATA[""]]></textFieldExpression>
                 </textField>
                 <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="150" y="0" width="15" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="971b7a92-89fc-40ec-a719-466a9943c52b">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="150" y="0" width="15" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="971b7a92-89fc-40ec-a719-466a9943c52b">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1606,7 +1606,7 @@
                     <text><![CDATA[]]></text>
                 </staticText>
                 <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="295" y="0" width="25" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="330ee7d5-207f-4e4a-82a7-3af744c575e0">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="295" y="0" width="25" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="330ee7d5-207f-4e4a-82a7-3af744c575e0">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1623,7 +1623,7 @@
                     <text><![CDATA[]]></text>
                 </staticText>
                 <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="455" y="0" width="23" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="78104d06-83c0-460b-826d-db9b76fd444c">
+                    <reportElement positionType="Float" stretchType="NoStretch" mode="Opaque" x="455" y="0" width="23" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" backcolor="#AFDEE3" uuid="78104d06-83c0-460b-826d-db9b76fd444c">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1640,7 +1640,7 @@
                     <text><![CDATA[]]></text>
                 </staticText>
                 <textField textAdjust="ScaleFont">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="478" y="0" width="97" height="50" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="45e8ee9c-09e8-4289-8087-36fe1be5901b">
+                    <reportElement positionType="Float" stretchType="NoStretch" x="478" y="0" width="97" height="40" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="45e8ee9c-09e8-4289-8087-36fe1be5901b">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
