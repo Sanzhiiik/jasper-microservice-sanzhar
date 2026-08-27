@@ -3,13 +3,17 @@ package com.example.jaspertable.service;
 import jakarta.servlet.http.HttpServletResponse;
 import net.sf.jasperreports.engine.*;
 import net.sf.jasperreports.engine.data.JRMapCollectionDataSource;
+import org.apache.pdfbox.multipdf.PDFMergerUtility;
 import org.springframework.stereotype.Service;
 import org.slf4j.Logger; // Import Logger
 import org.slf4j.LoggerFactory; // Import LoggerFactory
 import org.springframework.http.MediaType; // For setting content type
 
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 import java.io.IOException; // Be more specific with exceptions
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.*;
 
 @Service
@@ -45,10 +49,21 @@ public class JReportService {
             loadInputStreamsIntoJasperReports(inputStreamMap, compiledReports);
             log.info("Successfully compiled {} JasperReports.", compiledReports.size());
 
-            // Prepare lists for dynamic subreports
-            List<JasperReport> subreportSources = new ArrayList<>();
-            List<JRDataSource> subreportDataSources = new ArrayList<>();
-            log.debug("Preparing lists for dynamic subreports.");
+            JasperReport masterReport = compiledReports.get("master");
+            if (masterReport == null) {
+                log.error("Master report template 'master.jrxml' not found in compiled reports. Cannot fill report.");
+                throw new JRException("Master report 'master.jrxml' is missing.");
+            }
+
+            // Landscape-oriented templates (pageWidth > pageHeight, e.g. "participants") cannot be
+            // embedded as a <subreport> in master.jrxml — a subreport always inherits the master's own
+            // page geometry, so a wide table would just get cropped to the portrait page width.
+            // Instead, keys are split into contiguous runs preserving the original order: portrait runs
+            // are combined into one master-filled PDF exactly as before, while each landscape key is
+            // filled standalone (with its own page size) into its own PDF. All the resulting PDFs are
+            // then merged back together in order via PDFBox, since PDF pages may each carry their own size.
+            List<byte[]> pdfChunks = new ArrayList<>();
+            LinkedHashMap<String, List<Map<String, Object>>> portraitRun = new LinkedHashMap<>();
 
             for (Map.Entry<String, List<Map<String, Object>>> stringListEntry : data.entrySet()) {
                 String templateKey = stringListEntry.getKey();
@@ -56,36 +71,31 @@ public class JReportService {
 
                 JasperReport subreport = compiledReports.get(templateKey);
                 if (subreport == null) {
-                    log.warn("Compiled report for key '{}' not found. Skipping subreport generation for this key.", templateKey);
+                    log.warn("Compiled report for key '{}' not found. Skipping.", templateKey);
                     continue;
                 }
-                log.debug("Processing subreport for key: '{}' with {} data entries.", templateKey, values.size());
 
-                // One subreport fill per key, fed with the full list of records as its data source.
-                // This lets the subreport's own detail band repeat internally (growing table),
-                // instead of the title/columnHeader/summary bands re-printing once per record.
-                subreportSources.add(subreport);
-                JRMapCollectionDataSource dataSource = new JRMapCollectionDataSource(new ArrayList<Map<String, ?>>(values));
-                subreportDataSources.add(dataSource);
-                log.trace("Added subreport '{}' with a data source of {} records.", templateKey, values.size());
+                boolean isLandscape = subreport.getPageWidth() > subreport.getPageHeight();
+                if (isLandscape) {
+                    log.debug("Key '{}' is landscape-oriented ({}x{}); rendering it as a standalone section.",
+                            templateKey, subreport.getPageWidth(), subreport.getPageHeight());
+                    if (!portraitRun.isEmpty()) {
+                        pdfChunks.add(renderPortraitRun(masterReport, portraitRun, compiledReports));
+                        portraitRun.clear();
+                    }
+                    pdfChunks.add(renderStandaloneSection(templateKey, subreport, values));
+                } else {
+                    portraitRun.put(templateKey, values);
+                }
             }
-            log.debug("Finished preparing subreport sources and data sources. Total subreports: {}", subreportSources.size());
-
-            Map<String, Object> parameters = new HashMap<>(data);
-            parameters.put("SubreportSources", subreportSources);
-            parameters.put("SubreportDataSources", subreportDataSources);
-            log.debug("Prepared report parameters.");
-
-            // Fill the report with data
-            JasperReport masterReport = compiledReports.get("master");
-            if (masterReport == null) {
-                log.error("Master report template 'master.jrxml' not found in compiled reports. Cannot fill report.");
-                throw new JRException("Master report 'master.jrxml' is missing.");
+            if (!portraitRun.isEmpty()) {
+                pdfChunks.add(renderPortraitRun(masterReport, portraitRun, compiledReports));
             }
-            JRDataSource mainDataSource = new JREmptyDataSource(subreportSources.size());
-            log.info("Filling Jasper report with master template and data.");
-            JasperPrint jasperPrint = JasperFillManager.fillReport(masterReport, parameters, mainDataSource);
-            log.info("Jasper report filled successfully.");
+
+            if (pdfChunks.isEmpty()) {
+                log.error("No renderable sections were produced for file '{}'.", file_name);
+                throw new JRException("No renderable sections found for the given data.");
+            }
 
             // Set response headers
             response.setContentType(MediaType.APPLICATION_PDF_VALUE);
@@ -93,8 +103,13 @@ public class JReportService {
             log.debug("Set response headers: Content-Type='{}', Content-Disposition='attachment; filename=\"{}\"'", MediaType.APPLICATION_PDF_VALUE, file_name.trim().toLowerCase() + ".pdf");
 
             // Export PDF
-            log.info("Exporting Jasper report to PDF stream.");
-            JasperExportManager.exportReportToPdfStream(jasperPrint, response.getOutputStream());
+            if (pdfChunks.size() == 1) {
+                log.info("Writing single PDF section directly to response for file '{}'.", file_name);
+                response.getOutputStream().write(pdfChunks.get(0));
+            } else {
+                log.info("Merging {} PDF sections into the final document for file '{}'.", pdfChunks.size(), file_name);
+                mergePdfChunks(pdfChunks, response.getOutputStream());
+            }
             response.getOutputStream().flush();
             log.info("Report exported and output stream flushed successfully for file: '{}'.", file_name);
 
@@ -109,6 +124,63 @@ public class JReportService {
             log.error("An unexpected error occurred during report generation for file '{}': {}", file_name, e.getMessage(), e);
             throw new IOException("An unexpected error occurred during report generation", e); // Wrap and re-throw
         }
+    }
+
+    /**
+     * Fills master.jrxml with a contiguous run of portrait-oriented keys, exactly like the original
+     * single-master-fill approach, and exports it to a PDF byte array.
+     */
+    private byte[] renderPortraitRun(JasperReport masterReport,
+                                      LinkedHashMap<String, List<Map<String, Object>>> runData,
+                                      Map<String, JasperReport> compiledReports) throws JRException, IOException {
+        List<JasperReport> subreportSources = new ArrayList<>();
+        List<JRDataSource> subreportDataSources = new ArrayList<>();
+
+        for (Map.Entry<String, List<Map<String, Object>>> entry : runData.entrySet()) {
+            JasperReport subreport = compiledReports.get(entry.getKey());
+            subreportSources.add(subreport);
+            subreportDataSources.add(new JRMapCollectionDataSource(new ArrayList<Map<String, ?>>(entry.getValue())));
+            log.trace("Added subreport '{}' with a data source of {} records.", entry.getKey(), entry.getValue().size());
+        }
+
+        Map<String, Object> parameters = new HashMap<>();
+        parameters.put("SubreportSources", subreportSources);
+        parameters.put("SubreportDataSources", subreportDataSources);
+
+        JRDataSource mainDataSource = new JREmptyDataSource(subreportSources.size());
+        log.info("Filling master template with portrait run: {}", runData.keySet());
+        JasperPrint jasperPrint = JasperFillManager.fillReport(masterReport, parameters, mainDataSource);
+
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        JasperExportManager.exportReportToPdfStream(jasperPrint, baos);
+        return baos.toByteArray();
+    }
+
+    /**
+     * Fills a landscape-oriented template on its own (not wrapped by master.jrxml), so it keeps its
+     * own page size in the exported PDF instead of being cropped to the master's portrait width.
+     */
+    private byte[] renderStandaloneSection(String templateKey, JasperReport report, List<Map<String, Object>> values) throws JRException, IOException {
+        JRDataSource dataSource = new JRMapCollectionDataSource(new ArrayList<Map<String, ?>>(values));
+        log.info("Filling standalone landscape template '{}' with {} records.", templateKey, values.size());
+        JasperPrint jasperPrint = JasperFillManager.fillReport(report, new HashMap<>(), dataSource);
+
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        JasperExportManager.exportReportToPdfStream(jasperPrint, baos);
+        return baos.toByteArray();
+    }
+
+    /**
+     * Merges PDF byte-array chunks, in order, into a single PDF written to the given output stream.
+     * PDFBox preserves each source page's own size, so a landscape chunk stays landscape in the result.
+     */
+    private void mergePdfChunks(List<byte[]> pdfChunks, OutputStream out) throws IOException {
+        PDFMergerUtility merger = new PDFMergerUtility();
+        for (byte[] chunk : pdfChunks) {
+            merger.addSource(new ByteArrayInputStream(chunk));
+        }
+        merger.setDestinationStream(out);
+        merger.mergeDocuments(null);
     }
 
     private void loadInputStreamsIntoJasperReports(LinkedHashMap<String, InputStream> inputStreamMap, LinkedHashMap<String, JasperReport> compiledReports) throws JRException {

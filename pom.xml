@@ -73,6 +73,15 @@
 <!--            <version>${jasperreports.version}</version>-->
 <!--        </dependency>-->
 
+        <!-- PDFBox: used to merge standalone landscape-oriented report sections (e.g. participants)
+             into the main portrait document, since JasperReports subreports cannot have their own
+             page orientation when embedded via master.jrxml -->
+        <dependency>
+            <groupId>org.apache.pdfbox</groupId>
+            <artifactId>pdfbox</artifactId>
+            <version>2.0.31</version>
+        </dependency>
+
         <!-- Apache Commons IO -->
         <dependency>
             <groupId>commons-io</groupId>
