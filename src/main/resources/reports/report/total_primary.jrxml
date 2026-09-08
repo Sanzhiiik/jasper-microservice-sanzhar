@@ -1629,14 +1629,14 @@
         )]]></imageExpression>
             </image>
             <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="23" isPrintWhenDetailOverflows="true" uuid="1857d6fc-96c8-4ed7-af45-6f8ba453768e">
+                <reportElement positionType="Float" x="120" y="0" width="438" height="23" isPrintWhenDetailOverflows="true" uuid="1857d6fc-96c8-4ed7-af45-6f8ba453768e">
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.x" value="px"/>
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 </reportElement>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="243" height="23" isPrintWhenDetailOverflows="true" backcolor="#FFFFFF" uuid="0bedfe74-d0d1-4457-bc83-1a8917e302f5">
+                <textField textAdjust="ScaleFont" isBlankWhenNull="true">
+                    <reportElement positionType="Float" x="120" y="0" width="243" height="23" isPrintWhenDetailOverflows="true" backcolor="#FFFFFF" uuid="0bedfe74-d0d1-4457-bc83-1a8917e302f5">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -1654,7 +1654,7 @@
                     <textFieldExpression><![CDATA[$F{fullname}]]></textFieldExpression>
                 </textField>
                 <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="23" backcolor="#E7E6E6" uuid="3d62d394-25da-40e7-8406-229ce4a3e813">
+                    <reportElement positionType="Float" mode="Opaque" x="0" y="0" width="120" height="23" backcolor="#E7E6E6" uuid="3d62d394-25da-40e7-8406-229ce4a3e813">
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.y" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -1672,7 +1672,7 @@
                     <text><![CDATA[ТАӘ/ФИО]]></text>
                 </staticText>
                 <textField textAdjust="ScaleFont" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="363" y="0" width="75" height="23" isPrintWhenDetailOverflows="true" backcolor="#FFFFFF" uuid="71252aa0-f2f6-49f1-98e9-80fe8b28834b">
+                    <reportElement positionType="Float" mode="Transparent" x="363" y="0" width="75" height="23" isPrintWhenDetailOverflows="true" backcolor="#FFFFFF" uuid="71252aa0-f2f6-49f1-98e9-80fe8b28834b">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -1692,12 +1692,12 @@
                 </textField>
             </frame>
             <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="23" width="438" height="23" isPrintWhenDetailOverflows="true" uuid="84158466-7864-4dc6-976e-916fb9417cf1">
+                <reportElement positionType="Float" x="120" y="23" width="438" height="23" isPrintWhenDetailOverflows="true" uuid="84158466-7864-4dc6-976e-916fb9417cf1">
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 </reportElement>
                 <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="23" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="2a61d467-f589-4749-9a85-f876e42c8c66">
+                    <reportElement positionType="Float" mode="Opaque" x="0" y="0" width="120" height="23" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="2a61d467-f589-4749-9a85-f876e42c8c66">
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     </reportElement>
@@ -1712,8 +1712,8 @@
                     </textElement>
                     <text><![CDATA[Туылған күні/Дата рождения]]></text>
                 </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="243" height="23" isPrintWhenDetailOverflows="true" uuid="dc4244e3-00f8-4a7d-aba5-f7bbb6493dab">
+                <textField textAdjust="ScaleFont" isBlankWhenNull="true">
+                    <reportElement positionType="Float" x="120" y="0" width="243" height="23" isPrintWhenDetailOverflows="true" uuid="dc4244e3-00f8-4a7d-aba5-f7bbb6493dab">
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -1750,12 +1750,12 @@
                 </textField>
             </frame>
             <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="46" width="438" height="23" isPrintWhenDetailOverflows="true" uuid="95157195-064e-44e7-bc3a-1c4207388835">
+                <reportElement positionType="Float" x="120" y="46" width="438" height="23" isPrintWhenDetailOverflows="true" uuid="95157195-064e-44e7-bc3a-1c4207388835">
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 </reportElement>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="243" height="23" isPrintWhenDetailOverflows="true" uuid="ac779fc7-ea55-48c6-b2e3-8f28eb157ddd">
+                <textField textAdjust="ScaleFont" isBlankWhenNull="true">
+                    <reportElement positionType="Float" x="120" y="0" width="243" height="23" isPrintWhenDetailOverflows="true" uuid="ac779fc7-ea55-48c6-b2e3-8f28eb157ddd">
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -1772,7 +1772,7 @@
                     <textFieldExpression><![CDATA[$F{iin}]]></textFieldExpression>
                 </textField>
                 <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="23" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="0d449b7d-443b-4dc8-96b3-7eb5ffed43dc">
+                    <reportElement positionType="Float" mode="Opaque" x="0" y="0" width="120" height="23" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="0d449b7d-443b-4dc8-96b3-7eb5ffed43dc">
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1809,12 +1809,12 @@
                 </textField>
             </frame>
             <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="69" width="438" height="23" isPrintWhenDetailOverflows="true" uuid="3a4d639a-63c7-4b2e-9887-c0a0b204e6f7">
+                <reportElement positionType="Float" x="120" y="69" width="438" height="23" isPrintWhenDetailOverflows="true" uuid="3a4d639a-63c7-4b2e-9887-c0a0b204e6f7">
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 </reportElement>
                 <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="23" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="48d29d1d-100f-426d-abca-f9f34514ec43">
+                    <reportElement positionType="Float" mode="Opaque" x="0" y="0" width="120" height="23" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="48d29d1d-100f-426d-abca-f9f34514ec43">
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     </reportElement>
@@ -1829,8 +1829,8 @@
                     </textElement>
                     <text><![CDATA[Азаматтығы/Гражданство]]></text>
                 </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="243" height="23" isPrintWhenDetailOverflows="true" uuid="a1b38835-a9d9-4b29-b853-0ebdc0018a7b">
+                <textField textAdjust="ScaleFont" isBlankWhenNull="true">
+                    <reportElement positionType="Float" x="120" y="0" width="243" height="23" isPrintWhenDetailOverflows="true" uuid="a1b38835-a9d9-4b29-b853-0ebdc0018a7b">
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1867,12 +1867,12 @@
                 </textField>
             </frame>
             <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="92" width="438" height="23" isPrintWhenDetailOverflows="true" uuid="c5d8fff1-0ca5-4209-a727-870108836d80">
+                <reportElement positionType="Float" x="120" y="92" width="438" height="23" isPrintWhenDetailOverflows="true" uuid="c5d8fff1-0ca5-4209-a727-870108836d80">
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 </reportElement>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="243" height="23" isPrintWhenDetailOverflows="true" uuid="5dcc5a4b-cf1c-445c-85ad-1fd5a712764d">
+                <textField textAdjust="ScaleFont" isBlankWhenNull="true">
+                    <reportElement positionType="Float" x="120" y="0" width="243" height="23" isPrintWhenDetailOverflows="true" uuid="5dcc5a4b-cf1c-445c-85ad-1fd5a712764d">
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -1889,7 +1889,7 @@
                     <textFieldExpression><![CDATA[$F{nationality}]]></textFieldExpression>
                 </textField>
                 <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="23" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="7fb11bed-4709-4683-966e-2626e1f330ef">
+                    <reportElement positionType="Float" mode="Opaque" x="0" y="0" width="120" height="23" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="7fb11bed-4709-4683-966e-2626e1f330ef">
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -1926,12 +1926,12 @@
                 </textField>
             </frame>
             <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="115" width="438" height="25" isPrintWhenDetailOverflows="true" uuid="cee5995a-ac78-461e-ae09-2557ee32ce91">
+                <reportElement positionType="Float" x="120" y="115" width="438" height="25" isPrintWhenDetailOverflows="true" uuid="cee5995a-ac78-461e-ae09-2557ee32ce91">
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
                 </reportElement>
                 <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="25" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="0445e282-56e5-43ba-808e-5ce341941b04">
+                    <reportElement positionType="Float" mode="Opaque" x="0" y="0" width="120" height="25" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="0445e282-56e5-43ba-808e-5ce341941b04">
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     </reportElement>
@@ -1946,8 +1946,8 @@
                     </textElement>
                     <text><![CDATA[Туған жері/Место рождения]]></text>
                 </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="243" height="25" isPrintWhenDetailOverflows="true" uuid="49764242-62e6-4ec7-aebe-9263cb21688b">
+                <textField textAdjust="ScaleFont" isBlankWhenNull="true">
+                    <reportElement positionType="Float" x="120" y="0" width="243" height="25" isPrintWhenDetailOverflows="true" uuid="49764242-62e6-4ec7-aebe-9263cb21688b">
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
