@@ -118,6 +118,10 @@
         <property name="net.sf.jasperreports.json.field.expression" value="specialmarks"/>
         <fieldDescription><![CDATA[specialmarks]]></fieldDescription>
     </field>
+    <field name="candidate_category" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="candidate_category"/>
+        <fieldDescription><![CDATA[candidate_category]]></fieldDescription>
+    </field>
     <field name="poly_add_task_initiator" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="poly_add_task_initiator"/>
         <fieldDescription><![CDATA[poly_add_task_initiator]]></fieldDescription>
@@ -2329,6 +2333,50 @@
                     </textElement>
                     <textFieldExpression><![CDATA[$F{birth_address_data}]]></textFieldExpression>
                 </textField>
+            </frame>
+        </band>
+        <band height="40" splitType="Stretch">
+            <frame>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="c16dd1ec-16ab-4e6c-b443-38cea13e96ee">
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                </reportElement>
+                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="a97ebe45-2ef1-4441-a787-f88606cd9c2e">
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    </reportElement>
+                    <box leftPadding="0">
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{candidate_category}]]></textFieldExpression>
+                </textField>
+                <staticText>
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="40ed1f35-48a6-42f6-b3ae-89992f1dd2c8">
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    </reportElement>
+                    <box leftPadding="5">
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Left" verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="10" isItalic="false" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <text><![CDATA[Санат/Категория]]></text>
+                </staticText>
             </frame>
         </band>
         <band height="40" splitType="Stretch">
