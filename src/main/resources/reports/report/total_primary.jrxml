@@ -122,6 +122,10 @@
         <property name="net.sf.jasperreports.json.field.expression" value="candidate_category"/>
         <fieldDescription><![CDATA[candidate_category]]></fieldDescription>
     </field>
+    <field name="reviewer_group_name" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="reviewer_group_name"/>
+        <fieldDescription><![CDATA[reviewer_group_name]]></fieldDescription>
+    </field>
     <field name="poly_add_task_initiator" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="poly_add_task_initiator"/>
         <fieldDescription><![CDATA[poly_add_task_initiator]]></fieldDescription>
@@ -1386,33 +1390,145 @@
         <property name="net.sf.jasperreports.json.field.expression" value="polygraph_comments"/>
         <fieldDescription><![CDATA[polygraph_comments]]></fieldDescription>
     </field>
-    <field name="pfo_research_date" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="pfo_research_date"/>
-        <fieldDescription><![CDATA[pfo_research_date]]></fieldDescription>
+    <field name="pfo_iin" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_iin"/>
+        <fieldDescription><![CDATA[pfo_iin]]></fieldDescription>
     </field>
-    <field name="pfo_conclusion_reg_number" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="pfo_conclusion_reg_number"/>
-        <fieldDescription><![CDATA[pfo_conclusion_reg_number]]></fieldDescription>
+    <field name="pfo_status" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_status"/>
+        <fieldDescription><![CDATA[pfo_status]]></fieldDescription>
+    </field>
+    <field name="pfo_from_user_fio" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_from_user_fio"/>
+        <fieldDescription><![CDATA[pfo_from_user_fio]]></fieldDescription>
+    </field>
+    <field name="pfo_from_user_div" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_from_user_div"/>
+        <fieldDescription><![CDATA[pfo_from_user_div]]></fieldDescription>
+    </field>
+    <field name="pfo_source_div_name" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_source_div_name"/>
+        <fieldDescription><![CDATA[pfo_source_div_name]]></fieldDescription>
+    </field>
+    <field name="pfo_executor_fio" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_executor_fio"/>
+        <fieldDescription><![CDATA[pfo_executor_fio]]></fieldDescription>
+    </field>
+    <field name="pfo_executor_div" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_executor_div"/>
+        <fieldDescription><![CDATA[pfo_executor_div]]></fieldDescription>
+    </field>
+    <field name="pfo_comment" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_comment"/>
+        <fieldDescription><![CDATA[pfo_comment]]></fieldDescription>
+    </field>
+    <field name="pfo_last_approval_fio" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_last_approval_fio"/>
+        <fieldDescription><![CDATA[pfo_last_approval_fio]]></fieldDescription>
+    </field>
+    <field name="pfo_last_approval_position" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_last_approval_position"/>
+        <fieldDescription><![CDATA[pfo_last_approval_position]]></fieldDescription>
+    </field>
+    <field name="pfo_created_at" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_created_at"/>
+        <fieldDescription><![CDATA[pfo_created_at]]></fieldDescription>
+    </field>
+    <field name="pfo_updated_at" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_updated_at"/>
+        <fieldDescription><![CDATA[pfo_updated_at]]></fieldDescription>
+    </field>
+    <field name="pfo_completed_at" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_completed_at"/>
+        <fieldDescription><![CDATA[pfo_completed_at]]></fieldDescription>
+    </field>
+    <field name="pfo_request_fio" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_request_fio"/>
+        <fieldDescription><![CDATA[pfo_request_fio]]></fieldDescription>
+    </field>
+    <field name="pfo_candidate_fio" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_candidate_fio"/>
+        <fieldDescription><![CDATA[pfo_candidate_fio]]></fieldDescription>
+    </field>
+    <field name="pfo_data_iin" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_data_iin"/>
+        <fieldDescription><![CDATA[pfo_data_iin]]></fieldDescription>
+    </field>
+    <field name="pfo_candidate_iin" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_candidate_iin"/>
+        <fieldDescription><![CDATA[pfo_candidate_iin]]></fieldDescription>
+    </field>
+    <field name="pfo_additional_note" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_additional_note"/>
+        <fieldDescription><![CDATA[pfo_additional_note]]></fieldDescription>
+    </field>
+    <field name="pfo_relationship_degree" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_relationship_degree"/>
+        <fieldDescription><![CDATA[pfo_relationship_degree]]></fieldDescription>
     </field>
     <field name="pfo_iq" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="pfo_iq"/>
         <fieldDescription><![CDATA[pfo_iq]]></fieldDescription>
     </field>
-    <field name="pfo_conclusion_date" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="pfo_conclusion_date"/>
-        <fieldDescription><![CDATA[pfo_conclusion_date]]></fieldDescription>
+    <field name="pfo_kettel" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_kettel"/>
+        <fieldDescription><![CDATA[pfo_kettel]]></fieldDescription>
     </field>
-    <field name="pfo_category" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="pfo_category"/>
-        <fieldDescription><![CDATA[pfo_category]]></fieldDescription>
+    <field name="pfo_mmpi" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_mmpi"/>
+        <fieldDescription><![CDATA[pfo_mmpi]]></fieldDescription>
+    </field>
+    <field name="pfo_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_date"/>
+        <fieldDescription><![CDATA[pfo_date]]></fieldDescription>
+    </field>
+    <field name="pfo_place" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_place"/>
+        <fieldDescription><![CDATA[pfo_place]]></fieldDescription>
+    </field>
+    <field name="pfo_type" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_type"/>
+        <fieldDescription><![CDATA[pfo_type]]></fieldDescription>
     </field>
     <field name="pfo_conclusion" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="pfo_conclusion"/>
         <fieldDescription><![CDATA[pfo_conclusion]]></fieldDescription>
     </field>
-    <field name="pfo_additional_info" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="pfo_additional_info"/>
-        <fieldDescription><![CDATA[pfo_additional_info]]></fieldDescription>
+    <field name="pfo_conclusion_number" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_conclusion_number"/>
+        <fieldDescription><![CDATA[pfo_conclusion_number]]></fieldDescription>
+    </field>
+    <field name="pfo_conclusion_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_conclusion_date"/>
+        <fieldDescription><![CDATA[pfo_conclusion_date]]></fieldDescription>
+    </field>
+    <field name="pfo_capability_category" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_capability_category"/>
+        <fieldDescription><![CDATA[pfo_capability_category]]></fieldDescription>
+    </field>
+    <field name="pfo_user_fio" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_user_fio"/>
+        <fieldDescription><![CDATA[pfo_user_fio]]></fieldDescription>
+    </field>
+    <field name="pfo_user_position" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_user_position"/>
+        <fieldDescription><![CDATA[pfo_user_position]]></fieldDescription>
+    </field>
+    <field name="pfo_user_rank" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_user_rank"/>
+        <fieldDescription><![CDATA[pfo_user_rank]]></fieldDescription>
+    </field>
+    <field name="pfo_manager_fio" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_manager_fio"/>
+        <fieldDescription><![CDATA[pfo_manager_fio]]></fieldDescription>
+    </field>
+    <field name="pfo_manager_position" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_manager_position"/>
+        <fieldDescription><![CDATA[pfo_manager_position]]></fieldDescription>
+    </field>
+    <field name="pfo_manager_rank" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="pfo_manager_rank"/>
+        <fieldDescription><![CDATA[pfo_manager_rank]]></fieldDescription>
     </field>
     <field name="psycho_request_number" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="psycho_request_number"/>
@@ -1746,6 +1862,34 @@
         <property name="net.sf.jasperreports.json.field.expression" value="psy_zerd_status"/>
         <fieldDescription><![CDATA[psy_zerd_status]]></fieldDescription>
     </field>
+    <field name="psy_zerd_related_to" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psy_zerd_related_to"/>
+        <fieldDescription><![CDATA[psy_zerd_related_to]]></fieldDescription>
+    </field>
+    <field name="psy_zerd_planned_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psy_zerd_planned_date"/>
+        <fieldDescription><![CDATA[psy_zerd_planned_date]]></fieldDescription>
+    </field>
+    <field name="psy_zerd_division" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psy_zerd_division"/>
+        <fieldDescription><![CDATA[psy_zerd_division]]></fieldDescription>
+    </field>
+    <field name="psy_zerd_test_osd_threshold_level" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psy_zerd_test_osd_threshold_level"/>
+        <fieldDescription><![CDATA[psy_zerd_test_osd_threshold_level]]></fieldDescription>
+    </field>
+    <field name="psy_zerd_test_osd_questions_count" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psy_zerd_test_osd_questions_count"/>
+        <fieldDescription><![CDATA[psy_zerd_test_osd_questions_count]]></fieldDescription>
+    </field>
+    <field name="psy_zerd_test_osd_correct_answers_count" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psy_zerd_test_osd_correct_answers_count"/>
+        <fieldDescription><![CDATA[psy_zerd_test_osd_correct_answers_count]]></fieldDescription>
+    </field>
+    <field name="psy_zerd_test_osd_pass_percentage" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psy_zerd_test_osd_pass_percentage"/>
+        <fieldDescription><![CDATA[psy_zerd_test_osd_pass_percentage]]></fieldDescription>
+    </field>
     <field name="psy_zerd_test" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="psy_zerd_test"/>
         <fieldDescription><![CDATA[psy_zerd_test]]></fieldDescription>
@@ -1762,21 +1906,9 @@
         <property name="net.sf.jasperreports.json.field.expression" value="psy_zerd_result"/>
         <fieldDescription><![CDATA[psy_zerd_result]]></fieldDescription>
     </field>
-    <field name="psy_doc_candidates_installation_data" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_candidates_installation_data"/>
-        <fieldDescription><![CDATA[psy_doc_candidates_installation_data]]></fieldDescription>
-    </field>
     <field name="psy_doc_name" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_name"/>
         <fieldDescription><![CDATA[psy_doc_name]]></fieldDescription>
-    </field>
-    <field name="psy_doc_rdp_object" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_rdp_object"/>
-        <fieldDescription><![CDATA[psy_doc_rdp_object]]></fieldDescription>
-    </field>
-    <field name="psy_doc_candidate" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_candidate"/>
-        <fieldDescription><![CDATA[psy_doc_candidate]]></fieldDescription>
     </field>
     <field name="psy_doc_reg_num_document" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_reg_num_document"/>
@@ -1786,45 +1918,13 @@
         <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_date_reg_document"/>
         <fieldDescription><![CDATA[psy_doc_date_reg_document]]></fieldDescription>
     </field>
-    <field name="psy_doc_unofficial_employee" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_unofficial_employee"/>
-        <fieldDescription><![CDATA[psy_doc_unofficial_employee]]></fieldDescription>
-    </field>
     <field name="psy_doc_document_executor" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_document_executor"/>
         <fieldDescription><![CDATA[psy_doc_document_executor]]></fieldDescription>
     </field>
-    <field name="psy_doc_employee" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_employee"/>
-        <fieldDescription><![CDATA[psy_doc_employee]]></fieldDescription>
-    </field>
-    <field name="psy_doc_reporting_form_files" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_reporting_form_files"/>
-        <fieldDescription><![CDATA[psy_doc_reporting_form_files]]></fieldDescription>
-    </field>
-    <field name="psy_doc_division" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_division"/>
-        <fieldDescription><![CDATA[psy_doc_division]]></fieldDescription>
-    </field>
-    <field name="psy_doc_division_for_access" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_division_for_access"/>
-        <fieldDescription><![CDATA[psy_doc_division_for_access]]></fieldDescription>
-    </field>
     <field name="psy_doc_type_pso_document" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_type_pso_document"/>
         <fieldDescription><![CDATA[psy_doc_type_pso_document]]></fieldDescription>
-    </field>
-    <field name="psy_doc_relating_to" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_relating_to"/>
-        <fieldDescription><![CDATA[psy_doc_relating_to]]></fieldDescription>
-    </field>
-    <field name="psy_doc_reporting_year" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_reporting_year"/>
-        <fieldDescription><![CDATA[psy_doc_reporting_year]]></fieldDescription>
-    </field>
-    <field name="psy_doc_reporting_month" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_reporting_month"/>
-        <fieldDescription><![CDATA[psy_doc_reporting_month]]></fieldDescription>
     </field>
     <field name="psy_doc_note_basis" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_note_basis"/>
@@ -1842,10 +1942,6 @@
         <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_psychologist_division"/>
         <fieldDescription><![CDATA[psy_doc_psychologist_division]]></fieldDescription>
     </field>
-    <field name="psy_doc_line_operational_activity" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_line_operational_activity"/>
-        <fieldDescription><![CDATA[psy_doc_line_operational_activity]]></fieldDescription>
-    </field>
     <field name="psy_doc_assessment_competence" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_assessment_competence"/>
         <fieldDescription><![CDATA[psy_doc_assessment_competence]]></fieldDescription>
@@ -1858,17 +1954,17 @@
         <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_reason_conclusion"/>
         <fieldDescription><![CDATA[psy_doc_reason_conclusion]]></fieldDescription>
     </field>
-    <field name="psy_doc_conclusion_assessment_of_competence_gok_gouk" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_conclusion_assessment_of_competence_gok_gouk"/>
-        <fieldDescription><![CDATA[psy_doc_conclusion_assessment_of_competence_gok_gouk]]></fieldDescription>
+    <field name="psy_doc_methodology" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_methodology"/>
+        <fieldDescription><![CDATA[psy_doc_methodology]]></fieldDescription>
     </field>
-    <field name="psy_doc_individual_professional_development_map" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_individual_professional_development_map"/>
-        <fieldDescription><![CDATA[psy_doc_individual_professional_development_map]]></fieldDescription>
+    <field name="psy_doc_iq_level" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_iq_level"/>
+        <fieldDescription><![CDATA[psy_doc_iq_level]]></fieldDescription>
     </field>
-    <field name="psy_doc_intelligence" class="java.lang.String">
-        <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_intelligence"/>
-        <fieldDescription><![CDATA[psy_doc_intelligence]]></fieldDescription>
+    <field name="psy_doc_iq_score" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psy_doc_iq_score"/>
+        <fieldDescription><![CDATA[psy_doc_iq_score]]></fieldDescription>
     </field>
     <background>
         <band splitType="Stretch"/>
@@ -3765,6 +3861,52 @@
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
                     <textFieldExpression><![CDATA[$F{primary_check_conclusion_data}]]></textFieldExpression>
+                </textField>
+            </frame>
+        </band>
+        <band height="40" splitType="Stretch">
+            <frame>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="371c0c30-4f9d-4563-8d11-70ed451a6b3a">
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                </reportElement>
+                <staticText>
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="35b236cb-de00-4d7d-9b64-7966a3e78aac">
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    </reportElement>
+                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Left" verticalAlignment="Top">
+                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <text><![CDATA[Кандидатты зерттейтін бөлімше/Подразделение, изучающее кандидата]]></text>
+                </staticText>
+                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="a81d5967-bef6-475a-896c-09a7850c7e65">
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    </reportElement>
+                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Left" verticalAlignment="Top">
+                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{reviewer_group_name}]]></textFieldExpression>
                 </textField>
             </frame>
         </band>
