@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.2.final using JasperReports Library version 6.21.2-8434a0bd7c3bbc37cbf916f2968d35e4b165821a  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="participants_disciplines" columnCount="9" printOrder="Horizontal" pageWidth="441" pageHeight="842" columnWidth="49" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="b1d2f3a4-0002-4000-8000-000000000001">
+    <queryString language="JSON">
+        <![CDATA[]]>
+    </queryString>
+    <field name="value" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="value"/>
+        <fieldDescription><![CDATA[value]]></fieldDescription>
+    </field>
+    <field name="is_total" class="java.lang.Boolean">
+        <property name="net.sf.jasperreports.json.field.expression" value="is_total"/>
+        <fieldDescription><![CDATA[is_total]]></fieldDescription>
+    </field>
+    <detail>
+        <band height="40" splitType="Stretch">
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <textField textAdjust="StretchHeight" isBlankWhenNull="true">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="49" height="40" uuid="b1d2f3a4-0002-4000-8000-000000000002">
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <printWhenExpression><![CDATA[!Boolean.TRUE.equals($F{is_total})]]></printWhenExpression>
+                </reportElement>
+                <box topPadding="3" leftPadding="2" bottomPadding="3" rightPadding="2">
+                    <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{value}]]></textFieldExpression>
+            </textField>
+            <textField textAdjust="StretchHeight" isBlankWhenNull="true">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="49" height="40" uuid="b1d2f3a4-0002-4000-8000-000000000003">
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <printWhenExpression><![CDATA[Boolean.TRUE.equals($F{is_total})]]></printWhenExpression>
+                </reportElement>
+                <box topPadding="3" leftPadding="2" bottomPadding="3" rightPadding="2">
+                    <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Times New Roman" size="10" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{value}]]></textFieldExpression>
+            </textField>
+        </band>
+    </detail>
+</jasperReport>

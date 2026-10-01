@@ -161,13 +161,50 @@ public class JReportService {
      * own page size in the exported PDF instead of being cropped to the master's portrait width.
      */
     private byte[] renderStandaloneSection(String templateKey, JasperReport report, List<Map<String, Object>> values) throws JRException, IOException {
+        Map<String, Object> parameters = new HashMap<>();
+
+        // Templates whose records carry a nested "disciplines" array (e.g. participants) render that
+        // section through two companion subreports that lay their records out horizontally, so the
+        // number of discipline columns follows the data. Compile them once and expose the shared
+        // column headers (taken from the first record, since the discipline set is uniform per report).
+        if (!values.isEmpty() && values.get(0).get("disciplines") instanceof Collection) {
+            parameters.put("DISCIPLINES_SUBREPORT", compileCompanion(templateKey + "_disciplines"));
+            parameters.put("DISCIPLINE_HEADER_SUBREPORT", compileCompanion(templateKey + "_disciplines_header"));
+
+            List<Map<String, ?>> headerRows = new ArrayList<>();
+            for (Object discipline : (Collection<?>) values.get(0).get("disciplines")) {
+                if (discipline instanceof Map) {
+                    Map<String, Object> headerRow = new HashMap<>();
+                    headerRow.put("name", ((Map<?, ?>) discipline).get("name"));
+                    headerRows.add(headerRow);
+                }
+            }
+            parameters.put("DISCIPLINE_HEADERS", headerRows);
+            log.debug("Template '{}' uses dynamic disciplines: {} column(s).", templateKey, headerRows.size());
+        }
+
         JRDataSource dataSource = new JRMapCollectionDataSource(new ArrayList<Map<String, ?>>(values));
         log.info("Filling standalone landscape template '{}' with {} records.", templateKey, values.size());
-        JasperPrint jasperPrint = JasperFillManager.fillReport(report, new HashMap<>(), dataSource);
+        JasperPrint jasperPrint = JasperFillManager.fillReport(report, parameters, dataSource);
 
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         JasperExportManager.exportReportToPdfStream(jasperPrint, baos);
         return baos.toByteArray();
+    }
+
+    /**
+     * Compiles a companion subreport (e.g. "participants_disciplines") from the classpath once per
+     * report generation, so the embedding template can reference it via a parameter instead of a
+     * pre-compiled .jasper file.
+     */
+    private JasperReport compileCompanion(String key) throws JRException, IOException {
+        String path = "reports/report/" + key + ".jrxml";
+        try (InputStream stream = getClass().getClassLoader().getResourceAsStream(path)) {
+            if (stream == null) {
+                throw new JRException("❌ Companion subreport template not found: " + path);
+            }
+            return JasperCompileManager.compileReport(stream);
+        }
     }
 
     /**
