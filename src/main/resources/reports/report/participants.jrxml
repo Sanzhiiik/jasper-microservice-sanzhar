@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.21.2.final using JasperReports Library version 6.21.2-8434a0bd7c3bbc37cbf916f2968d35e4b165821a  -->
+<!--
+     SELF-CONTAINED dynamic participants report. Needs NO Java/backend changes: the two discipline
+     subreports are compiled from the classpath via parameter default expressions, and the dynamic
+     column headers are taken straight from the data ($F{disciplines} in the group header). So
+     deploying = just uploading the .jrxml files to the templates store (MinIO) — no jar rebuild.
+
+     The "Результаты окончательного профессионального отбора" columns are driven entirely by the
+     per-candidate "disciplines" array (name/value, last entry is_total=true for the bold total).
+-->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="participants" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="750ae182-4192-40b5-bb8c-fdb73fef158f">
     <property name="com.jaspersoft.studio.data.defaultdataadapter" value="participants.jrdax"/>
-    <parameter name="DISCIPLINE_HEADER_SUBREPORT" class="net.sf.jasperreports.engine.JasperReport"/>
-    <parameter name="DISCIPLINES_SUBREPORT" class="net.sf.jasperreports.engine.JasperReport"/>
-    <parameter name="DISCIPLINE_HEADERS" class="java.util.Collection"/>
+    <parameter name="HEADER_SUB" class="net.sf.jasperreports.engine.JasperReport" isForPrompting="false">
+        <defaultValueExpression><![CDATA[net.sf.jasperreports.engine.JasperCompileManager.compileReport(Thread.currentThread().getContextClassLoader().getResourceAsStream("reports/report/participants_disciplines_header.jrxml"))]]></defaultValueExpression>
+    </parameter>
+    <parameter name="VALUE_SUB" class="net.sf.jasperreports.engine.JasperReport" isForPrompting="false">
+        <defaultValueExpression><![CDATA[net.sf.jasperreports.engine.JasperCompileManager.compileReport(Thread.currentThread().getContextClassLoader().getResourceAsStream("reports/report/participants_disciplines.jrxml"))]]></defaultValueExpression>
+    </parameter>
     <queryString language="JSON">
         <![CDATA[]]>
     </queryString>
@@ -38,6 +50,72 @@
     <variable name="selectionPeriod" class="java.lang.String" calculation="First">
         <variableExpression><![CDATA[$F{selection_period}]]></variableExpression>
     </variable>
+    <!-- One group over all rows, so its header prints once as the table head and (unlike a column
+         header) can read $F{disciplines} to render the dynamic discipline names. -->
+    <group name="section" isReprintHeaderOnEachPage="true">
+        <groupExpression><![CDATA[Boolean.TRUE]]></groupExpression>
+        <groupHeader>
+            <band height="125" splitType="Stretch">
+                <staticText>
+                    <reportElement x="0" y="0" width="28" height="125" uuid="6fe061a1-36be-4a7f-bcc5-837b00fdb594"/>
+                    <box><pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/></box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="9" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <text><![CDATA[№ п/п]]></text>
+                </staticText>
+                <staticText>
+                    <reportElement x="28" y="0" width="95" height="125" uuid="e40f5914-eb56-4be3-9e2d-3bed4574d2f3"/>
+                    <box><pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/></box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="9" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <text><![CDATA[Ф.И.О.]]></text>
+                </staticText>
+                <staticText>
+                    <reportElement x="123" y="0" width="65" height="125" uuid="5c30a498-547a-4058-a153-45d590deef0b"/>
+                    <box><pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/></box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="9" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <text><![CDATA[Дата рождения (возраст)]]></text>
+                </staticText>
+                <staticText>
+                    <reportElement x="188" y="0" width="85" height="125" uuid="f9e50e3a-2eb3-41d9-becd-fe829a6e7749"/>
+                    <box><pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/></box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="9" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <text><![CDATA[Направление деятельности]]></text>
+                </staticText>
+                <staticText>
+                    <reportElement x="273" y="0" width="85" height="125" uuid="3728c830-b378-44e2-9033-4635c924abf6"/>
+                    <box><pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/></box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="9" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <text><![CDATA[Орган КНБ, изучивший кандидата]]></text>
+                </staticText>
+                <!-- outer border for the dynamic area (so empty space keeps a left edge) -->
+                <staticText>
+                    <reportElement x="358" y="0" width="441" height="125" uuid="9adc5075-0000-4000-8000-000000000010"/>
+                    <box>
+                        <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <topPen lineWidth="0.0"/>
+                        <bottomPen lineWidth="0.0"/>
+                        <rightPen lineWidth="0.0"/>
+                    </box>
+                    <text><![CDATA[]]></text>
+                </staticText>
+                <!-- dynamic discipline names (incl. trailing "Итоговые баллы") from the data -->
+                <subreport>
+                    <reportElement x="358" y="0" width="441" height="125" uuid="9adc5075-0000-4000-8000-000000000011"/>
+                    <dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRMapCollectionDataSource($F{disciplines})]]></dataSourceExpression>
+                    <subreportExpression><![CDATA[$P{HEADER_SUB}]]></subreportExpression>
+                </subreport>
+            </band>
+        </groupHeader>
+    </group>
     <title>
         <band height="70" splitType="Stretch">
             <staticText>
@@ -70,90 +148,13 @@
             </textField>
         </band>
     </title>
-    <columnHeader>
-        <band height="125" splitType="Stretch">
-            <staticText>
-                <reportElement x="0" y="0" width="28" height="125" uuid="6fe061a1-36be-4a7f-bcc5-837b00fdb594"/>
-                <box>
-                    <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                </box>
-                <textElement textAlignment="Center" verticalAlignment="Middle">
-                    <font fontName="Times New Roman" size="9" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                </textElement>
-                <text><![CDATA[№ п/п]]></text>
-            </staticText>
-            <staticText>
-                <reportElement x="28" y="0" width="95" height="125" uuid="e40f5914-eb56-4be3-9e2d-3bed4574d2f3"/>
-                <box>
-                    <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                </box>
-                <textElement textAlignment="Center" verticalAlignment="Middle">
-                    <font fontName="Times New Roman" size="9" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                </textElement>
-                <text><![CDATA[Ф.И.О.]]></text>
-            </staticText>
-            <staticText>
-                <reportElement x="123" y="0" width="65" height="125" uuid="5c30a498-547a-4058-a153-45d590deef0b"/>
-                <box>
-                    <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                </box>
-                <textElement textAlignment="Center" verticalAlignment="Middle">
-                    <font fontName="Times New Roman" size="9" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                </textElement>
-                <text><![CDATA[Дата рождения (возраст)]]></text>
-            </staticText>
-            <staticText>
-                <reportElement x="188" y="0" width="85" height="125" uuid="f9e50e3a-2eb3-41d9-becd-fe829a6e7749"/>
-                <box>
-                    <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                </box>
-                <textElement textAlignment="Center" verticalAlignment="Middle">
-                    <font fontName="Times New Roman" size="9" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                </textElement>
-                <text><![CDATA[Направление деятельности]]></text>
-            </staticText>
-            <staticText>
-                <reportElement x="273" y="0" width="85" height="125" uuid="3728c830-b378-44e2-9033-4635c924abf6"/>
-                <box>
-                    <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                </box>
-                <textElement textAlignment="Center" verticalAlignment="Middle">
-                    <font fontName="Times New Roman" size="9" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                </textElement>
-                <text><![CDATA[Орган КНБ, изучивший кандидата]]></text>
-            </staticText>
-            <staticText>
-                <reportElement x="358" y="0" width="441" height="125" uuid="9adc5075-0000-4000-8000-000000000010">
-                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                </reportElement>
-                <box>
-                    <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    <topPen lineWidth="0.0"/>
-                    <bottomPen lineWidth="0.0"/>
-                    <rightPen lineWidth="0.0"/>
-                </box>
-                <text><![CDATA[]]></text>
-            </staticText>
-            <subreport>
-                <reportElement x="358" y="0" width="441" height="125" uuid="9adc5075-0000-4000-8000-000000000011">
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                </reportElement>
-                <dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRMapCollectionDataSource($P{DISCIPLINE_HEADERS})]]></dataSourceExpression>
-                <subreportExpression><![CDATA[$P{DISCIPLINE_HEADER_SUBREPORT}]]></subreportExpression>
-            </subreport>
-        </band>
-    </columnHeader>
     <detail>
         <band height="35" splitType="Stretch">
             <frame>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="802" height="35" isPrintWhenDetailOverflows="true" uuid="84b92a04-dda9-4d50-a8ba-63f4476e122b"/>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="28" height="35" uuid="fc0803ef-3640-4bb3-ba2a-d10f4d56bb32"/>
-                    <box topPadding="3" leftPadding="3" bottomPadding="3" rightPadding="3">
-                        <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
+                    <box topPadding="3" leftPadding="3" bottomPadding="3" rightPadding="3"><pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/></box>
                     <textElement textAlignment="Center" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="9" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
@@ -161,9 +162,7 @@
                 </textField>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="28" y="0" width="95" height="35" uuid="dde3c50a-a4b9-407f-92c8-ec3008fbaecc"/>
-                    <box topPadding="3" leftPadding="4" bottomPadding="3" rightPadding="3">
-                        <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
+                    <box topPadding="3" leftPadding="4" bottomPadding="3" rightPadding="3"><pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/></box>
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
@@ -171,9 +170,7 @@
                 </textField>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="123" y="0" width="65" height="35" uuid="1618f51e-f826-4e7f-9fec-d5180254c8f7"/>
-                    <box topPadding="3" leftPadding="3" bottomPadding="3" rightPadding="3">
-                        <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
+                    <box topPadding="3" leftPadding="3" bottomPadding="3" rightPadding="3"><pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/></box>
                     <textElement textAlignment="Center" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
@@ -181,9 +178,7 @@
                 </textField>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="188" y="0" width="85" height="35" uuid="abe39eba-9b14-47a7-b728-4f6ed374a998"/>
-                    <box topPadding="3" leftPadding="4" bottomPadding="3" rightPadding="3">
-                        <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
+                    <box topPadding="3" leftPadding="4" bottomPadding="3" rightPadding="3"><pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/></box>
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
@@ -191,9 +186,7 @@
                 </textField>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="273" y="0" width="85" height="35" uuid="346f3897-dfc8-45c0-8b2c-546bdba0270c"/>
-                    <box topPadding="3" leftPadding="4" bottomPadding="3" rightPadding="3">
-                        <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
+                    <box topPadding="3" leftPadding="4" bottomPadding="3" rightPadding="3"><pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/></box>
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
@@ -210,12 +203,9 @@
                     <text><![CDATA[]]></text>
                 </staticText>
                 <subreport>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="358" y="0" width="441" height="35" uuid="346f3897-0000-4000-8000-000000000021">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                    </reportElement>
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="358" y="0" width="441" height="35" uuid="346f3897-0000-4000-8000-000000000021"/>
                     <dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRMapCollectionDataSource($F{disciplines})]]></dataSourceExpression>
-                    <subreportExpression><![CDATA[$P{DISCIPLINES_SUBREPORT}]]></subreportExpression>
+                    <subreportExpression><![CDATA[$P{VALUE_SUB}]]></subreportExpression>
                 </subreport>
             </frame>
         </band>

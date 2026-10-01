@@ -12,9 +12,10 @@ import java.util.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * Validates that the dynamic participants template + its two discipline subreports compile and fill,
- * producing a non-empty PDF for both a small (3) and a large (8) discipline set. Writes the PDFs to
- * target/ so the layout can be eyeballed.
+ * The participants template is self-contained: it compiles its discipline subreports from the
+ * classpath and reads the dynamic column headers from the data, so it needs NO parameters from the
+ * backend. This test fills it with an EMPTY parameter map (exactly what the current service passes
+ * for a standalone landscape report) for both a small (3) and a large (8) discipline set.
  */
 class ParticipantsDynamicTemplateTest {
 
@@ -33,7 +34,6 @@ class ParticipantsDynamicTemplateTest {
         c.put("birth_date", "01.01.1995 (30 лет)");
         c.put("direction", "Направление " + n);
         c.put("study_division", "ОНБ по области");
-        c.put("total_score", 100 + n);
         c.put("selection_period", "1-5 сентября 2026");
         List<Map<String, Object>> disciplines = new ArrayList<>();
         for (String name : names) {
@@ -53,31 +53,13 @@ class ParticipantsDynamicTemplateTest {
 
     private byte[] render(List<String> disciplineNames) throws Exception {
         JasperReport master = compile("participants");
-        JasperReport valueSub = compile("participants_disciplines");
-        JasperReport headerSub = compile("participants_disciplines_header");
-
-        List<Map<String, ?>> headerRows = new ArrayList<>();
-        for (String name : disciplineNames) {
-            Map<String, Object> h = new HashMap<>();
-            h.put("name", name);
-            headerRows.add(h);
-        }
-        Map<String, Object> totalHeader = new HashMap<>();
-        totalHeader.put("name", "Итоговые баллы");
-        headerRows.add(totalHeader);
-
-        Map<String, Object> params = new HashMap<>();
-        params.put("DISCIPLINES_SUBREPORT", valueSub);
-        params.put("DISCIPLINE_HEADER_SUBREPORT", headerSub);
-        params.put("DISCIPLINE_HEADERS", headerRows);
-
         List<Map<String, ?>> rows = new ArrayList<>();
         for (int i = 1; i <= 3; i++) {
             rows.add(candidate(i, disciplineNames));
         }
-
+        // No parameters — the template is fully self-contained.
         JasperPrint print = JasperFillManager.fillReport(
-                master, params, new JRMapCollectionDataSource(rows));
+                master, new HashMap<>(), new JRMapCollectionDataSource(rows));
         return JasperExportManager.exportReportToPdf(print);
     }
 
