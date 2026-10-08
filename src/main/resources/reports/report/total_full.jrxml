@@ -318,6 +318,14 @@
         <property name="net.sf.jasperreports.json.field.expression" value="onb_rank_data"/>
         <fieldDescription><![CDATA[onb_rank_data]]></fieldDescription>
     </field>
+    <field name="penalty_div_data" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="penalty_div_data"/>
+        <fieldDescription><![CDATA[penalty_div_data]]></fieldDescription>
+    </field>
+    <field name="penalty_osd_data" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="penalty_osd_data"/>
+        <fieldDescription><![CDATA[penalty_osd_data]]></fieldDescription>
+    </field>
     <field name="penalty_div" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="penalty_div"/>
         <fieldDescription><![CDATA[penalty_div]]></fieldDescription>
@@ -2317,7 +2325,7 @@
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <pen lineWidth="1.0" lineStyle="Dashed"/>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -2373,9 +2381,9 @@
                         <property name="com.jaspersoft.studio.unit.y" value="px"/>
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <pen lineStyle="Dashed"/>
+                        <pen lineStyle="Solid"/>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -2434,7 +2442,7 @@
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <pen lineWidth="0.75"/>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -2492,7 +2500,7 @@
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <pen lineWidth="1.0" lineStyle="Dashed"/>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -2551,7 +2559,7 @@
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <pen lineWidth="1.0"/>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -2608,7 +2616,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -2715,7 +2723,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -2777,7 +2785,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -2840,7 +2848,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -2905,7 +2913,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -3161,7 +3169,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -3418,7 +3426,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -3491,7 +3499,7 @@
                         </reportElement>
                         <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                             <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                            <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                            <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         </box>
@@ -3560,7 +3568,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -3628,7 +3636,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4041,7 +4049,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4168,7 +4176,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4231,7 +4239,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4294,7 +4302,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4357,7 +4365,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4422,7 +4430,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4505,7 +4513,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4570,7 +4578,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4633,7 +4641,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4696,7 +4704,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4761,7 +4769,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4847,7 +4855,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4912,7 +4920,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4993,7 +5001,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5056,7 +5064,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5119,7 +5127,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5182,7 +5190,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5265,7 +5273,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5348,7 +5356,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5413,7 +5421,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5494,7 +5502,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5557,7 +5565,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5622,7 +5630,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5687,7 +5695,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5750,7 +5758,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5813,7 +5821,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5876,7 +5884,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5939,7 +5947,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -6022,7 +6030,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -6087,7 +6095,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -6152,7 +6160,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -6217,7 +6225,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -6318,7 +6326,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -6383,7 +6391,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -6448,7 +6456,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -6513,7 +6521,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -6576,7 +6584,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -6641,7 +6649,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -6706,7 +6714,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -6771,7 +6779,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -6836,7 +6844,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -6901,7 +6909,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -6966,7 +6974,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7031,7 +7039,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7094,7 +7102,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7159,7 +7167,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7224,7 +7232,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7287,7 +7295,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7352,7 +7360,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7415,7 +7423,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7545,7 +7553,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7610,7 +7618,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7675,7 +7683,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7740,7 +7748,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7805,7 +7813,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7870,7 +7878,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7935,7 +7943,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8000,7 +8008,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8130,7 +8138,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8191,7 +8199,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8256,7 +8264,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8321,7 +8329,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8386,7 +8394,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8514,7 +8522,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8579,7 +8587,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8644,7 +8652,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8725,7 +8733,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8790,7 +8798,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8855,7 +8863,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8920,7 +8928,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9048,7 +9056,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9113,7 +9121,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9178,7 +9186,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9243,7 +9251,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9371,7 +9379,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9436,7 +9444,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9501,7 +9509,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9566,7 +9574,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9696,7 +9704,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9761,7 +9769,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9826,7 +9834,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9891,7 +9899,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9956,7 +9964,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -14196,7 +14204,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Маманның ТАӘ (ПФО)/ФИО специалиста (ПФО)]]></text>
+                    <text><![CDATA[Маманның ТАӘ/ФИО специалиста]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" isPrintWhenDetailOverflows="true" uuid="f2295511-460c-4637-80e2-3a79d6a6f9e9">
@@ -14242,7 +14250,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Басшының ТАӘ (ПФО)/ФИО руководителя (ПФО)]]></text>
+                    <text><![CDATA[Басшының ТАӘ/ФИО руководителя]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" isPrintWhenDetailOverflows="true" uuid="df833458-d398-4aa5-8839-49484753acc8">

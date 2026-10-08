@@ -318,6 +318,14 @@
         <property name="net.sf.jasperreports.json.field.expression" value="onb_rank_data"/>
         <fieldDescription><![CDATA[onb_rank_data]]></fieldDescription>
     </field>
+    <field name="penalty_div_data" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="penalty_div_data"/>
+        <fieldDescription><![CDATA[penalty_div_data]]></fieldDescription>
+    </field>
+    <field name="penalty_osd_data" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="penalty_osd_data"/>
+        <fieldDescription><![CDATA[penalty_osd_data]]></fieldDescription>
+    </field>
     <field name="penalty_div" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="penalty_div"/>
         <fieldDescription><![CDATA[penalty_div]]></fieldDescription>
@@ -2317,7 +2325,7 @@
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <pen lineWidth="1.0" lineStyle="Dashed"/>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -2373,9 +2381,9 @@
                         <property name="com.jaspersoft.studio.unit.y" value="px"/>
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <pen lineStyle="Dashed"/>
+                        <pen lineStyle="Solid"/>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -2434,7 +2442,7 @@
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <pen lineWidth="0.75"/>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -2492,7 +2500,7 @@
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <pen lineWidth="1.0" lineStyle="Dashed"/>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -2551,7 +2559,7 @@
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <pen lineWidth="1.0"/>
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -2608,7 +2616,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -2715,7 +2723,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -2777,7 +2785,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -2840,7 +2848,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -2905,7 +2913,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -3161,7 +3169,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -3418,7 +3426,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -3491,7 +3499,7 @@
                         </reportElement>
                         <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                             <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                            <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                            <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                             <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         </box>
@@ -3560,7 +3568,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -3628,7 +3636,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4041,7 +4049,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4168,7 +4176,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4231,7 +4239,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4294,7 +4302,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4357,7 +4365,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4422,7 +4430,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4505,7 +4513,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4570,7 +4578,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4633,7 +4641,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4696,7 +4704,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4761,7 +4769,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4847,7 +4855,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4912,7 +4920,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -4993,7 +5001,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5056,7 +5064,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5119,7 +5127,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5182,7 +5190,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5265,7 +5273,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5348,7 +5356,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5413,7 +5421,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5494,7 +5502,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5557,7 +5565,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5622,7 +5630,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5687,7 +5695,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5750,7 +5758,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5813,7 +5821,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5876,7 +5884,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5939,7 +5947,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -5969,194 +5977,6 @@
                 </textElement>
                 <text><![CDATA[Әскери қызмет туралы мәліметтер/Сведения о воинской службе]]></text>
             </staticText>
-        </band>
-        <band height="30" splitType="Stretch">
-            <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="30" isPrintWhenDetailOverflows="true" uuid="c8a12440-3534-4d1f-be13-5755a65e337b">
-                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                </reportElement>
-                <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="30" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="4c1a828c-709c-49ce-9b8b-be987f733540">
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    </reportElement>
-                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Middle">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <text><![CDATA[Жазалар/Взыскание]]></text>
-                </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="363" height="30" isPrintWhenDetailOverflows="true" uuid="ab8d5682-d726-47a6-9ec2-240d32dad4c6">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    </reportElement>
-                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{onb_penalties}]]></textFieldExpression>
-                </textField>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="483" y="0" width="75" height="30" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="e01ffe97-ae7b-46e0-8519-16910e9581b1">
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                    </reportElement>
-                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Middle">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{onb_penalties_data}]]></textFieldExpression>
-                </textField>
-            </frame>
-        </band>
-        <band height="30" splitType="Stretch">
-            <printWhenExpression><![CDATA[Boolean.valueOf($F{onb_penalties} != null && ($F{onb_penalties}.trim().equalsIgnoreCase("да") || $F{onb_penalties}.trim().equalsIgnoreCase("иә")))]]></printWhenExpression>
-            <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="30" isPrintWhenDetailOverflows="true" uuid="a1a1a1a1-0001-4001-8001-000000000001">
-                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                </reportElement>
-                <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="30" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="a1a1a1a1-0001-4001-8001-000000000002">
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    </reportElement>
-                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Middle">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <text><![CDATA[Жаза қолданылған күн/Дата наложения взыскания]]></text>
-                </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="363" height="30" isPrintWhenDetailOverflows="true" uuid="a1a1a1a1-0001-4001-8001-000000000003">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    </reportElement>
-                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{onb_penalty_impose_date}]]></textFieldExpression>
-                </textField>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="483" y="0" width="75" height="30" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="a1a1a1a1-0001-4001-8001-000000000004">
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                    </reportElement>
-                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Middle">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{onb_penalty_impose_date_data}]]></textFieldExpression>
-                </textField>
-            </frame>
-        </band>
-        <band height="30" splitType="Stretch">
-            <printWhenExpression><![CDATA[Boolean.valueOf($F{onb_penalties} != null && ($F{onb_penalties}.trim().equalsIgnoreCase("да") || $F{onb_penalties}.trim().equalsIgnoreCase("иә")))]]></printWhenExpression>
-            <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="30" isPrintWhenDetailOverflows="true" uuid="a1a1a1a1-0002-4001-8001-000000000011">
-                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                </reportElement>
-                <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="30" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="a1a1a1a1-0002-4001-8001-000000000012">
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    </reportElement>
-                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Middle">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <text><![CDATA[Жаза алынған күн/Дата снятия взыскания]]></text>
-                </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="363" height="30" isPrintWhenDetailOverflows="true" uuid="a1a1a1a1-0002-4001-8001-000000000013">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    </reportElement>
-                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{onb_penalty_remove_date}]]></textFieldExpression>
-                </textField>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="483" y="0" width="75" height="30" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="a1a1a1a1-0002-4001-8001-000000000014">
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                    </reportElement>
-                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Middle">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{onb_penalty_remove_date_data}]]></textFieldExpression>
-                </textField>
-            </frame>
         </band>
         <band height="50" splitType="Stretch">
             <frame>
@@ -6211,7 +6031,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -6275,7 +6095,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -6283,6 +6103,70 @@
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
                     <textFieldExpression><![CDATA[$F{onb_appointment_date_data}]]></textFieldExpression>
+                </textField>
+            </frame>
+        </band>
+        <band height="40" splitType="Stretch">
+            <frame>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="fe9fec8e-8fb7-4969-bccf-6f9ded100359">
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                </reportElement>
+                <staticText>
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="5d6582d2-8cc9-4683-b523-f8448e468e37">
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    </reportElement>
+                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Left" verticalAlignment="Top">
+                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <text><![CDATA[Бөлімшесі/Подразделение]]></text>
+                </staticText>
+                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="363" height="40" isPrintWhenDetailOverflows="true" uuid="516ea72a-f5fc-49d2-8bb6-ad477563f0c0">
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    </reportElement>
+                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Left" verticalAlignment="Top">
+                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{penalty_div}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="483" y="0" width="75" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="29d14683-ec83-4ecc-bc9f-9714b6ccd4af">
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                    </reportElement>
+                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Left" verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{penalty_div_data}]]></textFieldExpression>
                 </textField>
             </frame>
         </band>
@@ -6339,7 +6223,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -6350,19 +6234,19 @@
                 </textField>
             </frame>
         </band>
-        <band height="50" splitType="Stretch">
+        <band height="40" splitType="Stretch">
             <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="50" isPrintWhenDetailOverflows="true" uuid="a1a1a1a1-0004-4001-8001-000000000031">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="3be062a7-a928-4fde-b994-5fe7f3a3b58c">
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.x" value="px"/>
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 </reportElement>
                 <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="50" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="a1a1a1a1-0004-4001-8001-000000000032">
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="8a28bcb7-83b3-4858-a15d-d4e71e65d740">
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
@@ -6374,10 +6258,10 @@
                     <textElement textAlignment="Left" verticalAlignment="Top">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Біліктілік талаптары/Квалификационные требования]]></text>
+                    <text><![CDATA[Ағымдағы ЖҚІҚ / Текущая ОСД]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="363" height="50" isPrintWhenDetailOverflows="true" uuid="a1a1a1a1-0004-4001-8001-000000000033">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="363" height="40" isPrintWhenDetailOverflows="true" uuid="95cc791a-3398-427f-a672-cfc0895d2fcd">
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.y" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -6392,10 +6276,10 @@
                     <textElement textAlignment="Left" verticalAlignment="Top">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{onb_qualification_requirements}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{penalty_osd}]]></textFieldExpression>
                 </textField>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="483" y="0" width="75" height="50" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="a1a1a1a1-0004-4001-8001-000000000034">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Transparent" x="483" y="0" width="75" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="1af445da-bfa9-431d-aaaa-be2dbcc17cc7">
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
                         <property name="com.jaspersoft.studio.unit.height" value="px"/>
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -6403,152 +6287,14 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{onb_qualification_requirements_data}]]></textFieldExpression>
-                </textField>
-            </frame>
-        </band>
-        <band height="40" splitType="Stretch">
-            <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="057b27cc-f2ad-4608-ac09-765bbe1b03f9">
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                </reportElement>
-                <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="39bb8c4c-980a-480d-9b90-7fec4b92e1f6">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <text><![CDATA[АК төрағасының бекіткен мерзімі/Дата утверждения председателя АК]]></text>
-                </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="f05cab8b-b24f-4cd7-9730-d4f1820abdea">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{onbtwo_decisionDate}]]></textFieldExpression>
-                </textField>
-            </frame>
-        </band>
-        <band height="40" splitType="Stretch">
-            <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="5cdf2038-567b-4d01-bf71-10600ee24c23">
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                </reportElement>
-                <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="23076649-588e-4bac-addd-b2a596f6a75c">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <text><![CDATA[Аттестаттау бойынша қорытынды/Вывод по аттестации]]></text>
-                </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="d3344329-ca04-44b0-b5af-bf81c179824d">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{onbtwo_decision}]]></textFieldExpression>
-                </textField>
-            </frame>
-        </band>
-        <band height="40">
-            <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="20acce79-4241-4d66-aa20-0ff00f917c61">
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                </reportElement>
-                <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="9d6aa7b8-e3ef-43cf-89fe-779554d8f396">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <text><![CDATA[Аттестаттау бойынша ұсыныстар/Рекомендации по аттестации]]></text>
-                </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="2f71e6fb-e5ea-45c6-96ba-ddf9fd124904">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{onbtwo_recommendation}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{penalty_osd_data}]]></textFieldExpression>
                 </textField>
             </frame>
         </band>
@@ -6569,7 +6315,7 @@
                 <textElement textAlignment="Center" verticalAlignment="Middle">
                     <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                 </textElement>
-                <text><![CDATA[Қызметтік жазалар/Служебные взыскания]]></text>
+                <text><![CDATA[Жазалар / Взыскание]]></text>
             </staticText>
         </band>
         <band height="40" splitType="Stretch">
@@ -6620,282 +6366,6 @@
         </band>
         <band height="40" splitType="Stretch">
             <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="f15ee7c2-86c4-4558-9172-a3ebb2ad9bcb">
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                </reportElement>
-                <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="5baca1dd-17db-4fe0-95e2-81faa4ae99b0">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <text><![CDATA[Лауазымы/Должность]]></text>
-                </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="5306bfee-8d32-4889-ba6b-b9d51605798a">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{penalty_position}]]></textFieldExpression>
-                </textField>
-            </frame>
-        </band>
-        <band height="40" splitType="Stretch">
-            <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="da3a5b63-3aaf-4544-a034-94c984f12497">
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                </reportElement>
-                <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="58bc72ae-ba4b-47c5-b946-f04eb8056ca8">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <text><![CDATA[Тағайындалған күні/Дата назначения]]></text>
-                </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="9414980c-ba80-48ae-94f8-3dcc2b5aa1b9">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{penalty_appointment_date}]]></textFieldExpression>
-                </textField>
-            </frame>
-        </band>
-        <band height="40" splitType="Stretch">
-            <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="4a78a292-60b1-4361-9a6a-d42debbe0a5e">
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                </reportElement>
-                <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="91c6a6f7-081c-4581-860b-76f3a5e7dc39">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <text><![CDATA[Атағы/Звание]]></text>
-                </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="c41b57ae-5cf7-4a8f-a14f-7b8523f80321">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{penalty_rank}]]></textFieldExpression>
-                </textField>
-            </frame>
-        </band>
-        <band height="40" splitType="Stretch">
-            <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="2061376f-1976-4623-9665-9898660411db">
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                </reportElement>
-                <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="9e2408f4-215c-49c6-8728-c7f05eb32f59">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <text><![CDATA[Атақ берілген күні/Дата присвоения звания]]></text>
-                </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="7df4214a-e2aa-4418-b8dd-d1dfa32b9ead">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{penalty_rank_date}]]></textFieldExpression>
-                </textField>
-            </frame>
-        </band>
-        <band height="40" splitType="Stretch">
-            <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="cd50326c-1a72-4887-bf5f-faef09e88e4f">
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                </reportElement>
-                <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="08326b94-a2a6-4ef8-910c-7066286baf89">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <text><![CDATA[Нақты лауазымы/Фактическая должность]]></text>
-                </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="57a2fa27-f536-4049-8e4d-0f52cd3e9180">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{penalty_position_fact}]]></textFieldExpression>
-                </textField>
-            </frame>
-        </band>
-        <band height="40" splitType="Stretch">
-            <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="0fa203f0-6e9f-448e-9c3e-3dacfd9a81a4">
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                </reportElement>
-                <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="78924e65-34b5-40cf-b987-9629b73f8122">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <text><![CDATA[Қызмет түрі/Служба]]></text>
-                </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="2c907bb1-b454-4feb-9d53-d4f28b62198f">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{penalty_osd}]]></textFieldExpression>
-                </textField>
-            </frame>
-        </band>
-        <band height="40" splitType="Stretch">
-            <frame>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="fe2d0c94-0e97-4ae3-be6b-7aae58b31ba4">
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -6918,7 +6388,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Top">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Басталу күні/Дата начала]]></text>
+                    <text><![CDATA[Жаза тағайындалған күн / Дата наложения взыскания]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="bb988fac-67ed-4e8c-8cd2-be4e0ddced33">
@@ -6964,7 +6434,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Top">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Аяқталу күні/Дата окончания]]></text>
+                    <text><![CDATA[Жазадан босатылған күн / Дата снятия взыскания]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="35f1d95c-0869-48be-a64b-74de5195961b">
@@ -6983,52 +6453,6 @@
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
                     <textFieldExpression><![CDATA[$F{penalty_record_end_date}]]></textFieldExpression>
-                </textField>
-            </frame>
-        </band>
-        <band height="40">
-            <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="d015df57-b15a-49b0-b86f-71037b70ab77">
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                </reportElement>
-                <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="2bce5800-4500-4c15-9a05-bdc3c35dba08">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <text><![CDATA[Жаза қолданған адамның лауазымы/Должность наложившего взыскание]]></text>
-                </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="d723a46c-e0af-4686-8776-a741f9df8500">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{penalty_record_issuer_position}]]></textFieldExpression>
                 </textField>
             </frame>
         </band>
@@ -7125,98 +6549,6 @@
                 </textField>
             </frame>
         </band>
-        <band height="40" splitType="Stretch">
-            <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="4f68e580-33be-4c28-b636-25e052e2c7f6">
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                </reportElement>
-                <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="fad91938-f629-48e1-841c-b01a000759a8">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <text><![CDATA[Жазаға тартылу себебі/Причина взыскания]]></text>
-                </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="a302c4cf-dd07-4358-96ef-aeaa65f28b83">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{penalty_record_penalty_reason}]]></textFieldExpression>
-                </textField>
-            </frame>
-        </band>
-        <band height="40">
-            <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="cb5bc235-7120-4575-8f29-51cb169eb996">
-                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                </reportElement>
-                <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="3889ad83-638e-4b9a-a503-4b9b9f4bcac9">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <text><![CDATA[Бұйрық коды/Код приказа]]></text>
-                </staticText>
-                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="190af3b4-ead6-44a8-8760-95ccd892904c">
-                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
-                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
-                    </reportElement>
-                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
-                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                    </box>
-                    <textElement textAlignment="Left" verticalAlignment="Top">
-                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
-                    </textElement>
-                    <textFieldExpression><![CDATA[$F{penalty_record_order_code}]]></textFieldExpression>
-                </textField>
-            </frame>
-        </band>
         <band height="40">
             <frame>
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="061afbbc-ae05-47cd-bfb2-886ccd82e53f">
@@ -7263,16 +6595,36 @@
                 </textField>
             </frame>
         </band>
-        <band height="40">
+        <band height="20">
+            <staticText>
+                <reportElement positionType="Float" mode="Opaque" x="0" y="0" width="558" height="20" backcolor="#E7E6E6" uuid="44ecf31b-a3af-4c02-b6e1-b408df8f026c">
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                </reportElement>
+                <box>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                </textElement>
+                <text><![CDATA[Аттестаттау нәтижелері / Результаты аттестации]]></text>
+            </staticText>
+        </band>
+        <band height="40" splitType="Stretch">
             <frame>
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="668a8d43-f40c-4bde-9384-a2ed75b924f4">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="9b569f4d-0da6-4834-975d-95c142a3c83d">
                     <property name="com.jaspersoft.studio.unit.height" value="px"/>
                     <property name="com.jaspersoft.studio.unit.width" value="px"/>
                     <property name="com.jaspersoft.studio.unit.x" value="px"/>
                     <property name="com.jaspersoft.studio.unit.y" value="px"/>
                 </reportElement>
                 <staticText>
-                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="33d8cec5-83f3-48b0-a967-12ce68da6063">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="dc7bd7a0-2286-4bde-ba64-cfc55a1d703d">
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.y" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -7287,10 +6639,10 @@
                     <textElement textAlignment="Left" verticalAlignment="Top">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Бұйрық күні/Дата приказа]]></text>
+                    <text><![CDATA[АК төрағасының бекіткен мерзімі/Дата утверждения председателя АК]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="80e292ba-e433-45e8-91eb-aae63196d691">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="474b6dae-04be-43b9-92fd-e07e595a0c1c">
                         <property name="com.jaspersoft.studio.unit.x" value="px"/>
                         <property name="com.jaspersoft.studio.unit.y" value="px"/>
                         <property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -7305,7 +6657,99 @@
                     <textElement textAlignment="Left" verticalAlignment="Top">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{penalty_record_order_date}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{onbtwo_decisionDate}]]></textFieldExpression>
+                </textField>
+            </frame>
+        </band>
+        <band height="40" splitType="Stretch">
+            <frame>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="361a89a5-2e9f-4767-8e91-2315299a2f24">
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                </reportElement>
+                <staticText>
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="175059bc-27b3-4ec7-9e1b-e4bd6361baf8">
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    </reportElement>
+                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Left" verticalAlignment="Top">
+                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <text><![CDATA[Аттестаттау бойынша қорытынды/Вывод по аттестации]]></text>
+                </staticText>
+                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="9cffc093-430d-4249-9fe3-18292480aa42">
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    </reportElement>
+                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Left" verticalAlignment="Top">
+                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{onbtwo_decision}]]></textFieldExpression>
+                </textField>
+            </frame>
+        </band>
+        <band height="40" splitType="Stretch">
+            <frame>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="558" height="40" isPrintWhenDetailOverflows="true" uuid="4c32051c-9ce7-483f-8442-2fa30724e80a">
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                </reportElement>
+                <staticText>
+                    <reportElement positionType="Float" stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="120" height="40" isPrintWhenDetailOverflows="true" backcolor="#E7E6E6" uuid="b7160769-29d1-4f13-b084-a7f55cbf88fe">
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    </reportElement>
+                    <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Left" verticalAlignment="Top">
+                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <text><![CDATA[Аттестаттау бойынша ұсыныстар/Рекомендации по аттестации]]></text>
+                </staticText>
+                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="120" y="0" width="438" height="40" isPrintWhenDetailOverflows="true" uuid="609f4c06-5b0d-432a-9710-3bc9323e11de">
+                        <property name="com.jaspersoft.studio.unit.x" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                        <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    </reportElement>
+                    <box topPadding="5" leftPadding="5" bottomPadding="5" rightPadding="5">
+                        <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Left" verticalAlignment="Top">
+                        <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{onbtwo_recommendation}]]></textFieldExpression>
                 </textField>
             </frame>
         </band>
@@ -7381,7 +6825,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7446,7 +6890,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7511,7 +6955,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7576,7 +7020,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7677,7 +7121,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7742,7 +7186,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7807,7 +7251,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7872,7 +7316,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -7935,7 +7379,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8000,7 +7444,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8065,7 +7509,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8130,7 +7574,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8195,7 +7639,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8260,7 +7704,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8325,7 +7769,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8390,7 +7834,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8453,7 +7897,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8518,7 +7962,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8583,7 +8027,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8646,7 +8090,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8711,7 +8155,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8774,7 +8218,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8904,7 +8348,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -8969,7 +8413,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9034,7 +8478,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9099,7 +8543,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9164,7 +8608,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9229,7 +8673,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9294,7 +8738,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9359,7 +8803,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9489,7 +8933,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9550,7 +8994,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9615,7 +9059,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9680,7 +9124,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9745,7 +9189,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9873,7 +9317,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -9938,7 +9382,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -10003,7 +9447,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -10084,7 +9528,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -10149,7 +9593,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -10214,7 +9658,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -10279,7 +9723,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -10407,7 +9851,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -10472,7 +9916,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -10537,7 +9981,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -10602,7 +10046,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -10730,7 +10174,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -10795,7 +10239,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -10860,7 +10304,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -10925,7 +10369,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -11055,7 +10499,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -11120,7 +10564,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -11185,7 +10629,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -11250,7 +10694,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -11315,7 +10759,7 @@
                     </reportElement>
                     <box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
                         <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
-                        <leftPen lineWidth="1.0" lineStyle="Dashed" lineColor="#000000"/>
+                        <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                         <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
                     </box>
@@ -15555,7 +14999,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Маманның ТАӘ (ПФО)/ФИО специалиста (ПФО)]]></text>
+                    <text><![CDATA[Маманның ТАӘ/ФИО специалиста]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" isPrintWhenDetailOverflows="true" uuid="f2295511-460c-4637-80e2-3a79d6a6f9e9">
@@ -15601,7 +15045,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Middle">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <text><![CDATA[Басшының ТАӘ (ПФО)/ФИО руководителя (ПФО)]]></text>
+                    <text><![CDATA[Басшының ТАӘ/ФИО руководителя]]></text>
                 </staticText>
                 <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                     <reportElement positionType="Float" stretchType="ContainerBottom" x="200" y="0" width="358" height="30" isPrintWhenDetailOverflows="true" uuid="df833458-d398-4aa5-8839-49484753acc8">
