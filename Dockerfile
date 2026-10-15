@@ -1,3 +1,4 @@
+# syntax=docker/dockerfile:1
 # maven:3.9.3 only version which works fine for now somehow
 FROM maven:3.9.3-eclipse-temurin-17 AS build
 
@@ -8,8 +9,15 @@ WORKDIR /app
 COPY pom.xml ./
 COPY src ./src
 
-# Build the JAR file: skip tests for now
-RUN mvn clean package -DskipTests
+# Build the JAR file: skip tests for now.
+# --mount=type=cache keeps the downloaded Maven repo between builds, so a retry after a
+# network drop resumes instead of re-downloading everything from scratch.
+# The wagon retry/timeout flags make transient Maven Central slowness non-fatal.
+RUN --mount=type=cache,target=/root/.m2 \
+    mvn -B clean package -DskipTests \
+    -Dmaven.wagon.http.retryHandler.count=5 \
+    -Dmaven.wagon.httpconnectionManager.ttlSeconds=120 \
+    -Dmaven.wagon.rto=60000
 
 # Use Ubuntu-based JDK image to access multiverse repository, not debian - since in debian problems with fonts somehow
 FROM eclipse-temurin:17-jre-jammy
