@@ -9,4 +9,17 @@
         <pdfEncoding><![CDATA[Identity-H]]></pdfEncoding>
         <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
     </fontFamily>
+
+    <!-- Шаблоны (на сервере / в MinIO) используют шрифт с именем "KZTimesNewRoman"
+         (KZ Times New Roman, казахская версия). Обычное начертание — родной файл
+         timesnewroman.ttf, чтобы вид текста не менялся; жирное/курсив берём из
+         обычного Times New Roman (в них есть казахские буквы) — иначе жирного нет. -->
+    <fontFamily name="KZTimesNewRoman">
+        <normal><![CDATA[fonts/timesnewroman.ttf]]></normal>
+        <bold><![CDATA[fonts/timesbd.ttf]]></bold>
+        <italic><![CDATA[fonts/timesi.ttf]]></italic>
+        <boldItalic><![CDATA[fonts/timesbi.ttf]]></boldItalic>
+        <pdfEncoding><![CDATA[Identity-H]]></pdfEncoding>
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+    </fontFamily>
 </fontFamilies>

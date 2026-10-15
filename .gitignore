@@ -7,6 +7,13 @@ target/
 ### Environment files ###
 .env
 
+### Local-only Docker Compose override (bind-mounts local templates; must NOT reach the closed server) ###
+docker-compose.override.yml
+
+### Build artifacts that must never go into git ###
+*.tar
+build.log
+
 ### STS ###
 .apt_generated
 .classpath
