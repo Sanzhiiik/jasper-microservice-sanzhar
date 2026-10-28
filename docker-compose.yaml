@@ -27,9 +27,10 @@ services:
     depends_on:
       - minio-sync
     restart: unless-stopped
+    mem_limit: 1g
     ports:
       - "8080:8080"
-    entrypoint: ["java","-Dloader.path=/reports","-cp","/app.jar","org.springframework.boot.loader.launch.PropertiesLauncher"]
+    entrypoint: ["java","-Xms512m","-Xmx512m","-Dloader.path=/reports","-cp","/app.jar","org.springframework.boot.loader.launch.PropertiesLauncher"]
     volumes:
       - report-templates:/reports:ro
     networks:
