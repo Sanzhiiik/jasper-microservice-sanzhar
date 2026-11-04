@@ -21,7 +21,7 @@
         <property name="net.sf.jasperreports.json.field.expression" value="selection_end_date"/>
         <fieldDescription><![CDATA[selection_end_date]]></fieldDescription>
     </field>
-    <variable name="selectionEndDate" class="java.lang.String" resetType="Report" calculation="First">
+    <variable name="selectionEndDate" class="java.lang.String" calculation="First">
         <variableExpression><![CDATA[$F{selection_end_date}]]></variableExpression>
     </variable>
     <title>
@@ -45,12 +45,12 @@
                 <textElement textAlignment="Center" verticalAlignment="Middle">
                     <font fontName="Times New Roman" size="14" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                 </textElement>
-                <text><![CDATA[СПИСОК ФИНАЛИСТОВ КОНКУРСА]]></text>
+                <text><![CDATA[СПИСОК]]></text>
             </staticText>
             <staticText>
                 <reportElement x="0" y="60" width="555" height="18" uuid="d95ca8ce-d866-48b7-b801-293d32ce6277"/>
                 <textElement textAlignment="Center" verticalAlignment="Middle">
-                    <font fontName="Times New Roman" size="12" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    <font fontName="Times New Roman" size="12" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                 </textElement>
                 <text><![CDATA[к протоколу конкурсной комиссии КНБ]]></text>
             </staticText>
@@ -64,7 +64,7 @@
             <staticText>
                 <reportElement x="0" y="96" width="555" height="15" uuid="e5054dbb-925f-4877-8f0f-600c78e344a9"/>
                 <textElement textAlignment="Center" verticalAlignment="Middle">
-                    <font fontName="Times New Roman" size="10" isItalic="true" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    <font fontName="Times New Roman" size="10" isBold="true" isItalic="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                 </textElement>
                 <text><![CDATA[(для подразделений и органов КНБ)]]></text>
             </staticText>
