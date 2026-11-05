@@ -1857,6 +1857,10 @@
         <property name="net.sf.jasperreports.json.field.expression" value="psycho_file_status"/>
         <fieldDescription><![CDATA[psycho_file_status]]></fieldDescription>
     </field>
+    <field name="psycho_file_status_soc" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="psycho_file_status_soc"/>
+        <fieldDescription><![CDATA[psycho_file_status_soc]]></fieldDescription>
+    </field>
     <field name="narcology_file_status" class="java.lang.String">
         <property name="net.sf.jasperreports.json.field.expression" value="narcology_file_status"/>
         <fieldDescription><![CDATA[narcology_file_status]]></fieldDescription>
@@ -14547,7 +14551,7 @@
                     <textElement textAlignment="Left" verticalAlignment="Top">
                         <font fontName="Times New Roman" size="10" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
                     </textElement>
-                    <textFieldExpression><![CDATA[$F{psycho_file_status}]]></textFieldExpression>
+                    <textFieldExpression><![CDATA[$F{psycho_file_status_soc}]]></textFieldExpression>
                 </textField>
             </frame>
         </band>
