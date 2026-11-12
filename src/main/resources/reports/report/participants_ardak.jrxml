@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- participants_ardak: dynamic discipline columns, each split into оценка (red) / балл (black), with a single Итоговый балл column at the end. Mirrors participants.jrxml but uses the ardak sub-templates. -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="participants_ardak" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="aa000000-0000-4000-8000-000000000001">
+    <property name="com.jaspersoft.studio.data.defaultdataadapter" value="participants.jrdax"/>
+    <parameter name="HEADER_SUB" class="net.sf.jasperreports.engine.JasperReport" isForPrompting="false">
+        <defaultValueExpression><![CDATA[net.sf.jasperreports.engine.JasperCompileManager.compileReport(Thread.currentThread().getContextClassLoader().getResourceAsStream("reports/report/participants_ardak_disciplines_header.jrxml"))]]></defaultValueExpression>
+    </parameter>
+    <parameter name="VALUE_SUB" class="net.sf.jasperreports.engine.JasperReport" isForPrompting="false">
+        <defaultValueExpression><![CDATA[net.sf.jasperreports.engine.JasperCompileManager.compileReport(Thread.currentThread().getContextClassLoader().getResourceAsStream("reports/report/participants_ardak_disciplines.jrxml"))]]></defaultValueExpression>
+    </parameter>
+    <queryString language="JSON">
+        <![CDATA[]]>
+    </queryString>
+    <field name="iin" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="iin"/>
+        <fieldDescription><![CDATA[iin]]></fieldDescription>
+    </field>
+    <field name="fio" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="fio"/>
+        <fieldDescription><![CDATA[fio]]></fieldDescription>
+    </field>
+    <field name="birth_date" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="birth_date"/>
+        <fieldDescription><![CDATA[birth_date]]></fieldDescription>
+    </field>
+    <field name="direction" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="direction"/>
+        <fieldDescription><![CDATA[direction]]></fieldDescription>
+    </field>
+    <field name="study_division" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="study_division"/>
+        <fieldDescription><![CDATA[study_division]]></fieldDescription>
+    </field>
+    <field name="selection_period" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="selection_period"/>
+        <fieldDescription><![CDATA[selection_period]]></fieldDescription>
+    </field>
+    <field name="disciplines" class="java.util.Collection">
+        <fieldDescription><![CDATA[disciplines]]></fieldDescription>
+    </field>
+    <variable name="selectionPeriod" class="java.lang.String" calculation="First">
+        <variableExpression><![CDATA[$F{selection_period}]]></variableExpression>
+    </variable>
+    <group name="section" isReprintHeaderOnEachPage="true">
+        <groupExpression><![CDATA[Boolean.TRUE]]></groupExpression>
+        <groupHeader>
+            <band height="125" splitType="Stretch">
+                <staticText>
+                    <reportElement x="0" y="0" width="28" height="125" uuid="aa000000-0000-4000-8000-000000000010"/>
+                    <box>
+                        <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="9" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <text><![CDATA[№ п/п]]></text>
+                </staticText>
+                <staticText>
+                    <reportElement x="28" y="0" width="95" height="125" uuid="aa000000-0000-4000-8000-000000000011"/>
+                    <box>
+                        <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="9" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <text><![CDATA[Ф.И.О.]]></text>
+                </staticText>
+                <staticText>
+                    <reportElement x="123" y="0" width="65" height="125" uuid="aa000000-0000-4000-8000-000000000012"/>
+                    <box>
+                        <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="9" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <text><![CDATA[Дата рождения (возраст)]]></text>
+                </staticText>
+                <staticText>
+                    <reportElement x="188" y="0" width="80" height="125" uuid="aa000000-0000-4000-8000-000000000013"/>
+                    <box>
+                        <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="9" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <text><![CDATA[Направление деятельности]]></text>
+                </staticText>
+                <staticText>
+                    <reportElement x="268" y="0" width="61" height="125" uuid="aa000000-0000-4000-8000-000000000014"/>
+                    <box>
+                        <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="9" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <text><![CDATA[Орган КНБ, изучивший кандидата]]></text>
+                </staticText>
+                <staticText>
+                    <reportElement x="329" y="0" width="473" height="125" uuid="aa000000-0000-4000-8000-000000000015"/>
+                    <box>
+                        <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <topPen lineWidth="0.0"/>
+                        <bottomPen lineWidth="0.0"/>
+                        <rightPen lineWidth="0.0"/>
+                    </box>
+                    <text><![CDATA[]]></text>
+                </staticText>
+                <subreport>
+                    <reportElement x="329" y="0" width="473" height="125" uuid="aa000000-0000-4000-8000-000000000016"/>
+                    <dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRMapCollectionDataSource($F{disciplines})]]></dataSourceExpression>
+                    <subreportExpression><![CDATA[$P{HEADER_SUB}]]></subreportExpression>
+                </subreport>
+            </band>
+        </groupHeader>
+    </group>
+    <title>
+        <band height="70" splitType="Stretch">
+            <staticText>
+                <reportElement x="642" y="0" width="160" height="15" uuid="aa000000-0000-4000-8000-000000000020"/>
+                <textElement textAlignment="Right" verticalAlignment="Middle">
+                    <font fontName="Times New Roman" size="12" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                </textElement>
+                <text><![CDATA[Приложение 1]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="15" width="802" height="18" uuid="aa000000-0000-4000-8000-000000000021"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Times New Roman" size="14" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                </textElement>
+                <text><![CDATA[РЕЗУЛЬТАТЫ]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="35" width="802" height="16" uuid="aa000000-0000-4000-8000-000000000022"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Times New Roman" size="11" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                </textElement>
+                <text><![CDATA[кандидатов, участвующих в окончательном конкурсном отборе для зачисления на службу в ОНБ]]></text>
+            </staticText>
+            <textField evaluationTime="Report" isBlankWhenNull="true">
+                <reportElement x="0" y="53" width="802" height="15" uuid="aa000000-0000-4000-8000-000000000023"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Times New Roman" size="10" isBold="false" isItalic="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA["(в период с " + $V{selectionPeriod} + " года)"]]></textFieldExpression>
+            </textField>
+        </band>
+    </title>
+    <detail>
+        <band height="35" splitType="Stretch">
+            <frame>
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="802" height="35" isPrintWhenDetailOverflows="true" uuid="aa000000-0000-4000-8000-000000000030"/>
+                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="28" height="35" uuid="aa000000-0000-4000-8000-000000000031"/>
+                    <box topPadding="3" leftPadding="3" bottomPadding="3" rightPadding="3">
+                        <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="9" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$V{REPORT_COUNT} + "."]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="28" y="0" width="95" height="35" uuid="aa000000-0000-4000-8000-000000000032"/>
+                    <box topPadding="3" leftPadding="4" bottomPadding="3" rightPadding="3">
+                        <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Left" verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{fio}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="123" y="0" width="65" height="35" uuid="aa000000-0000-4000-8000-000000000033"/>
+                    <box topPadding="3" leftPadding="3" bottomPadding="3" rightPadding="3">
+                        <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Center" verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{birth_date}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="188" y="0" width="80" height="35" uuid="aa000000-0000-4000-8000-000000000034"/>
+                    <box topPadding="3" leftPadding="4" bottomPadding="3" rightPadding="3">
+                        <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Left" verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{direction}]]></textFieldExpression>
+                </textField>
+                <textField textAdjust="StretchHeight" isBlankWhenNull="true">
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="268" y="0" width="61" height="35" uuid="aa000000-0000-4000-8000-000000000035"/>
+                    <box topPadding="3" leftPadding="4" bottomPadding="3" rightPadding="3">
+                        <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    </box>
+                    <textElement textAlignment="Left" verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="9" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA[$F{study_division}]]></textFieldExpression>
+                </textField>
+                <staticText>
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="329" y="0" width="473" height="35" uuid="aa000000-0000-4000-8000-000000000036"/>
+                    <box>
+                        <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                        <topPen lineWidth="0.0"/>
+                        <bottomPen lineWidth="0.0"/>
+                        <rightPen lineWidth="0.0"/>
+                    </box>
+                    <text><![CDATA[]]></text>
+                </staticText>
+                <subreport>
+                    <reportElement positionType="Float" stretchType="ContainerBottom" x="329" y="0" width="473" height="35" uuid="aa000000-0000-4000-8000-000000000037"/>
+                    <dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRMapCollectionDataSource($F{disciplines})]]></dataSourceExpression>
+                    <subreportExpression><![CDATA[$P{VALUE_SUB}]]></subreportExpression>
+                </subreport>
+            </frame>
+        </band>
+    </detail>
+</jasperReport>

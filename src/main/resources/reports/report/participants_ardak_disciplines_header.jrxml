@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- participants_ardak header subreport: one horizontal column per discipline. A regular discipline
+     shows its name on top and two sub-labels "оценка" / "балл" beneath; the total column (is_total)
+     is a single full-height cell. columnWidth 49 x 9 = 441 (matches the host region width). -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="participants_ardak_disciplines_header" columnCount="11" printOrder="Horizontal" pageWidth="473" pageHeight="842" columnWidth="43" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="aa000000-0001-4000-8000-000000000001">
+    <queryString language="JSON">
+        <![CDATA[]]>
+    </queryString>
+    <field name="name" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="name"/>
+        <fieldDescription><![CDATA[name]]></fieldDescription>
+    </field>
+    <field name="is_total" class="java.lang.Boolean">
+        <property name="net.sf.jasperreports.json.field.expression" value="is_total"/>
+        <fieldDescription><![CDATA[is_total]]></fieldDescription>
+    </field>
+    <detail>
+        <band height="125" splitType="Immediate">
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <!-- regular discipline: name on top -->
+            <textField textAdjust="StretchHeight" isBlankWhenNull="true">
+                <reportElement x="0" y="0" width="43" height="90" uuid="aa000000-0001-4000-8000-000000000002">
+                    <printWhenExpression><![CDATA[!Boolean.TRUE.equals($F{is_total})]]></printWhenExpression>
+                </reportElement>
+                <box topPadding="2" leftPadding="1" bottomPadding="2" rightPadding="1">
+                    <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Times New Roman" size="8" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+            </textField>
+            <!-- regular discipline: "оценка" sub-label -->
+            <staticText>
+                <reportElement x="0" y="90" width="21" height="35" uuid="aa000000-0001-4000-8000-000000000003">
+                    <printWhenExpression><![CDATA[!Boolean.TRUE.equals($F{is_total})]]></printWhenExpression>
+                </reportElement>
+                <box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+                    <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Times New Roman" size="7" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                </textElement>
+                <text><![CDATA[оценка]]></text>
+            </staticText>
+            <!-- regular discipline: "балл" sub-label -->
+            <staticText>
+                <reportElement x="21" y="90" width="22" height="35" uuid="aa000000-0001-4000-8000-000000000004">
+                    <printWhenExpression><![CDATA[!Boolean.TRUE.equals($F{is_total})]]></printWhenExpression>
+                </reportElement>
+                <box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+                    <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Times New Roman" size="7" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                </textElement>
+                <text><![CDATA[балл]]></text>
+            </staticText>
+            <!-- total column: single full-height cell -->
+            <textField textAdjust="StretchHeight" isBlankWhenNull="true">
+                <reportElement x="0" y="0" width="43" height="125" uuid="aa000000-0001-4000-8000-000000000005">
+                    <printWhenExpression><![CDATA[Boolean.TRUE.equals($F{is_total})]]></printWhenExpression>
+                </reportElement>
+                <box topPadding="2" leftPadding="1" bottomPadding="2" rightPadding="1">
+                    <pen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Times New Roman" size="8" isBold="true" pdfFontName="timesnewroman.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+            </textField>
+        </band>
+    </detail>
+</jasperReport>
