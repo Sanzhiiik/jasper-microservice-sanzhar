@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- participants_ardak values subreport: one horizontal column per discipline. A regular discipline
-     prints "оценка" (grade, red) and "балл" (score = grade x coefficient, black) side by side; the
-     total column (is_total) prints a single bold black value. columnWidth 49 x 9 = 441. -->
+<!-- Created with Jaspersoft Studio version 6.21.2.final using JasperReports Library version 6.21.2-8434a0bd7c3bbc37cbf916f2968d35e4b165821a  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="participants_ardak_disciplines" columnCount="11" printOrder="Horizontal" pageWidth="473" pageHeight="842" columnWidth="43" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="aa000000-0002-4000-8000-000000000001">
     <queryString language="JSON">
         <![CDATA[]]>
@@ -21,9 +19,8 @@
     <detail>
         <band height="40" splitType="Stretch">
             <property name="com.jaspersoft.studio.unit.height" value="px"/>
-            <!-- regular discipline: оценка (grade) in red -->
             <textField textAdjust="StretchHeight" isBlankWhenNull="true">
-                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="21" height="40" forecolor="#FF0000" uuid="aa000000-0002-4000-8000-000000000002">
+                <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="21" height="40" forecolor="#050505" uuid="aa000000-0002-4000-8000-000000000002">
                     <printWhenExpression><![CDATA[!Boolean.TRUE.equals($F{is_total})]]></printWhenExpression>
                 </reportElement>
                 <box topPadding="3" leftPadding="1" bottomPadding="3" rightPadding="1">
@@ -34,7 +31,6 @@
                 </textElement>
                 <textFieldExpression><![CDATA[$F{grade}]]></textFieldExpression>
             </textField>
-            <!-- regular discipline: балл (score) in black -->
             <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="21" y="0" width="22" height="40" forecolor="#000000" uuid="aa000000-0002-4000-8000-000000000003">
                     <printWhenExpression><![CDATA[!Boolean.TRUE.equals($F{is_total})]]></printWhenExpression>
@@ -47,7 +43,6 @@
                 </textElement>
                 <textFieldExpression><![CDATA[$F{score}]]></textFieldExpression>
             </textField>
-            <!-- total column: single bold black value -->
             <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                 <reportElement positionType="Float" stretchType="ContainerBottom" x="0" y="0" width="43" height="40" forecolor="#000000" uuid="aa000000-0002-4000-8000-000000000004">
                     <printWhenExpression><![CDATA[Boolean.TRUE.equals($F{is_total})]]></printWhenExpression>
